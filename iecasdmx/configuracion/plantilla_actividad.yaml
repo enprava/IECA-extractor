@@ -11,8 +11,11 @@ acciones_datos:
     - OBS_VALUE: ''
     - OBS_VALUE: '-'
     - OBS_VALUE: '*'
+    - OBS_VALUE: 'se'
 
   guardar_datos#2: procesados
-  mostrar_df: False
+
 acciones_actividad_completa:
-  agrupar_consultas_SDMX: True
+  generar_fichero_configuracion_actividad: True
+  extender_con_disjuntos: True
+  agrupar_consultas_SDMX: False

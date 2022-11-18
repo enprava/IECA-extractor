@@ -72,16 +72,41 @@ class Actividad:
         self.logger.info('Ejecución finalizada')
 
     def agrupar_consultas_SDMX(self):
-        """Tras realizar las consultas, esta función genera un fichero de configuración en  el sistema de información \
-        con respecto a la actividad completa, agrupando las consultas de la actividad por su titulo. De esta forma un \
-        grupo de consultas formaran un fichero de datos .CSV que contiene a todas.
-        Los datos se guardarán siguiendo dos procedimientos:
-            - **EXTENSION_DISJUNTOS**: Estructura de datos (DSD) común para toda la actividad donde las columnas \
-            faltantes son añadidas y rellenas con la variable **_Z**
-            - **ORIGINAL**: Estructura de datos (DSD) por cada grupo de consulta. Si las consultas con el mismo titulo \
-            tienen dimensiones distintas, se creara una estructura común para todas las consultas y se mostrara una \
-            advertencia por consola.
+        """Agrupación por titulo para actividades que tienen multiples consultas para una misma serie.
+        """
+        directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
+        self.logger.info('Uniendo datos por titulo')
+        nuevas_consultas = {}
+        for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
+            nuevas_consultas[informacion_grupo['id']] = self.consultas[informacion_grupo['consultas'][0]]
+            nuevas_consultas[informacion_grupo['id']].id_consulta = informacion_grupo['id']
 
+            self.logger.info('Generando consulta %s con titulo: %s', informacion_grupo['id'], grupo)
+
+            if len(informacion_grupo['consultas']) > 1:
+                for consulta in informacion_grupo['consultas'][1:]:
+                    nuevas_consultas[
+                        informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos = pd.concat(
+                        [nuevas_consultas[informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos,
+                         self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos])
+
+                    for medida in self.consultas[consulta].medidas:
+                        if medida not in nuevas_consultas[informacion_grupo['id']].medidas:
+                            nuevas_consultas[informacion_grupo['id']].medidas.append(medida)
+
+                    for jerarquia in self.consultas[consulta].jerarquias:
+                        if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
+                            nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
+
+
+
+        self.consultas = nuevas_consultas
+
+        self.logger.info('Datos por titulo unidos')
+
+    def generar_fichero_configuracion_actividad(self):
+        """
+        Se genera un fichero con datos relevantes para su posterior uso.
         """
         directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
         fichero = os.path.join(directorio, 'configuracion.yaml')
@@ -108,45 +133,9 @@ class Actividad:
             yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)
         self.logger.info('Fichero de configuración de la actividad creado y guardado')
 
-        self.logger.info('Uniendo datos por titulo')
-        for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
-
-            self.logger.info('titulo: %s', grupo)
-
-            for consulta in informacion_grupo['consultas']:
-                self.consultas[consulta].datos.extender_con_disjuntos(self.configuracion['variables'])
-                self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos.to_csv(
-                    os.path.join(directorio, consulta + '.csv', ), sep=';', index=False)
-            columnas_grupo = [self.consultas[consulta].datos.datos_por_observacion.columns for consulta in
-                              informacion_grupo['consultas']]
-            self.comprobar_dimensiones_grupo_actividad(columnas_grupo, grupo)
-            union_datos_sin_extender = pd.concat(
-                [self.consultas[consulta].datos.datos_por_observacion for consulta in
-                 informacion_grupo['consultas']])
-
-            directorio_sin_extender = os.path.join(directorio, 'original')
-            if not os.path.exists(directorio_sin_extender):
-                os.makedirs(directorio_sin_extender)
-            union_datos_sin_extender.to_csv(
-                os.path.join(directorio_sin_extender, informacion_grupo['id'] + '.csv'), sep=';',
-                index=False)
-            self.logger.info('proceso finalizado. Datos guardados')
-
-            directorio_extension_disjuntos = os.path.join(directorio, 'extension_disjuntos')
-            if not os.path.exists(directorio_extension_disjuntos):
-                os.makedirs(directorio_extension_disjuntos)
-
-            union_datos_extendidos = pd.concat(
-                [self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos for consulta in
-                 informacion_grupo['consultas']])
-
-            directorio_extension_disjuntos = os.path.join(directorio, 'extension_disjuntos')
-            if not os.path.exists(directorio_extension_disjuntos):
-                os.makedirs(directorio_extension_disjuntos)
-            union_datos_extendidos.to_csv(
-                os.path.join(directorio_extension_disjuntos, informacion_grupo['id'] + '.csv'), sep=';',
-                index=False)
-        self.logger.info('Datos por titulo unidos')
+    def extender_con_disjuntos(self):
+        for consulta in self.consultas:
+            self.consultas[consulta].datos.extender_con_disjuntos(self.configuracion['variables'])
 
     def comprobar_dimensiones_grupo_actividad(self, columnas_grupo, grupo):
         """Comprueba el modelado por titulos en BADEA y muestra por pantalla advertencias sobre las dimensiones

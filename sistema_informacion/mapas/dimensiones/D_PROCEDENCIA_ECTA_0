@@ -3,8 +3,8 @@ SOURCE,COD,NAME,TARGET
 6776,02,(02) Resto de España,6776
 6778,6601,(6601) Unión Europea,6778
 6779,6602,(6602) Resto del mundo,6779
-,,Total,6782
 6777,108,(108) España,6777
 6781,66,(66) Extranjeros,6781
 6782,00,(00) Total,6782
 6783,NC,(NC) No consta,6783
+P1_00,,,6782

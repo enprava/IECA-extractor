@@ -1,0 +1,6 @@
+SOURCE,COD,NAME,TARGET
+5820,01,(01) Con algún miembro activo,5820
+5816,01_010,(01_010) Todos los miembros activos están ocupados,5816
+5819,01_02,(01_02) Con algún miembro activo en paro,5819
+5823,0200,(0200) Con todos los miembros inactivos,5823
+5824,00,(00) TOTAL,5824

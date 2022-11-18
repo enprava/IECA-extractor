@@ -1,0 +1,29 @@
+SOURCE,COD,NAME,TARGET
+48981,01,(01) Unipersonales,48981
+48978,0101,(0101) 15-29 años,48978
+48979,0102,(0102) 30-64 años,48979
+48980,0103,(0103) 65 y más años,48980
+48983,020,(020) Sin núcleo,48983
+48989,03,(03) Monoparental,48989
+48984,0301,(0301) Hijo menor de 3 años,48984
+48985,0302,(0302) Hijo 3-5 años,48985
+48986,0303,(0303) Hijo 6-15 años,48986
+48987,0304,(0304) Hijo 16-22 años,48987
+48988,0305,(0305) Hijo 23 y más años,48988
+48992,04,(04) Pareja sin hijos,48992
+48990,0401,(0401) Con mujer menor de 50 años,48990
+48991,0402,(0402) Sin mujer menor de 50 años,48991
+48994,050,(050) Pareja sin hijos + otros,48994
+49000,06,(06) Pareja con hijos,49000
+48995,0601,(0601) Hijo menor de 3 años,48995
+48996,0602,(0602) Hijo 3-5 años,48996
+48997,0603,(0603) Hijo 6-15 años,48997
+48998,0604,(0604) Hijo 16-22 años,48998
+48999,0605,(0605) Hijo 23 y más años,48999
+49006,07,(07) Pareja con hijos y otros,49006
+49001,0701,(0701) Hijo menor de 3 años y otros,49001
+49002,0702,(0702) Hijo 3-5 años y otros,49002
+49003,0703,(0703) Hijo 6-15 años y otros,49003
+49004,0704,(0704) Hijo 16-22 años y otros,49004
+49005,0705,(0705) Hijo 23 y más años y otros,49005
+49007,00,(00) TOTAL,49007

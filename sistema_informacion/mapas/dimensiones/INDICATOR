@@ -3,6 +3,7 @@ Población municipal,,,HAB
 Índice,,,INX
 Variación mensual,,,RCH_M
 Variación anual,,,RCH_A
+Variación en lo que va de año,,,VAR_ANO_ACTUAL
 Divorcios,,,DIV
 Nulidades,,,DISLUN
 Separaciones,,,SEP
@@ -181,6 +182,7 @@ Personas,,,PERSONAS
 "% de empresas que disponen de otras tecnologías (GPS, TPV, etc.)",,,PCT_EMPR_QUE_DISP_OTRA_TECN_GPS_TPV_ETC
 % de personal que utiliza ordenadores al menos una vez por semana,,,PCT_PERS_QUE_UTIL_ORDE_AL_MENO_UNA_VEZ_SEMA
 % de personal que utiliza ordenadores con fines empresariales,,,PCT_PERS_QUE_UTIL_ORDE_CON_FINE_EMPR
+Personal general en I+D en equivalencia a jornada completa,,,PERS_GENE_IMASD_EQUI_JORN_COMP
 % de empresas que utilizan alguna tipología de software de código abierto,,,PCT_EMPR_QUE_UTIL_ALGU_TIPO_SOFT_CODI_ABIE
 % de empresas que utilizan software de código abierto según tipología: Sistemas operativos (b),,,PCT_EMPR_QUE_UTIL_SOFT_CODI_ABIE_SEGU_TIPO_SIST_OPER_B
 % de empresas que utilizan software de código abierto según tipología: Sistemas operativos,,,PCT_EMPR_QUE_UTIL_SOFT_CODI_ABIE_SEGU_TIPO_SIST_OPER
@@ -327,7 +329,3 @@ Compras mediante mensajes tipo EDI (miles de euros),,,COMP_MEDI_MENS_TIPO_EDI_MI
 % compras mediante mensajes tipo EDI sobre el total de compras,,,PCT_COMP_MEDI_MENS_TIPO_EDI_SOBR_EL_TOTA_COMP
 % de empresas que han realizado ventas por comercio electrónico,,,PCT_EMPR_QUE_HAN_REAL_VENT_COME_ELEC
 % de empresas que han realizado compras por comercio electrónico,,,PCT_EMPR_QUE_HAN_REAL_COMP_COME_ELEC
-Personal general en I+D en equivalencia a jornada completa,,,PERS_GENE_IMASD_EQUI_JORN_COMP
-NUME_AUTO,,,NUME_AUTO
-NUME_MOVI,,,NUME_MOVI
-SUPERVIVIENTES,,,SUPERVIVIENTES

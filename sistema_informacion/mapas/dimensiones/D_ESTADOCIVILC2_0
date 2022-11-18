@@ -1,11 +1,11 @@
 SOURCE,TARGET,COD,NAME
-00,TOTAL,,
+00,_T,,
 1,SIN,,
-3,WID_DTHREP,,
-5,DIV_DISREP,,
-NC,UNK,,
-4967,4967,00,(00) Total Estado civil
-4958,4958,1,(1) Soltero/a
-4962,4962,3,(3) Viudo/a
-4965,4965,5,(5) Divorciado/a
-4969,4969,NC,(NC) No consta
+3,DTHLUN,,
+5,DIV,,
+NC,_U,,
+4967,_T,00,(00) Total Estado civil
+4958,SIN,1,(1) Soltero/a
+4962,DTHLUN,3,(3) Viudo/a
+4965,DIV,5,(5) Divorciado/a
+4969,_U,NC,(NC) No consta

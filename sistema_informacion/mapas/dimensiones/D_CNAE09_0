@@ -55,3 +55,491 @@ SOURCE,COD,NAME,TARGET
 7057,S2,(S2) Industria,7057
 7662,S3,(S3) Construcción,7662
 7715,S4,(S4) Servicios,7715
+7029,01,"(01) 01. Agricultura, ganadería, caza y servicios relacionados con las mismas",7029
+6990,011,(011) 011. Cultivos no perennes,6990
+7001,012,(012) 012. Cultivos perennes,7001
+7004,013,(013) 013. Propagación de plantas,7004
+7014,014,(014) 014. Producción ganadera,7014
+7017,015,(015) 015. Producción agrícola combinada con la producción ganadera,7017
+7023,016,"(016) 016. Actividades de apoyo a la agricultura, a la ganadería y de preparación posterior a la cosecha",7023
+7026,017,"(017) 017. Caza, captura de animales y servicios relacionados con las mismas",7026
+7028,01NC_5,"(01NC_5) No consta Agricultura, ganadería, caza y servicios relacionados con las mismas",7028
+7044,02,(02) 02. Silvicultura y explotación forestal,7044
+7032,021,(021) 021. Silvicultura y otras actividades forestales,7032
+7035,022,(022) 022. Explotación de la madera,7035
+7038,023,"(023) 023. Recolección de productos silvestres, excepto madera",7038
+7041,024,(024) 024. Servicios de apoyo a la silvicultura,7041
+7043,02NC_5,(02NC_5) No consta Silvicultura y explotación forestal,7043
+7055,03,(03) 03. Pesca y acuicultura,7055
+7048,031,(031) 031. Pesca,7048
+7052,032,(032) 032. Acuicultura,7052
+7054,03NC_5,(03NC_5) No consta Pesca y acuicultura,7054
+7067,05,"(05) 05. Extracción de antracita, hulla y lignito",7067
+7061,051,(051) 051. Extracción de antracita y hulla,7061
+7064,052,(052) 052. Extracción de lignito,7064
+7066,05NC_5,"(05NC_5) No consta Extracción de antracita, hulla y lignito",7066
+7076,06,(06) 06. Extracción de crudo de petróleo y gas natural,7076
+7070,061,(061) 061. Extracción de crudo de petróleo,7070
+7073,062,(062) 062. Extracción de gas natural,7073
+7075,06NC_5,(06NC_5) No consta Extracción de crudo de petróleo y gas natural,7075
+7086,07,(07) 07. Extracción de minerales metálicos,7086
+7079,071,(071) 071. Extracción de minerales de hierro,7079
+7083,072,(072) 072. Extracción de minerales metálicos no férreos,7083
+7085,07NC_5,(07NC_5) No consta Extracción de minerales metálicos,7085
+7099,08,(08) 08. Otras industrias extractivas,7099
+7090,081,"(081) 081. Extracción de piedra, arena y arcilla",7090
+7096,089,(089) 089. Industrias extractivas n.c.o.p.,7096
+7098,08NC_5,(08NC_5) No consta Otras industrias extractivas,7098
+7108,09,(09) 09. Actividades de apoyo a las industrias extractivas,7108
+7102,091,(091) 091. Actividades de apoyo a la extracción de petróleo y gas natural,7102
+7105,099,(099) 099. Actividades de apoyo a otras industrias extractivas,7105
+7107,09NC_5,(09NC_5) No consta Actividades de apoyo a las industrias extractivas,7107
+7158,10,(10) 10. Industria de la alimentación,7158
+7114,101,(101) 101. Procesado y conservación de carne y elaboración de productos cárnicos,7114
+7118,102,"(102) 102. Procesado y conservación de pescados, crustáceos y moluscos",7118
+7123,103,(103) 103. Procesado y conservación de frutas y hortalizas,7123
+7128,104,(104) 104. Fabricación de aceites y grasas vegetales y animales,7128
+7133,105,(105) 105. Fabricación de productos lácteos,7133
+7137,106,"(106) 106. Fabricación de productos de molinería, almidones y productos amiláceos",7137
+7142,107,(107) 107. Fabricación de productos de panadería y pastas alimenticias,7142
+7151,108,(108) 108. Fabricación de otros productos alimenticios,7151
+7155,109,(109) 109. Fabricación de productos para la alimentación animal,7155
+7157,10NC_5,(10NC_5) No consta Industria de la alimentación,7157
+7170,11,(11) 11. Fabricación de bebidas,7170
+7167,110,(110) 110. Fabricación de bebidas,7167
+7169,11NC_5,(11NC_5) No consta Fabricación de bebidas,7169
+7176,12,(12) 12. Industria del tabaco,7176
+7173,120,(120) 120. Industria del tabaco,7173
+7175,12NC_5,(12NC_5) No consta Industria del tabaco,7175
+7197,13,(13) 13. Industria textil,7197
+7179,131,(131) 131. Preparación e hilado de fibras textiles,7179
+7182,132,(132) 132. Fabricación de tejidos textiles,7182
+7185,133,(133) 133. Acabado de textiles,7185
+7194,139,(139) 139. Fabricación de otros productos textiles,7194
+7196,13NC_5,(13NC_5) No consta Industria textil,7196
+7214,14,(14) 14. Confección de prendas de vestir,7214
+7204,141,"(141) 141. Confección de prendas de vestir, excepto de peletería",7204
+7207,142,(142) 142. Fabricación de artículos de peletería,7207
+7211,143,(143) 143. Confección de prendas de vestir de punto,7211
+7213,14NC_5,(14NC_5) No consta Confección de prendas de vestir,7213
+7224,15,(15) 15. Industria del cuero y del calzado,7224
+7218,151,"(151) 151. Preparación, curtido y acabado del cuero; fabricación de artículos de marroquinería, viaje y de guarnicionería y talabartería; preparación y teñido de pieles",7218
+7221,152,(152) 152. Fabricación de calzado,7221
+7223,15NC_5,(15NC_5) No consta Industria del cuero y del calzado,7223
+7237,16,"(16) 16. Industria de la madera y del corcho, excepto muebles; cestería y espartería",7237
+7227,161,(161) 161. Aserrado y cepillado de la madera,7227
+7234,162,"(162) 162. Fabricación de productos de madera, corcho, cestería y espartería",7234
+7236,16NC_5,"(16NC_5) No consta Industria de la madera y del corcho, excepto muebles; cestería y espartería",7236
+7251,17,(17) 17. Industria del papel,7251
+7241,171,"(171) 171. Fabricación de pasta papelera, papel y cartón",7241
+7248,172,(172) 172. Fabricación de artículos de papel y de cartón,7248
+7250,17NC_5,(17NC_5) No consta Industria del papel,7250
+7263,18,(18) 18. Artes gráficas y reproducción de soportes grabados,7263
+7257,181,(181) 181. Artes gráficas y servicios relacionadas con las mismas,7257
+7260,182,(182) 182. Reproducción de soportes grabados,7260
+7262,18NC_5,(18NC_5) No consta Artes gráficas y reproducción de soportes grabados,7262
+7272,19,(19) 19. Coquerías y refino de petróleo,7272
+7266,191,(191) 191. Coquerías,7266
+7269,192,(192) 192. Refino de petróleo,7269
+7271,19NC_5,(19NC_5) No consta Coquerías y refino de petróleo,7271
+7303,20,(20) 20. Industria química,7303
+7281,201,"(201) 201. Fabricación de productos químicos básicos, compuestos nitrogenados, fertilizantes, plásticos y caucho sintético en formas primarias",7281
+7284,202,(202) 202. Fabricación de pesticidas y otros productos agroquímicos,7284
+7287,203,"(203) 203. Fabricación de pinturas, barnices y revestimientos similares; tintas de imprenta y masillas",7287
+7291,204,"(204) 204. Fabricación de jabones, detergentes y otros artículos de limpieza y abrillantamiento; fabricación de perfumes y cosméticos",7291
+7297,205,(205) 205. Fabricación de otros productos químicos,7297
+7300,206,(206) 206. Fabricación de fibras artificiales y sintéticas,7300
+7302,20NC_5,(20NC_5) No consta Industria química,7302
+7312,21,(21) 21. Fabricación de productos farmacéuticos,7312
+7306,211,(211) 211. Fabricación de productos farmacéuticos de base,7306
+7309,212,(212) 212. Fabricación de especialidades farmacéuticas,7309
+7311,21NC_5,(21NC_5) No consta Fabricación de productos farmacéuticos,7311
+7325,22,(22) 22. Fabricación de productos de caucho y plásticos,7325
+7316,221,(221) 221. Fabricación de productos de caucho,7316
+7322,222,(222) 222. Fabricación de productos de plástico,7322
+7324,22NC_5,(22NC_5) No consta Fabricación de productos de caucho y plásticos,7324
+7368,23,(23) 23. Fabricación de otros productos minerales no metálicos,7368
+7332,231,(231) 231. Fabricación de vidrio y productos de vidrio,7332
+7335,232,(232) 232. Fabricación de productos cerámicos refractarios,7335
+7339,233,(233) 233. Fabricación de productos cerámicos para la construcción,7339
+7346,234,(234) 234. Fabricación de otros productos cerámicos,7346
+7350,235,"(235) 235. Fabricación de cemento, cal y yeso",7350
+7358,236,"(236) 236. Fabricación de elementos de hormigón, cemento y yeso",7358
+7361,237,"(237) 237. Corte, tallado y acabado de la piedra",7361
+7365,239,(239) 239. Fabricación de productos abrasivos y productos minerales no metálicos n.c.o.p.,7365
+7367,23NC_5,(23NC_5) No consta Fabricación de otros productos minerales no metálicos,7367
+7397,24,"(24) 24. Metalurgia; fabricación de productos de hierro, acero y ferroaleaciones",7397
+7371,241,"(241) 241. Fabricación de productos básicos de hierro, acero y ferroaleaciones",7371
+7374,242,"(242) 242. Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero",7374
+7380,243,(243) 243. Fabricación de otros productos de primera transformación del acero,7380
+7388,244,(244) 244. Producción de metales preciosos y de otros metales no férreos,7388
+7394,245,(245) 245. Fundición de metales,7394
+7396,24NC_5,"(24NC_5) No consta Metalurgia; fabricación de productos de hierro, acero y ferroaleaciones",7396
+7433,25,"(25) 25. Fabricación de productos metálicos, excepto maquinaria y equipo",7433
+7401,251,(251) 251. Fabricación de elementos metálicos para la construcción,7401
+7405,252,"(252) 252. Fabricación de cisternas, grandes depósitos y contenedores de metal",7405
+7408,253,"(253) 253. Fabricación de generadores de vapor, excepto calderas para calefacción central",7408
+7411,254,(254) 254. Fabricación de armas y municiones,7411
+7414,255,"(255) 255. Forja, estampación y embutición de metales; metalurgia de polvos",7414
+7418,256,(256) 256. Tratamiento y revestimiento de metales; ingeniería mecánica por cuenta de terceros,7418
+7423,257,"(257) 257. Fabricación de artículos de cuchillería y cubertería, herramientas y ferretería",7423
+7430,259,(259) 259. Fabricación de otros productos metálicos,7430
+7432,25NC_5,"(25NC_5) No consta Fabricación de productos metálicos, excepto maquinaria y equipo",7432
+7462,26,"(26) 26. Fabricación de productos informáticos, electrónicos y ópticos",7462
+7437,261,(261) 261. Fabricación de componentes electrónicos y circuitos impresos ensamblados,7437
+7440,262,(262) 262. Fabricación de ordenadores y equipos periféricos,7440
+7443,263,(263) 263. Fabricación de equipos de telecomunicaciones,7443
+7446,264,(264) 264. Fabricación de productos electrónicos de consumo,7446
+7450,265,"(265) 265. Fabricación de instrumentos y aparatos de medida, verificación y navegación; fabricación de relojes",7450
+7453,266,"(266) 266. Fabricación de equipos de radiación, electromédicos y electroterapéuticos",7453
+7456,267,(267) 267. Fabricación de instrumentos de óptica y equipo fotográfico,7456
+7459,268,(268) 268. Fabricación de soportes magnéticos y ópticos,7459
+7461,26NC_5,"(26NC_5) No consta Fabricación de productos informáticos, electrónicos y ópticos",7461
+7487,27,(27) 27. Fabricación de material y equipo eléctrico,7487
+7466,271,"(271) 271. Fabricación de motores, generadores y transformadores eléctricos, y de aparatos de distribución y control eléctrico",7466
+7469,272,(272) 272. Fabricación de pilas y acumuladores eléctricos,7469
+7474,273,(273) 273. Fabricación de cables y dispositivos de cableado,7474
+7477,274,(274) 274. Fabricación de lámparas y aparatos eléctricos de iluminación,7477
+7481,275,(275) 275. Fabricación de aparatos domésticos,7481
+7484,279,(279) 279. Fabricación de otro material y equipo eléctrico,7484
+7486,27NC_5,(27NC_5) No consta Fabricación de material y equipo eléctrico,7486
+7521,28,(28) 28. Fabricación de maquinaria y equipo n.c.o.p.,7521
+7494,281,(281) 281. Fabricación de maquinaria de uso general,7494
+7502,282,(282) 282. Fabricación de otra maquinaria de uso general,7502
+7505,283,(283) 283. Fabricación de maquinaria agraria y forestal,7505
+7509,284,(284) 284. Fabricación de maquinas herramienta para trabajar el metal y otras máquinas herramienta,7509
+7518,289,(289) 289. Fabricación de otra maquinaria para usos específicos,7518
+7520,28NC_5,(28NC_5) No consta Fabricación de maquinaria y equipo n.c.o.p.,7520
+7534,29,"(29) 29. Fabricación de vehículos de motor, remolques y semirremolques",7534
+7524,291,(291) 291. Fabricación de vehículos de motor,7524
+7527,292,(292) 292. Fabricación de carrocerías para vehículos de motor; fabricación de remolques y semirremolques,7527
+7531,293,"(293) 293. Fabricación de componentes, piezas y accesorios para vehículos de motor",7531
+7533,29NC_5,"(29NC_5) No consta Fabricación de vehículos de motor, remolques y semirremolques",7533
+7555,30,(30) 30. Fabricación de otro material de transporte,7555
+7538,301,(301) 301. Construcción naval,7538
+7541,302,(302) 302. Fabricación de locomotoras y material ferroviario,7541
+7544,303,(303) 303. Construcción aeronáutica y espacial y su maquinaria,7544
+7547,304,(304) 304. Fabricación de vehículos militares de combate,7547
+7552,309,(309) 309. Fabricación de material de transporte n.c.o.p.,7552
+7554,30NC_5,(30NC_5) No consta Fabricación de otro material de transporte,7554
+7564,31,(31) 31. Fabricación de muebles,7564
+7561,310,(310) 310. Fabricación de muebles,7561
+7563,31NC_5,(31NC_5) No consta Fabricación de muebles,7563
+7588,32,(32) 32. Otras industrias manufactureras,7588
+7569,321,"(321) 321. Fabricación de artículos de joyería, bisutería y similares",7569
+7572,322,(322) 322. Fabricación de instrumentos musicales,7572
+7575,323,(323) 323. Fabricación de artículos de deporte,7575
+7578,324,(324) 324. Fabricación de juegos y juguetes,7578
+7581,325,(325) 325. Fabricación de instrumentos y suministros médicos y odontológicos,7581
+7585,329,(329) 329. Industrias manufactureras n.c.o.p.,7585
+7587,32NC_5,(32NC_5) No consta Otras industrias manufactureras,7587
+7604,33,(33) 33. Reparación e instalación de maquinaria y equipo,7604
+7598,331,"(331) 331. Reparación de productos metálicos, maquinaria y equipo",7598
+7601,332,(332) 332. Instalación de máquinas y equipos industriales,7601
+7603,33NC_5,(33NC_5) No consta Reparación e instalación de maquinaria y equipo,7603
+7626,35,"(35) 35. Suministro de energía eléctrica, gas, vapor y aire acondicionado",7626
+7615,351,"(351) 351. Producción, transporte y distribución de energía eléctrica",7615
+7620,352,(352) 352. Producción de gas; distribución por tubería de combustibles gaseosos,7620
+7623,353,(353) 353. Suministro de vapor y aire acondicionado,7623
+7625,35NC_5,"(35NC_5) No consta Suministro de energía eléctrica, gas, vapor y aire acondicionado",7625
+7633,36,"(36) 36. Captación, depuración y distribución de agua",7633
+7630,360,"(360) 360. Captación, depuración y distribución de agua",7630
+7632,36NC_5,"(36NC_5) No consta Captación, depuración y distribución de agua",7632
+7639,37,(37) 37. Recogida y tratamiento de aguas residuales,7639
+7636,370,(370) 370. Recogida y tratamiento de aguas residuales,7636
+7638,37NC_5,(37NC_5) No consta Recogida y tratamiento de aguas residuales,7638
+7654,38,"(38) 38. Recogida, tratamiento y eliminación de residuos; valorización",7654
+7643,381,(381) 381. Recogida de residuos,7643
+7647,382,(382) 382. Tratamiento y eliminación de residuos,7647
+7651,383,(383) 383. Valorización,7651
+7653,38NC_5,"(38NC_5) No consta Recogida, tratamiento y eliminación de residuos; valorización",7653
+7660,39,(39) 39. Actividades de descontaminación y otros servicios de gestión de residuos,7660
+7657,390,(390) 390. Actividades de descontaminación y otros servicios de gestión de residuos,7657
+7659,39NC_5,(39NC_5) No consta Actividades de descontaminación y otros servicios de gestión de residuos,7659
+7673,41,(41) 41. Construcción de edificios,7673
+7666,411,(411) 411. Promoción inmobiliaria,7666
+7670,412,(412) 412. Construcción de edificios,7670
+7672,41NC_5,(41NC_5) No consta Construcción de edificios,7672
+7689,42,(42) 42. Ingeniería civil,7689
+7678,421,"(421) 421. Construcción de carreteras y vías férreas, puentes y túneles",7678
+7682,422,(422) 422. Construcción de redes,7682
+7686,429,(429) 429. Construcción de otros proyectos de ingeniería civil,7686
+7688,42NC_5,(42NC_5) No consta Ingeniería civil,7688
+7713,43,(43) 43. Actividades de construcción especializada,7713
+7694,431,(431) 431. Demolición y preparación de terrenos,7694
+7699,432,"(432) 432. Instalaciones eléctricas, de fontanería y otras instalaciones en obras de construcción",7699
+7706,433,(433) 433. Acabado de edificios,7706
+7710,439,(439) 439. Otras actividades de construcción especializada,7710
+7712,43NC_5,(43NC_5) No consta Actividades de construcción especializada,7712
+7733,45,(45) 45. Venta y reparación de vehículos de motor y motocicletas,7733
+7720,451,(451) 451. Venta de vehículos de motor,7720
+7723,452,(452) 452. Mantenimiento y reparación de vehículos de motor,7723
+7727,453,(453) 453. Comercio de repuestos y accesorios de vehículos de motor,7727
+7730,454,"(454) 454. Venta, mantenimiento y reparación de motocicletas y de sus repuestos y accesorios",7730
+7732,45NC_5,(45NC_5) No consta Venta y reparación de vehículos de motor y motocicletas,7732
+7800,46,"(46) 46. Comercio al por mayor e intermediarios del comercio, excepto de vehículos de motor y motocicletas",7800
+7744,461,(461) 461. Intermediarios del comercio,7744
+7750,462,(462) 462. Comercio al por mayor de materias primas agrarias y de animales vivos,7750
+7761,463,"(463) 463. Comercio al por mayor de productos alimenticios, bebidas y tabaco",7761
+7772,464,(464) 464. Comercio al por mayor de artículos de uso doméstico,7772
+7776,465,(465) 465. Comercio al por mayor de equipos para las tecnologías de la información y las comunicaciones,7776
+7785,466,"(466) 466. Comercio al por mayor de otra maquinaria, equipos y suministros",7785
+7794,467,(467) 467. Otro comercio al por mayor especializado,7794
+7797,469,(469) 469. Comercio al por mayor no especializado,7797
+7799,46NC_5,"(46NC_5) No consta Comercio al por mayor e intermediarios del comercio, excepto de vehículos de motor y motocicletas",7799
+7858,47,"(47) 47. Comercio al por menor, excepto de vehículos de motor y motocicletas",7858
+7804,471,(471) 471. Comercio al por menor en establecimientos no especializados,7804
+7813,472,"(472) 472. Comercio al por menor de productos alimenticios, bebidas y tabaco en establecimientos especializados",7813
+7816,473,(473) 473. Comercio al por menor de combustible para la automoción en establecimientos especializados,7816
+7821,474,(474) 474. Comercio al por menor de equipos para las tecnologías de la información y las comunicaciones en establecimientos especializados,7821
+7828,475,(475) 475. Comercio al por menor de otros artículos de uso doméstico en establecimientos especializados,7828
+7835,476,(476) 476. Comercio al por menor de artículos culturales y recreativos en establecimientos especializados,7835
+7846,477,(477) 477. Comercio al por menor de otros artículos en establecimientos especializados,7846
+7851,478,(478) 478. Comercio al por menor en puestos de venta y mercadillos,7851
+7855,479,"(479) 479. Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta ni en mercadillos",7855
+7857,47NC_5,"(47NC_5) No consta Comercio al por menor, excepto de vehículos de motor y motocicletas",7857
+7874,55,(55) 55. Servicios de alojamiento,7874
+7862,551,(551) 551. Hoteles y alojamientos similares,7862
+7865,552,(552) 552. Alojamientos turísticos y otros alojamientos de corta estancia,7865
+7868,553,(553) 553. Campings,7868
+7871,559,(559) 559. Otros alojamientos,7871
+7873,55NC_5,(55NC_5) No consta Servicios de alojamiento,7873
+7887,56,(56) 56. Servicios de comidas y bebidas,7887
+7877,561,(561) 561. Restaurantes y puestos de comidas,7877
+7881,562,(562) 562. Provisión de comidas preparadas para eventos y otros servicios de comidas,7881
+7884,563,(563) 563. Establecimientos de bebidas,7884
+7886,56NC_5,(56NC_5) No consta Servicios de comidas y bebidas,7886
+7910,49,(49) 49. Transporte terrestre y por tubería,7910
+7892,491,(491) 491. Transporte interurbano de pasajeros por ferrocarril,7892
+7895,492,(492) 492. Transporte de mercancías por ferrocarril,7895
+7900,493,(493) 493. Otro transporte terrestre de pasajeros,7900
+7904,494,(494) 494. Transporte de mercancías por carretera y servicios de mudanza,7904
+7907,495,(495) 495. Transporte por tubería,7907
+7909,49NC_5,(49NC_5) No consta Transporte terrestre y por tubería,7909
+7925,50,(50) 50. Transporte marítimo y por vías navegables interiores,7925
+7913,501,(501) 501. Transporte marítimo de pasajeros,7913
+7916,502,(502) 502. Transporte marítimo de mercancías,7916
+7919,503,(503) 503. Transporte de pasajeros por vías navegables interiores,7919
+7922,504,(504) 504. Transporte de mercancías por vías navegables interiores,7922
+7924,50NC_5,(50NC_5) No consta Transporte marítimo y por vías navegables interiores,7924
+7935,51,(51) 51. Transporte aéreo,7935
+7928,511,(511) 511. Transporte aéreo de pasajeros,7928
+7932,512,(512) 512. Transporte aéreo de mercancías y transporte espacial,7932
+7934,51NC_5,(51NC_5) No consta Transporte aéreo,7934
+7948,52,(52) 52. Almacenamiento y actividades anexas al transporte,7948
+7938,521,(521) 521. Depósito y almacenamiento,7938
+7945,522,(522) 522. Actividades anexas al transporte,7945
+7947,52NC_5,(52NC_5) No consta Almacenamiento y actividades anexas al transporte,7947
+7957,53,(53) 53. Actividades postales y de correos,7957
+7951,531,(531) 531. Actividades postales sometidas a la obligación del servicio universal,7951
+7954,532,(532) 532. Otras actividades postales y de correos,7954
+7956,53NC_5,(53NC_5) No consta Actividades postales y de correos,7956
+7972,58,(58) 58. Edición,7972
+7965,581,"(581) 581. Edición de libros, periódicos y otras actividades editoriales",7965
+7969,582,(582) 582. Edición de programas informáticos,7969
+7971,58NC_5,(58NC_5) No consta Edición,7971
+7986,59,"(59) 59. Actividades cinematográficas, de vídeo y de programas de televisión, grabación de sonido y edición musical",7986
+7980,591,"(591) 591. Actividades cinematográficas, de vídeo y de programas de televisión",7980
+7983,592,(592) 592. Actividades de grabación de sonido y edición musical,7983
+7985,59NC_5,"(59NC_5) No consta Actividades cinematográficas, de vídeo y de programas de televisión, grabación de sonido y edición musical",7985
+7995,60,(60) 60. Actividades de programación y emisión de radio y televisión,7995
+7989,601,(601) 601. Actividades de radiodifusión,7989
+7992,602,(602) 602. Actividades de programación y emisión de televisión,7992
+7994,60NC_5,(60NC_5) No consta Actividades de programación y emisión de radio y televisión,7994
+8010,61,(61) 61. Telecomunicaciones,8010
+7998,611,(611) 611. Telecomunicaciones por cable,7998
+8001,612,(612) 612. Telecomunicaciones inalámbricas,8001
+8004,613,(613) 613. Telecomunicaciones por satélite,8004
+8007,619,(619) 619. Otras actividades de telecomunicaciones,8007
+8009,61NC_5,(61NC_5) No consta Telecomunicaciones,8009
+8019,62,"(62) 62. Programación, consultoría y otras actividades relacionadas con la informática",8019
+8016,620,"(620) 620. Programación, consultoría y otras actividades relacionadas con la informática",8016
+8018,62NC_5,"(62NC_5) No consta Programación, consultoría y otras actividades relacionadas con la informática",8018
+8030,63,(63) 63. Servicios de información,8030
+8023,631,"(631) 631. Proceso de datos, hosting y actividades relacionadas; portales web",8023
+8027,639,(639) 639. Otros servicios de información,8027
+8029,63NC_5,(63NC_5) No consta Servicios de información,8029
+8050,64,"(64) 64. Servicios financieros, excepto seguros y fondos de pensiones",8050
+8036,641,(641) 641. Intermediación monetaria,8036
+8039,642,(642) 642. Actividades de las sociedades holding,8039
+8042,643,"(643) 643. Inversión colectiva, fondos y entidades financieras similares",8042
+8047,649,"(649) 649. Otros servicios financieros, excepto seguros y fondos de pensiones",8047
+8049,64NC_5,"(64NC_5) No consta Servicios financieros, excepto seguros y fondos de pensiones",8049
+8063,65,"(65) 65. Seguros, reaseguros y fondos de pensiones, excepto Seguridad Social obligatoria",8063
+8054,651,(651) 651. Seguros,8054
+8057,652,(652) 652. Reaseguros,8057
+8060,653,(653) 653. Fondos de pensiones,8060
+8062,65NC_5,"(65NC_5) No consta Seguros, reaseguros y fondos de pensiones, excepto Seguridad Social obligatoria",8062
+8079,66,(66) 66. Actividades auxiliares a los servicios financieros y a los seguros,8079
+8068,661,"(661) 661. Actividades auxiliares a los servicios financieros, excepto seguros y fondos de pensiones",8068
+8073,662,(662) 662. Actividades auxiliares a seguros y fondos de pensiones,8073
+8076,663,(663) 663. Actividades de gestión de fondos,8076
+8078,66NC_5,(66NC_5) No consta Actividades auxiliares a los servicios financieros y a los seguros,8078
+8093,68,(68) 68. Actividades inmobiliarias,8093
+8083,681,(681) 681. Compraventa de bienes inmobiliarios por cuenta propia,8083
+8086,682,(682) 682. Alquiler de bienes inmobiliarios por cuenta propia,8086
+8090,683,(683) 683. Actividades inmobiliarias por cuenta de terceros,8090
+8092,68NC_5,(68NC_5) No consta Actividades inmobiliarias,8092
+8103,69,(69) 69. Actividades jurídicas y de contabilidad,8103
+8097,691,(691) 691. Actividades jurídicas,8097
+8100,692,"(692) 692. Actividades de contabilidad, teneduría de libros, auditoría y asesoría fiscal",8100
+8102,69NC_5,(69NC_5) No consta Actividades jurídicas y de contabilidad,8102
+8113,70,(70) 70. Actividades de las sedes centrales; actividades de consultoría de gestión empresarial,8113
+8106,701,(701) 701. Actividades de las sedes centrales,8106
+8110,702,(702) 702. Actividades de consultoría de gestión empresarial,8110
+8112,70NC_5,(70NC_5) No consta Actividades de las sedes centrales; actividades de consultoría de gestión empresarial,8112
+8123,71,(71) 71. Servicios técnicos de arquitectura e ingeniería; ensayos y análisis técnicos,8123
+8117,711,(711) 711. Servicios técnicos de arquitectura e ingeniería y otras actividades relacionadas con el asesoramiento técnico,8117
+8120,712,(712) 712. Ensayos y análisis técnicos,8120
+8122,71NC_5,(71NC_5) No consta Servicios técnicos de arquitectura e ingeniería; ensayos y análisis técnicos,8122
+8133,72,(72) 72. Investigación y desarrollo,8133
+8127,721,(721) 721. Investigación y desarrollo experimental en ciencias naturales y técnicas,8127
+8130,722,(722) 722. Investigación y desarrollo experimental en ciencias sociales y humanidades,8130
+8132,72NC_5,(72NC_5) No consta Investigación y desarrollo,8132
+8143,73,(73) 73. Publicidad y estudios de mercado,8143
+8137,731,(731) 731. Publicidad,8137
+8140,732,(732) 732. Estudios de mercado y realización de encuestas de opinión pública,8140
+8142,73NC_5,(73NC_5) No consta Publicidad y estudios de mercado,8142
+8158,74,"(74) 74. Otras actividades profesionales, científicas y técnicas",8158
+8146,741,(741) 741. Actividades de diseño especializado,8146
+8149,742,(742) 742. Actividades de fotografía,8149
+8152,743,(743) 743. Actividades de traducción e interpretación,8152
+8155,749,"(749) 749. Otras actividades profesionales, científicas y técnicas n.c.o.p.",8155
+8157,74NC_5,"(74NC_5) No consta Otras actividades profesionales, científicas y técnicas",8157
+8164,75,(75) 75. Actividades veterinarias,8164
+8161,750,(750) 750. Actividades veterinarias,8161
+8163,75NC_5,(75NC_5) No consta Actividades veterinarias,8163
+8188,77,(77) 77. Actividades de alquiler,8188
+8169,771,(771) 771. Alquiler de vehículos de motor,8169
+8174,772,(772) 772. Alquiler de efectos personales y artículos de uso doméstico,8174
+8182,773,"(773) 773. Alquiler de otra maquinaria, equipos y bienes tangibles",8182
+8185,774,"(774) 774. Arrendamiento de la propiedad intelectual y productos similares, excepto trabajos protegidos por los derechos de autor",8185
+8187,77NC_5,(77NC_5) No consta Actividades de alquiler,8187
+8200,78,(78) 78. Actividades relacionadas con el empleo,8200
+8191,781,(781) 781. Actividades de las agencias de colocación,8191
+8194,782,(782) 782. Actividades de las empresas de trabajo temporal,8194
+8197,783,(783) 783. Otra provisión de recursos humanos,8197
+8199,78NC_5,(78NC_5) No consta Actividades relacionadas con el empleo,8199
+8210,79,"(79) 79. Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas con los mismos",8210
+8204,791,(791) 791. Actividades de agencias de viajes y operadores turísticos,8204
+8207,799,(799) 799. Otros servicios de reservas y actividades relacionadas con los mismos,8207
+8209,79NC_5,"(79NC_5) No consta Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas con los mismos",8209
+8222,80,(80) 80. Actividades de seguridad e investigación,8222
+8213,801,(801) 801. Actividades de seguridad privada,8213
+8216,802,(802) 802. Servicios de sistemas de seguridad,8216
+8219,803,(803) 803. Actividades de investigación,8219
+8221,80NC_5,(80NC_5) No consta Actividades de seguridad e investigación,8221
+8236,81,(81) 81. Servicios a edificios y actividades de jardinería,8236
+8225,811,(811) 811. Servicios integrales a edificios e instalaciones,8225
+8230,812,(812) 812. Actividades de limpieza,8230
+8233,813,(813) 813. Actividades de jardinería,8233
+8235,81NC_5,(81NC_5) No consta Servicios a edificios y actividades de jardinería,8235
+8254,82,(82) 82. Actividades administrativas de oficina y otras actividades auxiliares a las empresas,8254
+8240,821,(821) 821. Actividades administrativas y auxiliares de oficina,8240
+8243,822,(822) 822. Actividades de los centros de llamadas,8243
+8246,823,(823) 823. Organización de convenciones y ferias de muestras,8246
+8251,829,(829) 829. Actividades de apoyo a las empresas n.c.o.p.,8251
+8253,82NC_5,(82NC_5) No consta Actividades administrativas de oficina y otras actividades auxiliares a las empresas,8253
+8274,84,(84) 84. Administración Pública y defensa; Seguridad Social obligatoria,8274
+8261,841,(841) 841. Administración Pública y de la política económica y social,8261
+8268,842,(842) 842. Prestación de servicios a la comunidad en general,8268
+8271,843,(843) 843. Seguridad Social obligatoria,8271
+8273,84NC_5,(84NC_5) No consta Administración Pública y defensa; Seguridad Social obligatoria,8273
+8302,85,(85) 85. Educación,8302
+8278,851,(851) 851. Educación preprimaria,8278
+8281,852,(852) 852. Educación primaria,8281
+8285,853,(853) 853. Educación secundaria,8285
+8290,854,(854) 854. Educación postsecundaria,8290
+8296,855,(855) 855. Otra educación,8296
+8299,856,(856) 856. Actividades auxiliares a la educación,8299
+8301,85NC_5,(85NC_5) No consta Educación,8301
+8317,86,(86) 86. Actividades sanitarias,8317
+8306,861,(861) 861. Actividades hospitalarias,8306
+8311,862,(862) 862. Actividades médicas y odontológicas,8311
+8314,869,(869) 869. Otras actividades sanitarias,8314
+8316,86NC_5,(86NC_5) No consta Actividades sanitarias,8316
+8333,87,(87) 87. Asistencia en establecimientos residenciales,8333
+8320,871,(871) 871. Asistencia en establecimientos residenciales con cuidados sanitarios,8320
+8323,872,"(872) 872. Asistencia en establecimientos residenciales para personas con discapacidad intelectual, enfermedad mental y drogodependencia",8323
+8327,873,(873) 873. Asistencia en establecimientos residenciales para personas mayores y con discapacidad física,8327
+8330,879,(879) 879. Otras actividades de asistencia en establecimientos residenciales,8330
+8332,87NC_5,(87NC_5) No consta Asistencia en establecimientos residenciales,8332
+8344,88,(88) 88. Actividades de servicios sociales sin alojamiento,8344
+8337,881,(881) 881. Actividades de servicios sociales sin alojamiento para personas mayores y con discapacidad,8337
+8341,889,(889) 889. Otras actividades de servicios sociales sin alojamiento,8341
+8343,88NC_5,(88NC_5) No consta Actividades de servicios sociales sin alojamiento,8343
+8355,90,"(90) 90. Actividades de creación, artísticas y espectáculos",8355
+8352,900,"(900) 900. Actividades de creación, artísticas y espectáculos",8352
+8354,90NC_5,"(90NC_5) No consta Actividades de creación, artísticas y espectáculos",8354
+8365,91,"(91) 91. Actividades de bibliotecas, archivos, museos y otras actividades culturales",8365
+8362,910,"(910) 910. Actividades de bibliotecas, archivos, museos y otras actividades culturales",8362
+8364,91NC_5,"(91NC_5) No consta Actividades de bibliotecas, archivos, museos y otras actividades culturales",8364
+8371,92,(92) 92. Actividades de juegos de azar y apuestas,8371
+8368,920,(920) 920. Actividades de juegos de azar y apuestas,8368
+8370,92NC_5,(92NC_5) No consta Actividades de juegos de azar y apuestas,8370
+8384,93,"(93) 93. Actividades deportivas, recreativas y de entretenimiento",8384
+8377,931,(931) 931. Actividades deportivas,8377
+8381,932,(932) 932. Actividades recreativas y de entretenimiento,8381
+8383,93NC_5,"(93NC_5) No consta Actividades deportivas, recreativas y de entretenimiento",8383
+8400,94,(94) 94. Actividades asociativas,8400
+8389,941,"(941) 941. Actividades de organizaciones empresariales, profesionales y patronales",8389
+8392,942,(942) 942. Actividades sindicales,8392
+8397,949,(949) 949. Otras actividades asociativas,8397
+8399,94NC_5,(94NC_5) No consta Actividades asociativas,8399
+8415,95,"(95) 95. Reparación de ordenadores, efectos personales y artículos de uso doméstico",8415
+8404,951,(951) 951. Reparación de ordenadores y equipos de comunicación,8404
+8412,952,(952) 952. Reparación de efectos personales y artículos de uso doméstico,8412
+8414,95NC_5,"(95NC_5) No consta Reparación de ordenadores, efectos personales y artículos de uso doméstico",8414
+8425,96,(96) 96. Otros servicios personales,8425
+8422,960,(960) 960. Otros servicios personales,8422
+8424,96NC_5,(96NC_5) No consta Otros servicios personales,8424
+8432,97,(97) 97. Actividades de los hogares como empleadores de personal doméstico,8432
+8429,970,(970) 970. Actividades de los hogares como empleadores de personal doméstico,8429
+8431,97NC_5,(97NC_5) No consta Actividades de los hogares como empleadores de personal doméstico,8431
+8441,98,(98) 98. Actividades de los hogares como productores de bienes y servicios para uso propio,8441
+8435,981,(981) 981. Actividades de los hogares como productores de bienes para uso propio,8435
+8438,982,(982) 982. Actividades de los hogares como productores de servicios para uso propio,8438
+8440,98NC_5,(98NC_5) No consta Actividades de los hogares como productores de bienes y servicios para uso propio,8440
+8448,99,(99) 99. Actividades de organizaciones y organismos extraterritoriales,8448
+8445,990,(990) 990. Actividades de organizaciones y organismos extraterritoriales,8445
+8447,99NC_5,(99NC_5) No consta Actividades de organizaciones y organismos extraterritoriales,8447
+6962,NP_1,(NP_1) No procede,6962
+6963,NP_2,(NP_2) No procede,6963
+6964,NP_3,(NP_3) No procede,6964
+6965,NP_4,(NP_4) No procede,6965
+6966,NP_5,(NP_5) No procede,6966
+6956,NC_1,(NC_1) No consta,6956
+6957,NC_2,(NC_2) No consta,6957
+6958,NC_3,(NC_3) No consta,6958
+6959,NC_4,(NC_4) No consta,6959
+6960,NC_5,(NC_5) No consta,6960
+6968,NS_1,(NS_1) No sabe,6968
+6969,NS_2,(NS_2) No sabe,6969
+6970,NS_3,(NS_3) No sabe,6970
+6971,NS_4,(NS_4) No sabe,6971
+6972,NS_5,(NS_5) No sabe,6972
+8450,SC_1,(SC_1) Sin clasificar,8450
+8451,SC_2,(SC_2) Sin clasificar,8451
+8452,SC_3,(SC_3) Sin clasificar,8452
+8453,SC_4,(SC_4) Sin clasificar,8453
+8454,SC_5,(SC_5) Sin clasificar,8454
+8457,U+1_2,(U+1_2) Hace más de 1 año desde su último empleo,8457
+8458,U+1_3,(U+1_3) Hace más de 1 año desde su último empleo,8458
+8459,U+1_4,(U+1_4) Hace más de 1 año desde su último empleo,8459
+8460,U+1_5,(U+1_5) Hace más de 1 año desde su último empleo,8460
+6951,BPE_2,(BPE_2) Busca primer empleo,6951
+6952,BPE_3,(BPE_3) Busca primer empleo,6952
+6953,BPE_4,(BPE_4) Busca primer empleo,6953
+6954,BPE_5,(BPE_5) Busca primer empleo,6954
+6974,NTA_1,(NTA_1) No ha trabajado antes,6974
+6975,NTA_2,(NTA_2) No ha trabajado antes,6975
+6976,NTA_3,(NTA_3) No ha trabajado antes,6976
+6977,NTA_4,(NTA_4) No ha trabajado antes,6977
+6978,NTA_5,(NTA_5) No ha trabajado antes,6978
+261718,U+3_1,(U+3_1) Hace más de tres años desde su último empleo,261718
+261719,U+3_2,(U+3_2) Hace más de tres años desde su último empleo,261719
+261720,U+3_3,(U+3_3) Hace más de tres años desde su último empleo,261720
+261721,U+3_4,(U+3_4) Hace más de tres años desde su último empleo,261721
+261722,U+3_5,(U+3_5) Hace más de tres años desde su último empleo,261722
+303235,6b,(6b) Información y comunicaciones,303235
+303236,9,"(9) Actividades profesionales, científicas y técnicas",303236

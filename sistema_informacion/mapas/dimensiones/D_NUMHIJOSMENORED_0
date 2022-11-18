@@ -1,0 +1,9 @@
+SOURCE,COD,NAME,TARGET
+5661,000,(000) Total,5661
+5634,0,(0) Ningún hijo menor,5634
+5636,1,(1) 1 hijo,5636
+5638,2,(2) 2 hijos,5638
+5640,3,(3) 3 hijos,5640
+5642,4,(4) 4 hijos,5642
+5660,05+,(05+) Más de 4 hijos,5660
+5663,NC,(NC) No consta,5663

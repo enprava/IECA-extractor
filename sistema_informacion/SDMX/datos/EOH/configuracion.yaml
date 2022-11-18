@@ -13,7 +13,7 @@ grupos_consultas:
     - '67618'
     - '67666'
 variables:
-- ESTADO_DATO
+- OBS_STATUS
 - TERRITORIO
 - CAT_HOTELES
 - TEMPORAL

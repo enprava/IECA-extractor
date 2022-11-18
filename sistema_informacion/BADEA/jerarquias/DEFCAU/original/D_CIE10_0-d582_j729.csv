@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-582;;() CIE10;CIE10;;0
+582;Total;(Total) CIE10;CIE10;;0
 57628;00;(00) Total;Total;;1
 56093;001;(001) I. Ciertas enfermedades infecciosas y parasitarias;I. Ciertas enfermedades infecciosas y parasitarias;57628;1
 56232;002;(002) II. Tumores;II. Tumores;57628;2
@@ -1723,4 +1723,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 56606;NC;(NC) No consta;No consta;56605;1
 818509;PC0;(PC0) En proceso de codificación;En proceso de codificación;818508;1
 818510;PC;(PC) En proceso de codificación;En proceso de codificación;818509;1
-_Z;No aplica;No aplica;No aplica;;

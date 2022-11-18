@@ -1,5 +1,5 @@
 D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
-1998;;Estancia media;12.077384571;A
+1998;P1_C01;Estancia media;12.077384571;A
 1998;2352;Estancia media;11.176910787;A
 1998;2402;Estancia media;9.574617926;A
 1998;2482;Estancia media;4.709976132;A
@@ -8,7 +8,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 1998;2911;Estancia media;4.029780182;A
 1998;3023;Estancia media;14.835764934;A
 1998;3142;Estancia media;5.418201487;A
-1999;;Estancia media;10.504657378;A
+1999;P1_C01;Estancia media;10.504657378;A
 1999;2352;Estancia media;10.749182491;A
 1999;2402;Estancia media;8.223745366;A
 1999;2482;Estancia media;2.543592221;A
@@ -17,7 +17,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 1999;2911;Estancia media;3.117622891;A
 1999;3023;Estancia media;11.976814154;A
 1999;3142;Estancia media;3.232467813;A
-2000;;Estancia media;10.901667026;A
+2000;P1_C01;Estancia media;10.901667026;A
 2000;2352;Estancia media;9.30221355;A
 2000;2402;Estancia media;8.780725337;A
 2000;2482;Estancia media;2.303201477;A
@@ -26,7 +26,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2000;2911;Estancia media;2.728108729;A
 2000;3023;Estancia media;13.041566881;A
 2000;3142;Estancia media;3.858808209;A
-2001;;Estancia media;11.456943973;A
+2001;P1_C01;Estancia media;11.456943973;A
 2001;2352;Estancia media;13.052435341;A
 2001;2402;Estancia media;8.200989637;A
 2001;2482;Estancia media;2.608025206;A
@@ -35,7 +35,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2001;2911;Estancia media;2.853014708;A
 2001;3023;Estancia media;15.493935512;A
 2001;3142;Estancia media;5.081820765;A
-2002;;Estancia media;11.597492749;A
+2002;P1_C01;Estancia media;11.597492749;A
 2002;2352;Estancia media;14.270080932;A
 2002;2402;Estancia media;8.226004649;A
 2002;2482;Estancia media;2.647372557;A
@@ -44,7 +44,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2002;2911;Estancia media;3.150820789;A
 2002;3023;Estancia media;14.795166482;A
 2002;3142;Estancia media;3.906182603;A
-2003;;Estancia media;10.532484337;A
+2003;P1_C01;Estancia media;10.532484337;A
 2003;2352;Estancia media;12.585617648;A
 2003;2402;Estancia media;8.553556164;A
 2003;2482;Estancia media;3.881461346;A
@@ -53,7 +53,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2003;2911;Estancia media;3.663486951;A
 2003;3023;Estancia media;12.923494155;A
 2003;3142;Estancia media;4.183567469;A
-2004;;Estancia media;9.988952904;A
+2004;P1_C01;Estancia media;9.988952904;A
 2004;2352;Estancia media;9.477265771;A
 2004;2402;Estancia media;6.888914376;A
 2004;2482;Estancia media;4.753311255;A
@@ -62,7 +62,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2004;2911;Estancia media;4.525690122;A
 2004;3023;Estancia media;14.229000678;A
 2004;3142;Estancia media;4.397237462;A
-2005;;Estancia media;7.543677646;A
+2005;P1_C01;Estancia media;7.543677646;A
 2005;2352;Estancia media;6.801530029;A
 2005;2402;Estancia media;7.664815561;A
 2005;2482;Estancia media;3.404460401;A
@@ -71,7 +71,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2005;2911;Estancia media;4.353119493;A
 2005;3023;Estancia media;13.414015277;A
 2005;3142;Estancia media;4.454271738;A
-2006;;Estancia media;8.975502801;A
+2006;P1_C01;Estancia media;8.975502801;A
 2006;2352;Estancia media;8.206014417;A
 2006;2402;Estancia media;7.120393897;A
 2006;2482;Estancia media;3.647200355;A
@@ -80,7 +80,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2006;2911;Estancia media;4.53986292;A
 2006;3023;Estancia media;11.316963932;A
 2006;3142;Estancia media;4.043909411;A
-2007;;Estancia media;8.223302548;A
+2007;P1_C01;Estancia media;8.223302548;A
 2007;2352;Estancia media;7.534650651;A
 2007;2402;Estancia media;6.606045092;A
 2007;2482;Estancia media;3.097931031;A
@@ -89,7 +89,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2007;2911;Estancia media;4.353401302;A
 2007;3023;Estancia media;10.374025313;A
 2007;3142;Estancia media;4.040498111;A
-2008;;Estancia media;8.55107921;A
+2008;P1_C01;Estancia media;8.55107921;A
 2008;2352;Estancia media;7.496669282;A
 2008;2402;Estancia media;7.266211568;A
 2008;2482;Estancia media;2.937347726;A
@@ -98,7 +98,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2008;2911;Estancia media;4.325959952;A
 2008;3023;Estancia media;11.189517577;A
 2008;3142;Estancia media;4.070347939;A
-2009;;Estancia media;8.788552838;A
+2009;P1_C01;Estancia media;8.788552838;A
 2009;2352;Estancia media;7.82244169;A
 2009;2402;Estancia media;7.810492021;A
 2009;2482;Estancia media;2.902318775;A
@@ -107,7 +107,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2009;2911;Estancia media;3.278087412;A
 2009;3023;Estancia media;12.027595851;A
 2009;3142;Estancia media;3.721812493;A
-2010;;Estancia media;9.011505791;A
+2010;P1_C01;Estancia media;9.011505791;A
 2010;2352;Estancia media;8.025346048;A
 2010;2402;Estancia media;7.749888327;A
 2010;2482;Estancia media;3.208538953;A
@@ -116,7 +116,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2010;2911;Estancia media;3.650327152;A
 2010;3023;Estancia media;11.90420292;A
 2010;3142;Estancia media;3.361217333;A
-2011;;Estancia media;9.053612601;A
+2011;P1_C01;Estancia media;9.053612601;A
 2011;2352;Estancia media;8.319546708;A
 2011;2402;Estancia media;7.6357846;A
 2011;2482;Estancia media;3.691044479;A
@@ -125,7 +125,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2011;2911;Estancia media;2.780300707;A
 2011;3023;Estancia media;11.368585633;A
 2011;3142;Estancia media;3.32764201;A
-2012;;Estancia media;9.145334408;A
+2012;P1_C01;Estancia media;9.145334408;A
 2012;2352;Estancia media;9.647107459;A
 2012;2402;Estancia media;7.991140931;A
 2012;2482;Estancia media;3.781889873;A
@@ -134,7 +134,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2012;2911;Estancia media;2.734403479;A
 2012;3023;Estancia media;12.018032507;A
 2012;3142;Estancia media;3.633726414;A
-2013;;Estancia media;9.022718259;A
+2013;P1_C01;Estancia media;9.022718259;A
 2013;2352;Estancia media;9.154141654;A
 2013;2402;Estancia media;9.075329183;A
 2013;2482;Estancia media;3.921808522;A
@@ -143,7 +143,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2013;2911;Estancia media;2.404525249;A
 2013;3023;Estancia media;10.714893541;A
 2013;3142;Estancia media;3.490249072;A
-2014;;Estancia media;8.867510014;A
+2014;P1_C01;Estancia media;8.867510014;A
 2014;2352;Estancia media;8.780959993;A
 2014;2402;Estancia media;8.597480476;A
 2014;2482;Estancia media;3.895527525;A
@@ -152,7 +152,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2014;2911;Estancia media;2.363347541;A
 2014;3023;Estancia media;9.438279327;A
 2014;3142;Estancia media;3.389037711;A
-2015;;Estancia media;8.694870927;A
+2015;P1_C01;Estancia media;8.694870927;A
 2015;2352;Estancia media;7.106480784;A
 2015;2402;Estancia media;8.353653976;A
 2015;2482;Estancia media;3.846892199;A
@@ -161,7 +161,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2015;2911;Estancia media;2.951950466;A
 2015;3023;Estancia media;9.735809075;A
 2015;3142;Estancia media;3.534030117;A
-2016;;Estancia media;8.579452834;A
+2016;P1_C01;Estancia media;8.579452834;A
 2016;2352;Estancia media;6.992583689;A
 2016;2402;Estancia media;6.853439269;A
 2016;2482;Estancia media;3.736471681;A
@@ -170,7 +170,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2016;2911;Estancia media;2.74697781;A
 2016;3023;Estancia media;10.037081858;A
 2016;3142;Estancia media;3.335339214;A
-2017;;Estancia media;8.517037301;A
+2017;P1_C01;Estancia media;8.517037301;A
 2017;2352;Estancia media;7.727249312;A
 2017;2402;Estancia media;6.710435602;A
 2017;2482;Estancia media;3.513520491;A
@@ -179,7 +179,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2017;2911;Estancia media;2.893068814;A
 2017;3023;Estancia media;9.346365672;A
 2017;3142;Estancia media;3.396748613;A
-2018;;Estancia media;8.287717311;A
+2018;P1_C01;Estancia media;8.287717311;A
 2018;2352;Estancia media;7.748381503;A
 2018;2402;Estancia media;6.419398763;A
 2018;2482;Estancia media;3.285272929;A
@@ -188,7 +188,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2018;2911;Estancia media;2.617284229;A
 2018;3023;Estancia media;9.423299042;A
 2018;3142;Estancia media;3.366455537;A
-2019;;Estancia media;8.199248489;A
+2019;P1_C01;Estancia media;8.199248489;A
 2019;2352;Estancia media;7.880081035;A
 2019;2402;Estancia media;6.313648648;A
 2019;2482;Estancia media;3.193263974;A
@@ -197,7 +197,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2019;2911;Estancia media;2.553770834;A
 2019;3023;Estancia media;9.172520795;A
 2019;3142;Estancia media;3.347058817;A
-2020;;Estancia media;7.877292242;A
+2020;P1_C01;Estancia media;7.877292242;A
 2020;2352;Estancia media;7.637934931;A
 2020;2402;Estancia media;7.700182133;A
 2020;2482;Estancia media;3.07691389;A
@@ -206,7 +206,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2020;2911;Estancia media;2.527505882;A
 2020;3023;Estancia media;10.365794561;A
 2020;3142;Estancia media;3.08683828;A
-2021;;Estancia media;6.948186352;A
+2021;P1_C01;Estancia media;6.948186352;A
 2021;2352;Estancia media;7.495866901;A
 2021;2402;Estancia media;7.116561237;A
 2021;2482;Estancia media;2.996690272;A
@@ -215,7 +215,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2021;2911;Estancia media;2.722747838;A
 2021;3023;Estancia media;8.253430997;A
 2021;3142;Estancia media;3.781085625;A
-1998;;Tasa de variación interanual;-5.227710564667834;A
+1998;P1_C01;Tasa de variación interanual;-5.227710564667834;A
 1998;2352;Tasa de variación interanual;-23.28140988142885;A
 1998;2402;Tasa de variación interanual;-31.059569244228392;A
 1998;2482;Tasa de variación interanual;-29.096907655939496;A
@@ -224,7 +224,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 1998;2911;Tasa de variación interanual;-12.821421183544974;A
 1998;3023;Tasa de variación interanual;-5.90415727880436;A
 1998;3142;Tasa de variación interanual;-28.56883279689052;A
-1999;;Tasa de variación interanual;-13.022084241454104;A
+1999;P1_C01;Tasa de variación interanual;-13.022084241454104;A
 1999;2352;Tasa de variación interanual;-3.826891921670319;A
 1999;2402;Tasa de variación interanual;-14.108892599585502;A
 1999;2482;Tasa de variación interanual;-45.995645206806756;A
@@ -233,7 +233,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 1999;2911;Tasa de variación interanual;-22.635410613074473;A
 1999;3023;Tasa de variación interanual;-19.270666478733254;A
 1999;3142;Tasa de variación interanual;-40.34057572875935;A
-2000;;Tasa de variación interanual;3.779367890964839;A
+2000;P1_C01;Tasa de variación interanual;3.779367890964839;A
 2000;2352;Tasa de variación interanual;-13.461199883912176;A
 2000;2402;Tasa de variación interanual;6.772826081200926;A
 2000;2482;Tasa de variación interanual;-9.450836577314723;A
@@ -242,7 +242,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2000;2911;Tasa de variación interanual;-12.493947331617786;A
 2000;3023;Tasa de variación interanual;8.890116464271891;A
 2000;3142;Tasa de variación interanual;19.37653929548966;A
-2001;;Tasa de variación interanual;5.093504926133665;A
+2001;P1_C01;Tasa de variación interanual;5.093504926133665;A
 2001;2352;Tasa de variación interanual;40.31536978636662;A
 2001;2402;Tasa de variación interanual;-6.602366863214873;A
 2001;2482;Tasa de variación interanual;13.234783497839873;A
@@ -251,7 +251,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2001;2911;Tasa de variación interanual;4.57848243628415;A
 2001;3023;Tasa de variación interanual;18.804248395741528;A
 2001;3142;Tasa de variación interanual;31.6940487777427;A
-2002;;Tasa de variación interanual;1.2267562478373397;A
+2002;P1_C01;Tasa de variación interanual;1.2267562478373397;A
 2002;2352;Tasa de variación interanual;9.328876636340505;A
 2002;2402;Tasa de variación interanual;0.3050243093484936;A
 2002;2482;Tasa de variación interanual;1.508702864890945;A
@@ -260,7 +260,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2002;2911;Tasa de variación interanual;10.438294627957454;A
 2002;3023;Tasa de variación interanual;-4.509951841859708;A
 2002;3142;Tasa de variación interanual;-23.13419178608122;A
-2003;;Tasa de variación interanual;-9.183091854847952;A
+2003;P1_C01;Tasa de variación interanual;-9.183091854847952;A
 2003;2352;Tasa de variación interanual;-11.804160691357186;A
 2003;2402;Tasa de variación interanual;3.981902867509547;A
 2003;2482;Tasa de variación interanual;46.61560707566101;A
@@ -269,7 +269,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2003;2911;Tasa de variación interanual;16.27087658523126;A
 2003;3023;Tasa de variación interanual;-12.650566178333325;A
 2003;3142;Tasa de variación interanual;7.101175090661776;A
-2004;;Tasa de variación interanual;-5.160524484148588;A
+2004;P1_C01;Tasa de variación interanual;-5.160524484148588;A
 2004;2352;Tasa de variación interanual;-24.697650635318258;A
 2004;2402;Tasa de variación interanual;-19.461400101703944;A
 2004;2482;Tasa de variación interanual;22.461898529492654;A
@@ -278,7 +278,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2004;2911;Tasa de variación interanual;23.535041410879053;A
 2004;3023;Tasa de variación interanual;10.101807663950616;A
 2004;3142;Tasa de variación interanual;5.107363382646092;A
-2005;;Tasa de variación interanual;-24.47979564525535;A
+2005;P1_C01;Tasa de variación interanual;-24.47979564525535;A
 2005;2352;Tasa de variación interanual;-28.23320361224468;A
 2005;2402;Tasa de variación interanual;11.263040047400356;A
 2005;2482;Tasa de variación interanual;-28.377078243743153;A
@@ -287,7 +287,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2005;2911;Tasa de variación interanual;-3.813134004935744;A
 2005;3023;Tasa de variación interanual;-5.72763625108318;A
 2005;3142;Tasa de variación interanual;1.2970478963867347;A
-2006;;Tasa de variación interanual;18.980465791234042;A
+2006;P1_C01;Tasa de variación interanual;18.980465791234042;A
 2006;2352;Tasa de variación interanual;20.64953594281926;A
 2006;2402;Tasa de variación interanual;-7.102867116204579;A
 2006;2482;Tasa de variación interanual;7.1300566142199555;A
@@ -296,7 +296,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2006;2911;Tasa de variación interanual;4.2898759682634715;A
 2006;3023;Tasa de variación interanual;-15.633285796204929;A
 2006;3142;Tasa de variación interanual;-9.212781597924156;A
-2007;;Tasa de variación interanual;-8.380591813933744;A
+2007;P1_C01;Tasa de variación interanual;-8.380591813933744;A
 2007;2352;Tasa de variación interanual;-8.181362253144098;A
 2007;2402;Tasa de variación interanual;-7.223600441777639;A
 2007;2482;Tasa de variación interanual;-15.060026062099896;A
@@ -305,7 +305,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2007;2911;Tasa de variación interanual;-4.107208109270402;A
 2007;3023;Tasa de variación interanual;-8.332081154148893;A
 2007;3142;Tasa de variación interanual;-0.08435648906280073;A
-2008;;Tasa de variación interanual;3.9859491984728055;A
+2008;P1_C01;Tasa de variación interanual;3.9859491984728055;A
 2008;2352;Tasa de variación interanual;-0.504089316934141;A
 2008;2402;Tasa de variación interanual;9.9933692066297;A
 2008;2482;Tasa de variación interanual;-5.183566173458813;A
@@ -314,7 +314,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2008;2911;Tasa de variación interanual;-0.6303427618169105;A
 2008;3023;Tasa de variación interanual;7.860904898487975;A
 2008;3142;Tasa de variación interanual;0.7387660426999412;A
-2009;;Tasa de variación interanual;2.777118795979438;A
+2009;P1_C01;Tasa de variación interanual;2.777118795979438;A
 2009;2352;Tasa de variación interanual;4.345561952188566;A
 2009;2402;Tasa de variación interanual;7.490567098224628;A
 2009;2482;Tasa de variación interanual;-1.1925367463286893;A
@@ -323,7 +323,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2009;2911;Tasa de variación interanual;-24.2228904480621;A
 2009;3023;Tasa de variación interanual;7.489851713738445;A
 2009;3142;Tasa de variación interanual;-8.562792449768517;A
-2010;;Tasa de variación interanual;2.5368562618864243;A
+2010;P1_C01;Tasa de variación interanual;2.5368562618864243;A
 2010;2352;Tasa de variación interanual;2.5938749822755103;A
 2010;2402;Tasa de variación interanual;-0.7759267129017671;A
 2010;2482;Tasa de variación interanual;10.550880235407643;A
@@ -332,7 +332,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2010;2911;Tasa de variación interanual;11.355393960434142;A
 2010;3023;Tasa de variación interanual;-1.0259151748081108;A
 2010;3142;Tasa de variación interanual;-9.688697662179617;A
-2011;;Tasa de variación interanual;0.4672560943372304;A
+2011;P1_C01;Tasa de variación interanual;0.4672560943372304;A
 2011;2352;Tasa de variación interanual;3.6658937600992205;A
 2011;2402;Tasa de variación interanual;-1.4723273702212125;A
 2011;2482;Tasa de variación interanual;15.038169492966718;A
@@ -341,7 +341,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2011;2911;Tasa de variación interanual;-23.834204682813596;A
 2011;3023;Tasa de variación interanual;-4.4993964787018195;A
 2011;3142;Tasa de variación interanual;-0.9989036611932761;A
-2012;;Tasa de variación interanual;1.0130962196225384;A
+2012;P1_C01;Tasa de variación interanual;1.0130962196225384;A
 2012;2352;Tasa de variación interanual;15.957128406087673;A
 2012;2402;Tasa de variación interanual;4.653828645192536;A
 2012;2482;Tasa de variación interanual;2.46123812695458;A
@@ -350,7 +350,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2012;2911;Tasa de variación interanual;-1.6508008606566833;A
 2012;3023;Tasa de variación interanual;5.712644430586212;A
 2012;3142;Tasa de variación interanual;9.198237162536602;A
-2013;;Tasa de variación interanual;-1.340750852070981;A
+2013;P1_C01;Tasa de variación interanual;-1.340750852070981;A
 2013;2352;Tasa de variación interanual;-5.109985631393605;A
 2013;2402;Tasa de variación interanual;13.56737744161302;A
 2013;2482;Tasa de variación interanual;3.6997018342316017;A
@@ -359,7 +359,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2013;2911;Tasa de variación interanual;-12.063992477095582;A
 2013;3023;Tasa de variación interanual;-10.84319721419438;A
 2013;3142;Tasa de variación interanual;-3.9484904930434794;A
-2014;;Tasa de variación interanual;-1.7201938544981334;A
+2014;P1_C01;Tasa de variación interanual;-1.7201938544981334;A
 2014;2352;Tasa de variación interanual;-4.076642847633175;A
 2014;2402;Tasa de variación interanual;-5.2653594967674655;A
 2014;2482;Tasa de variación interanual;-0.6701244299045407;A
@@ -368,7 +368,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2014;2911;Tasa de variación interanual;-1.7125088629086047;A
 2014;3023;Tasa de variación interanual;-11.914390088105872;A
 2014;3142;Tasa de variación interanual;-2.899832043849055;A
-2015;;Tasa de variación interanual;-1.9468721966757092;A
+2015;P1_C01;Tasa de variación interanual;-1.9468721966757092;A
 2015;2352;Tasa de variación interanual;-19.06943216157299;A
 2015;2402;Tasa de variación interanual;-2.8360227241067255;A
 2015;2482;Tasa de variación interanual;-1.2484913965535354;A
@@ -377,7 +377,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2015;2911;Tasa de variación interanual;24.9054747466784;A
 2015;3023;Tasa de variación interanual;3.152372775711987;A
 2015;3142;Tasa de variación interanual;4.278276560021438;A
-2016;;Tasa de variación interanual;-1.3274273300779569;A
+2016;P1_C01;Tasa de variación interanual;-1.3274273300779569;A
 2016;2352;Tasa de variación interanual;-1.6027214941105008;A
 2016;2402;Tasa de variación interanual;-17.95878439913969;A
 2016;2482;Tasa de variación interanual;-2.87038243568936;A
@@ -386,7 +386,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2016;2911;Tasa de variación interanual;-6.943634670054108;A
 2016;3023;Tasa de variación interanual;3.094481215471041;A
 2016;3142;Tasa de variación interanual;-5.622218725421227;A
-2017;;Tasa de variación interanual;-0.7275001588988205;A
+2017;P1_C01;Tasa de variación interanual;-0.7275001588988205;A
 2017;2352;Tasa de variación interanual;10.506354384513104;A
 2017;2402;Tasa de variación interanual;-2.086597128639405;A
 2017;2482;Tasa de variación interanual;-5.966890934399668;A
@@ -395,7 +395,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2017;2911;Tasa de variación interanual;5.318244780433798;A
 2017;3023;Tasa de variación interanual;-6.881643447487376;A
 2017;3142;Tasa de variación interanual;1.8411740173903635;A
-2018;;Tasa de variación interanual;-2.6924854488200447;A
+2018;P1_C01;Tasa de variación interanual;-2.6924854488200447;A
 2018;2352;Tasa de variación interanual;0.27347624163210654;A
 2018;2402;Tasa de variación interanual;-4.33707819076989;A
 2018;2482;Tasa de variación interanual;-6.496263863684977;A
@@ -404,7 +404,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2018;2911;Tasa de variación interanual;-9.532596793599803;A
 2018;3023;Tasa de variación interanual;0.823136743199328;A
 2018;3142;Tasa de variación interanual;-0.8918256677595344;A
-2019;;Tasa de variación interanual;-1.0674691073569533;A
+2019;P1_C01;Tasa de variación interanual;-1.0674691073569533;A
 2019;2352;Tasa de variación interanual;1.699703763282806;A
 2019;2402;Tasa de variación interanual;-1.647352328531459;A
 2019;2482;Tasa de variación interanual;-2.800648743299581;A
@@ -413,7 +413,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2019;2911;Tasa de variación interanual;-2.426690777266751;A
 2019;3023;Tasa de variación interanual;-2.6612574416058683;A
 2019;3142;Tasa de variación interanual;-0.5761763310643729;A
-2020;;Tasa de variación interanual;-3.9266555640060457;A
+2020;P1_C01;Tasa de variación interanual;-3.9266555640060457;A
 2020;2352;Tasa de variación interanual;-3.0728885010761786;A
 2020;2402;Tasa de variación interanual;21.96089079868608;A
 2020;2482;Tasa de variación interanual;-3.643609953556568;A
@@ -422,7 +422,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;INDICATOR;OBS_VALUE;FREQ
 2020;2911;Tasa de variación interanual;-1.0284772482447424;A
 2020;3023;Tasa de variación interanual;13.009223883694657;A
 2020;3142;Tasa de variación interanual;-7.774603053830958;A
-2021;;Tasa de variación interanual;-11.794736839217556;A
+2021;P1_C01;Tasa de variación interanual;-11.794736839217556;A
 2021;2352;Tasa de variación interanual;-1.860031949518056;A
 2021;2402;Tasa de variación interanual;-7.579312877533467;A
 2021;2482;Tasa de variación interanual;-2.607275369672442;A

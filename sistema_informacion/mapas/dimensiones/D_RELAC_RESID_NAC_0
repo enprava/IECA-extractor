@@ -1,0 +1,8 @@
+SOURCE,COD,NAME,TARGET
+53588,00,(00) TOTAL,53588
+53583,1,(1) En el mismo municipio,53583
+53584,2,"(2) En otro municipio, misma provincia",53584
+53585,3,"(3) En otro municipio, misma CCAA, distinta provincia",53585
+53586,4,"(4) En otro municipio, distinta CCAA",53586
+53587,5,(5) En el extranjero,53587
+53589,,,53589

@@ -1,5 +1,4 @@
 SOURCE,COD,NAME,TARGET
-,,,6782
 6784,1,"(1) Hotel, apartahotel",6784
 6785,2,"(2) Hostal, pensión",6785
 6786,31,"(31) Apartamento, piso o chalet en alquiler",6786
@@ -9,3 +8,5 @@ SOURCE,COD,NAME,TARGET
 6790,4,(4) Camping,6790
 6791,5,(5) Albergue,6791
 6792,6,(6) Otros,6792
+P1_00,,,6793
+6793,,,6793

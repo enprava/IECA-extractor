@@ -1,0 +1,9 @@
+SOURCE,COD,NAME,TARGET
+47511,010,(010) Estudiante,47511
+47512,0201,(0201) Percibiendo una pensión de jubilación,47512
+47517,030,(030) Labores del hogar,47517
+47513,0202,(0202) Incapacitado permanente,47513
+47514,0203,(0203) Percibiendo pensión distinta a jubilación,47514
+47520,040,"(040) Realizó trabajos sin remuneración, otras",47520
+47522,990,(990) No refiere estado de inactividad,47522
+47523,00,(00) TOTAL,47523

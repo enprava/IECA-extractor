@@ -13,7 +13,6 @@ fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
 
-
 class Datos:
     """Estructura de datos para manejar los datos encontrados dentro
     de las consultas del IECA. El proceso de inicialización de esta estructura
@@ -38,7 +37,8 @@ class Datos:
 
     """
 
-    def __init__(self, id_consulta, configuracion_global,mapa_conceptos_codelist, actividad, periodicidad, datos, jerarquias,
+    def __init__(self, id_consulta, configuracion_global, mapa_conceptos_codelist, actividad, periodicidad, datos,
+                 jerarquias,
                  medidas):
         self.id_consulta = id_consulta
         self.configuracion_global = configuracion_global
@@ -92,7 +92,7 @@ class Datos:
         df.columns = columnas
 
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1], na_action='ignore')
-        
+
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'] if x['val'] != "" else x['format'], na_action='ignore')
 
@@ -107,10 +107,12 @@ class Datos:
             columna = jerarquia.metadatos['alias']
 
             if columna != dimension_temporal:
-                df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+                df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')[
+                    'ID'].values
                 disconexos = df_mapeado[columna].isna()
-                if len(df_mapeado[ disconexos]):
-                    df_mapeado[columna][disconexos] =df[columna][ disconexos].map(lambda x: crear_mapeo_por_defecto(x), na_action='ignore')
+                if len(df_mapeado[disconexos]):
+                    df_mapeado[columna][disconexos] = df[columna][disconexos].map(lambda x: crear_mapeo_por_defecto(x),
+                                                                                  na_action='ignore')
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
         return df_mapeado
@@ -180,15 +182,13 @@ class Datos:
          fichero de configuracion global.
          """
         self.logger.info('Mapeando observaciones hacia SDMX')
-        columnas_a_mapear = list(set.intersection(set(self.datos_por_observacion.columns),
-                                                  set(self.configuracion_global['dimensiones_a_mapear'])))
+        columnas_a_mapear = [column for column in self.datos_por_observacion.columns if column not in ['OBS_VALUE','FREQ']]
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
-            mapa = pd.read_csv(directorio_mapa, dtype='string',keep_default_na=False)
+            mapa = pd.read_csv(directorio_mapa, dtype='string', keep_default_na=False)
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
-
     def extender_mapa_nuevos_terminos(self):
         """Accion que crea/extiende el mapa para las columnas configuradas facilitando al técnico realizar la
         conversión y su posterior reutilización en distintas actividades.
@@ -206,7 +206,7 @@ class Datos:
             fichero_mapa_dimension = os.path.join(directorio_mapas, columna_id)
 
             if os.path.isfile(fichero_mapa_dimension):
-                df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string',keep_default_na=False)
+                df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string', keep_default_na=False)
             else:
                 df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
             uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
@@ -216,7 +216,7 @@ class Datos:
             if columna_id != 'INDICATOR':
                 jerarquia_codigos = pd.read_csv(
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                 columna_alias + '.csv'), sep=';',keep_default_na=False,
+                                 columna_alias + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
                 df_mapa['COD'][df_mapa['COD'].isna()] = \
                     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
@@ -253,8 +253,22 @@ class Datos:
         """Accion que borra las filas duplicadas sin tener en cuenta **OBS_VALUE**.
          """
         columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
-        self.datos_por_observacion = self.datos_por_observacion.drop_duplicates(subset=columnas_sin_obs_value,
-                                                                                keep='last')
+        datos_sin_duplicados = self.datos_por_observacion.drop_duplicates(subset=columnas_sin_obs_value,
+                                                                          keep='last')
+        num_duplicados = len(self.datos_por_observacion) - len(datos_sin_duplicados)
+        if num_duplicados:
+            self.logger.warning('Se han eliminado %s duplicados', num_duplicados)
+        self.datos_por_observacion = datos_sin_duplicados
+
+    def borrar_datos_duplicados_OBS_VALUE(self):
+        """Accion que borra las filas duplicadas teniendo en cuenta **OBS_VALUE**.
+         """
+
+        datos_sin_duplicados = self.datos_por_observacion.drop_duplicates(keep='first')
+        num_duplicados = len(self.datos_por_observacion) - len(datos_sin_duplicados)
+        if num_duplicados:
+            self.logger.warning('Se han eliminado %s duplicados', num_duplicados)
+        self.datos_por_observacion = datos_sin_duplicados
 
     def sumar_datos_duplicados(self):
         """Accion que agrupa los datos duplicados y devuelve los datos agregados de **OBS_VALUE**.
@@ -273,9 +287,9 @@ class Datos:
          """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
-        
-        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
-        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
+
+        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
+        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
         columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
@@ -296,6 +310,7 @@ class Datos:
     def mostrar_df(self):
         # print('mostrando df',self.datos.to_string())
         pass
+
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
@@ -324,6 +339,3 @@ def insertar_freq(df, periodicidad):
                                      'Anual. Datos a 31 de diciembre': 'A'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df
-
-
-

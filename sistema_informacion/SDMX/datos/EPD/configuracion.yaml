@@ -1,49 +1,50 @@
 NOMBRE_DSD: DSD_EPD
+categoria: LABOUR
 grupos_consultas:
-  Educación:
-    consultas:
-    - '66385'
-    id: '2'
-  Hogares:
-    consultas:
-    - '66391'
-    id: '7'
-  Ocupación:
-    consultas:
-    - '66387'
-    id: '4'
-  Percepción de prestaciones:
-    consultas:
-    - '66388'
-    id: '5'
   'Población: Prevalencia de la discapacidad':
+    id: '1'
     consultas:
     - '66383'
     - '66384'
-    id: '1'
+  Educación:
+    id: '2'
+    consultas:
+    - '66385'
   Relación con la actividad:
+    id: '3'
     consultas:
     - '66386'
-    id: '3'
+  Ocupación:
+    id: '4'
+    consultas:
+    - '66387'
+  Percepción de prestaciones:
+    id: '5'
+    consultas:
+    - '66388'
   Situación de dependencia:
+    id: '6'
     consultas:
     - '66390'
-    id: '6'
+  Hogares:
+    id: '7'
+    consultas:
+    - '66391'
 variables:
 - SEXO
-- EDAD
-- TIME_PERIOD
-- CERTIFIC_DISCAPAC
-- REF_AREA
+- GRUPOSEDAD
+- TEMPORAL
+- CERTIFICDISCAPAC
+- TERRITORIO
 - INDICATOR
 - OBS_VALUE
 - FREQ
-- ESTADO_CIVIL
-- NIVEL_ESTUDIOS_TER
+- ESTADOCIVIL
+- NIVELESTUDIOSTER
 - RELACTIVIDAD
-- SITUAC_PROFES
-- PERCEP_PRES_INVAL
-- SITUACION_DEPEND
-- COMP_HOG_ACTIVIDAD
-- PRESENC_DISCAPAC
-- AMBITO_ESTUD_HOG
+- SITUACPROFES
+- PERCEPPRESINVAL
+- SITUACIONDEPEND
+- COMPHOGACTIVIDAD
+- EPD_PRESENCDISCAPAC
+- AMBITOESTUDHOG

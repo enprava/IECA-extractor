@@ -1,22 +1,23 @@
 NOMBRE_DSD: DSD_PENSIONES
+categoria: SOCIAL_PROTECT
 grupos_consultas:
   Resultados municipales. Pensiones en alta:
+    id: '1'
     consultas:
     - '13302'
     - '13301'
-    id: '1'
   Resultados municipales. Pensionistas en alta:
+    id: '2'
     consultas:
     - '13305'
     - '13304'
-    id: '2'
 variables:
-- TIME_PERIOD
-- REF_AREA
-- D_CLASEDEPENSION_0
+- TEMPORAL
+- TERRITORIO
+- CLASEDEPENSION
 - INDICATOR
 - OBS_VALUE
 - FREQ
 - SEXO
 - EDAD
-- D_PCSSA_JUBVIUDEDAD_0
+- PCSSA_JUBVIUDEDAD

@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-581;;() Mes;Mes;;0
+581;Total;(Total) Mes;Mes;;0
 55920;00;(00) TOTAL;TOTAL;;1
 55908;01;(01) Enero;Enero;55920;1
 55909;02;(02) Febrero;Febrero;55920;2
@@ -15,4 +15,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 55919;12;(12) Diciembre;Diciembre;55920;12
 272161;NP;(NP) No procede;No procede;55920;13
 272162;NC;(NC) No Consta;No Consta;55920;14
-_Z;No aplica;No aplica;No aplica;;

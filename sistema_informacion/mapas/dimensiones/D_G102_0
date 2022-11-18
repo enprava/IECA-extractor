@@ -1,0 +1,110 @@
+SOURCE,COD,NAME,TARGET
+518592,00A,(00A) 00A. Covid-19 Virus identificado,518592
+518593,00B,(00B) 00B. Covid-19 Virus no identificado (sospechoso),518593
+57629,001,(001) 001. Enfermedades infecciosas intestinales,57629
+57630,002,(002) 002. Tuberculosis y sus efectos tardíos,57630
+57631,003,(003) 003. Enfermedad meningocócica,57631
+57632,004,(004) 004. Septicemia,57632
+57633,005,(005) 005. Hepatitis vírica,57633
+57634,006,(006) 006. SIDA,57634
+57636,008,(008) 008. Resto de enfermedades infecciosas y parasitarias y sus efectos tardíos,57636
+57637,009,"(009) 009. Tumor maligno del labio, de la cavidad bucal y de la faringe",57637
+57638,010,(010) 010. Tumor maligno del esófago,57638
+57639,011,(011) 011. Tumor maligno del estómago,57639
+57640,012,(012) 012. Tumor maligno del colon,57640
+57641,013,"(013) 013. Tumor maligno del recto, de la porción rectosigmoide y del ano",57641
+57642,014,(014) 014. Tumor maligno del hígado y vías biliares intrahepáticas,57642
+57643,015,(015) 015. Tumor maligno del páncreas,57643
+57644,016,(016) 016. Otros tumores malignos digestivos,57644
+57645,017,(017) 017. Tumor maligno de la laringe,57645
+57646,018,"(018) 018. Tumor maligno de la tráquea, de los bronquios y del pulmón",57646
+57647,019,(019) 019. Otros tumores malignos respiratorios e intratorácicos,57647
+57648,020,(020) 020. Tumores malignos del hueso y de los cartílagos articulares,57648
+57649,021,(021) 021. Melanoma maligno de la piel,57649
+57650,022,(022) 022. Otros tumores malignos de la piel y de los tejidos blandos,57650
+57651,023,(023) 023. Tumor maligno de la mama,57651
+57652,024,(024) 024. Tumor maligno del cuello del útero,57652
+57653,025,(025) 025. Tumor maligno de otras partes del útero,57653
+57654,026,(026) 026. Tumor maligno del ovario,57654
+57655,027,(027) 027. Tumores malignos de otros órganos genitales femeninos,57655
+57656,028,(028) 028. Tumor maligno de la próstata,57656
+57657,029,(029) 029. Tumores malignos de otros órganos genitales masculinos,57657
+57658,030,"(030) 030. Tumor maligno del riñón, excepto pelvis renal",57658
+57659,031,(031) 031. Tumor maligno de la vejiga,57659
+57660,032,(032) 032. Otros tumores malignos de las vías urinarias,57660
+57661,033,(033) 033. Tumor maligno del encéfalo,57661
+57662,034,(034) 034. Otros tumores malignos neurológicos y endocrinos,57662
+57663,035,"(035) 035. Tumor maligno de sitios mal definidos, secundarios y de sitios no especificados",57663
+57664,036,"(036) 036. Tumores malignos del tejido linfático, de los órganos hematopoyéticos y de tejidos afines (excepto leucemia)",57664
+57665,037,(037) 037. Leucemia,57665
+57666,038,(038) 038. Tumores in situ,57666
+57667,039,(039) 039. Tumores benignos,57667
+57668,040,(040) 040. Síndrome mielodisplásico,57668
+57669,041,(041) 041. Otros tumores de comportamiento incierto o desconocido,57669
+57670,042,(042) 042. Enfermedades de la sangre y de los órganos hematopoyéticos,57670
+57671,043,(043) 043. Ciertos trastornos que afectan al mecanismo de la inmunidad,57671
+57672,044,(044) 044. Diabetes mellitus,57672
+57673,045,"(045) 045. Otras enfermedades endocrinas, nutricionales y metabólicas",57673
+57674,046,"(046) 046. Trastornos mentales orgánicos, senil y presenil",57674
+57675,047,(047) 047. Trastornos mentales debidos al uso de alcohol,57675
+57676,048,"(048) 048. Trastornos mentales debidos al uso de drogas (drogodependencia, toxicomanía)",57676
+57677,049,(049) 049. Otros trastornos mentales y del comportamiento,57677
+57678,050,(050) 050. Meningitis (otras en 003),57678
+57679,051,(051) 051. Enfermedad de Alzheimer,57679
+57680,052,(052) 052. Otras enfermedades del sistema nervioso y de los órganos de los sentidos,57680
+57681,053,(053) 053. Enfermedades cardiacas reumáticas crónicas,57681
+57682,054,(054) 054. Enfermedades hipertensivas,57682
+57683,055,(055) 055. Infarto agudo de miocardio,57683
+57684,056,(056) 056. Otras enfermedades isquémicas del corazón,57684
+57685,057,(057) 057. Insuficiencia cardiaca,57685
+57686,058,(058) 058. Otras enfermedades del corazón,57686
+57687,059,(059) 059. Enfermedades cerebrovasculares,57687
+57688,060,(060) 060. Aterosclerosis,57688
+57689,061,(061) 061. Otras enfermedades de los vasos sanguíneos,57689
+57690,062,(062) 062. Influenza (gripe) (incluye gripe aviar y gripe A),57690
+57691,063,(063) 063. Neumonía,57691
+57692,064,(064) 064. Enfermedades crónicas de las vías respiratorias inferiores (excepto asma),57692
+57693,065,(065) 065. Asma,57693
+57694,066,(066) 066. Insuficiencia respiratoria,57694
+57695,067,(067) 067. Otras enfermedades del sistema respiratorio,57695
+57696,068,"(068) 068. Úlcera de estómago, duodeno y yeyuno",57696
+57697,069,(069) 069. Enteritis y colitis no infecciosas,57697
+57698,070,(070) 070. Enfermedad vascular intestinal,57698
+57699,071,(071) 071. Cirrosis y otras enfermedades crónicas del hígado,57699
+57700,072,(072) 072. Otras enfermedades del sistema digestivo,57700
+57701,073,(073) 073. Enfermedades de la piel y del tejido subcutáneo,57701
+57702,074,(074) 074. Artritis reumatoide y osteoartrosis,57702
+57703,075,(075) 075. Osteoporosis y fractura patológica,57703
+57704,076,(076) 076. Otras enfermedades del sistema osteomuscular y del tejido conjuntivo,57704
+57705,077,(077) 077. Enfermedades del riñón y del uréter,57705
+57706,078,(078) 078. Enfermedades de los órganos genitales masculinos,57706
+57707,079,(079) 079. Enfermedades de los órganos genitales femeninos y trastornos de la mama,57707
+57708,080,(080) 080. Otras enfermedades del sistema genitourinario,57708
+57709,081,"(081) 081. Embarazo, parto y puerperio",57709
+57710,082,(082) 082. Afecciones originadas en el periodo perinatal,57710
+57711,083,(083) 083. Malformaciones congénitas del sistema nervioso,57711
+57712,084,(084) 084. Malformaciones congénitas del sistema circulatorio,57712
+57713,085,"(085) 085. Otras malformaciones congénitas, deformidades y anomalías cromosómicas",57713
+57714,086,"(086) 086. Paro cardiaco, muerte sin asistencia y otra causa desconocida de mortalidad",57714
+57715,087,(087) 087. Senilidad,57715
+57716,088,(088) 088. Muerte súbita infantil,57716
+57717,089,"(089) 089. Resto de síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",57717
+57718,090,(090) 090. Accidentes de tráfico,57718
+57719,091,(091) 091. Otros accidentes de transporte,57719
+57720,092,(092) 092. Caídas accidentales,57720
+57721,093,"(093) 093. Ahogamiento, sumersión y sofocación accidentales",57721
+57722,094,"(094) 094. Accidentes por fuego, humo y sustancias calientes",57722
+57723,095,(095) 095. Envenenamiento accidental por psicofármacos y drogas de abuso,57723
+57724,096,(096) 096. Otros envenenamientos accidentales,57724
+57725,097,(097) 097. Otros accidentes,57725
+57726,098,(098) 098. Suicidio y lesiones autoinfligidas,57726
+57727,099,(099) 099. Agresiones (homicidio),57727
+57728,100,(100) 100. Eventos de intención no determinada,57728
+57729,101,(101) 101. Complicaciones de la atención médica y quirúrgica,57729
+57730,102,(102) 102. Otras causas externas y sus efectos tardíos,57730
+57731,00,(00) Total,57731
+57635,007,"(007) 007. VIH+ (portador, evidencias de laboratorio del VIH,...)",57635
+TOTAL,,,TOTAL
+838411,1,(1) 00B. Covid-19 Virus no identificado (sospechoso),838411
+838410,0,(0) 00A. Covid-19 Virus identificado,838410
+583,Total,(Total) G102 (Covid-Resto),583

@@ -1,29 +1,25 @@
 actividades:
-  #  - IPC
-  #  - DSN
-  #  - PADRON
-  #  - MNP
-  #  - DIRECTORIO
-  #  - SOCMER
-  #  - CONTPROV
-  #  - PENSIONES
-  #  - DEFCAU
-  #  - CRA
-  #  - EPD
-  #  - INDICADORES
-  #  - EOH
-  #  - CAMPINGS
-  #  - TURISMO_RURAL
-  #  - APARTAMENTOS_TURISTICOS
-  #  - ECTA
-  #  - EEE
-  - EPA
-  - AUTONOMOS
-  - SALARIOS
-  - MCVL
-  - EMPRESASIMD
-  - USO_TIC
-
-
-
-
+    - IPC
+    - DSN
+    - PADRON
+    - MNP
+    - DIRECTORIO
+    - SOCMER
+    - CONTPROV
+    - PENSIONES
+    - DEFCAU
+    - CRA
+    - EPD
+    - INDICADORES
+    - EOH
+    - CAMPINGS
+    - TURISMO_RURAL
+    - APARTAMENTOS_TURISTICOS
+    - ECTA
+    - EEE
+    - EPA
+    - AUTONOMOS
+    - SALARIOS
+    - MCVL
+    - EMPRESASIMD
+    - USO_TIC

@@ -1,0 +1,58 @@
+SOURCE,COD,NAME,TARGET
+62032,01,(01) 01. Cereales y derivados,62032
+62033,02,(02) 02. Pan,62033
+62034,03,(03) 03. Carne de vacuno,62034
+62035,04,(04) 04. Carne de ovino,62035
+62036,05,(05) 05. Carne de porcino,62036
+62037,06,(06) 06. Carne de ave,62037
+62038,07,(07) 07. Otras carnes,62038
+62039,08,(08) 08. Pescado fresco y congelado,62039
+62040,09,"(09) 09. Crustáceos, moluscos y preparados de pescado",62040
+62041,10,(10) 10. Huevos,62041
+62042,11,(11) 11. Leche,62042
+62043,12,(12) 12. Productos lácteos,62043
+62044,13,(13) 13. Aceites y grasas,62044
+62045,14,(14) 14. Frutas frescas,62045
+62046,15,(15) 15. Frutas en conserva y frutos secos,62046
+62047,16,(16) 16. Legumbres y hortalizas frescas,62047
+62048,17,(17) 17. Preparados de legumbres y hortalizas,62048
+62049,18,(18) 18. Patata y sus preparados,62049
+62050,19,"(19) 19. Café, cacao e infusiones",62050
+62051,20,(20) 20. Azúcar,62051
+62052,21,(21) 21. Otros preparados alimenticios,62052
+62053,22,"(22) 22. Agua mineral, refrescos y zumos",62053
+62054,23,(23) 23. Bebidas alcohólicas,62054
+62055,24,(24) 24. Tabaco,62055
+62056,25,(25) 25. Prendas de vestir de hombre,62056
+62057,26,(26) 26. Prendas de vestir de mujer,62057
+62058,27,(27) 27. Prendas de vestir de niño y bebé,62058
+62059,28,(28) 28. Complementos y reparaciones de prendas de vest,62059
+62060,29,(29) 29. Calzado de hombre,62060
+62061,30,(30) 30. Calzado de mujer,62061
+62062,31,(31) 31. Calzado de niño,62062
+62063,32,(32) 32. Reparación de calzado,62063
+62064,33,(33) 33. Vivienda en alquiler,62064
+62065,34,"(34) 34. Calefacción, alumbrado y distribución de agua",62065
+62066,35,(35) 35. Conservación de la vivienda,62066
+62067,36,(36) 36. Muebles y revestimientos de suelo,62067
+62068,37,(37) 37. Textiles y accesorios para el hogar,62068
+62069,38,(38) 38. Electrodomésticos y reparaciones,62069
+62070,39,(39) 39. Utensilios y herramientas para el hogar,62070
+62071,40,(40) 40. Artículos no duraderos para el hogar,62071
+62072,41,(41) 41. Servicios para el hogar,62072
+62073,42,(42) 42. Servicios médicos y similares,62073
+62074,43,(43) 43. Medicamentos y material terapéutico,62074
+62075,44,(44) 44. Transporte personal,62075
+62076,45,(45) 45. Transporte público urbano,62076
+62077,46,(46) 46. Transporte público interurbano,62077
+62078,47,(47) 47. Comunicaciones,62078
+62079,48,(48) 48. Objetos recreativos,62079
+62080,49,(49) 49. Publicaciones,62080
+62081,50,(50) 50. Esparcimiento,62081
+62082,51,(51) 51. Educación infantil y primaria,62082
+62083,52,(52) 52. Educación secundaria,62083
+62084,53,(53) 53. Educación universitaria,62084
+62085,54,(54) 54. Otros gastos de enseñanza,62085
+62086,55,(55) 55. Artículos de uso personal,62086
+62087,56,(56) 56. Turismo y hostelería,62087
+62088,57,(57) 57. Otros bienes y servicios,62088

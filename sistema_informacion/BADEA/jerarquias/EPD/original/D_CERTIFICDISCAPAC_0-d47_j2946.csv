@@ -1,6 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-47;;() Personas sin o con discapacidad;Personas sin o con discapacidad;;0
+47;TOTAL;(TOTAL) Personas sin o con discapacidad;Personas sin o con discapacidad;;0
 5734;00;(00) TOTAL;TOTAL;;1
 5732;0;(0) Sin discapacidad;Sin discapacidad;5734;2
 5733;1;(1) Con discapacidad;Con discapacidad;5734;3
-_Z;No aplica;No aplica;No aplica;;

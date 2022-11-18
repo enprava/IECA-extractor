@@ -1,0 +1,21 @@
+SOURCE,COD,NAME,TARGET
+57628,00,(00) Total,57628
+56093,001,(001) I. Ciertas enfermedades infecciosas y parasitarias,56093
+518590,U071,(U071) U071. Covid-19 Virus identificado,518590
+518591,U072,(U072) U072. Covid-19 Virus no identificado (sospechoso),518591
+56232,002,(002) II. Tumores,56232
+56266,003,"(003) III. Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan al mecanismo de la inmunidad",56266
+56338,004,"(004) IV. Enfermedades endocrinas, nutricionales y metabólicas",56338
+56416,005,(005) V. Trastornos mentales y del comportamiento,56416
+56536,006,(006) VI-VIII. Enfermedades del sistema nervioso y de los órganos de los sentidos,56536
+56604,009,(009) IX. Enfermedades del sistema circulatorio,56604
+56669,010,(010) X. Enfermedades del sistema respiratorio,56669
+56737,011,(011) XI. Enfermedades del sistema digestivo,56737
+56805,012,(012) XII. Enfermedades de la piel y del tejido subcutáneo,56805
+56873,013,(013) XIII. Enfermedades del sistema osteomuscular y del tejido conjuntivo,56873
+56947,014,(014) XIV. Enfermedades del sistema genitourinario,56947
+57018,015,"(015) XV. Embarazo, parto y puerperio",57018
+57078,016,(016) XVI. Afecciones originadas en el período perinatal,57078
+57167,017,"(017) XVII. Malformaciones congénitas, deformidades y anomalías cromosómicas",57167
+57258,018,"(018) XVIII. Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte",57258
+57627,020,(020) XX. Causas externas de mortalidad,57627

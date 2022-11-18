@@ -1,6 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-68;;() Presencia o no de personas con discapacidad de 16 a 64 años en el hogar;Presencia o no de personas con discapacidad de 16 a 64 años en el hogar;;0
+68;TOTAL;(TOTAL) Presencia o no de personas con discapacidad de 16 a 64 años en el hogar;Presencia o no de personas con discapacidad de 16 a 64 años en el hogar;;0
 5780;0000;(0000) TOTAL;TOTAL;;1
 5778;00;(00) Sin personas con discapacidad de 16 a 64 años;Sin personas con discapacidad de 16 a 64 años;5780;1
 5779;01;(01) Con personas con discapacidad de 16 a 64 años;Con personas con discapacidad de 16 a 64 años;5780;2
-_Z;No aplica;No aplica;No aplica;;

@@ -1,0 +1,185 @@
+SOURCE,COD,NAME,TARGET
+272489,45,(45) CNAE 45. Venta y reparación vehículos de motor y motocicletas,272489
+272485,451,(451) CNAE 451. Venta de vehículos de motor,272485
+272486,452,(452) CNAE 452. Mantenimiento y reparación de vehículos de motor,272486
+272487,453,(453) CNAE 453. Comercio de repuestos y accesorios de vehículos de motor,272487
+272488,454,"(454) CNAE 454. Venta, mantenimiento y reparación de motocicletas y de sus repuestos y accesorios",272488
+272499,46,"(46) CNAE 46. Comercio al por mayor e intermediarios, excepto de vehículos motor y motocicletas",272499
+272491,461,(461) CNAE 461. Intermediarios del comercio,272491
+272492,462,(462) CNAE 462. Comercio al por mayor de materias primas agrarias y animales vivos,272492
+272493,463,"(463) CNAE 463. Comercio al por mayor de productos alimenticios, bebidas y tabaco",272493
+272494,464,(464) CNAE 464. Comercio al por mayor de artículos de uso doméstico,272494
+272495,465,(465) CNAE 465. Comercio al por mayor de equipos para las tecnologías de la información y las comunicaciones,272495
+272496,466,"(466) CNAE 466. Comercio al por mayor de otra maquinaria, equipo y suministros",272496
+272497,467,(467) CNAE 467. Otro comercio al por mayor especializado,272497
+272498,469,(469) CNAE 469. Comercio al por mayor no especializado,272498
+272506,47,"(47) CNAE 47. Comercio al por menor, excepto de vehículos de motor y motocicletas",272506
+272500,471,(471) CNAE 471. Comercio al por menor en establecimientos no especializados,272500
+272501,472,"(472) CNAE 472. Comercio al por menor de alimentos, bebidas y tabaco en establecimientos especializados",272501
+272502,473,(473) CNAE 473. Comercio al por menor de combustible para la automoción en establecimientos especializados,272502
+272503,474475476477,"(474475476477) CNAE 474, 475, 476, 477. Comercio al por menor de equipos para las tecnologías de la información y las comunicaciones, artículos culturales y recreativos y de otros artículos de uso doméstico en establecimientos especializados",272503
+272504,478,(478) CNAE 478. Comercio al por menor en puestos de venta y mercadillos,272504
+272505,479,"(479) CNAE 479. Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta, ni en mercadillos",272505
+272548,G,(G) G. TOTAL SECTOR COMERCIO,272548
+272490,46*,"(46*) CNAE 46. Comercio al por mayor e intercambios, excepto de vehículos motor y motocicletas*",272490
+272547,G*,(G*) G. TOTAL SECTOR COMERCIO*,272547
+272549,H,(H) H. TRANSPORTE Y ALMACENAMIENTO,272549
+272507,49,(49) CNAE 49. Transporte terrestre y por tubería,272507
+272508,5051,(5051) CNAE 50 y 51. Transporte marítimo y por vías navegables interiores. Transporte aéreo,272508
+272509,52,(52) CNAE 52. Almacenamiento y actividades anexas a los transportes,272509
+272510,53,(53) CNAE 53. Actividades postales y de correos,272510
+272550,I,(I) I. HOSTELERÍA,272550
+272511,55,(55) CNAE 55. Servicios de alojamiento,272511
+272512,56,(56) CNAE 56. Servicios de comidas y bebidas,272512
+272551,J,(J) J. INFORMACIÓN Y COMUNICACIONES,272551
+272513,58,(58) CNAE 58. Edición,272513
+272514,59,"(59) CNAE 59. Actividades cinematográficas, de vídeo y de programas de televisión, grabación de sonido y edición musical",272514
+272515,60,(60) CNAE 60. Actividades de programación y emisión de radio y televisión,272515
+272516,61,(61) CNAE 61. Telecomunicaciones,272516
+272517,62,"(62) CNAE 62. Programación, consultoría y otras actividades relacionadas con la informática",272517
+272518,63,(63) CNAE 63. Servicios de información,272518
+272552,L,(L) L. ACTIVIDADES INMOBILIARIAS,272552
+272519,68,(68) CNAE 68. Actividades inmobiliarias,272519
+272553,M,"(M) M. ACTIVIDADES PROFESIONALES, CIENTÍFICAS Y TÉCNICAS",272553
+272520,69,(69) CNAE 69. Actividades jurídicas y de contabilidad,272520
+272521,70,(70) CNAE 70. Actividades de las sedes centrales; actividades de consultoría de gestión empresarial,272521
+272522,71,(71) CNAE 71. Servicios técnicos de arquitectura e ingeniería; ensayos y análisis técnicos,272522
+272523,72,(72) CNAE 72. Investigación y desarrollo,272523
+272524,73,(73) CNAE 73. Publicidad y estudios de mercado,272524
+272525,74,"(74) CNAE 74. Otras actividades profesionales, científicas y técnicas",272525
+272526,75,(75) CNAE 75. Actividades veterinarias,272526
+272554,N,(N) N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES,272554
+272527,77,(77) CNAE 77. Actividades de alquiler,272527
+272528,78,(78) CNAE 78. Actividades relacionadas con el empleo,272528
+272529,79,"(79) CNAE 79. Agencias de viaje, operadores turísticos, servicios de reservas y actividades relacionadas con los mismos",272529
+272530,80,(80) CNAE 80. Actividades de seguridad e investigación,272530
+272531,81,(81) CNAE 81. Servicios a edificios y actividades de jardinería,272531
+272532,82,(82) CNAE 82. Actividades administrativas de oficina y otras actividades auxiliares a las empresas,272532
+272533,95,"(95) CNAE 95.Reparación de ordenadores, efectos personales y artículos de uso doméstico",272533
+272555,S,(S) S. OTROS SERVICIOS (EXCEPTO DIVISIÓN 94 CNAE 2009),272555
+272534,96,(96) CNAE 96. Otros servicios personales,272534
+272668,TS,(TS) TOTAL SECTOR SERVICIOS,272668
+272538,A1,"(A1) A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Industrias extractivas, energía, agua y residuos",272538
+272539,A2,"(A2) A2. CNAE 10, 11, 12. Alimentación, bebidas y tabaco",272539
+272540,A3,"(A3) A3. CNAE 13, 14, 15. Textil, confección, cuero y calzado",272540
+272541,A4,"(A4) A4. CNAE 16, 17, 18. Madera y corcho, papel y artes gráficas",272541
+272542,A5,"(A5) A5. CNAE 20, 21. Industria química y farmacéutica",272542
+272543,A6,(A6) A6. CNAE 22. Caucho y materias plásticas,272543
+272544,A7,(A7) A7. CNAE 23. Productos minerales no metálicos diversos,272544
+272545,A8,"(A8) A8. CNAE 24, 25. Metalurgia y frabricación de productos metálicos, excepto maquinaria y equipo",272545
+272546,A9,"(A9) A9. CNAE 26, 27. Material y equipo eléctrico, electrónico y óptico",272546
+272535,A10,(A10) A10. CNAE 28. Maquinaria y equipo mecánico,272535
+272536,A11,"(A11) A11. CNAE 29, 30. Material de transporte",272536
+272537,A12,"(A12) A12. CNAE 31, 32, 33. Industrias manufactureras diversas, reparación e instalación de maquinaria y equipo",272537
+272566,SA1,"(SA1) SA1. CNAE 05, 06, 07, 08, 09, 19. Industrias extractivas y del petróleo",272566
+272567,SA2,(SA2) SA2. CNAE 10. Alimentación,272567
+272568,SA3,"(SA3) SA3. CNAE 11, 12. Bebidas y tabaco",272568
+272569,SA4,"(SA4) SA4. CNAE 13, 14, 15. Textil, confección, cuero y calzado",272569
+272570,SA5,(SA5) SA5. CNAE 16. Madera y corcho,272570
+272571,SA6,"(SA6) SA6. CNAE 17, 18. Papel y artes gráficas",272571
+272572,SA7,"(SA7) SA7. CNAE 20, 21. Industria química, Industria farmacéutica",272572
+272573,SA8,(SA8) SA8. CNAE 22. Caucho y materias plásticas,272573
+272574,SA9,(SA9) SA9. CNAE 23. Productos minerales no metálicos diversos,272574
+272556,SA10,(SA10) SA10. CNAE 24. Metalurgia,272556
+272557,SA11,"(SA11) SA11. CNAE 25. Fabricación de productos metálicos, excepto maquinaria y equipo",272557
+272558,SA12,"(SA12) SA12. CNAE 26, 27. Material y equipo eléctrico, electrónico y óptico",272558
+272559,SA13,(SA13) SA13. CNAE 28. Maquinaria y equipo mecánico,272559
+272560,SA14,(SA14) SA14. CNAE 29. Vehículos de motor,272560
+272561,SA15,"(SA15) SA15. CNAE 30. Material de transporte, excepto vehículos de motor",272561
+272562,SA16,"(SA16) SA16. CNAE 31, 32. Industrias manufactureras diversas",272562
+272563,SA17,(SA17) SA17. CNAE 33. Reparación e instalación de maquinaria y equipo,272563
+272564,SA18,(SA18) SA18. CNAE 35. Suministro de electricidad y gas,272564
+272565,SA19,"(SA19) SA19. CNAE 36, 37, 38, 39. Agua y residuos",272565
+272585,SE1,"(SE1) SE1. CNAE 05, 06, 09, 19. Extracción de antracita y hulla, Industrias del petróleo y gas natural",272585
+272596,SE2,"(SE2) SE2. CNAE 07, 08. Extracción de rocas y minerales metálicos",272596
+272607,SE3,(SE3) SE3. CNAE 10.1. Industria cárnica,272607
+272618,SE4,(SE4) SE4. CNAE 10.2. Industria del pescado,272618
+272629,SE5,(SE5) SE5. CNAE 10.3. Preparación y conservación de frutas y hortalizas,272629
+272640,SE6,(SE6) SE6. CNAE 10.4. Aceites y grasas,272640
+272651,SE7,(SE7) SE7. CNAE 10.5. Productos lácteos,272651
+272662,SE8,"(SE8) SE8. CNAE 10.6. Molinerías, almidones y productos amiláceos",272662
+272666,SE9,(SE9) SE9. CNAE 10.7. Panadería y pastas alimenticias,272666
+272575,SE10,"(SE10) SE10. CNAE 10.81, 10.82, 10.83. Azúcar, café, te e infusiones y productos de confitería",272575
+272576,SE11,"(SE11) SE11. CNAE 10.84,10.85,10.86,10.89. Otros productos alimenticios",272576
+272577,SE12,(SE12) SE12. CNAE 10.9. Comida para animales,272577
+272578,SE13,"(SE13) SE13. CNAE 11.01, 11.02, 11.03, 11.04, 11.05, 11.06. Fabricación de bebidas",272578
+272579,SE14,(SE14) SE14. CNAE 11.07. Producción de aguas embotelladas y bebidas aromatizadas ó azucaradas,272579
+272581,SE16,(SE16) SE16. CNAE 13.1.Preparación e hilado de fibras textiles,272581
+272582,SE17,(SE17) SE17. CNAE 13.2. Fabricación de tejidos textiles,272582
+272583,SE18,(SE18) SE18. CNAE 13.3. Acabado de textiles,272583
+272584,SE19,"(SE19) SE19. CNAE 13.91, 13.92. Fabricación de tejidos de punto y productos a partir de textiles, excepto prendas de vestir",272584
+272586,SE20,"(SE20) SE20. CNAE 13.93, 13.94, 13.95, 13.96, 13.99. Otras industrias textiles",272586
+272587,SE21,(SE21) SE21. CNAE 14.1. Confección de prendas de vestir,272587
+272588,SE22,(SE22) SE22. CNAE 14.2. Fabricación de artículos de peletería,272588
+272589,SE23,(SE23) SE23. CNAE 14.3. Confección de prendas de vestir de punto,272589
+272590,SE24,"(SE24) SE24. CNAE 15.1. Fabricación de cuero, pieles y productos elaborados con éstos",272590
+272591,SE25,(SE25) SE25. CNAE 15.2. Fabricación de calzado,272591
+272592,SE26,(SE26) SE26. CNAE 16.10. Aserrado y cepillado de la madera,272592
+272593,SE27,"(SE27) SE27. CNAE 16.21. Fabricación de chapas, tableros y paneles de madera",272593
+272594,SE28,"(SE28) SE28. CNAE 16.22, 16.23. Estructuras de madera y piezas de carpintería y ebanistería para la construcción",272594
+272595,SE29,(SE29) SE29. CNAE 16.24. Fabricación de envases y embalajes de madera,272595
+272597,SE30,"(SE30) SE30. CNAE 16.29. Fabricación de artículos de corcho, cestería y espartería y otros productos de madera",272597
+272598,SE31,"(SE31) SE31. CNAE 17.1. Fabricación de pasta papelera, papel y cartón",272598
+272599,SE32,(SE32) SE32. CNAE 17.2. Fabricación de artículos de papel y cartón,272599
+272600,SE33,(SE33) SE33. CNAE 18. Artes gráficas y reproducción de soportes grabados,272600
+272601,SE34,"(SE34) SE34. CNAE 20, 21 Industria química, industria farmacéutica",272601
+272602,SE35,(SE35) SE35. CNAE 22.1. Fabricación de productos de caucho,272602
+272603,SE36,(SE36) SE36. CNAE 22.2. Fabricación de productos de plástico,272603
+272604,SE37,(SE37) SE37. CNAE 23.1. Fabricación de vidrio y productos de vidrio,272604
+272605,SE38,"(SE38) SE38. CNAE 23.2, 23.4. Fabricación de productos cerámicos excepto los destinados a la construcción",272605
+272606,SE39,(SE39) SE39. CNAE 23.3. Fabricación de productos cerámicos para la construcción,272606
+272608,SE40,"(SE40) SE40. CNAE 23.5. Fabricación de cemento, cal y yeso",272608
+272609,SE41,"(SE41) SE41. CNAE 23.6. Fabricación de elementos de hormigón, cemento y yeso",272609
+272610,SE42,"(SE42) SE42. CNAE 23.7. Corte, tallado y acabado de la piedra",272610
+272611,SE43,(SE43) SE43. CNAE 23.9. Fabricación de productos abrasivos y productos minerales no metálicos n.c.o.p.,272611
+272612,SE44,"(SE44) SE44. CNAE 24.1. Fabricación de productos básicos de hierro, acero y ferroaleaciones",272612
+272613,SE45,"(SE45) SE45. CNAE 24.2. Fabricación de tubos, tuberías, perfiles huecos y sus accesorios, de acero",272613
+272614,SE46,(SE46) SE46. CNAE 24.3. Fabricación de otros productos de primera transformación del acero,272614
+272615,SE47,(SE47) SE47. CNAE 24.4. Producción de metales preciosos y de otros metales no férreos,272615
+272616,SE48,(SE48) SE48. CNAE 24.5. Fundición de metales,272616
+272617,SE49,(SE49) SE49. CNAE 25.11. Fabricación de estructuras metálicas y sus componentes,272617
+272619,SE50,(SE50) SE50. CNAE 25.12. Fabricación de carpintería metálica,272619
+272620,SE51,"(SE51) SE51. CNAE 25.2. Fabricación de cisternas, grandes depósitos y contenedores de metal",272620
+272621,SE52,"(SE52) SE52. CNAE 25.3. Fabricación de generadores de vapor, excepto calderas de calefacción central",272621
+272622,SE53,(SE53) SE53. CNAE 25.4. Fabricación de armas y municiones,272622
+272623,SE54,"(SE54) SE54. CNAE 25.5. Forja, estampación y embutición de metales; metalurgia de polvos",272623
+272624,SE55,(SE55) SE55. CNAE 25.61. Tratamiento y revestimiento de metales,272624
+272625,SE56,(SE56) SE56. CNAE 25.62. Ingeniería mecánica por cuenta de terceros,272625
+272626,SE57,"(SE57) SE57. CNAE 25.7.Fabricación de artículos de cuchillería y cubertería, herramientas y ferretería",272626
+272627,SE58,(SE58) SE58. CNAE 25.9. Fabricación de otros productos metálicos,272627
+272628,SE59,(SE59) SE59. CNAE 26.1. Fabricación de componentes electrónicos y circuitos impresos ensamblados,272628
+272630,SE60,(SE60) SE60. CNAE 26.2. Fabricación de ordenadores y equipos periféricos,272630
+272631,SE61,(SE61) SE61. CNAE 26.3. Fabricación de equipos de telecomunicaciones,272631
+272632,SE62,(SE62) SE62. CNAE 26.4. Fabricación de productos electrónicos de consumo,272632
+272633,SE63,"(SE63) SE63. CNAE 26.5. Fabricación de instrumentos y aparatos de medida, verificación y navegación; fabricación de relojes",272633
+272634,SE64,"(SE64) SE64. CNAE 26.6, 26.7, 26.8. Equipos de radiación y electromédicos, instrumentos de óptica y fotográficos; soportes magnéticos y ópticos",272634
+272635,SE65,"(SE65) SE65. CNAE 27.1. Fabricación de motores, generadores y transformadores eléctricos, y de aparatos de distribución y control eléctrico",272635
+272636,SE66,(SE66) SE66. CNAE 27.3.Fabricación de cables y dispositivos de cableado,272636
+272637,SE67,(SE67) SE67. CNAE 27.4.Fabricación de lámparas y aparatos eléctricos de iluminación,272637
+272638,SE68,(SE68) SE68. CNAE 27.5. Fabricación de aparatos domésticos,272638
+272639,SE69,"(SE69) SE69. CNAE 27.2, 27.9. Fabricación de pilas y acumuladores y otro material y equipo eléctrico",272639
+272641,SE70,(SE70) SE70. CNAE 28.1. Fabricación de maquinaria de uso general,272641
+272642,SE71,(SE71) SE71. CNAE 28.2. Fabricación de otra maquinaria de uso general,272642
+272643,SE72,(SE72) SE72. CNAE 28.3. Fabricación de maquinaria agraria y forestal,272643
+272644,SE73,(SE73) SE73. CNAE 28.4. Fabricación de máquinas-herramienta,272644
+272645,SE74,(SE74) SE74. CNAE 28.9. Fabricación de otra maquinaria para usos específicos,272645
+272646,SE75,(SE75) SE75. CNAE 29.1. Fabricación de vehículos de motor,272646
+272647,SE76,(SE76) SE76. CNAE 29.2. Fabricación de carrocerías para vehículos de motor y de remolques y semirremolques,272647
+272648,SE77,"(SE77) SE77. CNAE 29.3.Fabricación de componentes, piezas y accesorios para vehículos de motor",272648
+272649,SE78,(SE78) SE78. CNAE 30.1. Construcción naval,272649
+272650,SE79,(SE79) SE79. CNAE 30.2. Fabricación de locomotoras y material ferroviario,272650
+272652,SE80,"(SE80) SE80. CNAE 30.3, 30.4. Construcción aeronaútica y espacial y de vehículos militares de combate",272652
+272653,SE81,(SE81) SE81. CNAE 30.9. Fabricación de otro material de transporte n.c.o.p.,272653
+272654,SE82,(SE82) SE82. CNAE 31. Fabricación de muebles,272654
+272655,SE83,"(SE83) SE83. CNAE 32.1. Fabricación de artículos de joyería, bisutería y similares",272655
+272656,SE84,"(SE84) SE84. CNAE 32.3, 32.4. Fabricación de artículos de deporte, juegos y juguetes",272656
+272657,SE85,(SE85) SE85. CNAE 32.5. Fabricación de instrumentos y suministros médicos y odontológicos,272657
+272658,SE86,"(SE86) SE86. CNAE 32.2, 32.9. Fabricación de instrumentos musicales Otras industrias manufactureras diversas",272658
+272659,SE87,"(SE87) SE87. CNAE 33.1. Reparación de productos metálicos, maquinaria y equipo",272659
+272660,SE88,(SE88) SE88. CNAE 33.2. Instalación de máquinas y equipos industriales,272660
+272661,SE89,"(SE89) SE89. CNAE 35.1. Producción, transporte y distribución de energía eléctrica",272661
+272663,SE90,"(SE90) SE90. CNAE 35.2, 35.3. Producción y distribución de gas, vapor y aire acondicionado",272663
+272664,SE91,"(SE91) SE91. CNAE 36. Captación, depuración y distribución de agua",272664
+272665,SE92,"(SE92) SE92. CNAE 37, 38, 39. Actividades de saneamiento, gestión de residuos y descontaminación",272665
+272667,TI,(TI) TOTAL SECTOR INDUSTRIAL,272667
+272580,SE15,(SE15) SE15. CNAE 12. Industria del tabaco,272580

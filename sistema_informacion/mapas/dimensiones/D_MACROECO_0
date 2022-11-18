@@ -1,0 +1,68 @@
+SOURCE,COD,NAME,TARGET
+93017,GCF,(GCF) Gasto en consumo final regional,93017
+93018,GCFH,(GCFH) Gasto en consumo individual de los hogares regional *,93018
+93011,CAAPP,(CAAPP) Gasto en consumo de las AAPP e ISFLSH,93011
+93020,INDIV,(INDIV) Gasto en consumo individual (AAPP e ISFLSH),93020
+93012,COLEC,(COLEC) Gasto en consumo colectivo,93012
+93016,FBC,(FBC) Formación bruta de capital,93016
+93013,DREG,(DREG) Demanda regional,93013
+93015,EXP,(EXP) Exportaciones de bienes y servicios,93015
+93019,IMP,(IMP) Importaciones de bienes y servicios,93019
+93023,PIBD,(PIBD) Producto Interior Bruto a precios de mercado. Demanda,93023
+93077,VAB_TOTAL,(VAB_TOTAL) VAB pb Total,93077
+93065,VAB_A,"(VAB_A) VAB Agricultura, ganadería, silvicultura y pesca",93065
+93066,VAB_B_E,(VAB_B_E) VAB Industria,93066
+93067,VAB_C,(VAB_C) VAB - De las cuales: Industria manufacturera,93067
+93068,VAB_F,(VAB_F) VAB Construcción,93068
+93070,VAB_G_U,(VAB_G_U) VAB Servicios,93070
+93069,VAB_G_I,"(VAB_G_I) VAB Comercio, transporte y hostelería",93069
+93071,VAB_J,(VAB_J) VAB Información y comunicaciones,93071
+93072,VAB_K,(VAB_K) VAB Actividades financieras y de seguros,93072
+93073,VAB_L,(VAB_L) VAB Actividades inmobiliarias,93073
+93074,VAB_M_N,(VAB_M_N) VAB Actividades profesionales,93074
+93075,VAB_O_Q,"(VAB_O_Q) VAB Administración pública, sanidad y educación",93075
+93076,VAB_R_U,"(VAB_R_U) VAB Actividades artísticas, recreativas y otros servicios",93076
+93021,INSP,(INSP) Impuestos netos sobre los productos,93021
+93024,PIBO,(PIBO) Producto Interior Bruto a precios de mercado. Oferta,93024
+93064,RA_TOTAL,(RA_TOTAL) Remuneración de asalariados (RA),93064
+93052,RA_A,"(RA_A) RA Agricultura, ganadería, silvicultura y pesca",93052
+93053,RA_B_E,(RA_B_E) RA Industria,93053
+93054,RA_C,(RA_C) RA - De las cuales: Industria manufacturera,93054
+93055,RA_F,(RA_F) RA Construcción,93055
+93057,RA_G_U,(RA_G_U) RA Servicios,93057
+93056,RA_G_I,"(RA_G_I) RA Comercio, transporte y hostelería",93056
+93058,RA_J,(RA_J) RA Información y comunicaciones,93058
+93059,RA_K,(RA_K) RA Actividades financieras y de seguros,93059
+93060,RA_L,(RA_L) RA Actividades inmobiliarias,93060
+93061,RA_M_N,(RA_M_N) RA Actividades profesionales,93061
+93062,RA_O_Q,"(RA_O_Q) RA Administración pública, sanidad y educación",93062
+93063,RA_R_U,"(RA_R_U) RA Actividades artísticas, recreativas y otros servicios",93063
+93014,EEB_RM,(EEB_RM) Excedente de explotación bruto / Renta mixta,93014
+93022,OINSP,(OINSP) Impuestos netos sobre la producción e importaciones,93022
+93025,PIBR,(PIBR) Producto Interior Bruto a precios de mercado. Renta,93025
+93039,PTT_A,"(PTT_A) PTT Agricultura, ganadería, silvicultura y pesca",93039
+93040,PTT_B_E,(PTT_B_E) PTT Industria,93040
+93041,PTT_C,(PTT_C) PTT - De las cuales: Industria manufacturera,93041
+93042,PTT_F,(PTT_F) PTT Construcción,93042
+93044,PTT_G_U,(PTT_G_U) PTT Servicios,93044
+93043,PTT_G_I,"(PTT_G_I) PTT Comercio, transporte y hostelería",93043
+93045,PTT_J,(PTT_J) PTT Información y comunicaciones,93045
+93046,PTT_K,(PTT_K) PTT Actividades financieras y de seguros,93046
+93047,PTT_L,(PTT_L) PTT Actividades inmobiliarias,93047
+93048,PTT_M_N,(PTT_M_N) PTT Actividades profesionales,93048
+93049,PTT_O_Q,"(PTT_O_Q) PTT Administración pública, sanidad y educación",93049
+93050,PTT_R_U,"(PTT_R_U) PTT Actividades artísticas, recreativas y otros servicios",93050
+93051,PTT_TOTAL,(PTT_TOTAL) Puestos de trabajo totales (PTT),93051
+93026,PTA_A,"(PTA_A) PTA Agricultura, ganadería, silvicultura y pesca",93026
+93027,PTA_B_E,(PTA_B_E) PTA Industria,93027
+93028,PTA_C,(PTA_C) PTA - De las cuales: Industria manufacturera,93028
+93029,PTA_F,(PTA_F) PTA Construcción,93029
+93031,PTA_G_U,(PTA_G_U) PTA Servicios,93031
+93030,PTA_G_I,"(PTA_G_I) PTA Comercio, transporte y hostelería",93030
+93032,PTA_J,(PTA_J) PTA Información y comunicaciones,93032
+93033,PTA_K,(PTA_K) PTA Actividades financieras y de seguros,93033
+93034,PTA_L,(PTA_L) PTA Actividades inmobiliarias,93034
+93035,PTA_M_N,(PTA_M_N) PTA Actividades profesionales,93035
+93036,PTA_O_Q,"(PTA_O_Q) PTA Administración pública, sanidad y educación",93036
+93037,PTA_R_U,"(PTA_R_U) PTA Actividades artísticas, recreativas y otros servicios",93037
+93038,PTA_TOTAL,(PTA_TOTAL) Puestos de trabajo asalariados (PTA),93038

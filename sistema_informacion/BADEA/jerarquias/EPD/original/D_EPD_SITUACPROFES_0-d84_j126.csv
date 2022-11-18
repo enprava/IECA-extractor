@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-84;;() Situación profesional (discapacidad);Situación profesional (discapacidad);;0
+84;TOTAL;(TOTAL) Situación profesional (discapacidad);Situación profesional (discapacidad);;0
 5948;00;(00) TOTAL;TOTAL;;1
 5942;1;(1) Asalariados;Asalariados;5948;1
 5947;2;(2) No asalariados;No asalariados;5948;2
@@ -14,4 +14,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 5945;02_03;(02_03) Otros;Otros;5946;3
 5950;NP0;(NP0) No procede;No procede;5949;1
 5951;NP;(NP) No procede;No procede;5950;1
-_Z;No aplica;No aplica;No aplica;;

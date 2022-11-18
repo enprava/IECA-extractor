@@ -1,0 +1,9 @@
+SOURCE,COD,NAME,TARGET
+515798,00,(00) Estaba afiliado,515798
+518710,3,(3) Cobrando prestación o subsidio por desempleo,518710
+515799,1,(1) Ocupado-Otra cotización,515799
+518711,01,(01) No estaba afiliado,518711
+518712,011,(011) Es su primer empleo,518712
+518713,012,(012) Interrupción laboral sin prestación,518713
+518714,013,(013) Agotó la prestación,518714
+7196,Total,(Total) Situación previa al inicio del último emprendimiento (otros ocupados),7196

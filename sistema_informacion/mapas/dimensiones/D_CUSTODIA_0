@@ -1,0 +1,8 @@
+SOURCE,COD,NAME,TARGET
+5105,00,(00) Total,5105
+5101,1,(1) Padre,5101
+5102,2,(2) Madre,5102
+5103,3,(3) Ambos,5103
+5104,4,(4) Otros,5104
+5107,NP,(NP) No procede,5107
+5106,NC,(NC) No consta,5106

@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-81;;() Relación con la actividad (discapacidad);Relación con la actividad (discapacidad);;0
+81;TOTAL;(TOTAL) Relación con la actividad (discapacidad);Relación con la actividad (discapacidad);;0
 5883;00;(00) TOTAL;TOTAL;;1
 5870;1;(1) Activos;Activos;5883;1
 5882;2;(2) Inactivos;Inactivos;5883;2
@@ -24,4 +24,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 5875;03_03;(03_03) Labores del hogar;Labores del hogar;5876;1
 5877;03_04;(03_04) Incapacidad para trabajar;Incapacidad para trabajar;5878;1
 5879;03_05;(03_05) Otros inactivos;Otros inactivos;5880;1
-_Z;No aplica;No aplica;No aplica;;

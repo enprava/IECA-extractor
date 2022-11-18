@@ -28,7 +28,7 @@ grupos_consultas:
     consultas:
     - '67672'
 variables:
-- ESTADO_DATO
+- OBS_STATUS
 - TERRITORIO
 - RESITUR
 - TEMPORAL

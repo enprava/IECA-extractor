@@ -83,6 +83,7 @@ class Jerarquia:
                                     dtype='string')
         jerarquia_df = jerarquia_df.replace(to_replace='null', value='')
         jerarquia_df.drop_duplicates('COD', keep='first', inplace=True)
+
         self.logger.info('Jerarquia transformada')
 
         return jerarquia_df
@@ -111,16 +112,14 @@ class Jerarquia:
 
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
                                                   self.configuracion_global[
-                                                      'directorio_mapas_dimensiones']) if self.nombre in \
-                                                                                          self.configuracion_global[
-                                                                                              'dimensiones_a_mapear'] else \
-            datos[columnas_sdmx]
+                                                      'directorio_mapas_dimensiones'])
         Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
         #Cambiamos label por description
         self.datos_sdmx[['NAME','DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION','NAME']]
         self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
 
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
+        self.datos_sdmx.drop_duplicates('ID',inplace= True)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
 

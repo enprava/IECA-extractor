@@ -1,5 +1,5 @@
 NOMBRE_DSD: DSD_INDICADORES
-categoria: Indicadores
+categoria: MULTIDOMAIN_STAT_INDIC
 grupos_consultas:
   Apoyo gubernamental a la investigación y desarrollo agrícola:
     id: '1'

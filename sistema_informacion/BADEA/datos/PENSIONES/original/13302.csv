@@ -22,11 +22,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2244;5691;Número de pensiones;5.0;A
 2019;2244;5692;Número de pensiones;110.0;A
 2019;2244;5693;Número de pensiones;45.0;A
-2019;2244;275092;Número de pensiones;;A
+2019;2244;275092;Número de pensiones;se;A
 2019;2245;5691;Número de pensiones;8.0;A
 2019;2245;5692;Número de pensiones;173.0;A
 2019;2245;5693;Número de pensiones;67.0;A
-2019;2245;275092;Número de pensiones;;A
+2019;2245;275092;Número de pensiones;se;A
 2019;2246;5691;Número de pensiones;144.0;A
 2019;2246;5692;Número de pensiones;1101.0;A
 2019;2246;5693;Número de pensiones;484.0;A
@@ -39,7 +39,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2248;5692;Número de pensiones;116.0;A
 2019;2248;5693;Número de pensiones;29.0;A
 2019;2248;275092;Número de pensiones;6.0;A
-2019;2249;5691;Número de pensiones;;A
+2019;2249;5691;Número de pensiones;se;A
 2019;2249;5692;Número de pensiones;44.0;A
 2019;2249;5693;Número de pensiones;9.0;A
 2019;2249;275092;Número de pensiones;;A
@@ -51,10 +51,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2251;5692;Número de pensiones;428.0;A
 2019;2251;5693;Número de pensiones;204.0;A
 2019;2251;275092;Número de pensiones;34.0;A
-2019;2252;5691;Número de pensiones;;A
+2019;2252;5691;Número de pensiones;se;A
 2019;2252;5692;Número de pensiones;34.0;A
 2019;2252;5693;Número de pensiones;13.0;A
-2019;2252;275092;Número de pensiones;;A
+2019;2252;275092;Número de pensiones;se;A
 2019;2253;5691;Número de pensiones;2305.0;A
 2019;2253;5692;Número de pensiones;18865.0;A
 2019;2253;5693;Número de pensiones;8596.0;A
@@ -62,11 +62,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2254;5691;Número de pensiones;5.0;A
 2019;2254;5692;Número de pensiones;22.0;A
 2019;2254;5693;Número de pensiones;18.0;A
-2019;2254;275092;Número de pensiones;;A
-2019;2255;5691;Número de pensiones;;A
+2019;2254;275092;Número de pensiones;se;A
+2019;2255;5691;Número de pensiones;se;A
 2019;2255;5692;Número de pensiones;25.0;A
 2019;2255;5693;Número de pensiones;12.0;A
-2019;2255;275092;Número de pensiones;;A
+2019;2255;275092;Número de pensiones;se;A
 2019;2256;5691;Número de pensiones;39.0;A
 2019;2256;5692;Número de pensiones;342.0;A
 2019;2256;5693;Número de pensiones;164.0;A
@@ -75,14 +75,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2257;5692;Número de pensiones;249.0;A
 2019;2257;5693;Número de pensiones;91.0;A
 2019;2257;275092;Número de pensiones;25.0;A
-2019;2258;5691;Número de pensiones;;A
+2019;2258;5691;Número de pensiones;se;A
 2019;2258;5692;Número de pensiones;41.0;A
 2019;2258;5693;Número de pensiones;31.0;A
-2019;2258;275092;Número de pensiones;;A
+2019;2258;275092;Número de pensiones;se;A
 2019;2259;5691;Número de pensiones;11.0;A
 2019;2259;5692;Número de pensiones;79.0;A
 2019;2259;5693;Número de pensiones;28.0;A
-2019;2259;275092;Número de pensiones;;A
+2019;2259;275092;Número de pensiones;se;A
 2019;9563;5691;Número de pensiones;42.0;A
 2019;9563;5692;Número de pensiones;240.0;A
 2019;9563;5693;Número de pensiones;120.0;A
@@ -94,7 +94,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2261;5691;Número de pensiones;6.0;A
 2019;2261;5692;Número de pensiones;51.0;A
 2019;2261;5693;Número de pensiones;15.0;A
-2019;2261;275092;Número de pensiones;;A
+2019;2261;275092;Número de pensiones;se;A
 2019;2262;5691;Número de pensiones;11.0;A
 2019;2262;5692;Número de pensiones;84.0;A
 2019;2262;5693;Número de pensiones;39.0;A
@@ -102,23 +102,23 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2263;5691;Número de pensiones;5.0;A
 2019;2263;5692;Número de pensiones;33.0;A
 2019;2263;5693;Número de pensiones;14.0;A
-2019;2263;275092;Número de pensiones;;A
+2019;2263;275092;Número de pensiones;se;A
 2019;2264;5691;Número de pensiones;65.0;A
 2019;2264;5692;Número de pensiones;340.0;A
 2019;2264;5693;Número de pensiones;163.0;A
 2019;2264;275092;Número de pensiones;21.0;A
-2019;2266;5691;Número de pensiones;;A
+2019;2266;5691;Número de pensiones;se;A
 2019;2266;5692;Número de pensiones;16.0;A
 2019;2266;5693;Número de pensiones;5.0;A
 2019;2266;275092;Número de pensiones;;A
-2019;2267;5691;Número de pensiones;;A
+2019;2267;5691;Número de pensiones;se;A
 2019;2267;5692;Número de pensiones;54.0;A
 2019;2267;5693;Número de pensiones;23.0;A
 2019;2267;275092;Número de pensiones;6.0;A
 2019;2268;5691;Número de pensiones;5.0;A
 2019;2268;5692;Número de pensiones;66.0;A
 2019;2268;5693;Número de pensiones;16.0;A
-2019;2268;275092;Número de pensiones;;A
+2019;2268;275092;Número de pensiones;se;A
 2019;2269;5691;Número de pensiones;212.0;A
 2019;2269;5692;Número de pensiones;1122.0;A
 2019;2269;5693;Número de pensiones;605.0;A
@@ -139,7 +139,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2273;5692;Número de pensiones;34.0;A
 2019;2273;5693;Número de pensiones;13.0;A
 2019;2273;275092;Número de pensiones;;A
-2019;2277;5691;Número de pensiones;;A
+2019;2277;5691;Número de pensiones;se;A
 2019;2277;5692;Número de pensiones;58.0;A
 2019;2277;5693;Número de pensiones;18.0;A
 2019;2277;275092;Número de pensiones;9.0;A
@@ -147,10 +147,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2278;5692;Número de pensiones;344.0;A
 2019;2278;5693;Número de pensiones;150.0;A
 2019;2278;275092;Número de pensiones;21.0;A
-2019;2274;5691;Número de pensiones;;A
+2019;2274;5691;Número de pensiones;se;A
 2019;2274;5692;Número de pensiones;46.0;A
 2019;2274;5693;Número de pensiones;10.0;A
-2019;2274;275092;Número de pensiones;;A
+2019;2274;275092;Número de pensiones;se;A
 2019;2276;5691;Número de pensiones;208.0;A
 2019;2276;5692;Número de pensiones;1316.0;A
 2019;2276;5693;Número de pensiones;603.0;A
@@ -218,11 +218,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2296;5691;Número de pensiones;10.0;A
 2019;2296;5692;Número de pensiones;79.0;A
 2019;2296;5693;Número de pensiones;45.0;A
-2019;2296;275092;Número de pensiones;;A
+2019;2296;275092;Número de pensiones;se;A
 2019;2297;5691;Número de pensiones;7.0;A
 2019;2297;5692;Número de pensiones;30.0;A
 2019;2297;5693;Número de pensiones;7.0;A
-2019;2297;275092;Número de pensiones;;A
+2019;2297;275092;Número de pensiones;se;A
 2019;2298;5691;Número de pensiones;16.0;A
 2019;2298;5692;Número de pensiones;236.0;A
 2019;2298;5693;Número de pensiones;113.0;A
@@ -230,12 +230,12 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2299;5691;Número de pensiones;11.0;A
 2019;2299;5692;Número de pensiones;77.0;A
 2019;2299;5693;Número de pensiones;30.0;A
-2019;2299;275092;Número de pensiones;;A
+2019;2299;275092;Número de pensiones;se;A
 2019;2300;5691;Número de pensiones;21.0;A
 2019;2300;5692;Número de pensiones;368.0;A
 2019;2300;5693;Número de pensiones;134.0;A
 2019;2300;275092;Número de pensiones;24.0;A
-2019;2301;5691;Número de pensiones;;A
+2019;2301;5691;Número de pensiones;se;A
 2019;2301;5692;Número de pensiones;100.0;A
 2019;2301;5693;Número de pensiones;41.0;A
 2019;2301;275092;Número de pensiones;5.0;A
@@ -262,7 +262,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2306;5691;Número de pensiones;9.0;A
 2019;2306;5692;Número de pensiones;101.0;A
 2019;2306;5693;Número de pensiones;34.0;A
-2019;2306;275092;Número de pensiones;;A
+2019;2306;275092;Número de pensiones;se;A
 2019;2307;5691;Número de pensiones;310.0;A
 2019;2307;5692;Número de pensiones;2019.0;A
 2019;2307;5693;Número de pensiones;885.0;A
@@ -271,10 +271,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2308;5692;Número de pensiones;152.0;A
 2019;2308;5693;Número de pensiones;66.0;A
 2019;2308;275092;Número de pensiones;9.0;A
-2019;2309;5691;Número de pensiones;;A
+2019;2309;5691;Número de pensiones;se;A
 2019;2309;5692;Número de pensiones;56.0;A
 2019;2309;5693;Número de pensiones;11.0;A
-2019;2309;275092;Número de pensiones;;A
+2019;2309;275092;Número de pensiones;se;A
 2019;2310;5691;Número de pensiones;100.0;A
 2019;2310;5692;Número de pensiones;617.0;A
 2019;2310;5693;Número de pensiones;293.0;A
@@ -286,15 +286,15 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2312;5691;Número de pensiones;10.0;A
 2019;2312;5692;Número de pensiones;117.0;A
 2019;2312;5693;Número de pensiones;61.0;A
-2019;2312;275092;Número de pensiones;;A
-2019;2313;5691;Número de pensiones;;A
+2019;2312;275092;Número de pensiones;se;A
+2019;2313;5691;Número de pensiones;se;A
 2019;2313;5692;Número de pensiones;87.0;A
 2019;2313;5693;Número de pensiones;35.0;A
 2019;2313;275092;Número de pensiones;9.0;A
 2019;2314;5691;Número de pensiones;11.0;A
 2019;2314;5692;Número de pensiones;70.0;A
 2019;2314;5693;Número de pensiones;32.0;A
-2019;2314;275092;Número de pensiones;;A
+2019;2314;275092;Número de pensiones;se;A
 2019;2315;5691;Número de pensiones;90.0;A
 2019;2315;5692;Número de pensiones;332.0;A
 2019;2315;5693;Número de pensiones;135.0;A
@@ -310,7 +310,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2318;5691;Número de pensiones;7.0;A
 2019;2318;5692;Número de pensiones;90.0;A
 2019;2318;5693;Número de pensiones;28.0;A
-2019;2318;275092;Número de pensiones;;A
+2019;2318;275092;Número de pensiones;se;A
 2019;2319;5691;Número de pensiones;29.0;A
 2019;2319;5692;Número de pensiones;129.0;A
 2019;2319;5693;Número de pensiones;81.0;A
@@ -319,30 +319,30 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2320;5692;Número de pensiones;5645.0;A
 2019;2320;5693;Número de pensiones;2360.0;A
 2019;2320;275092;Número de pensiones;558.0;A
-2019;2321;5691;Número de pensiones;;A
+2019;2321;5691;Número de pensiones;se;A
 2019;2321;5692;Número de pensiones;46.0;A
 2019;2321;5693;Número de pensiones;17.0;A
-2019;2321;275092;Número de pensiones;;A
+2019;2321;275092;Número de pensiones;se;A
 2019;2322;5691;Número de pensiones;10.0;A
 2019;2322;5692;Número de pensiones;70.0;A
 2019;2322;5693;Número de pensiones;36.0;A
 2019;2322;275092;Número de pensiones;8.0;A
-2019;2323;5691;Número de pensiones;;A
+2019;2323;5691;Número de pensiones;se;A
 2019;2323;5692;Número de pensiones;67.0;A
 2019;2323;5693;Número de pensiones;28.0;A
-2019;2323;275092;Número de pensiones;;A
+2019;2323;275092;Número de pensiones;se;A
 2019;2324;5691;Número de pensiones;39.0;A
 2019;2324;5692;Número de pensiones;358.0;A
 2019;2324;5693;Número de pensiones;168.0;A
 2019;2324;275092;Número de pensiones;34.0;A
-2019;2325;5691;Número de pensiones;;A
+2019;2325;5691;Número de pensiones;se;A
 2019;2325;5692;Número de pensiones;70.0;A
 2019;2325;5693;Número de pensiones;31.0;A
-2019;2325;275092;Número de pensiones;;A
+2019;2325;275092;Número de pensiones;se;A
 2019;2326;5691;Número de pensiones;6.0;A
 2019;2326;5692;Número de pensiones;68.0;A
 2019;2326;5693;Número de pensiones;25.0;A
-2019;2326;275092;Número de pensiones;;A
+2019;2326;275092;Número de pensiones;se;A
 2019;2327;5691;Número de pensiones;36.0;A
 2019;2327;5692;Número de pensiones;439.0;A
 2019;2327;5693;Número de pensiones;157.0;A
@@ -350,7 +350,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2328;5691;Número de pensiones;9.0;A
 2019;2328;5692;Número de pensiones;22.0;A
 2019;2328;5693;Número de pensiones;17.0;A
-2019;2328;275092;Número de pensiones;;A
+2019;2328;275092;Número de pensiones;se;A
 2019;2329;5691;Número de pensiones;68.0;A
 2019;2329;5692;Número de pensiones;531.0;A
 2019;2329;5693;Número de pensiones;216.0;A
@@ -359,10 +359,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2330;5692;Número de pensiones;165.0;A
 2019;2330;5693;Número de pensiones;74.0;A
 2019;2330;275092;Número de pensiones;5.0;A
-2019;2331;5691;Número de pensiones;;A
+2019;2331;5691;Número de pensiones;se;A
 2019;2331;5692;Número de pensiones;79.0;A
 2019;2331;5693;Número de pensiones;25.0;A
-2019;2331;275092;Número de pensiones;;A
+2019;2331;275092;Número de pensiones;se;A
 2019;2332;5691;Número de pensiones;7.0;A
 2019;2332;5692;Número de pensiones;69.0;A
 2019;2332;5693;Número de pensiones;29.0;A
@@ -379,10 +379,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2334;5692;Número de pensiones;353.0;A
 2019;2334;5693;Número de pensiones;139.0;A
 2019;2334;275092;Número de pensiones;35.0;A
-2019;2335;5691;Número de pensiones;;A
+2019;2335;5691;Número de pensiones;se;A
 2019;2335;5692;Número de pensiones;52.0;A
 2019;2335;5693;Número de pensiones;24.0;A
-2019;2335;275092;Número de pensiones;;A
+2019;2335;275092;Número de pensiones;se;A
 2019;2336;5691;Número de pensiones;13.0;A
 2019;2336;5692;Número de pensiones;166.0;A
 2019;2336;5693;Número de pensiones;79.0;A
@@ -390,7 +390,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2337;5691;Número de pensiones;9.0;A
 2019;2337;5692;Número de pensiones;62.0;A
 2019;2337;5693;Número de pensiones;20.0;A
-2019;2337;275092;Número de pensiones;;A
+2019;2337;275092;Número de pensiones;se;A
 2019;2338;5691;Número de pensiones;;A
 2019;2338;5692;Número de pensiones;76.0;A
 2019;2338;5693;Número de pensiones;21.0;A
@@ -420,7 +420,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2344;5693;Número de pensiones;124.0;A
 2019;2344;275092;Número de pensiones;22.0;A
 2019;2349;5691;Número de pensiones;;A
-2019;2349;5692;Número de pensiones;;A
+2019;2349;5692;Número de pensiones;se;A
 2019;2349;5693;Número de pensiones;;A
 2019;2349;275092;Número de pensiones;;A
 2019;2402;5691;Número de pensiones;38584.0;A
@@ -578,7 +578,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2389;5691;Número de pensiones;24.0;A
 2019;2389;5692;Número de pensiones;174.0;A
 2019;2389;5693;Número de pensiones;53.0;A
-2019;2389;275092;Número de pensiones;;A
+2019;2389;275092;Número de pensiones;se;A
 2019;2390;5691;Número de pensiones;336.0;A
 2019;2390;5692;Número de pensiones;917.0;A
 2019;2390;5693;Número de pensiones;366.0;A
@@ -594,7 +594,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2393;5691;Número de pensiones;14.0;A
 2019;2393;5692;Número de pensiones;73.0;A
 2019;2393;5693;Número de pensiones;19.0;A
-2019;2393;275092;Número de pensiones;;A
+2019;2393;275092;Número de pensiones;se;A
 2019;2394;5691;Número de pensiones;583.0;A
 2019;2394;5692;Número de pensiones;1523.0;A
 2019;2394;5693;Número de pensiones;706.0;A
@@ -686,7 +686,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2422;5691;Número de pensiones;10.0;A
 2019;2422;5692;Número de pensiones;83.0;A
 2019;2422;5693;Número de pensiones;45.0;A
-2019;2422;275092;Número de pensiones;;A
+2019;2422;275092;Número de pensiones;se;A
 2019;2423;5691;Número de pensiones;4501.0;A
 2019;2423;5692;Número de pensiones;36520.0;A
 2019;2423;5693;Número de pensiones;15871.0;A
@@ -718,7 +718,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2430;5691;Número de pensiones;10.0;A
 2019;2430;5692;Número de pensiones;70.0;A
 2019;2430;5693;Número de pensiones;20.0;A
-2019;2430;275092;Número de pensiones;;A
+2019;2430;275092;Número de pensiones;se;A
 2019;2431;5691;Número de pensiones;110.0;A
 2019;2431;5692;Número de pensiones;738.0;A
 2019;2431;5693;Número de pensiones;343.0;A
@@ -739,7 +739,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2435;5692;Número de pensiones;198.0;A
 2019;2435;5693;Número de pensiones;87.0;A
 2019;2435;275092;Número de pensiones;16.0;A
-2019;2436;5691;Número de pensiones;;A
+2019;2436;5691;Número de pensiones;se;A
 2019;2436;5692;Número de pensiones;75.0;A
 2019;2436;5693;Número de pensiones;30.0;A
 2019;2436;275092;Número de pensiones;5.0;A
@@ -914,7 +914,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2483;5691;Número de pensiones;9.0;A
 2019;2483;5692;Número de pensiones;64.0;A
 2019;2483;5693;Número de pensiones;23.0;A
-2019;2483;275092;Número de pensiones;;A
+2019;2483;275092;Número de pensiones;se;A
 2019;2484;5691;Número de pensiones;31.0;A
 2019;2484;5692;Número de pensiones;148.0;A
 2019;2484;5693;Número de pensiones;44.0;A
@@ -962,7 +962,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2498;5691;Número de pensiones;18.0;A
 2019;2498;5692;Número de pensiones;112.0;A
 2019;2498;5693;Número de pensiones;45.0;A
-2019;2498;275092;Número de pensiones;;A
+2019;2498;275092;Número de pensiones;se;A
 2019;2499;5691;Número de pensiones;15.0;A
 2019;2499;5692;Número de pensiones;74.0;A
 2019;2499;5693;Número de pensiones;41.0;A
@@ -1030,7 +1030,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2518;5691;Número de pensiones;24.0;A
 2019;2518;5692;Número de pensiones;122.0;A
 2019;2518;5693;Número de pensiones;49.0;A
-2019;2518;275092;Número de pensiones;;A
+2019;2518;275092;Número de pensiones;se;A
 2019;2519;5691;Número de pensiones;32.0;A
 2019;2519;5692;Número de pensiones;246.0;A
 2019;2519;5693;Número de pensiones;92.0;A
@@ -1062,12 +1062,12 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2526;5691;Número de pensiones;13.0;A
 2019;2526;5692;Número de pensiones;53.0;A
 2019;2526;5693;Número de pensiones;35.0;A
-2019;2526;275092;Número de pensiones;;A
-2019;2527;5691;Número de pensiones;;A
+2019;2526;275092;Número de pensiones;se;A
+2019;2527;5691;Número de pensiones;se;A
 2019;2527;5692;Número de pensiones;28.0;A
 2019;2527;5693;Número de pensiones;12.0;A
-2019;2527;275092;Número de pensiones;;A
-2019;2528;5691;Número de pensiones;;A
+2019;2527;275092;Número de pensiones;se;A
+2019;2528;5691;Número de pensiones;se;A
 2019;2528;5692;Número de pensiones;62.0;A
 2019;2528;5693;Número de pensiones;16.0;A
 2019;2528;275092;Número de pensiones;;A
@@ -1142,7 +1142,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2551;5691;Número de pensiones;23.0;A
 2019;2551;5692;Número de pensiones;132.0;A
 2019;2551;5693;Número de pensiones;41.0;A
-2019;2551;275092;Número de pensiones;;A
+2019;2551;275092;Número de pensiones;se;A
 2019;2553;5691;Número de pensiones;85.0;A
 2019;2553;5692;Número de pensiones;438.0;A
 2019;2553;5693;Número de pensiones;139.0;A
@@ -1166,7 +1166,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2557;5691;Número de pensiones;6.0;A
 2019;2557;5692;Número de pensiones;57.0;A
 2019;2557;5693;Número de pensiones;17.0;A
-2019;2557;275092;Número de pensiones;;A
+2019;2557;275092;Número de pensiones;se;A
 2019;2558;5691;Número de pensiones;224.0;A
 2019;2558;5692;Número de pensiones;951.0;A
 2019;2558;5693;Número de pensiones;407.0;A
@@ -1202,7 +1202,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2570;5691;Número de pensiones;11.0;A
 2019;2570;5692;Número de pensiones;72.0;A
 2019;2570;5693;Número de pensiones;26.0;A
-2019;2570;275092;Número de pensiones;;A
+2019;2570;275092;Número de pensiones;se;A
 2019;2571;5691;Número de pensiones;162.0;A
 2019;2571;5692;Número de pensiones;564.0;A
 2019;2571;5693;Número de pensiones;180.0;A
@@ -1214,7 +1214,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2573;5691;Número de pensiones;17.0;A
 2019;2573;5692;Número de pensiones;107.0;A
 2019;2573;5693;Número de pensiones;35.0;A
-2019;2573;275092;Número de pensiones;;A
+2019;2573;275092;Número de pensiones;se;A
 2019;2574;5691;Número de pensiones;3930.0;A
 2019;2574;5692;Número de pensiones;30857.0;A
 2019;2574;5693;Número de pensiones;12199.0;A
@@ -1246,7 +1246,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2583;5691;Número de pensiones;20.0;A
 2019;2583;5692;Número de pensiones;80.0;A
 2019;2583;5693;Número de pensiones;33.0;A
-2019;2583;275092;Número de pensiones;;A
+2019;2583;275092;Número de pensiones;se;A
 2019;2584;5691;Número de pensiones;39.0;A
 2019;2584;5692;Número de pensiones;206.0;A
 2019;2584;5693;Número de pensiones;96.0;A
@@ -1282,7 +1282,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2593;5691;Número de pensiones;24.0;A
 2019;2593;5692;Número de pensiones;81.0;A
 2019;2593;5693;Número de pensiones;33.0;A
-2019;2593;275092;Número de pensiones;;A
+2019;2593;275092;Número de pensiones;se;A
 2019;2594;5691;Número de pensiones;58.0;A
 2019;2594;5692;Número de pensiones;199.0;A
 2019;2594;5693;Número de pensiones;80.0;A
@@ -1294,15 +1294,15 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2596;5691;Número de pensiones;24.0;A
 2019;2596;5692;Número de pensiones;82.0;A
 2019;2596;5693;Número de pensiones;47.0;A
-2019;2596;275092;Número de pensiones;;A
+2019;2596;275092;Número de pensiones;se;A
 2019;2598;5691;Número de pensiones;67.0;A
 2019;2598;5692;Número de pensiones;252.0;A
 2019;2598;5693;Número de pensiones;91.0;A
 2019;2598;275092;Número de pensiones;34.0;A
-2019;2599;5691;Número de pensiones;;A
+2019;2599;5691;Número de pensiones;se;A
 2019;2599;5692;Número de pensiones;23.0;A
 2019;2599;5693;Número de pensiones;15.0;A
-2019;2599;275092;Número de pensiones;;A
+2019;2599;275092;Número de pensiones;se;A
 2019;2603;5691;Número de pensiones;156.0;A
 2019;2603;5692;Número de pensiones;418.0;A
 2019;2603;5693;Número de pensiones;130.0;A
@@ -1319,14 +1319,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2607;5692;Número de pensiones;425.0;A
 2019;2607;5693;Número de pensiones;171.0;A
 2019;2607;275092;Número de pensiones;20.0;A
-2019;2608;5691;Número de pensiones;;A
+2019;2608;5691;Número de pensiones;se;A
 2019;2608;5692;Número de pensiones;55.0;A
 2019;2608;5693;Número de pensiones;19.0;A
-2019;2608;275092;Número de pensiones;;A
-2019;2609;5691;Número de pensiones;;A
+2019;2608;275092;Número de pensiones;se;A
+2019;2609;5691;Número de pensiones;se;A
 2019;2609;5692;Número de pensiones;32.0;A
 2019;2609;5693;Número de pensiones;13.0;A
-2019;2609;275092;Número de pensiones;;A
+2019;2609;275092;Número de pensiones;se;A
 2019;2610;5691;Número de pensiones;552.0;A
 2019;2610;5692;Número de pensiones;2772.0;A
 2019;2610;5693;Número de pensiones;1170.0;A
@@ -1334,7 +1334,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2611;5691;Número de pensiones;8.0;A
 2019;2611;5692;Número de pensiones;83.0;A
 2019;2611;5693;Número de pensiones;31.0;A
-2019;2611;275092;Número de pensiones;;A
+2019;2611;275092;Número de pensiones;se;A
 2019;2612;5691;Número de pensiones;14.0;A
 2019;2612;5692;Número de pensiones;62.0;A
 2019;2612;5693;Número de pensiones;30.0;A
@@ -1350,7 +1350,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2617;5691;Número de pensiones;5.0;A
 2019;2617;5692;Número de pensiones;88.0;A
 2019;2617;5693;Número de pensiones;32.0;A
-2019;2617;275092;Número de pensiones;;A
+2019;2617;275092;Número de pensiones;se;A
 2019;2621;5691;Número de pensiones;147.0;A
 2019;2621;5692;Número de pensiones;778.0;A
 2019;2621;5693;Número de pensiones;279.0;A
@@ -1426,7 +1426,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2640;5691;Número de pensiones;8.0;A
 2019;2640;5692;Número de pensiones;39.0;A
 2019;2640;5693;Número de pensiones;17.0;A
-2019;2640;275092;Número de pensiones;;A
+2019;2640;275092;Número de pensiones;se;A
 2019;2641;5691;Número de pensiones;58.0;A
 2019;2641;5692;Número de pensiones;257.0;A
 2019;2641;5693;Número de pensiones;96.0;A
@@ -1458,7 +1458,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2650;5691;Número de pensiones;12.0;A
 2019;2650;5692;Número de pensiones;58.0;A
 2019;2650;5693;Número de pensiones;25.0;A
-2019;2650;275092;Número de pensiones;;A
+2019;2650;275092;Número de pensiones;se;A
 2019;2651;5691;Número de pensiones;44.0;A
 2019;2651;5692;Número de pensiones;184.0;A
 2019;2651;5693;Número de pensiones;72.0;A
@@ -1498,7 +1498,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2663;5691;Número de pensiones;7.0;A
 2019;2663;5692;Número de pensiones;95.0;A
 2019;2663;5693;Número de pensiones;34.0;A
-2019;2663;275092;Número de pensiones;;A
+2019;2663;275092;Número de pensiones;se;A
 2019;2664;5691;Número de pensiones;389.0;A
 2019;2664;5692;Número de pensiones;1847.0;A
 2019;2664;5693;Número de pensiones;715.0;A
@@ -1530,7 +1530,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2670;5691;Número de pensiones;8.0;A
 2019;2670;5692;Número de pensiones;57.0;A
 2019;2670;5693;Número de pensiones;15.0;A
-2019;2670;275092;Número de pensiones;;A
+2019;2670;275092;Número de pensiones;se;A
 2019;2671;5691;Número de pensiones;57.0;A
 2019;2671;5692;Número de pensiones;412.0;A
 2019;2671;5693;Número de pensiones;176.0;A
@@ -1562,7 +1562,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2674;5691;Número de pensiones;25.0;A
 2019;2674;5692;Número de pensiones;86.0;A
 2019;2674;5693;Número de pensiones;29.0;A
-2019;2674;275092;Número de pensiones;;A
+2019;2674;275092;Número de pensiones;se;A
 2019;2638;5691;Número de pensiones;163.0;A
 2019;2638;5692;Número de pensiones;689.0;A
 2019;2638;5693;Número de pensiones;226.0;A
@@ -1590,7 +1590,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2708;5691;Número de pensiones;34.0;A
 2019;2708;5692;Número de pensiones;175.0;A
 2019;2708;5693;Número de pensiones;62.0;A
-2019;2708;275092;Número de pensiones;;A
+2019;2708;275092;Número de pensiones;se;A
 2019;2682;5691;Número de pensiones;445.0;A
 2019;2682;5692;Número de pensiones;1799.0;A
 2019;2682;5693;Número de pensiones;648.0;A
@@ -1647,10 +1647,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2724;5692;Número de pensiones;803.0;A
 2019;2724;5693;Número de pensiones;270.0;A
 2019;2724;275092;Número de pensiones;56.0;A
-2019;2725;5691;Número de pensiones;;A
+2019;2725;5691;Número de pensiones;se;A
 2019;2725;5692;Número de pensiones;53.0;A
 2019;2725;5693;Número de pensiones;29.0;A
-2019;2725;275092;Número de pensiones;;A
+2019;2725;275092;Número de pensiones;se;A
 2019;2726;5691;Número de pensiones;363.0;A
 2019;2726;5692;Número de pensiones;1975.0;A
 2019;2726;5693;Número de pensiones;709.0;A
@@ -1690,7 +1690,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2735;5691;Número de pensiones;8.0;A
 2019;2735;5692;Número de pensiones;24.0;A
 2019;2735;5693;Número de pensiones;11.0;A
-2019;2735;275092;Número de pensiones;;A
+2019;2735;275092;Número de pensiones;se;A
 2019;2736;5691;Número de pensiones;60.0;A
 2019;2736;5692;Número de pensiones;333.0;A
 2019;2736;5693;Número de pensiones;172.0;A
@@ -1713,7 +1713,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2739;275092;Número de pensiones;5.0;A
 2019;2740;5691;Número de pensiones;5.0;A
 2019;2740;5692;Número de pensiones;9.0;A
-2019;2740;5693;Número de pensiones;;A
+2019;2740;5693;Número de pensiones;se;A
 2019;2740;275092;Número de pensiones;;A
 2019;2741;5691;Número de pensiones;8.0;A
 2019;2741;5692;Número de pensiones;65.0;A
@@ -1746,7 +1746,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2749;5691;Número de pensiones;12.0;A
 2019;2749;5692;Número de pensiones;31.0;A
 2019;2749;5693;Número de pensiones;16.0;A
-2019;2749;275092;Número de pensiones;;A
+2019;2749;275092;Número de pensiones;se;A
 2019;2750;5691;Número de pensiones;18.0;A
 2019;2750;5692;Número de pensiones;96.0;A
 2019;2750;5693;Número de pensiones;36.0;A
@@ -1758,7 +1758,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2752;5691;Número de pensiones;13.0;A
 2019;2752;5692;Número de pensiones;68.0;A
 2019;2752;5693;Número de pensiones;26.0;A
-2019;2752;275092;Número de pensiones;;A
+2019;2752;275092;Número de pensiones;se;A
 2019;2753;5691;Número de pensiones;149.0;A
 2019;2753;5692;Número de pensiones;609.0;A
 2019;2753;5693;Número de pensiones;215.0;A
@@ -1779,10 +1779,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2757;5692;Número de pensiones;2253.0;A
 2019;2757;5693;Número de pensiones;973.0;A
 2019;2757;275092;Número de pensiones;204.0;A
-2019;2758;5691;Número de pensiones;;A
+2019;2758;5691;Número de pensiones;se;A
 2019;2758;5692;Número de pensiones;33.0;A
 2019;2758;5693;Número de pensiones;19.0;A
-2019;2758;275092;Número de pensiones;;A
+2019;2758;275092;Número de pensiones;se;A
 2019;2759;5691;Número de pensiones;94.0;A
 2019;2759;5692;Número de pensiones;357.0;A
 2019;2759;5693;Número de pensiones;131.0;A
@@ -1794,7 +1794,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2761;5691;Número de pensiones;19.0;A
 2019;2761;5692;Número de pensiones;61.0;A
 2019;2761;5693;Número de pensiones;20.0;A
-2019;2761;275092;Número de pensiones;;A
+2019;2761;275092;Número de pensiones;se;A
 2019;2762;5691;Número de pensiones;109.0;A
 2019;2762;5692;Número de pensiones;501.0;A
 2019;2762;5693;Número de pensiones;265.0;A
@@ -1866,7 +1866,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2779;5691;Número de pensiones;7.0;A
 2019;2779;5692;Número de pensiones;46.0;A
 2019;2779;5693;Número de pensiones;23.0;A
-2019;2779;275092;Número de pensiones;;A
+2019;2779;275092;Número de pensiones;se;A
 2019;2781;5691;Número de pensiones;10.0;A
 2019;2781;5692;Número de pensiones;67.0;A
 2019;2781;5693;Número de pensiones;38.0;A
@@ -1886,7 +1886,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2785;5691;Número de pensiones;14.0;A
 2019;2785;5692;Número de pensiones;35.0;A
 2019;2785;5693;Número de pensiones;17.0;A
-2019;2785;275092;Número de pensiones;;A
+2019;2785;275092;Número de pensiones;se;A
 2019;2786;5691;Número de pensiones;269.0;A
 2019;2786;5692;Número de pensiones;1665.0;A
 2019;2786;5693;Número de pensiones;679.0;A
@@ -2010,7 +2010,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2819;5691;Número de pensiones;33.0;A
 2019;2819;5692;Número de pensiones;77.0;A
 2019;2819;5693;Número de pensiones;43.0;A
-2019;2819;275092;Número de pensiones;;A
+2019;2819;275092;Número de pensiones;se;A
 2019;2903;5691;Número de pensiones;41.0;A
 2019;2903;5692;Número de pensiones;208.0;A
 2019;2903;5693;Número de pensiones;92.0;A
@@ -2078,11 +2078,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2841;5691;Número de pensiones;20.0;A
 2019;2841;5692;Número de pensiones;112.0;A
 2019;2841;5693;Número de pensiones;35.0;A
-2019;2841;275092;Número de pensiones;;A
+2019;2841;275092;Número de pensiones;se;A
 2019;2842;5691;Número de pensiones;11.0;A
 2019;2842;5692;Número de pensiones;68.0;A
 2019;2842;5693;Número de pensiones;34.0;A
-2019;2842;275092;Número de pensiones;;A
+2019;2842;275092;Número de pensiones;se;A
 2019;2843;5691;Número de pensiones;41.0;A
 2019;2843;5692;Número de pensiones;92.0;A
 2019;2843;5693;Número de pensiones;40.0;A
@@ -2330,7 +2330,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2915;5691;Número de pensiones;7.0;A
 2019;2915;5692;Número de pensiones;69.0;A
 2019;2915;5693;Número de pensiones;27.0;A
-2019;2915;275092;Número de pensiones;;A
+2019;2915;275092;Número de pensiones;se;A
 2019;2916;5691;Número de pensiones;138.0;A
 2019;2916;5692;Número de pensiones;770.0;A
 2019;2916;5693;Número de pensiones;277.0;A
@@ -2370,7 +2370,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2925;5691;Número de pensiones;7.0;A
 2019;2925;5692;Número de pensiones;54.0;A
 2019;2925;5693;Número de pensiones;25.0;A
-2019;2925;275092;Número de pensiones;;A
+2019;2925;275092;Número de pensiones;se;A
 2019;2926;5691;Número de pensiones;972.0;A
 2019;2926;5692;Número de pensiones;4725.0;A
 2019;2926;5693;Número de pensiones;2034.0;A
@@ -2395,14 +2395,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2931;5692;Número de pensiones;544.0;A
 2019;2931;5693;Número de pensiones;224.0;A
 2019;2931;275092;Número de pensiones;55.0;A
-2019;2932;5691;Número de pensiones;;A
+2019;2932;5691;Número de pensiones;se;A
 2019;2932;5692;Número de pensiones;20.0;A
 2019;2932;5693;Número de pensiones;11.0;A
 2019;2932;275092;Número de pensiones;;A
-2019;2933;5691;Número de pensiones;;A
+2019;2933;5691;Número de pensiones;se;A
 2019;2933;5692;Número de pensiones;26.0;A
 2019;2933;5693;Número de pensiones;19.0;A
-2019;2933;275092;Número de pensiones;;A
+2019;2933;275092;Número de pensiones;se;A
 2019;2934;5691;Número de pensiones;21.0;A
 2019;2934;5692;Número de pensiones;237.0;A
 2019;2934;5693;Número de pensiones;69.0;A
@@ -2430,11 +2430,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2940;5691;Número de pensiones;12.0;A
 2019;2940;5692;Número de pensiones;68.0;A
 2019;2940;5693;Número de pensiones;36.0;A
-2019;2940;275092;Número de pensiones;;A
+2019;2940;275092;Número de pensiones;se;A
 2019;2941;5691;Número de pensiones;23.0;A
 2019;2941;5692;Número de pensiones;203.0;A
 2019;2941;5693;Número de pensiones;57.0;A
-2019;2941;275092;Número de pensiones;;A
+2019;2941;275092;Número de pensiones;se;A
 2019;2942;5691;Número de pensiones;65.0;A
 2019;2942;5692;Número de pensiones;298.0;A
 2019;2942;5693;Número de pensiones;105.0;A
@@ -2450,7 +2450,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2945;5691;Número de pensiones;18.0;A
 2019;2945;5692;Número de pensiones;109.0;A
 2019;2945;5693;Número de pensiones;45.0;A
-2019;2945;275092;Número de pensiones;;A
+2019;2945;275092;Número de pensiones;se;A
 2019;2946;5691;Número de pensiones;61.0;A
 2019;2946;5692;Número de pensiones;291.0;A
 2019;2946;5693;Número de pensiones;139.0;A
@@ -2522,7 +2522,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2963;5691;Número de pensiones;9.0;A
 2019;2963;5692;Número de pensiones;44.0;A
 2019;2963;5693;Número de pensiones;31.0;A
-2019;2963;275092;Número de pensiones;;A
+2019;2963;275092;Número de pensiones;se;A
 2019;2964;5691;Número de pensiones;30.0;A
 2019;2964;5692;Número de pensiones;308.0;A
 2019;2964;5693;Número de pensiones;135.0;A
@@ -2566,7 +2566,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2974;5691;Número de pensiones;8.0;A
 2019;2974;5692;Número de pensiones;53.0;A
 2019;2974;5693;Número de pensiones;24.0;A
-2019;2974;275092;Número de pensiones;;A
+2019;2974;275092;Número de pensiones;se;A
 2019;2975;5691;Número de pensiones;13.0;A
 2019;2975;5692;Número de pensiones;89.0;A
 2019;2975;5693;Número de pensiones;45.0;A
@@ -2574,7 +2574,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2976;5691;Número de pensiones;6.0;A
 2019;2976;5692;Número de pensiones;24.0;A
 2019;2976;5693;Número de pensiones;16.0;A
-2019;2976;275092;Número de pensiones;;A
+2019;2976;275092;Número de pensiones;se;A
 2019;2977;5691;Número de pensiones;21.0;A
 2019;2977;5692;Número de pensiones;57.0;A
 2019;2977;5693;Número de pensiones;18.0;A
@@ -2623,7 +2623,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2987;5692;Número de pensiones;310.0;A
 2019;2987;5693;Número de pensiones;137.0;A
 2019;2987;275092;Número de pensiones;26.0;A
-2019;2988;5691;Número de pensiones;;A
+2019;2988;5691;Número de pensiones;se;A
 2019;2988;5692;Número de pensiones;51.0;A
 2019;2988;5693;Número de pensiones;17.0;A
 2019;2988;275092;Número de pensiones;6.0;A
@@ -2638,7 +2638,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2992;5691;Número de pensiones;8.0;A
 2019;2992;5692;Número de pensiones;47.0;A
 2019;2992;5693;Número de pensiones;19.0;A
-2019;2992;275092;Número de pensiones;;A
+2019;2992;275092;Número de pensiones;se;A
 2019;2994;5691;Número de pensiones;816.0;A
 2019;2994;5692;Número de pensiones;3821.0;A
 2019;2994;5693;Número de pensiones;1459.0;A
@@ -2651,7 +2651,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2996;5692;Número de pensiones;3772.0;A
 2019;2996;5693;Número de pensiones;1752.0;A
 2019;2996;275092;Número de pensiones;356.0;A
-2019;2997;5691;Número de pensiones;;A
+2019;2997;5691;Número de pensiones;se;A
 2019;2997;5692;Número de pensiones;32.0;A
 2019;2997;5693;Número de pensiones;12.0;A
 2019;2997;275092;Número de pensiones;;A
@@ -2662,7 +2662,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2999;5691;Número de pensiones;7.0;A
 2019;2999;5692;Número de pensiones;98.0;A
 2019;2999;5693;Número de pensiones;23.0;A
-2019;2999;275092;Número de pensiones;;A
+2019;2999;275092;Número de pensiones;se;A
 2019;3019;5691;Número de pensiones;15.0;A
 2019;3019;5692;Número de pensiones;78.0;A
 2019;3019;5693;Número de pensiones;52.0;A
@@ -3174,11 +3174,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2244;5691;Pensión media;1329.024;A
 2019;2244;5692;Pensión media;704.064;A
 2019;2244;5693;Pensión media;421.3075555555556;A
-2019;2244;275092;Pensión media;;A
+2019;2244;275092;Pensión media;se;A
 2019;2245;5691;Pensión media;638.495;A
 2019;2245;5692;Pensión media;687.6378034682082;A
 2019;2245;5693;Pensión media;461.2626865671642;A
-2019;2245;275092;Pensión media;;A
+2019;2245;275092;Pensión media;se;A
 2019;2246;5691;Pensión media;854.2318055555556;A
 2019;2246;5692;Pensión media;811.8385195277021;A
 2019;2246;5693;Pensión media;574.2322933884298;A
@@ -3191,7 +3191,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2248;5692;Pensión media;837.5406896551725;A
 2019;2248;5693;Pensión media;505.0165517241379;A
 2019;2248;275092;Pensión media;696.8983333333333;A
-2019;2249;5691;Pensión media;;A
+2019;2249;5691;Pensión media;se;A
 2019;2249;5692;Pensión media;1009.1847727272728;A
 2019;2249;5693;Pensión media;520.4466666666666;A
 2019;2249;275092;Pensión media;;A
@@ -3203,10 +3203,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2251;5692;Pensión media;902.1499065420561;A
 2019;2251;5693;Pensión media;593.6473529411765;A
 2019;2251;275092;Pensión media;314.89382352941175;A
-2019;2252;5691;Pensión media;;A
+2019;2252;5691;Pensión media;se;A
 2019;2252;5692;Pensión media;1059.9735294117647;A
 2019;2252;5693;Pensión media;651.54;A
-2019;2252;275092;Pensión media;;A
+2019;2252;275092;Pensión media;se;A
 2019;2253;5691;Pensión media;1034.143245119306;A
 2019;2253;5692;Pensión media;1152.6984622316459;A
 2019;2253;5693;Pensión media;695.7280816658911;A
@@ -3214,11 +3214,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2254;5691;Pensión media;1126.43;A
 2019;2254;5692;Pensión media;745.75;A
 2019;2254;5693;Pensión media;546.2966666666666;A
-2019;2254;275092;Pensión media;;A
-2019;2255;5691;Pensión media;;A
+2019;2254;275092;Pensión media;se;A
+2019;2255;5691;Pensión media;se;A
 2019;2255;5692;Pensión media;1017.6496000000001;A
 2019;2255;5693;Pensión media;677.0275;A
-2019;2255;275092;Pensión media;;A
+2019;2255;275092;Pensión media;se;A
 2019;2256;5691;Pensión media;874.562564102564;A
 2019;2256;5692;Pensión media;784.4297953216374;A
 2019;2256;5693;Pensión media;575.6845121951219;A
@@ -3227,14 +3227,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2257;5692;Pensión media;718.6172289156627;A
 2019;2257;5693;Pensión media;504.0796703296703;A
 2019;2257;275092;Pensión media;417.6012;A
-2019;2258;5691;Pensión media;;A
+2019;2258;5691;Pensión media;se;A
 2019;2258;5692;Pensión media;852.900731707317;A
 2019;2258;5693;Pensión media;609.4606451612904;A
-2019;2258;275092;Pensión media;;A
+2019;2258;275092;Pensión media;se;A
 2019;2259;5691;Pensión media;828.6354545454545;A
 2019;2259;5692;Pensión media;759.3222784810126;A
 2019;2259;5693;Pensión media;473.40142857142854;A
-2019;2259;275092;Pensión media;;A
+2019;2259;275092;Pensión media;se;A
 2019;9563;5691;Pensión media;834.1761904761905;A
 2019;9563;5692;Pensión media;732.262375;A
 2019;9563;5693;Pensión media;493.6259166666667;A
@@ -3246,7 +3246,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2261;5691;Pensión media;1036.9683333333332;A
 2019;2261;5692;Pensión media;904.9354901960785;A
 2019;2261;5693;Pensión media;601.3946666666667;A
-2019;2261;275092;Pensión media;;A
+2019;2261;275092;Pensión media;se;A
 2019;2262;5691;Pensión media;645.5554545454546;A
 2019;2262;5692;Pensión media;544.0240476190477;A
 2019;2262;5693;Pensión media;468.7879487179487;A
@@ -3254,23 +3254,23 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2263;5691;Pensión media;703.8539999999999;A
 2019;2263;5692;Pensión media;795.1351515151515;A
 2019;2263;5693;Pensión media;417.77142857142854;A
-2019;2263;275092;Pensión media;;A
+2019;2263;275092;Pensión media;se;A
 2019;2264;5691;Pensión media;756.9927692307692;A
 2019;2264;5692;Pensión media;1033.3321764705881;A
 2019;2264;5693;Pensión media;625.0555214723927;A
 2019;2264;275092;Pensión media;332.45095238095234;A
-2019;2266;5691;Pensión media;;A
+2019;2266;5691;Pensión media;se;A
 2019;2266;5692;Pensión media;990.3225;A
 2019;2266;5693;Pensión media;493.14;A
 2019;2266;275092;Pensión media;;A
-2019;2267;5691;Pensión media;;A
+2019;2267;5691;Pensión media;se;A
 2019;2267;5692;Pensión media;841.9861111111111;A
 2019;2267;5693;Pensión media;502.9234782608696;A
 2019;2267;275092;Pensión media;278.57;A
 2019;2268;5691;Pensión media;571.5459999999999;A
 2019;2268;5692;Pensión media;716.0162121212121;A
 2019;2268;5693;Pensión media;512.498125;A
-2019;2268;275092;Pensión media;;A
+2019;2268;275092;Pensión media;se;A
 2019;2269;5691;Pensión media;800.2088679245284;A
 2019;2269;5692;Pensión media;834.3624688057041;A
 2019;2269;5693;Pensión media;603.0327107438017;A
@@ -3291,7 +3291,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2273;5692;Pensión media;726.4947058823531;A
 2019;2273;5693;Pensión media;437.4030769230769;A
 2019;2273;275092;Pensión media;;A
-2019;2277;5691;Pensión media;;A
+2019;2277;5691;Pensión media;se;A
 2019;2277;5692;Pensión media;855.4656896551725;A
 2019;2277;5693;Pensión media;617.4911111111111;A
 2019;2277;275092;Pensión media;357.49333333333334;A
@@ -3299,10 +3299,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2278;5692;Pensión media;658.541773255814;A
 2019;2278;5693;Pensión media;465.30519999999996;A
 2019;2278;275092;Pensión media;395.93047619047616;A
-2019;2274;5691;Pensión media;;A
+2019;2274;5691;Pensión media;se;A
 2019;2274;5692;Pensión media;878.2617391304348;A
 2019;2274;5693;Pensión media;485.481;A
-2019;2274;275092;Pensión media;;A
+2019;2274;275092;Pensión media;se;A
 2019;2276;5691;Pensión media;835.4461057692308;A
 2019;2276;5692;Pensión media;829.6116945288754;A
 2019;2276;5693;Pensión media;554.7762686567164;A
@@ -3370,11 +3370,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2296;5691;Pensión media;916.061;A
 2019;2296;5692;Pensión media;834.3887341772153;A
 2019;2296;5693;Pensión media;579.5273333333333;A
-2019;2296;275092;Pensión media;;A
+2019;2296;275092;Pensión media;se;A
 2019;2297;5691;Pensión media;596.8728571428571;A
 2019;2297;5692;Pensión media;1024.494;A
 2019;2297;5693;Pensión media;656.85;A
-2019;2297;275092;Pensión media;;A
+2019;2297;275092;Pensión media;se;A
 2019;2298;5691;Pensión media;745.395625;A
 2019;2298;5692;Pensión media;843.631313559322;A
 2019;2298;5693;Pensión media;620.9846017699115;A
@@ -3382,12 +3382,12 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2299;5691;Pensión media;917.9;A
 2019;2299;5692;Pensión media;845.4777922077923;A
 2019;2299;5693;Pensión media;490.66833333333335;A
-2019;2299;275092;Pensión media;;A
+2019;2299;275092;Pensión media;se;A
 2019;2300;5691;Pensión media;772.2861904761905;A
 2019;2300;5692;Pensión media;682.9228260869564;A
 2019;2300;5693;Pensión media;437.14888059701497;A
 2019;2300;275092;Pensión media;398.49041666666665;A
-2019;2301;5691;Pensión media;;A
+2019;2301;5691;Pensión media;se;A
 2019;2301;5692;Pensión media;822.3648;A
 2019;2301;5693;Pensión media;517.6253658536585;A
 2019;2301;275092;Pensión media;495.402;A
@@ -3414,7 +3414,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2306;5691;Pensión media;1123.15;A
 2019;2306;5692;Pensión media;803.5360396039604;A
 2019;2306;5693;Pensión media;447.4791176470588;A
-2019;2306;275092;Pensión media;;A
+2019;2306;275092;Pensión media;se;A
 2019;2307;5691;Pensión media;755.9598387096775;A
 2019;2307;5692;Pensión media;808.055740465577;A
 2019;2307;5693;Pensión media;562.2089717514125;A
@@ -3423,10 +3423,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2308;5692;Pensión media;743.8028289473684;A
 2019;2308;5693;Pensión media;483.94545454545454;A
 2019;2308;275092;Pensión media;327.84;A
-2019;2309;5691;Pensión media;;A
+2019;2309;5691;Pensión media;se;A
 2019;2309;5692;Pensión media;900.7908928571429;A
 2019;2309;5693;Pensión media;418.8436363636364;A
-2019;2309;275092;Pensión media;;A
+2019;2309;275092;Pensión media;se;A
 2019;2310;5691;Pensión media;926.2172;A
 2019;2310;5692;Pensión media;991.9552674230146;A
 2019;2310;5693;Pensión media;654.7339590443686;A
@@ -3438,15 +3438,15 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2312;5691;Pensión media;894.954;A
 2019;2312;5692;Pensión media;870.4164102564104;A
 2019;2312;5693;Pensión media;496.7527868852459;A
-2019;2312;275092;Pensión media;;A
-2019;2313;5691;Pensión media;;A
+2019;2312;275092;Pensión media;se;A
+2019;2313;5691;Pensión media;se;A
 2019;2313;5692;Pensión media;598.7589655172413;A
 2019;2313;5693;Pensión media;371.46285714285716;A
 2019;2313;275092;Pensión media;421.6222222222222;A
 2019;2314;5691;Pensión media;668.1536363636363;A
 2019;2314;5692;Pensión media;885.1718571428572;A
 2019;2314;5693;Pensión media;596.1440625;A
-2019;2314;275092;Pensión media;;A
+2019;2314;275092;Pensión media;se;A
 2019;2315;5691;Pensión media;841.6982222222223;A
 2019;2315;5692;Pensión media;949.8948192771085;A
 2019;2315;5693;Pensión media;649.0397777777778;A
@@ -3462,7 +3462,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2318;5691;Pensión media;871.2814285714286;A
 2019;2318;5692;Pensión media;705.0025555555555;A
 2019;2318;5693;Pensión media;514.6207142857143;A
-2019;2318;275092;Pensión media;;A
+2019;2318;275092;Pensión media;se;A
 2019;2319;5691;Pensión media;800.2875862068965;A
 2019;2319;5692;Pensión media;954.7604651162791;A
 2019;2319;5693;Pensión media;607.618024691358;A
@@ -3471,30 +3471,30 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2320;5692;Pensión media;965.7467546501327;A
 2019;2320;5693;Pensión media;616.8401694915254;A
 2019;2320;275092;Pensión media;325.59421146953406;A
-2019;2321;5691;Pensión media;;A
+2019;2321;5691;Pensión media;se;A
 2019;2321;5692;Pensión media;800.4432608695653;A
 2019;2321;5693;Pensión media;499.3805882352941;A
-2019;2321;275092;Pensión media;;A
+2019;2321;275092;Pensión media;se;A
 2019;2322;5691;Pensión media;627.679;A
 2019;2322;5692;Pensión media;978.3932857142858;A
 2019;2322;5693;Pensión media;577.1772222222222;A
 2019;2322;275092;Pensión media;367.43625;A
-2019;2323;5691;Pensión media;;A
+2019;2323;5691;Pensión media;se;A
 2019;2323;5692;Pensión media;845.9758208955224;A
 2019;2323;5693;Pensión media;449.1117857142857;A
-2019;2323;275092;Pensión media;;A
+2019;2323;275092;Pensión media;se;A
 2019;2324;5691;Pensión media;874.0038461538461;A
 2019;2324;5692;Pensión media;838.5702513966481;A
 2019;2324;5693;Pensión media;613.6623214285714;A
 2019;2324;275092;Pensión media;404.5367647058824;A
-2019;2325;5691;Pensión media;;A
+2019;2325;5691;Pensión media;se;A
 2019;2325;5692;Pensión media;897.0381428571428;A
 2019;2325;5693;Pensión media;626.3429032258065;A
-2019;2325;275092;Pensión media;;A
+2019;2325;275092;Pensión media;se;A
 2019;2326;5691;Pensión media;602.12;A
 2019;2326;5692;Pensión media;742.3475;A
 2019;2326;5693;Pensión media;517.5724;A
-2019;2326;275092;Pensión media;;A
+2019;2326;275092;Pensión media;se;A
 2019;2327;5691;Pensión media;761.9588888888889;A
 2019;2327;5692;Pensión media;731.9187243735763;A
 2019;2327;5693;Pensión media;516.751847133758;A
@@ -3502,7 +3502,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2328;5691;Pensión media;860.5188888888889;A
 2019;2328;5692;Pensión media;894.645;A
 2019;2328;5693;Pensión media;624.3117647058824;A
-2019;2328;275092;Pensión media;;A
+2019;2328;275092;Pensión media;se;A
 2019;2329;5691;Pensión media;829.0677941176469;A
 2019;2329;5692;Pensión media;745.8361770244821;A
 2019;2329;5693;Pensión media;433.40916666666664;A
@@ -3511,10 +3511,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2330;5692;Pensión media;683.9970303030303;A
 2019;2330;5693;Pensión media;542.2225675675676;A
 2019;2330;275092;Pensión media;346.62;A
-2019;2331;5691;Pensión media;;A
+2019;2331;5691;Pensión media;se;A
 2019;2331;5692;Pensión media;836.459493670886;A
 2019;2331;5693;Pensión media;629.998;A
-2019;2331;275092;Pensión media;;A
+2019;2331;275092;Pensión media;se;A
 2019;2332;5691;Pensión media;1049.8757142857144;A
 2019;2332;5692;Pensión media;797.0221739130435;A
 2019;2332;5693;Pensión media;582.4837931034483;A
@@ -3531,10 +3531,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2334;5692;Pensión media;765.4697167138811;A
 2019;2334;5693;Pensión media;541.0466187050359;A
 2019;2334;275092;Pensión media;317.34714285714284;A
-2019;2335;5691;Pensión media;;A
+2019;2335;5691;Pensión media;se;A
 2019;2335;5692;Pensión media;849.14;A
 2019;2335;5693;Pensión media;606.7283333333334;A
-2019;2335;275092;Pensión media;;A
+2019;2335;275092;Pensión media;se;A
 2019;2336;5691;Pensión media;941.4369230769231;A
 2019;2336;5692;Pensión media;726.6584939759035;A
 2019;2336;5693;Pensión media;505.05797468354433;A
@@ -3542,7 +3542,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2337;5691;Pensión media;743.4233333333333;A
 2019;2337;5692;Pensión media;852.3808064516129;A
 2019;2337;5693;Pensión media;426.121;A
-2019;2337;275092;Pensión media;;A
+2019;2337;275092;Pensión media;se;A
 2019;2338;5691;Pensión media;;A
 2019;2338;5692;Pensión media;828.5563157894737;A
 2019;2338;5693;Pensión media;462.61238095238093;A
@@ -3572,7 +3572,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2344;5693;Pensión media;567.2582258064516;A
 2019;2344;275092;Pensión media;356.9572727272727;A
 2019;2349;5691;Pensión media;;A
-2019;2349;5692;Pensión media;;A
+2019;2349;5692;Pensión media;se;A
 2019;2349;5693;Pensión media;;A
 2019;2349;275092;Pensión media;;A
 2019;2402;5691;Pensión media;987.7009615384616;A
@@ -3730,7 +3730,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2389;5691;Pensión media;836.8945833333332;A
 2019;2389;5692;Pensión media;633.3822413793104;A
 2019;2389;5693;Pensión media;366.44301886792454;A
-2019;2389;275092;Pensión media;;A
+2019;2389;275092;Pensión media;se;A
 2019;2390;5691;Pensión media;816.8223511904762;A
 2019;2390;5692;Pensión media;766.3929989094875;A
 2019;2390;5693;Pensión media;537.6550819672132;A
@@ -3746,7 +3746,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2393;5691;Pensión media;695.9735714285714;A
 2019;2393;5692;Pensión media;899.053698630137;A
 2019;2393;5693;Pensión media;604.3573684210526;A
-2019;2393;275092;Pensión media;;A
+2019;2393;275092;Pensión media;se;A
 2019;2394;5691;Pensión media;778.7541509433962;A
 2019;2394;5692;Pensión media;732.236848325673;A
 2019;2394;5693;Pensión media;466.18145892351276;A
@@ -3838,7 +3838,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2422;5691;Pensión media;763.143;A
 2019;2422;5692;Pensión media;830.4455421686747;A
 2019;2422;5693;Pensión media;634.034;A
-2019;2422;275092;Pensión media;;A
+2019;2422;275092;Pensión media;se;A
 2019;2423;5691;Pensión media;1028.5344634525661;A
 2019;2423;5692;Pensión media;1193.0428261226725;A
 2019;2423;5693;Pensión media;744.3010226198727;A
@@ -3870,7 +3870,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2430;5691;Pensión media;735.176;A
 2019;2430;5692;Pensión media;782.7314285714285;A
 2019;2430;5693;Pensión media;485.4125;A
-2019;2430;275092;Pensión media;;A
+2019;2430;275092;Pensión media;se;A
 2019;2431;5691;Pensión media;847.5616363636364;A
 2019;2431;5692;Pensión media;912.5033197831978;A
 2019;2431;5693;Pensión media;631.3332361516035;A
@@ -3891,7 +3891,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2435;5692;Pensión media;770.7274747474747;A
 2019;2435;5693;Pensión media;457.30689655172415;A
 2019;2435;275092;Pensión media;337.3225;A
-2019;2436;5691;Pensión media;;A
+2019;2436;5691;Pensión media;se;A
 2019;2436;5692;Pensión media;763.7297333333332;A
 2019;2436;5693;Pensión media;602.81;A
 2019;2436;275092;Pensión media;480.49;A
@@ -4066,7 +4066,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2483;5691;Pensión media;476.8222222222222;A
 2019;2483;5692;Pensión media;625.97078125;A
 2019;2483;5693;Pensión media;413.3965217391304;A
-2019;2483;275092;Pensión media;;A
+2019;2483;275092;Pensión media;se;A
 2019;2484;5691;Pensión media;685.4674193548386;A
 2019;2484;5692;Pensión media;658.5963513513514;A
 2019;2484;5693;Pensión media;411.6390909090909;A
@@ -4114,7 +4114,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2498;5691;Pensión media;701.8105555555557;A
 2019;2498;5692;Pensión media;626.1960714285715;A
 2019;2498;5693;Pensión media;381.27422222222225;A
-2019;2498;275092;Pensión media;;A
+2019;2498;275092;Pensión media;se;A
 2019;2499;5691;Pensión media;795.398;A
 2019;2499;5692;Pensión media;768.5306756756758;A
 2019;2499;5693;Pensión media;518.0509756097562;A
@@ -4182,7 +4182,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2518;5691;Pensión media;712.47125;A
 2019;2518;5692;Pensión media;716.3812295081967;A
 2019;2518;5693;Pensión media;547.0118367346938;A
-2019;2518;275092;Pensión media;;A
+2019;2518;275092;Pensión media;se;A
 2019;2519;5691;Pensión media;760.2053125;A
 2019;2519;5692;Pensión media;807.2400406504064;A
 2019;2519;5693;Pensión media;587.8115217391304;A
@@ -4214,12 +4214,12 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2526;5691;Pensión media;887.7815384615384;A
 2019;2526;5692;Pensión media;1079.6737735849058;A
 2019;2526;5693;Pensión media;615.9580000000001;A
-2019;2526;275092;Pensión media;;A
-2019;2527;5691;Pensión media;;A
+2019;2526;275092;Pensión media;se;A
+2019;2527;5691;Pensión media;se;A
 2019;2527;5692;Pensión media;845.3703571428571;A
 2019;2527;5693;Pensión media;438.8691666666666;A
-2019;2527;275092;Pensión media;;A
-2019;2528;5691;Pensión media;;A
+2019;2527;275092;Pensión media;se;A
+2019;2528;5691;Pensión media;se;A
 2019;2528;5692;Pensión media;714.3029032258065;A
 2019;2528;5693;Pensión media;486.42625;A
 2019;2528;275092;Pensión media;;A
@@ -4294,7 +4294,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2551;5691;Pensión media;783.4021739130435;A
 2019;2551;5692;Pensión media;683.3756818181818;A
 2019;2551;5693;Pensión media;370.3568292682927;A
-2019;2551;275092;Pensión media;;A
+2019;2551;275092;Pensión media;se;A
 2019;2553;5691;Pensión media;702.4556470588235;A
 2019;2553;5692;Pensión media;718.8922831050228;A
 2019;2553;5693;Pensión media;521.3465467625899;A
@@ -4318,7 +4318,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2557;5691;Pensión media;1091.685;A
 2019;2557;5692;Pensión media;934.5536842105263;A
 2019;2557;5693;Pensión media;554.1388235294118;A
-2019;2557;275092;Pensión media;;A
+2019;2557;275092;Pensión media;se;A
 2019;2558;5691;Pensión media;812.7476785714285;A
 2019;2558;5692;Pensión media;798.6313774973711;A
 2019;2558;5693;Pensión media;524.5576167076167;A
@@ -4354,7 +4354,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2570;5691;Pensión media;660.8163636363637;A
 2019;2570;5692;Pensión media;666.7508333333333;A
 2019;2570;5693;Pensión media;485.276923076923;A
-2019;2570;275092;Pensión media;;A
+2019;2570;275092;Pensión media;se;A
 2019;2571;5691;Pensión media;1126.8773456790123;A
 2019;2571;5692;Pensión media;1164.5706028368795;A
 2019;2571;5693;Pensión media;594.9236111111111;A
@@ -4366,7 +4366,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2573;5691;Pensión media;613.2905882352941;A
 2019;2573;5692;Pensión media;688.5571028037384;A
 2019;2573;5693;Pensión media;501.03514285714283;A
-2019;2573;275092;Pensión media;;A
+2019;2573;275092;Pensión media;se;A
 2019;2574;5691;Pensión media;1121.8388753180661;A
 2019;2574;5692;Pensión media;1238.1224477428136;A
 2019;2574;5693;Pensión media;720.4047839986883;A
@@ -4398,7 +4398,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2583;5691;Pensión media;664.9414999999999;A
 2019;2583;5692;Pensión media;611.9482499999999;A
 2019;2583;5693;Pensión media;416.8736363636364;A
-2019;2583;275092;Pensión media;;A
+2019;2583;275092;Pensión media;se;A
 2019;2584;5691;Pensión media;913.54;A
 2019;2584;5692;Pensión media;797.6217961165048;A
 2019;2584;5693;Pensión media;566.9238541666666;A
@@ -4434,7 +4434,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2593;5691;Pensión media;695.5691666666667;A
 2019;2593;5692;Pensión media;782.3223456790124;A
 2019;2593;5693;Pensión media;548.9393939393939;A
-2019;2593;275092;Pensión media;;A
+2019;2593;275092;Pensión media;se;A
 2019;2594;5691;Pensión media;707.8689655172415;A
 2019;2594;5692;Pensión media;730.1130150753769;A
 2019;2594;5693;Pensión media;507.70375;A
@@ -4446,15 +4446,15 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2596;5691;Pensión media;693.3670833333333;A
 2019;2596;5692;Pensión media;740.8630487804877;A
 2019;2596;5693;Pensión media;597.9985106382978;A
-2019;2596;275092;Pensión media;;A
+2019;2596;275092;Pensión media;se;A
 2019;2598;5691;Pensión media;929.8765671641792;A
 2019;2598;5692;Pensión media;1216.503373015873;A
 2019;2598;5693;Pensión media;693.9594505494506;A
 2019;2598;275092;Pensión media;335.63823529411764;A
-2019;2599;5691;Pensión media;;A
+2019;2599;5691;Pensión media;se;A
 2019;2599;5692;Pensión media;795.8769565217392;A
 2019;2599;5693;Pensión media;499.0733333333334;A
-2019;2599;275092;Pensión media;;A
+2019;2599;275092;Pensión media;se;A
 2019;2603;5691;Pensión media;758.8540384615385;A
 2019;2603;5692;Pensión media;741.9643301435407;A
 2019;2603;5693;Pensión media;506.4332307692308;A
@@ -4471,14 +4471,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2607;5692;Pensión media;739.7665647058824;A
 2019;2607;5693;Pensión media;479.2776023391813;A
 2019;2607;275092;Pensión media;433.7975;A
-2019;2608;5691;Pensión media;;A
+2019;2608;5691;Pensión media;se;A
 2019;2608;5692;Pensión media;813.0414545454546;A
 2019;2608;5693;Pensión media;625.8447368421052;A
-2019;2608;275092;Pensión media;;A
-2019;2609;5691;Pensión media;;A
+2019;2608;275092;Pensión media;se;A
+2019;2609;5691;Pensión media;se;A
 2019;2609;5692;Pensión media;846.4453125;A
 2019;2609;5693;Pensión media;607.2930769230769;A
-2019;2609;275092;Pensión media;;A
+2019;2609;275092;Pensión media;se;A
 2019;2610;5691;Pensión media;794.9257427536232;A
 2019;2610;5692;Pensión media;782.4955194805194;A
 2019;2610;5693;Pensión media;529.7758974358974;A
@@ -4486,7 +4486,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2611;5691;Pensión media;608.46375;A
 2019;2611;5692;Pensión media;745.954578313253;A
 2019;2611;5693;Pensión media;552.5896774193549;A
-2019;2611;275092;Pensión media;;A
+2019;2611;275092;Pensión media;se;A
 2019;2612;5691;Pensión media;852.215;A
 2019;2612;5692;Pensión media;817.7253225806452;A
 2019;2612;5693;Pensión media;697.9136666666667;A
@@ -4502,7 +4502,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2617;5691;Pensión media;697.832;A
 2019;2617;5692;Pensión media;675.6254545454545;A
 2019;2617;5693;Pensión media;478.976875;A
-2019;2617;275092;Pensión media;;A
+2019;2617;275092;Pensión media;se;A
 2019;2621;5691;Pensión media;746.4844217687075;A
 2019;2621;5692;Pensión media;678.7654241645245;A
 2019;2621;5693;Pensión media;396.91250896057346;A
@@ -4578,7 +4578,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2640;5691;Pensión media;806.0675;A
 2019;2640;5692;Pensión media;745.0564102564103;A
 2019;2640;5693;Pensión media;533.4411764705883;A
-2019;2640;275092;Pensión media;;A
+2019;2640;275092;Pensión media;se;A
 2019;2641;5691;Pensión media;654.4965517241379;A
 2019;2641;5692;Pensión media;689.7708560311283;A
 2019;2641;5693;Pensión media;418.69885416666665;A
@@ -4610,7 +4610,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2650;5691;Pensión media;655.0783333333334;A
 2019;2650;5692;Pensión media;687.3351724137931;A
 2019;2650;5693;Pensión media;515.8492;A
-2019;2650;275092;Pensión media;;A
+2019;2650;275092;Pensión media;se;A
 2019;2651;5691;Pensión media;766.3615909090909;A
 2019;2651;5692;Pensión media;795.1709239130436;A
 2019;2651;5693;Pensión media;568.0466666666666;A
@@ -4650,7 +4650,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2663;5691;Pensión media;728.4185714285715;A
 2019;2663;5692;Pensión media;724.1257894736842;A
 2019;2663;5693;Pensión media;433.3391176470588;A
-2019;2663;275092;Pensión media;;A
+2019;2663;275092;Pensión media;se;A
 2019;2664;5691;Pensión media;834.986118251928;A
 2019;2664;5692;Pensión media;893.0581266919329;A
 2019;2664;5693;Pensión media;594.8246853146853;A
@@ -4682,7 +4682,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2670;5691;Pensión media;915.21375;A
 2019;2670;5692;Pensión media;724.2952631578949;A
 2019;2670;5693;Pensión media;440.6066666666666;A
-2019;2670;275092;Pensión media;;A
+2019;2670;275092;Pensión media;se;A
 2019;2671;5691;Pensión media;695.0654385964913;A
 2019;2671;5692;Pensión media;755.452645631068;A
 2019;2671;5693;Pensión media;525.8503977272727;A
@@ -4714,7 +4714,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2674;5691;Pensión media;883.556;A
 2019;2674;5692;Pensión media;917.111511627907;A
 2019;2674;5693;Pensión media;522.4744827586208;A
-2019;2674;275092;Pensión media;;A
+2019;2674;275092;Pensión media;se;A
 2019;2638;5691;Pensión media;1025.9795705521472;A
 2019;2638;5692;Pensión media;1151.4362554426705;A
 2019;2638;5693;Pensión media;645.3424336283186;A
@@ -4742,7 +4742,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2708;5691;Pensión media;703.5720588235293;A
 2019;2708;5692;Pensión media;655.9860571428571;A
 2019;2708;5693;Pensión media;454.9751612903226;A
-2019;2708;275092;Pensión media;;A
+2019;2708;275092;Pensión media;se;A
 2019;2682;5691;Pensión media;899.5007640449438;A
 2019;2682;5692;Pensión media;1061.598560311284;A
 2019;2682;5693;Pensión media;640.846574074074;A
@@ -4799,10 +4799,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2724;5692;Pensión media;860.0343088418432;A
 2019;2724;5693;Pensión media;536.7511481481481;A
 2019;2724;275092;Pensión media;352.06321428571425;A
-2019;2725;5691;Pensión media;;A
+2019;2725;5691;Pensión media;se;A
 2019;2725;5692;Pensión media;1065.7964150943396;A
 2019;2725;5693;Pensión media;752.2075862068965;A
-2019;2725;275092;Pensión media;;A
+2019;2725;275092;Pensión media;se;A
 2019;2726;5691;Pensión media;717.4772727272727;A
 2019;2726;5692;Pensión media;778.6981367088607;A
 2019;2726;5693;Pensión media;541.6325952045134;A
@@ -4842,7 +4842,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2735;5691;Pensión media;964.8875;A
 2019;2735;5692;Pensión media;1157.4341666666667;A
 2019;2735;5693;Pensión media;640.6681818181819;A
-2019;2735;275092;Pensión media;;A
+2019;2735;275092;Pensión media;se;A
 2019;2736;5691;Pensión media;823.8610000000001;A
 2019;2736;5692;Pensión media;942.3836936936937;A
 2019;2736;5693;Pensión media;650.6930813953488;A
@@ -4865,7 +4865,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2739;275092;Pensión media;268.012;A
 2019;2740;5691;Pensión media;1016.97;A
 2019;2740;5692;Pensión media;1151.1544444444444;A
-2019;2740;5693;Pensión media;;A
+2019;2740;5693;Pensión media;se;A
 2019;2740;275092;Pensión media;;A
 2019;2741;5691;Pensión media;758.0675;A
 2019;2741;5692;Pensión media;829.422;A
@@ -4898,7 +4898,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2749;5691;Pensión media;647.2166666666667;A
 2019;2749;5692;Pensión media;1011.1993548387097;A
 2019;2749;5693;Pensión media;664.726875;A
-2019;2749;275092;Pensión media;;A
+2019;2749;275092;Pensión media;se;A
 2019;2750;5691;Pensión media;995.3983333333333;A
 2019;2750;5692;Pensión media;862.7695833333332;A
 2019;2750;5693;Pensión media;617.0111111111111;A
@@ -4910,7 +4910,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2752;5691;Pensión media;622.56;A
 2019;2752;5692;Pensión media;811.877794117647;A
 2019;2752;5693;Pensión media;537.4123076923076;A
-2019;2752;275092;Pensión media;;A
+2019;2752;275092;Pensión media;se;A
 2019;2753;5691;Pensión media;726.3567785234899;A
 2019;2753;5692;Pensión media;874.0275369458127;A
 2019;2753;5693;Pensión media;530.7149767441861;A
@@ -4931,10 +4931,10 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2757;5692;Pensión media;955.0869773635153;A
 2019;2757;5693;Pensión media;614.8127338129497;A
 2019;2757;275092;Pensión media;337.0206862745098;A
-2019;2758;5691;Pensión media;;A
+2019;2758;5691;Pensión media;se;A
 2019;2758;5692;Pensión media;813.4284848484848;A
 2019;2758;5693;Pensión media;618.1294736842106;A
-2019;2758;275092;Pensión media;;A
+2019;2758;275092;Pensión media;se;A
 2019;2759;5691;Pensión media;712.8737234042553;A
 2019;2759;5692;Pensión media;744.4826890756302;A
 2019;2759;5693;Pensión media;488.7304580152671;A
@@ -4946,7 +4946,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2761;5691;Pensión media;666.7363157894738;A
 2019;2761;5692;Pensión media;768.7527868852459;A
 2019;2761;5693;Pensión media;524.4815;A
-2019;2761;275092;Pensión media;;A
+2019;2761;275092;Pensión media;se;A
 2019;2762;5691;Pensión media;1040.0647706422017;A
 2019;2762;5692;Pensión media;1425.8854291417165;A
 2019;2762;5693;Pensión media;887.7647169811321;A
@@ -5018,7 +5018,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2779;5691;Pensión media;1428.9;A
 2019;2779;5692;Pensión media;955.0654347826087;A
 2019;2779;5693;Pensión media;601.6169565217391;A
-2019;2779;275092;Pensión media;;A
+2019;2779;275092;Pensión media;se;A
 2019;2781;5691;Pensión media;843.914;A
 2019;2781;5692;Pensión media;702.3908955223881;A
 2019;2781;5693;Pensión media;530.7928947368422;A
@@ -5038,7 +5038,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2785;5691;Pensión media;762.3535714285714;A
 2019;2785;5692;Pensión media;980.326;A
 2019;2785;5693;Pensión media;629.7182352941177;A
-2019;2785;275092;Pensión media;;A
+2019;2785;275092;Pensión media;se;A
 2019;2786;5691;Pensión media;811.9434944237919;A
 2019;2786;5692;Pensión media;993.3060720720721;A
 2019;2786;5693;Pensión media;667.2183063328425;A
@@ -5162,7 +5162,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2819;5691;Pensión media;787.2427272727272;A
 2019;2819;5692;Pensión media;756.16;A
 2019;2819;5693;Pensión media;652.8520930232557;A
-2019;2819;275092;Pensión media;;A
+2019;2819;275092;Pensión media;se;A
 2019;2903;5691;Pensión media;713.9295121951219;A
 2019;2903;5692;Pensión media;821.2975961538461;A
 2019;2903;5693;Pensión media;558.6764130434782;A
@@ -5230,11 +5230,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2841;5691;Pensión media;673.605;A
 2019;2841;5692;Pensión media;712.6273214285715;A
 2019;2841;5693;Pensión media;425.0017142857143;A
-2019;2841;275092;Pensión media;;A
+2019;2841;275092;Pensión media;se;A
 2019;2842;5691;Pensión media;779.0354545454545;A
 2019;2842;5692;Pensión media;743.1638235294117;A
 2019;2842;5693;Pensión media;593.2341176470588;A
-2019;2842;275092;Pensión media;;A
+2019;2842;275092;Pensión media;se;A
 2019;2843;5691;Pensión media;696.0953658536586;A
 2019;2843;5692;Pensión media;815.0833695652175;A
 2019;2843;5693;Pensión media;565.822;A
@@ -5482,7 +5482,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2915;5691;Pensión media;1041.49;A
 2019;2915;5692;Pensión media;698.7514492753622;A
 2019;2915;5693;Pensión media;457.5437037037037;A
-2019;2915;275092;Pensión media;;A
+2019;2915;275092;Pensión media;se;A
 2019;2916;5691;Pensión media;804.1189130434782;A
 2019;2916;5692;Pensión media;816.8600519480519;A
 2019;2916;5693;Pensión media;568.5724187725632;A
@@ -5522,7 +5522,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2925;5691;Pensión media;761.0914285714285;A
 2019;2925;5692;Pensión media;763.0181481481482;A
 2019;2925;5693;Pensión media;561.0944000000001;A
-2019;2925;275092;Pensión media;;A
+2019;2925;275092;Pensión media;se;A
 2019;2926;5691;Pensión media;907.223549382716;A
 2019;2926;5692;Pensión media;953.4090222222222;A
 2019;2926;5693;Pensión media;630.1726155358898;A
@@ -5547,14 +5547,14 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2931;5692;Pensión media;770.5760110294118;A
 2019;2931;5693;Pensión media;548.7565625;A
 2019;2931;275092;Pensión media;405.4669090909091;A
-2019;2932;5691;Pensión media;;A
+2019;2932;5691;Pensión media;se;A
 2019;2932;5692;Pensión media;981.574;A
 2019;2932;5693;Pensión media;544.2354545454546;A
 2019;2932;275092;Pensión media;;A
-2019;2933;5691;Pensión media;;A
+2019;2933;5691;Pensión media;se;A
 2019;2933;5692;Pensión media;728.2792307692308;A
 2019;2933;5693;Pensión media;610.2068421052631;A
-2019;2933;275092;Pensión media;;A
+2019;2933;275092;Pensión media;se;A
 2019;2934;5691;Pensión media;981.7919047619048;A
 2019;2934;5692;Pensión media;1004.6121097046413;A
 2019;2934;5693;Pensión media;640.9466666666666;A
@@ -5582,11 +5582,11 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2940;5691;Pensión media;771.1216666666667;A
 2019;2940;5692;Pensión media;804.6717647058824;A
 2019;2940;5693;Pensión media;606.3566666666667;A
-2019;2940;275092;Pensión media;;A
+2019;2940;275092;Pensión media;se;A
 2019;2941;5691;Pensión media;746.4691304347825;A
 2019;2941;5692;Pensión media;664.3595073891626;A
 2019;2941;5693;Pensión media;407.67228070175435;A
-2019;2941;275092;Pensión media;;A
+2019;2941;275092;Pensión media;se;A
 2019;2942;5691;Pensión media;737.3141538461538;A
 2019;2942;5692;Pensión media;738.4528859060404;A
 2019;2942;5693;Pensión media;526.4560952380953;A
@@ -5602,7 +5602,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2945;5691;Pensión media;625.7944444444445;A
 2019;2945;5692;Pensión media;679.0038532110091;A
 2019;2945;5693;Pensión media;460.4548888888889;A
-2019;2945;275092;Pensión media;;A
+2019;2945;275092;Pensión media;se;A
 2019;2946;5691;Pensión media;698.9055737704917;A
 2019;2946;5692;Pensión media;729.317147766323;A
 2019;2946;5693;Pensión media;512.7438848920864;A
@@ -5674,7 +5674,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2963;5691;Pensión media;928.2888888888889;A
 2019;2963;5692;Pensión media;721.7081818181817;A
 2019;2963;5693;Pensión media;519.4796774193549;A
-2019;2963;275092;Pensión media;;A
+2019;2963;275092;Pensión media;se;A
 2019;2964;5691;Pensión media;656.11;A
 2019;2964;5692;Pensión media;753.8115584415584;A
 2019;2964;5693;Pensión media;533.4925185185185;A
@@ -5718,7 +5718,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2974;5691;Pensión media;594.89875;A
 2019;2974;5692;Pensión media;1152.33;A
 2019;2974;5693;Pensión media;636.7004166666667;A
-2019;2974;275092;Pensión media;;A
+2019;2974;275092;Pensión media;se;A
 2019;2975;5691;Pensión media;836.9430769230769;A
 2019;2975;5692;Pensión media;656.8425842696629;A
 2019;2975;5693;Pensión media;539.038;A
@@ -5726,7 +5726,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2976;5691;Pensión media;836.89;A
 2019;2976;5692;Pensión media;863.7479166666667;A
 2019;2976;5693;Pensión media;676.015;A
-2019;2976;275092;Pensión media;;A
+2019;2976;275092;Pensión media;se;A
 2019;2977;5691;Pensión media;736.9219047619048;A
 2019;2977;5692;Pensión media;867.3694736842106;A
 2019;2977;5693;Pensión media;584.3333333333334;A
@@ -5775,7 +5775,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2987;5692;Pensión media;914.6241290322581;A
 2019;2987;5693;Pensión media;603.0740145985402;A
 2019;2987;275092;Pensión media;400.83769230769235;A
-2019;2988;5691;Pensión media;;A
+2019;2988;5691;Pensión media;se;A
 2019;2988;5692;Pensión media;894.8458823529411;A
 2019;2988;5693;Pensión media;526.2141176470589;A
 2019;2988;275092;Pensión media;258.01666666666665;A
@@ -5790,7 +5790,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2992;5691;Pensión media;852.7025;A
 2019;2992;5692;Pensión media;865.4485106382979;A
 2019;2992;5693;Pensión media;643.0778947368422;A
-2019;2992;275092;Pensión media;;A
+2019;2992;275092;Pensión media;se;A
 2019;2994;5691;Pensión media;1173.6029289215687;A
 2019;2994;5692;Pensión media;1246.9220204135045;A
 2019;2994;5693;Pensión media;752.3988827964359;A
@@ -5803,7 +5803,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2996;5692;Pensión media;1014.6524125132555;A
 2019;2996;5693;Pensión media;640.54799086758;A
 2019;2996;275092;Pensión media;434.8245224719101;A
-2019;2997;5691;Pensión media;;A
+2019;2997;5691;Pensión media;se;A
 2019;2997;5692;Pensión media;662.4259375;A
 2019;2997;5693;Pensión media;450.175;A
 2019;2997;275092;Pensión media;;A
@@ -5814,7 +5814,7 @@ D_TEMPORAL_0;D_TERRITORIO_0;D_CLASEDEPENSION_0;INDICATOR;OBS_VALUE;FREQ
 2019;2999;5691;Pensión media;560.1328571428571;A
 2019;2999;5692;Pensión media;776.1548979591837;A
 2019;2999;5693;Pensión media;501.67782608695654;A
-2019;2999;275092;Pensión media;;A
+2019;2999;275092;Pensión media;se;A
 2019;3019;5691;Pensión media;730.2360000000001;A
 2019;3019;5692;Pensión media;676.4819230769231;A
 2019;3019;5693;Pensión media;656.3411538461539;A

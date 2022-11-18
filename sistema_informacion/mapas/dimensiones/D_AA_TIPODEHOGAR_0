@@ -1,0 +1,12 @@
+SOURCE,COD,NAME,TARGET
+515756,1,(1) Hogares con un único adulto (16+),515756
+515757,11,(11) Un adulto solo,515757
+515758,12,(12) Un adulto con niños (menores de 16),515758
+515759,2,(2) Hogares con dos adultos (16+),515759
+515761,21,(21) Dos adultos solos,515761
+515762,22,(22) Dos adultos con niños (menores de 16),515762
+515760,3,(3) Hogares con tres o más adultos (16+),515760
+515763,31,(31) Tres o más adultos solos,515763
+515764,32,(32) Tres o más adultos con niños (menores de 16),515764
+516585,990,(990) No consta,516585
+515755,00,(00) TOTAL,515755

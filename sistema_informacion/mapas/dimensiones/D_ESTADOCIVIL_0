@@ -1,15 +1,15 @@
 SOURCE,TARGET,COD,NAME
-00,TOTAL,,
+00,_T,,
 1,SIN,,
-3,WID_DTHREP,,
-5,DIV_DISREP,,
-NC,UNK,,
+3,DTHLUN,,
+5,DIV,,
+NC,_U,,
 4317,SIN,10,(10) Soltero/a
-4319,MAR_REP,20,(20) Casado/a
-4321,WID_DTHREP,30,(30) Viudo/a
-4324,DIV_DISREP,45,(45) Separado/a o divorciado/a
-4325,TOTAL,00,(00) TOTAL
-4316,4316,1,(1) Soltero/a
-4320,4320,3,(3) Viudo/a
-4323,4323,5,(5) Divorciado/a
-4327,4327,NC,(NC) No consta
+4319,MAR,20,(20) Casado/a
+4321,DTHLUN,30,(30) Viudo/a
+4324,DIV_WID,45,(45) Separado/a o divorciado/a
+4325,_T,00,(00) TOTAL
+4316,SIN,1,(1) Soltero/a
+4320,DTHLUN,3,(3) Viudo/a
+4323,DIV,5,(5) Divorciado/a
+4327,_U,NC,(NC) No consta

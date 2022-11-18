@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-70;;() Composición del hogar según la actividad;Composición del hogar según la actividad;;0
+70;TOTAL;(TOTAL) Composición del hogar según la actividad;Composición del hogar según la actividad;;0
 5824;00;(00) TOTAL;TOTAL;;1
 5820;01;(01) Con algún miembro activo;Con algún miembro activo;5824;1
 5823;0200;(0200) Con todos los miembros inactivos;Con todos los miembros inactivos;5824;2
@@ -10,4 +10,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 5818;01_02_02;(01_02_02) Con miembros ocupados y parados;Con miembros ocupados y parados;5819;2
 5822;020;(020) Con todos los miembros inactivos;Con todos los miembros inactivos;5823;1
 5821;02;(02) Con todos los miembros inactivos;Con todos los miembros inactivos;5822;1
-_Z;No aplica;No aplica;No aplica;;

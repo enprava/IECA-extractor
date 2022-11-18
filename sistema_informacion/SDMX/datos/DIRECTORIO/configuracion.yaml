@@ -1,6 +1,8 @@
 NOMBRE_DSD: DSD_DIRECTORIO
+categoria: BUSINESS_STAT
 grupos_consultas:
   Empresas por sector de actividad y municipio*:
+    id: '1'
     consultas:
     - '65500'
     - '65467'
@@ -16,11 +18,10 @@ grupos_consultas:
     - '65504'
     - '65505'
     - '65506'
-    id: '1'
 variables:
-- TIME_PERIOD
-- REF_AREA
-- D_CNAE09_0
+- TEMPORAL
+- TERRITORIO
+- CNAE09
 - INDICATOR
 - OBS_VALUE
 - FREQ

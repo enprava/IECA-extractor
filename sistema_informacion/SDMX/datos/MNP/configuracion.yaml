@@ -1,5 +1,5 @@
 NOMBRE_DSD: DSD_MNP
-categoria: DEMOGRAFIA
+categoria: POP_MIGRATION
 grupos_consultas:
   Nacimientos, defunciones y crecimiento natural de la población por sexo según provincia o municipio de residencia:
     id: '1'

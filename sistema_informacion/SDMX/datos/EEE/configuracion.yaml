@@ -1,5 +1,5 @@
 NOMBRE_DSD: DSD_EEE
-categoria: NO_CONFIGURADO
+categoria: SECTORAL_STAT
 grupos_consultas:
   Estadística Estructural de Empresas:
     id: '1'

@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-8856;;() Lugar de ocurrencia;Lugar de ocurrencia;;0
+8856;Total;(Total) Lugar de ocurrencia;Lugar de ocurrencia;;0
 838403;00;(00) TOTAL;TOTAL;;1
 838404;1;(1) Domicilio particular;Domicilio particular;838403;1
 838405;2;(2) Centro hospitalario;Centro hospitalario;838403;2
@@ -7,4 +7,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 838407;4;(4) Lugar de trabajo;Lugar de trabajo;838403;4
 838408;5;(5) Otro lugar;Otro lugar;838403;5
 838409;0;(0) No consta;No consta;838403;6
-_Z;No aplica;No aplica;No aplica;;

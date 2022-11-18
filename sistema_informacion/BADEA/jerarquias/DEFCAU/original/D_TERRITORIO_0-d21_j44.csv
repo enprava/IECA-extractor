@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-21;;() Andalucía/Provincias Andalucía (usar en consultas provinciales);Andalucía/Provincias Andalucía (usar en consultas provinciales);;0
+21;TOTAL;(TOTAL) Andalucía/Provincias Andalucía (usar en consultas provinciales);Andalucía/Provincias Andalucía (usar en consultas provinciales);;0
 3143;C01;(C01) Andalucía;Andalucía;;1
 2352;04;(04) Almería;Almería;3143;2
 2402;11;(11) Cádiz;Cádiz;3143;3
@@ -10,4 +10,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 3023;29;(29) Málaga;Málaga;3143;8
 3142;41;(41) Sevilla;Sevilla;3143;9
 3144;C01NC;(C01NC) Provincia sin especificar;Provincia sin especificar;3143;10
-_Z;No aplica;No aplica;No aplica;;

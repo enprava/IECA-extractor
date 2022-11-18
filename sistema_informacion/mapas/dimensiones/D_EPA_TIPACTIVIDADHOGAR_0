@@ -1,0 +1,15 @@
+SOURCE,COD,NAME,TARGET
+49014,01,(01) Hogares inactivos,49014
+49010,0101,(0101) Inactivos sin ingresos,49010
+49011,0102,(0102) Inactivos con prestaciones por desempleo,49011
+49012,0103,(0103) Inactivos con prestaciones y pensiones,49012
+49013,0104,(0104) Inactivos con pensiones,49013
+49017,02,(02) Hogares ocupados,49017
+49015,0201,(0201) Ocupados sin parados,49015
+49016,0202,(0202) Ocupados y parados,49016
+49022,03,(03) Hogares parados,49022
+49018,0301,"(0301) Parados sin ocupados, con prestaciones por desempleo",49018
+49019,0302,"(0302) Parados sin ocupados, con prestaciones y pensiones",49019
+49020,0303,(0303) Parados sin ocupados con pensiones,49020
+49021,0304,(0304) Parados sin ingresos,49021
+49023,00,(00) TOTAL,49023

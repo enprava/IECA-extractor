@@ -1,15 +1,15 @@
 import copy
 import os
-import sys
 import time
 
 import pandas as pd
 import yaml
-from mdmpyclient.codelist.codelist import Codelist
 
 from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
+from mdmpyclient.ckan.ckan import Ckan
 import deepl
+from ckanapi import RemoteCKAN
 
 import logging
 
@@ -36,6 +36,10 @@ if __name__ == "__main__":
         traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
         agencia = configuracion_global['nodeId']
+        if configuracion_global['volcado_ckan']:
+            ckan = Ckan(configuracion_global)
+        if configuracion_global['reset_ckan']:
+            ckan.datasets.remove_all_datasets()
 
         if configuracion_global['volcado_mdm']:
             controller = MDM(configuracion_global, traductor, True)
@@ -98,17 +102,19 @@ if __name__ == "__main__":
                     # codelist_medidas.init_codes()
                     for consulta in actividad.consultas.values():
                         for medida in consulta.medidas:
+                            if medida['des'] in configuracion_global['medidas_reemplazando_obs_status']:
+                                continue
                             id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[
                                 0]
                             if id_medida not in codelist_medidas.codes['id']:
                                 codelist_medidas.add_code(id_medida, None, medida['des'], None)
                         # codelist_medidas.put()
+
                 controller.concept_schemes.put_all_concept_schemes()
                 controller.codelists.put_all_codelists()
                 controller.concept_schemes.put_all_data()
                 controller.codelists.put_all_data()
-                controller.concept_schemes.translate_all_concept_schemes()
-                controller.codelists.translate_all_codelists()
+
                 # ## DSD CREACION
                 id_dsd = 'DSD_' + nombre_actividad
                 agencia_dsd = 'ESC01'
@@ -139,6 +145,8 @@ if __name__ == "__main__":
                     pass
 
                 dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in variables}
+                print('dimensiones')
+                print(dimensiones)
                 try:
                     dsd = controller.dsds.data[agencia_dsd][id_dsd][version_dsd]
                 except:
@@ -154,7 +162,7 @@ if __name__ == "__main__":
 
                 # Creación del cubo para la actividad
                 for consulta in actividad.consultas.values():
-                    cube_id = configuracion_global['nodeId'] + "_" + consulta.id_consulta
+                    cube_id = configuracion_global['nodeId'] + "_" + nombre_actividad + "_" + consulta.id_consulta
                     categories = category_scheme.categories
                     id_cube_cat = \
                         categories[categories['id'] == nombre_actividad]['id_cube_cat'].values[0]
@@ -167,7 +175,8 @@ if __name__ == "__main__":
                     mapa = copy.deepcopy(actividad.configuracion['variables'])
                     mapa = ['TIME_PERIOD' if variable == 'TEMPORAL' else variable for variable in mapa]
 
-                    mapping_id = controller.mappings.put(variables, id_cubo, consulta.id_consulta)
+                    mapping_id = controller.mappings.put(variables, id_cubo,
+                                                         nombre_actividad + '_' + consulta.id_consulta)
 
                     try:
                         mapping = controller.mappings.data[id_cubo].load_cube(
@@ -178,10 +187,14 @@ if __name__ == "__main__":
                             consulta.datos.datos_por_observacion_extension_disjuntos)
 
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_df = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
+                    nombre_df = {'es': consulta.metadatos['title']}
+                    if consulta.metadatos['subtitle']:
+                        nombre_df = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
 
-                    variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa] + [
-                        'ID_OBS_STATUS']
+                    variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
+                    if 'ID_OBS_STATUS' not in variables_df:
+                        variables_df += ['ID_OBS_STATUS']
+
                     controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
                                              category_scheme, nombre_actividad)
                     controller.dataflows.data = controller.dataflows.get(False)
@@ -190,4 +203,30 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
+                    id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
+
+                    id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    nombre_mds = {'es': consulta.metadatos['title']}
+                    if consulta.metadatos['subtitle']:
+                        nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
+                    categoria = category_scheme.get_category_hierarchy(actividad.actividad)
+                    controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
+                                                '1.0')
+                    controller.metadatasets.data[id_mds].put(
+                        os.path.join(configuracion_global['directorio_reportes_metadatos'],
+                                     actividad.configuracion_actividad['informe_metadatos'] + '.json'))
+                    controller.metadatasets.data[id_mds].init_data()
+                    controller.metadatasets.data[id_mds].publish_all()
+                    #controller.metadatasets.data[id_mds].download_all_reports()
+                    if configuracion_global['volcado_ckan']:
+                        id_dataset = f'DF_{nombre_actividad}_{consulta.id_consulta}'
+                        name_dataset = controller.dataflows.data[agencia][id_df]['1.0'].names['es']
+                        ckan.datasets.create(id_dataset.lower(), name_dataset, ckan.orgs.orgs[nombre_actividad.lower()])
+                        ckan.resources.create(consulta.datos.datos_por_observacion_extension_disjuntos,
+                                              id_dataset, 'csv', id_dataset.lower())
+                        controller.metadatasets.data[id_mds].reports.apply(
+                            lambda x: ckan.resources.create_from_file(
+                                f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html',
+                                id_dataset.lower()), axis=1)
         controller.logout()

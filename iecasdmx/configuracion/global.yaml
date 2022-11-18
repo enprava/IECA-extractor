@@ -1,26 +1,34 @@
 directorio_sistema_informacion: sistema_informacion/
 directorio_mapas_dimensiones: sistema_informacion/mapas/dimensiones/
 directorio_mapa_conceptos_codelists: sistema_informacion/mapas/conceptos_codelist.yaml
+directorio_reportes_metadatos: sistema_informacion/reportes_metadatos
 directorio_jerarquias: sistema_informacion/BADEA/jerarquias
 directorio_datos: sistema_informacion/BADEA/datos
 directorio_json: sistema_informacion/BADEA/consultas
+directorio_metadatos_html: sistema_informacion/metadatos_html
 fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
-direccion_API_SDMX: http://localhost
-url_base: http://localhost/sdmx_172/ws/NODE_API/
-
+metadata_api: http://localhost/sdmx_172/ws/METADATA_API
+direccion_API_SDMX: https://sdmx01.intranet.ieca.junta-andalucia.es
+url_base: https://sdmx01.intranet.ieca.junta-andalucia.es/mdm_172/ws/NODE_API/
 volcado_mdm: True
-reset_ddb: True
+reset_ddb: False
+
+volcado_ckan: False
+reset_ckan: False
 
 usuario_SDMX: admin
-contraseña_SDMX: ''
+contraseña_SDMX: 'M3tad@tos'
 nodeId: 'ESC01'
 
 cache: traducciones.yaml
-translate: False
+translate: True
+
+url_ckan: http://localhost:5000
+api_ckan: ''
 
 lenguajes:
   - 'en'
@@ -43,33 +51,10 @@ dimension_temporal:
   - TEMPORAL
   - FREQ
 
-dimensiones_a_mapear:
-  - CL_INDICATOR
-  - INDICATOR
-  - D_ECOICOP_0
-  - ECOICOP
-  - D_TERRITORIO_0
-  - TERRITORIO
-  - D_ESTADOCIVIL_0
-  - D_ESTADOCIVILC2_0
-  - D_SEXO_0
-  - SEXO
-  - D_SEXOC2_0
-  - D_EDAD_0
-  - EDAD
-  - D_EPD_GRUPOSEDAD_0
-  - D_NACIONALIDAD_0
-  - NACIONALIDAD
-  - D_ESTADO_DATO_0
-  - OBS_STATUS
-  - D_TIPO_ALOJAM_ECTA_0
-  - D_PROCEDENCIA_ECTA_0
-  - D_TIPO_EMPRESA_0
-  - D_AA_TERRITROIO_0
-  - D_AA_TERRITORIOIN_0
-  - AA_TERRITROIO
-  - AA_TERRITORIOIN
-  - D_MCVL_SECTORACTIVIDAD_0
+msd:
+  id: 'MSD_IECA'
+  agency: ESC01
+  version: '1.0'
 
 
 propiedades_jerarquias:
@@ -84,9 +69,8 @@ mapeo_columnas:
   D_TERRITORIO_0: REF_AREA
   D_SEXO_0: SEXO
   D_EDAD_0: EDAD
-  D_EPD_GRUPOSEDAD_0: EDAD
+  D_EPD_GRUPOSEDAD_0: GRUPOSEDAD
   D_SECC_CNAE09_0: SECC_CNAE09
-  D_ESTADO_DATO_0: OBS_STATUS
   D_MACROMAG_CPA_0: MACROMAG_CPA
   D_CIE10_0: CIE10
   D_G102: G102
@@ -135,11 +119,20 @@ mapeo_columnas:
   MCVL_INTERVINGRESOS: INTERVINGRESOS
   MCVL_TIPOHOGAR: TIPODEHOGAR
   EPD_TAMANOEMPRESA: TAMANOEMPRESA
+  D_ESTADO_DATO_0: OBS_STATUS
+  ESTADO_DATO: OBS_STATUS
+  EPD_GRUPOSEDAD: GRUPOSEDAD
+  EPD_NIVELESTUDIOSTER: NIVELESTUDIOSTER
+  EPD_RELACTIVIDAD: RELACTIVIDAD
+  EPD_SITUACPROFES: SITUACPROFES
+  EPD_PERCEPPRESINVAL: PERCEPPRESINVAL
+  EPD_COMPHOGACTIVIDAD: COMPHOGACTIVIDAD
+  EPD_SITUACIONDEPEND: SITUACIONDEPEND
+  EPD_AMBITOESTUDHOG: AMBITOESTUDHOG
 
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola
-  -
 
 languages:
   - es

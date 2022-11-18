@@ -1,0 +1,17 @@
+SOURCE,COD,NAME,TARGET
+69536,001,(001) Secillo,69536
+69533,01,(01) Sencillo:1 Niño,69533
+69534,02,(02) Sencillo:1 Niña,69534
+69548,002,(002) Múltiple,69548
+69540,2,(2) Dobles,69540
+69537,03,(03) Doble:2 Niños,69537
+69538,04,(04) Doble:1 Niño y 1 Niña,69538
+69539,05,(05) Doble:2 Niñas,69539
+69545,3,(3) Triples,69545
+69541,06,(06) Triple:3 Niños,69541
+69542,07,(07) Triple:2 Niños y 1 Niña,69542
+69543,08,(08) Triple:2 Niñas y 1 Niño,69543
+69544,09,(09) Triple:3 Niñas,69544
+69549,00,(00) TOTAL,69549
+69547,4,(4) Cuádruples y más,69547
+69546,10,(10) Cuádruples o más,69546

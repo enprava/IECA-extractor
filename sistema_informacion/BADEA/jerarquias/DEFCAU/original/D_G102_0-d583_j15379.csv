@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-583;;() G102 (Covid-Resto);G102 (Covid-Resto);;0
+583;Total;(Total) G102 (Covid-Resto);G102 (Covid-Resto);;0
 838410;0;(0) 00A. Covid-19 Virus identificado;00A. Covid-19 Virus identificado;;0
 838411;1;(1) 00B. Covid-19 Virus no identificado (sospechoso);00B. Covid-19 Virus no identificado (sospechoso);;2
 57731;00;(00) Otras causas;Otras causas;;3
@@ -110,4 +110,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 518290;103;(103) 103. COVID-19;103. COVID-19;57731;106
 57732;NC;(NC) No consta;No consta;57731;107
 818511;PC;(PC) En proceso de codificación;En proceso de codificación;57731;108
-_Z;No aplica;No aplica;No aplica;;

@@ -1,5 +1,5 @@
 ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-183;;() Nivel de estudios terminados;Nivel de estudios terminados;;0
+183;TOTAL;(TOTAL) Nivel de estudios terminados;Nivel de estudios terminados;;0
 38333;00;(00) TOTAL;TOTAL;;1
 38327;1;(1) Inferior a secundaria;Inferior a secundaria;38333;1
 38332;2;(2) Secundaria o más;Secundaria o más;38333;2
@@ -10,4 +10,3 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 38331;23;(23) Superiores, incluyendo doctorado;Superiores, incluyendo doctorado;38332;2
 38328;03;(03) Secundaria y programas de formación e inserción laboral;Secundaria y programas de formación e inserción laboral;38329;1
 38330;04;(04) Superiores, incluyendo doctorado;Superiores, incluyendo doctorado;38331;1
-_Z;No aplica;No aplica;No aplica;;

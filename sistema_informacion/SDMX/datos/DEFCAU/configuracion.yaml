@@ -1,10 +1,12 @@
 NOMBRE_DSD: DSD_DEFCAU
+categoria: HEALTH
 grupos_consultas:
   Defunciones por causa de muerte (capítulos CIE 10ª), sexo y provincia de residencia:
+    id: '1'
     consultas:
     - '65723'
-    id: '1'
   Defunciones por causa de muerte (lista reducida CIE 10ª), grupo de edad, sexo y mes de la defunción:
+    id: '2'
     consultas:
     - '65971'
     - '65992'
@@ -15,25 +17,24 @@ grupos_consultas:
     - '65998'
     - '65999'
     - '66000'
-    id: '2'
   Defunciones por covid-19 virus identificado y virus no identificado (sospechoso) según grupo de edad y sexo en Andalucía:
+    id: '3'
     consultas:
     - '65724'
-    id: '3'
   ? Defunciones por covid-19 virus identificado y virus no identificado (sospechoso)
     según lugar de ocurrencia, mes de defunción y sexo en Andalucía
-  : consultas:
+  : id: '4'
+    consultas:
     - '60318'
-    id: '4'
 variables:
-- TIME_PERIOD
+- TEMPORAL
 - CIE10
-- REF_AREA
+- TERRITORIO
 - SEXO
 - INDICATOR
 - OBS_VALUE
 - FREQ
-- D_G102_0
+- G102
 - EDAD
 - MES
-- LUG_DEF
+- EDCA_LUGDEF

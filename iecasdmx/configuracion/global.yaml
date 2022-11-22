@@ -11,21 +11,21 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
-metadata_api: http://localhost/sdmx_172/ws/METADATA_API
-direccion_API_SDMX: https://sdmx01.intranet.ieca.junta-andalucia.es
-url_base: https://sdmx01.intranet.ieca.junta-andalucia.es/mdm_172/ws/NODE_API/
+metadata_api: http://192.168.1.133/sdmx_172/ws/METADATA_API
+direccion_API_SDMX: http://192.168.1.133
+url_base: http://192.168.1.133/sdmx_172/ws/NODE_API/
 volcado_mdm: True
-reset_ddb: False
+reset_ddb: True
 
 volcado_ckan: False
 reset_ckan: False
 
 usuario_SDMX: admin
-contraseña_SDMX: 'M3tad@tos'
+contraseña_SDMX: ''
 nodeId: 'ESC01'
 
 cache: traducciones.yaml
-translate: True
+translate: False
 
 url_ckan: http://localhost:5000
 api_ckan: ''
@@ -129,6 +129,8 @@ mapeo_columnas:
   EPD_COMPHOGACTIVIDAD: COMPHOGACTIVIDAD
   EPD_SITUACIONDEPEND: SITUACIONDEPEND
   EPD_AMBITOESTUDHOG: AMBITOESTUDHOG
+  TERRITORIO_1: TERRITORIO_1
+  ARE_INSCRIPCION: INSCRIPCION
 
 
 medidas_reemplazando_obs_status:

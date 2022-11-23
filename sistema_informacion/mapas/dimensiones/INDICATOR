@@ -339,3 +339,6 @@ Compras mediante mensajes tipo EDI (miles de euros),,,COMP_MEDI_MENS_TIPO_EDI_MI
 Índice VAB. Tasa interanual,,,INDI_VAB_TASA_INTE
 Índice VAB. Tasa acumulada,,,INDI_VAB_TASA_ACUM
 Andaluces,,,ANDALUCES
+Tasa de variación intermensual,,,TASA_VARI_INTE
+Tasa de variación interanual (del mes),,,TASA_VARI_INTE_DEL_MES
+Tasa de variación de la media de lo que va de año,,,TASA_VARI_LA_MEDI_LO_QUE_VA_ANO

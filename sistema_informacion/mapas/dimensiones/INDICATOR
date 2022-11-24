@@ -329,3 +329,16 @@ Compras mediante mensajes tipo EDI (miles de euros),,,COMP_MEDI_MENS_TIPO_EDI_MI
 % compras mediante mensajes tipo EDI sobre el total de compras,,,PCT_COMP_MEDI_MENS_TIPO_EDI_SOBR_EL_TOTA_COMP
 % de empresas que han realizado ventas por comercio electrónico,,,PCT_EMPR_QUE_HAN_REAL_VENT_COME_ELEC
 % de empresas que han realizado compras por comercio electrónico,,,PCT_EMPR_QUE_HAN_REAL_COMP_COME_ELEC
+Índice Cifra de Negocio,,,INDI_CIFR_NEGO
+Índice Cifra de Negocio. Tasa interanual,,,INDI_CIFR_NEGO_TASA_INTE
+Índice Cifra de Negocio. Tasa acumulada,,,INDI_CIFR_NEGO_TASA_ACUM
+Índice Empleo,,,INDICE_EMPLEO
+Índice Empleo. Tasa interanual,,,INDI_EMPL_TASA_INTE
+Índice Empleo. Tasa acumulada,,,INDI_EMPL_TASA_ACUM
+Índice VAB,,,INDICE_VAB
+Índice VAB. Tasa interanual,,,INDI_VAB_TASA_INTE
+Índice VAB. Tasa acumulada,,,INDI_VAB_TASA_ACUM
+Andaluces,,,ANDALUCES
+Tasa de variación intermensual,,,TASA_VARI_INTE
+Tasa de variación interanual (del mes),,,TASA_VARI_INTE_DEL_MES
+Tasa de variación de la media de lo que va de año,,,TASA_VARI_LA_MEDI_LO_QUE_VA_ANO

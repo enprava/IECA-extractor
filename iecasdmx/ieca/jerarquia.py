@@ -110,16 +110,19 @@ class Jerarquia:
         datos = self.datos.__deepcopy__()
         datos.columns = columnas
 
-        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
+        index = self.id_jerarquia.find(self.nombre)
+        nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2] #Obtenemos el nombre del
+                                                                                #mapa de la dimension
+        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])
         Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
-        #Cambiamos label por description
-        self.datos_sdmx[['NAME','DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION','NAME']]
+        # Cambiamos label por description
+        self.datos_sdmx[['NAME', 'DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION', 'NAME']]
         self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
 
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
-        self.datos_sdmx.drop_duplicates('ID',inplace= True)
+        self.datos_sdmx.drop_duplicates('ID', inplace=True)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
 
@@ -167,4 +170,4 @@ class Jerarquia:
                                                          'descripcion': {'es': self.metadatos['des']}}
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
-                yaml.dump(mapa_conceptos_codelists, file,encoding='utf-8')
+                yaml.dump(mapa_conceptos_codelists, file, encoding='utf-8')

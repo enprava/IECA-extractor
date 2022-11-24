@@ -203,21 +203,21 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
-                    id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
-                    controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
-
-                    id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_mds = {'es': consulta.metadatos['title']}
-                    if consulta.metadatos['subtitle']:
-                        nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
-                    categoria = category_scheme.get_category_hierarchy(actividad.actividad)
-                    controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
-                                                '1.0')
-                    controller.metadatasets.data[id_mds].put(
-                        os.path.join(configuracion_global['directorio_reportes_metadatos'],
-                                     actividad.configuracion_actividad['informe_metadatos'] + '.json'))
-                    controller.metadatasets.data[id_mds].init_data()
-                    controller.metadatasets.data[id_mds].publish_all()
+                    # id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    # controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
+                    #
+                    # id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    # nombre_mds = {'es': consulta.metadatos['title']}
+                    # if consulta.metadatos['subtitle']:
+                    #     nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
+                    # categoria = category_scheme.get_category_hierarchy(actividad.actividad)
+                    # controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
+                    #                             '1.0')
+                    # controller.metadatasets.data[id_mds].put(
+                    #     os.path.join(configuracion_global['directorio_reportes_metadatos'],
+                    #                  actividad.configuracion_actividad['informe_metadatos'] + '.json'))
+                    # controller.metadatasets.data[id_mds].init_data()
+                    # controller.metadatasets.data[id_mds].publish_all()
                     #controller.metadatasets.data[id_mds].download_all_reports()
                     if configuracion_global['volcado_ckan']:
                         id_dataset = f'DF_{nombre_actividad}_{consulta.id_consulta}'

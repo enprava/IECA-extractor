@@ -182,13 +182,15 @@ class Datos:
          fichero de configuracion global.
          """
         self.logger.info('Mapeando observaciones hacia SDMX')
-        columnas_a_mapear = [column for column in self.datos_por_observacion.columns if column not in ['OBS_VALUE','FREQ']]
+        columnas_a_mapear = [column for column in self.datos_por_observacion.columns if
+                             column not in ['OBS_VALUE', 'FREQ']]
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
             mapa = pd.read_csv(directorio_mapa, dtype='string', keep_default_na=False)
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
+
     def extender_mapa_nuevos_terminos(self):
         """Accion que crea/extiende el mapa para las columnas configuradas facilitando al técnico realizar la
         conversión y su posterior reutilización en distintas actividades.
@@ -336,6 +338,6 @@ def insertar_freq(df, periodicidad):
      """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
-                                     'Anual. Datos a 31 de diciembre': 'A'}
+                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df

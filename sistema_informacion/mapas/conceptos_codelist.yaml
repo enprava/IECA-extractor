@@ -193,6 +193,21 @@ ANOCELEBRMATRIM:
   nombre:
     es: ANOCELEBRMATRIM
   tipo: dimension
+ARE_INSCRIPCION:
+  codelist:
+    agency: ESC01
+    id: CL_INSCRIPCION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: INSCRIPCION
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Inscripci\xF3n"
+  nombre:
+    es: "Inscripci\xF3n"
+  tipo: dimension
 BASECOTIZAC:
   codelist:
     agency: ESC01
@@ -898,6 +913,36 @@ GRUPOSEDAD:
   nombre:
     es: Grupos de edad
   tipo: dimension
+IASS_TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_SERVICES
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  tipo: dimension
+INSCRIPCION:
+  codelist:
+    agency: ESC01
+    id: CL_INSCRIPCION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: INSCRIPCION
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: "Inscripci\xF3n"
+  nombre:
+    es: "Inscripci\xF3n"
+  tipo: dimension
 INTERVINGRESOS:
   codelist:
     agency: ESC01
@@ -942,6 +987,51 @@ IPC_RUBRICAS:
     es: Rubricas
   nombre:
     es: Rubricas
+  tipo: dimension
+IVGS_SERIEIVGS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOSERIES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOSERIE
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de Serie
+  nombre:
+    es: Tipo de Serie
+  tipo: dimension
+IVGS_TIPVENT:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  tipo: dimension
+LUGARNACIMIEN:
+  codelist:
+    agency: ESC01
+    id: CL_LUGARNACIMIEN
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: LUGARNACIMIEN
+    id: CS_POP_MIGRATION
+    version: '1.0'
+  descripcion:
+    es: Lugar de nacimiento
+  nombre:
+    es: Lugar de nacimiento
   tipo: dimension
 LUG_NAC_PADRON:
   codelist:
@@ -1708,6 +1798,21 @@ TERRITORIO:
   nombre:
     es: TERRITORIO
   tipo: dimension
+TERRITORIO_1:
+  codelist:
+    agency: ESC01
+    id: CL_TERRITORIO
+    version: '1.0'
+  concept_scheme:
+    agency: SDMX
+    concepto: REF_AREA
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: TERRITORIO
+  tipo: dimension
 TIPACTIVIDADHOGAR:
   codelist:
     agency: ESC01
@@ -1843,6 +1948,21 @@ TIPOPRESTACION:
   nombre:
     es: TIPOPRESTACION
   tipo: dimension
+TIPOSERIES:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOSERIES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOSERIE
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de Serie
+  nombre:
+    es: Tipo de Serie
+  tipo: dimension
 TIPOULTIEMPR:
   codelist:
     agency: ESC01
@@ -1857,6 +1977,21 @@ TIPOULTIEMPR:
     es: "Tipolog\xEDa del \xFAltimo emprendimiento"
   nombre:
     es: TIPOULTIEMPR
+  tipo: dimension
+TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
   tipo: dimension
 TIPO_ALOJAM_ECTA:
   codelist:
@@ -1917,6 +2052,21 @@ TIPO_PERSONAL:
     es: Tipo de personal
   nombre:
     es: TIPO_PERSONAL
+  tipo: dimension
+TIPO_VENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOVENTAS
+    id: CS_SERVICES
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
   tipo: dimension
 TIPRELACIONSS:
   codelist:

@@ -1,0 +1,6 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+963;Total;(Total) Tipo de ventas;Tipo de ventas;;0
+61592;01;(01) Ventas totales;Ventas totales;;1
+61593;02;(02) Ventas totales sin estaciones de servicio;Ventas totales sin estaciones de servicio;;2
+61594;03;(03) Ventas alimentación;Ventas alimentación;;3
+61595;04;(04) Ventas no alimentación;Ventas no alimentación;;4

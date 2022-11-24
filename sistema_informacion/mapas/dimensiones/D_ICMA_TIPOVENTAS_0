@@ -1,0 +1,5 @@
+SOURCE,COD,NAME,TARGET
+61592,01,(01) Ventas totales,61592
+61593,02,(02) Ventas totales sin estaciones de servicio,61593
+61594,03,(03) Ventas alimentación,61594
+61595,04,(04) Ventas no alimentación,61595

@@ -928,6 +928,36 @@ IASS_TIPOVENTAS:
   nombre:
     es: Tipo de ventas
   tipo: dimension
+ICMA_TIPINDOCUPAC:
+  codelist:
+    agency: ESC01
+    id: CL_TIPINDOCUPAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPINDOCUPAC
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  tipo: dimension
+ICMA_TIPOVENTAS:
+  codelist:
+    agency: ESC01
+    id: CL_ICMA_TIPOVENTAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ICMA_TIPOVENTAS
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Tipo de ventas
+  nombre:
+    es: Tipo de ventas
+  tipo: dimension
 INSCRIPCION:
   codelist:
     agency: ESC01
@@ -987,6 +1017,21 @@ IPC_RUBRICAS:
     es: Rubricas
   nombre:
     es: Rubricas
+  tipo: dimension
+IVGS_SERIEIVGS:
+  codelist:
+    agency: ESC01
+    id: CL_IVGS_SERIEIVGS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: IVGS_SERIEIVGS
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: Tipo de Serie
+  nombre:
+    es: Tipo de Serie
   tipo: dimension
 LUGARNACIMIEN:
   codelist:
@@ -1797,6 +1842,21 @@ TIPACTIVIDADHOGAR:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
   nombre:
     es: TIPACTIVIDADHOGAR
+  tipo: dimension
+TIPINDOCUPAC:
+  codelist:
+    agency: ESC01
+    id: CL_TIPINDOCUPAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPINDOCUPAC
+    id: CS_ECO_ACCOUNTS
+    version: '1.0'
+  descripcion:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
+  nombre:
+    es: "Tipo de \xEDndice de ocupaci\xF3n"
   tipo: dimension
 TIPOCOTIZACA:
   codelist:

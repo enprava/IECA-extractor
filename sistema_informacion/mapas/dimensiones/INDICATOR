@@ -339,3 +339,19 @@ Compras mediante mensajes tipo EDI (miles de euros),,,COMP_MEDI_MENS_TIPO_EDI_MI
 Índice VAB. Tasa interanual,,,INDI_VAB_TASA_INTE
 Índice VAB. Tasa acumulada,,,INDI_VAB_TASA_ACUM
 Andaluces,,,ANDALUCES
+Índice original,,,INDI_ORIG
+Índice original. Tasa de variación intermensual,,,INDI_ORIG_TASA_VARI_INTE
+Índice original. Tasa de variacion interanual (del mes),,,INDI_ORIG_TASA_VARI_INTE_DEL_MES
+Índice original. Tasa de variacion de la media de lo que va de año,,,INDI_ORIG_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO
+Índice original. Tasa de variación interanual (del mes),,,INDI_ORIG_TASA_VARI_INTE_DEL_MES
+Índice original. Tasa de variación de la media de lo que va de año,,,INDI_ORIG_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO
+Índice deflactado,,,INDI_DEFL
+Índice deflactado. Tasa de variación intermensual,,,INDI_DEFL_TASA_VARI_INTE
+Índice deflactado. Tasa de variacion interanual (del mes),,,INDI_DEFL_TASA_VARI_INTE_DEL_MES
+Índice deflactado. Tasa de variacion de la media de lo que va de año,,,INDI_DEFL_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO
+Índice deflactado. Tasa de variación interanual (del mes),,,INDI_DEFL_TASA_VARI_INTE_DEL_MES
+Índice deflactado. Tasa de variación de la media de lo que va de año,,,INDI_DEFL_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO
+Índice de empleo,,,INDI_EMPL
+Índice de empleo. Tasa de variación intermensual,,,INDI_EMPL_TASA_VARI_INTE
+Índice de empleo. Tasa de variacion interanual (del mes),,,INDI_EMPL_TASA_VARI_INTE_DEL_MES
+Índice de empleo. Tasa de variacion de la media de lo que va de año,,,INDI_EMPL_TASA_VARI_LA_MEDI_LO_QUE_VA_ANO

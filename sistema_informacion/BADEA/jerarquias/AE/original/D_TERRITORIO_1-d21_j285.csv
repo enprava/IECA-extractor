@@ -1,0 +1,270 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+21;TOTAL;(TOTAL) País de residencia;País de residencia;;0
+3675;66;(66) Extranjero;Extranjero;;1
+3683;NP000;(NP000) No procede;No procede;;2
+3677;NC000;(NC000) No consta;No consta;;3
+3403;6601;(6601) Europa;Europa;3675;4
+3481;6602;(6602) África;África;3675;5
+3545;6603;(6603) América;América;3675;6
+3614;6604;(6604) Asia;Asia;3675;7
+3664;6605;(6605) Oceanía;Oceanía;3675;8
+3669;66555;(66555) Apátridas;Apátridas;3675;9
+3674;66NC00;(66NC00) No consta;No consta;3675;10
+3375;0101;(0101) Unión Europea;Unión Europea;3403;13
+3402;0102;(0102) Resto de Países Europeos;Resto de Países Europeos;3403;14
+3363;126;(126) Alemania;Alemania;3375;50
+3346;102;(102) Austria;Austria;3375;51
+3347;103;(103) Bélgica;Bélgica;3375;52
+3350;107;(107) Dinamarca;Dinamarca;3375;53
+3351;109;(109) Finlandia;Finlandia;3375;54
+3352;110;(110) Francia;Francia;3375;55
+3353;111;(111) Grecia;Grecia;3375;56
+3359;121;(121) Países Bajos;Países Bajos;3375;57
+3355;113;(113) Irlanda;Irlanda;3375;58
+3356;115;(115) Italia;Italia;3375;59
+3357;117;(117) Luxemburgo;Luxemburgo;3375;60
+3361;123;(123) Portugal;Portugal;3375;61
+3362;125;(125) Reino Unido;Reino Unido;3375;62
+3365;131;(131) Suecia;Suecia;3375;63
+3348;104;(104) Bulgaria;Bulgaria;3375;64
+3349;106;(106) Chipre;Chipre;3375;65
+3371;146;(146) Croacia;Croacia;3375;66
+3370;144;(144) Eslovaquia;Eslovaquia;3375;67
+3372;147;(147) Eslovenia;Eslovenia;3375;68
+3367;141;(141) Estonia;Estonia;3375;69
+3354;112;(112) Hungría;Hungría;3375;70
+3366;136;(136) Letonia;Letonia;3375;71
+3368;142;(142) Lituania;Lituania;3375;72
+3358;118;(118) Malta;Malta;3375;73
+3360;122;(122) Polonia;Polonia;3375;74
+3369;143;(143) República Checa;República Checa;3375;75
+3364;128;(128) Rumanía;Rumanía;3375;76
+3379;114;(114) Islandia;Islandia;3402;77
+3382;120;(120) Noruega;Noruega;3402;78
+3394;154;(154) Rusia;Rusia;3402;79
+3386;132;(132) Suiza;Suiza;3402;80
+3395;155;(155) Serbia y Montenegro;Serbia y Montenegro;3402;81
+3377;101;(101) Albania;Albania;3402;82
+3383;124;(124) Andorra;Andorra;3402;83
+3393;148;(148) Armenia;Armenia;3402;84
+3390;138;(138) Belarus;Belarus;3402;85
+3392;145;(145) Bosnia-Herzegovina;Bosnia-Herzegovina;3402;86
+3391;139;(139) Georgia;Georgia;3402;87
+3380;116;(116) Liechtenstein;Liechtenstein;3402;88
+3396;156;(156) Macedonia;Macedonia;3402;89
+3389;137;(137) Moldava;Moldava;3402;90
+3381;119;(119) Mónaco;Mónaco;3402;91
+3384;129;(129) San Marino;San Marino;3402;92
+3385;130;(130) Santa Sede;Santa Sede;3402;93
+3388;135;(135) Ucrania;Ucrania;3402;94
+3399;199;(199) Países de Europa sin relaciones diplomáticas;Países de Europa sin relaciones diplomáticas;3402;95
+3376;001;(001) País de Europa no determinado;País de Europa no determinado;3402;96
+3397;157;(157) Serbia;Serbia;3402;97
+3398;158;(158) Montenegro;Montenegro;3402;98
+3387;133;(133) U.R.S.S. Unión Soviética;U.R.S.S. Unión Soviética;3402;99
+3378;105;(105) Checoslovaquia;Checoslovaquia;3402;100
+3460;2030;(2030) Argelia;Argelia;3481;15
+3464;2130;(2130) Egipto;Egipto;3481;16
+3468;2280;(2280) Marruecos;Marruecos;3481;17
+3472;2340;(2340) Nigeria;Nigeria;3481;18
+3476;2480;(2480) Túnez;Túnez;3481;19
+3480;2500;(2500) República Democrática del Congo;República Democrática del Congo;3481;20
+3456;0207;(0207) Resto de Países Africanos;Resto de Países Africanos;3481;21
+3457;203;(203) Argelia;Argelia;3460;101
+3461;213;(213) Egipto;Egipto;3464;102
+3465;228;(228) Marruecos;Marruecos;3468;103
+3469;234;(234) Nigeria;Nigeria;3472;104
+3473;248;(248) Túnez;Túnez;3476;105
+3477;250;(250) República Democrática del Congo;República Democrática del Congo;3480;106
+3406;202;(202) Angola;Angola;3456;107
+3407;204;(204) Benin;Benin;3456;108
+3408;205;(205) Botswana;Botswana;3456;109
+3405;201;(201) Burkina Faso;Burkina Faso;3456;110
+3409;206;(206) Burundi;Burundi;3456;111
+3410;207;(207) Cabo Verde;Cabo Verde;3456;112
+3411;208;(208) Camerún;Camerún;3456;113
+3446;246;(246) Chad;Chad;3456;114
+3412;209;(209) Comores;Comores;3456;115
+3413;210;(210) Congo;Congo;3456;116
+3414;211;(211) Costa de Marfil;Costa de Marfil;3456;117
+3415;212;(212) Djibouti;Djibouti;3456;118
+3451;253;(253) Eritrea;Eritrea;3456;119
+3416;214;(214) Etiopía;Etiopía;3456;120
+3417;215;(215) Gabón;Gabón;3456;121
+3418;216;(216) Gambia;Gambia;3456;122
+3419;217;(217) Ghana;Ghana;3456;123
+3420;218;(218) Guinea;Guinea;3456;124
+3421;219;(219) Guinea Bissau;Guinea Bissau;3456;125
+3422;220;(220) Guinea Ecuatorial;Guinea Ecuatorial;3456;126
+3423;221;(221) Kenia;Kenia;3456;127
+3424;222;(222) Lesotho;Lesotho;3456;128
+3425;223;(223) Liberia;Liberia;3456;129
+3426;224;(224) Libia;Libia;3456;130
+3427;225;(225) Madagascar;Madagascar;3456;131
+3428;226;(226) Malawi;Malawi;3456;132
+3429;227;(227) Mali;Mali;3456;133
+3430;229;(229) Mauricio;Mauricio;3456;134
+3431;230;(230) Mauritania;Mauritania;3456;135
+3432;231;(231) Mozambique;Mozambique;3456;136
+3433;232;(232) Namibia;Namibia;3456;137
+3434;233;(233) Níger;Níger;3456;138
+3435;235;(235) República Centroafricana;República Centroafricana;3456;139
+3437;237;(237) Ruanda;Ruanda;3456;140
+3438;238;(238) Santo Tomé y Príncipe;Santo Tomé y Príncipe;3456;141
+3439;239;(239) Senegal;Senegal;3456;142
+3440;240;(240) Seychelles;Seychelles;3456;143
+3441;241;(241) Sierra Leona;Sierra Leona;3456;144
+3442;242;(242) Somalia;Somalia;3456;145
+3436;236;(236) Sudáfrica;Sudáfrica;3456;146
+3443;243;(243) Sudán;Sudán;3456;147
+3444;244;(244) Swazilandia;Swazilandia;3456;148
+3445;245;(245) Tanzania;Tanzania;3456;149
+3447;247;(247) Togo;Togo;3456;150
+3448;249;(249) Uganda;Uganda;3456;151
+3449;251;(251) Zambia;Zambia;3456;152
+3450;252;(252) Zimbabwe;Zimbabwe;3456;153
+3453;299;(299) Países de Africa sin relación diplomática;Países de Africa sin relación diplomática;3456;154
+3404;004;(004) País de Africa no determinado;País de Africa no determinado;3456;155
+3452;254;(254) Sudán del Sur;Sudán del Sur;3456;156
+3505;0301;(0301) América Central;América Central;3545;22
+3511;0302;(0302) América del Norte;América del Norte;3545;23
+3528;0303;(0303) América del Sur;América del Sur;3545;24
+3544;3990;(3990) Países de América sin relación diplomática;Países de América sin relación diplomática;3545;25
+3532;33310;(33310) Otros países y terrirorios dependientes en América Central y Caribe;Otros países y terrirorios dependientes en América Central y Caribe;3545;26
+3536;33320;(33320) Territorios dependientes en América del Norte;Territorios dependientes en América del Norte;3545;27
+3540;33330;(33330) Otros países y terrirorios dependientes en Sudamérica;Otros países y terrirorios dependientes en Sudamérica;3545;28
+3487;315;(315) Cuba;Cuba;3505;157
+3498;326;(326) República Dominicana;República Dominicana;3505;158
+3482;310;(310) Antigua y Barbuda;Antigua y Barbuda;3505;159
+3483;311;(311) Bahamas;Bahamas;3505;160
+3484;312;(312) Barbados;Barbados;3505;161
+3485;313;(313) Belice;Belice;3505;162
+3486;314;(314) Costa Rica;Costa Rica;3505;163
+3488;316;(316) Dominica;Dominica;3505;164
+3489;317;(317) El Salvador;El Salvador;3505;165
+3490;318;(318) Granada;Granada;3505;166
+3491;319;(319) Guatemala;Guatemala;3505;167
+3492;320;(320) Haití;Haití;3505;168
+3493;321;(321) Honduras;Honduras;3505;169
+3494;322;(322) Jamaica;Jamaica;3505;170
+3495;323;(323) Nicaragua;Nicaragua;3505;171
+3496;324;(324) Panamá;Panamá;3505;172
+3497;325;(325) San Vicente y las Granadinas;San Vicente y las Granadinas;3505;173
+3501;329;(329) San Cristóbal y Nieves;San Cristóbal y Nieves;3505;174
+3500;328;(328) Santa Lucía;Santa Lucía;3505;175
+3499;327;(327) Trinidad y Tobago;Trinidad y Tobago;3505;176
+3502;390;(390) Puerto Rico;Puerto Rico;3505;177
+3506;301;(301) Canadá;Canadá;3511;178
+3507;302;(302) Estados Unidos de América;Estados Unidos de América;3511;179
+3508;303;(303) México;México;3511;180
+3512;340;(340) Argentina;Argentina;3528;181
+3514;342;(342) Brasil;Brasil;3528;182
+3523;351;(351) Venezuela;Venezuela;3528;183
+3513;341;(341) Bolivia;Bolivia;3528;184
+3516;344;(344) Chile;Chile;3528;185
+3515;343;(343) Colombia;Colombia;3528;186
+3517;345;(345) Ecuador;Ecuador;3528;187
+3518;346;(346) Guyana;Guyana;3528;188
+3519;347;(347) Paraguay;Paraguay;3528;189
+3520;348;(348) Perú;Perú;3528;190
+3521;349;(349) Surinam;Surinam;3528;191
+3522;350;(350) Uruguay;Uruguay;3528;192
+3524;391;(391) Aruba;Aruba;3528;193
+3525;392;(392) Antillas Neerlandesas;Antillas Neerlandesas;3528;194
+3541;399;(399) Países de América sin relación diplomática;Países de América sin relación diplomática;3544;195
+3529;3331;(3331) Otros países y terrirorios dependientes en América Central y Caribe;Otros países y terrirorios dependientes en América Central y Caribe;3532;196
+3533;3332;(3332) Territorios dependientes en América del Norte;Territorios dependientes en América del Norte;3536;197
+3537;3333;(3333) Otros países y terrirorios dependientes en Sudamérica;Otros países y terrirorios dependientes en Sudamérica;3540;198
+3597;4090;(4090) Filipinas;Filipinas;3614;29
+3609;4150;(4150) Japón;Japón;3614;30
+3601;4100;(4100) India;India;3614;31
+3605;4110;(4110) Indonesia;Indonesia;3614;32
+3613;4260;(4260) Pakistán;Pakistán;3614;33
+3593;0406;(0406) Resto de Países Asiáticos;Resto de Países Asiáticos;3614;34
+3594;409;(409) Filipinas;Filipinas;3597;199
+3606;415;(415) Japón;Japón;3609;200
+3598;410;(410) India;India;3601;201
+3602;411;(411) Indonesia;Indonesia;3605;202
+3610;426;(426) Pakistán;Pakistán;3613;203
+3546;401;(401) Afganistán;Afganistán;3593;204
+3547;402;(402) Arabia Saudita;Arabia Saudita;3593;205
+3580;442;(442) Azerbaiyán;Azerbaiyán;3593;206
+3548;403;(403) Bahrein;Bahrein;3593;207
+3549;404;(404) Bangladesh;Bangladesh;3593;208
+3550;405;(405) Myanmar;Myanmar;3593;209
+3577;439;(439) Brunei;Brunei;3593;210
+3558;417;(417) Camboya;Camboya;3593;211
+3552;407;(407) China;China;3593;212
+3553;408;(408) Emiratos Árabes Unidos;Emiratos Árabes Unidos;3593;213
+3554;412;(412) Irak;Irak;3593;214
+3555;413;(413) Irán;Irán;3593;215
+3578;440;(440) Islas Marshall;Islas Marshall;3593;216
+3556;414;(414) Israel;Israel;3593;217
+3557;416;(416) Jordania;Jordania;3593;218
+3581;443;(443) Kazajstán;Kazajstán;3593;219
+3584;444;(444) Kirgyistán;Kirgyistán;3593;220
+3559;418;(418) Kuwait;Kuwait;3593;221
+3560;419;(419) Laos;Laos;3593;222
+3561;420;(420) Líbano;Líbano;3593;223
+3562;421;(421) Malasia;Malasia;3593;224
+3563;422;(422) Maldivas;Maldivas;3593;225
+3564;423;(423) Mongolia;Mongolia;3593;226
+3565;424;(424) Nepal;Nepal;3593;227
+3566;425;(425) Omán;Omán;3593;228
+3590;600;(600) Palestina;Palestina;3593;229
+3567;427;(427) Qatar;Qatar;3593;230
+3568;430;(430) República de Corea;República de Corea;3593;231
+3569;431;(431) República Popular de Corea del Norte;República Popular de Corea del Norte;3593;232
+3570;432;(432) Singapur;Singapur;3593;233
+3571;433;(433) Siria;Siria;3593;234
+3572;434;(434) Sri Lanka;Sri Lanka;3593;235
+3573;435;(435) Tailandia;Tailandia;3593;236
+3585;445;(445) Tadykistan;Tadykistan;3593;237
+3586;446;(446) Turkmenistán;Turkmenistán;3593;238
+3574;436;(436) Turquía;Turquía;3593;239
+3576;438;(438) Taiwán;Taiwán;3593;240
+3587;447;(447) Uzbekistán;Uzbekistán;3593;241
+3575;437;(437) Vietnám;Vietnám;3593;242
+3579;441;(441) Yemen;Yemen;3593;243
+3551;406;(406) Bután;Bután;3593;244
+3589;499;(499) Países de Asia sin relación diplomática;Países de Asia sin relación diplomática;3593;245
+3582;4441;(4441) Otros países y terrirorios dependientes en el Oriente Próximo;Otros países y terrirorios dependientes en el Oriente Próximo;3593;246
+3583;4442;(4442) Otros países y terrirorios dependientes en Asia del Sur y Sudeste;Otros países y terrirorios dependientes en Asia del Sur y Sudeste;3593;247
+3588;490;(490) Macao;Macao;3593;248
+3627;5010;(5010) Australia;Australia;3664;35
+3631;5020;(5020) Fiji;Fiji;3664;36
+3663;5130;(5130) Islas Cook;Islas Cook;3664;37
+3643;5060;(5060) Islas Salomón;Islas Salomón;3664;38
+3659;5110;(5110) Micronesia;Micronesia;3664;39
+3635;5040;(5040) Nueva Zelanda;Nueva Zelanda;3664;40
+3639;5050;(5050) Papúa Nueva Guinea;Papúa Nueva Guinea;3664;41
+3647;5070;(5070) Samoa;Samoa;3664;42
+3651;5080;(5080) Tonga;Tonga;3664;43
+3655;5090;(5090) Vanuatu;Vanuatu;3664;44
+3623;0501;(0501) Resto de Países de Oceanía;Resto de Países de Oceanía;3664;45
+3624;501;(501) Australia;Australia;3627;249
+3628;502;(502) Fiji;Fiji;3631;250
+3660;513;(513) Islas Cook;Islas Cook;3663;251
+3640;506;(506) Islas Salomón;Islas Salomón;3643;252
+3656;511;(511) Micronesia;Micronesia;3659;253
+3632;504;(504) Nueva Zelanda;Nueva Zelanda;3635;254
+3636;505;(505) Papúa Nueva Guinea;Papúa Nueva Guinea;3639;255
+3644;507;(507) Samoa;Samoa;3647;256
+3648;508;(508) Tonga;Tonga;3651;257
+3652;509;(509) Vanuatu;Vanuatu;3655;258
+3617;515;(515) Nauru;Nauru;3623;259
+3618;516;(516) Palaos;Palaos;3623;260
+3619;517;(517) Timor;Timor;3623;261
+3616;512;(512) Tuvalu;Tuvalu;3623;262
+3620;599;(599) Países de Oceanía sin relación diplomática;Países de Oceanía sin relación diplomática;3623;263
+3615;002;(002) País de Oceanía no determinado;País de Oceanía no determinado;3623;264
+3668;5550;(5550) Apátridas;Apátridas;3669;46
+3665;555;(555) Apátridas;Apátridas;3668;265
+3673;66NC0;(66NC0) No consta;No consta;3674;47
+3670;66NC;(66NC) No consta;No consta;3673;266
+3684;NP00;(NP00) No procede;No procede;3683;11
+3685;NP0;(NP0) No procede;No procede;3684;48
+3688;NP;(NP) No procede;No procede;3685;267
+3678;NC00;(NC00) No consta;No consta;3677;12
+3679;NC0;(NC0) No consta;No consta;3678;49
+3682;NC;(NC) No consta;No consta;3679;268

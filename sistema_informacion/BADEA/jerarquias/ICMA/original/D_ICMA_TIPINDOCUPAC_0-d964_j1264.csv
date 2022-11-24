@@ -1,0 +1,4 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+964;Total;(Total) Tipo de índice de ocupación;Tipo de índice de ocupación;;0
+61596;01;(01) Empleo general;Empleo general;;1
+61597;02;(02) Empleo sin estaciones de servicio;Empleo sin estaciones de servicio;;2

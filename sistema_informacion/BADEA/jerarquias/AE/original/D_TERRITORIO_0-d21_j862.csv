@@ -1,0 +1,68 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+21;TOTAL;(TOTAL) TOTAL/Extranjero/España/Resto España/Andalucía/Provincias España;TOTAL/Extranjero/España/Resto España/Andalucía/Provincias España;;0
+3676;00;(00) TOTAL;TOTAL;;1
+2240;108;(108) España;España;3676;2
+3675;66;(66) Extranjero;Extranjero;3676;3
+3683;NP000;(NP000) No procede;No procede;3676;4
+3677;NC000;(NC000) No consta;No consta;3676;5
+3143;C01;(C01) Andalucía;Andalucía;2240;6
+3160;C02;(C02) Resto de España;Resto de España;2240;7
+2352;04;(04) Almería;Almería;3143;28
+2402;11;(11) Cádiz;Cádiz;3143;29
+2482;14;(14) Córdoba;Córdoba;3143;30
+2713;18;(18) Granada;Granada;3143;31
+2797;21;(21) Huelva;Huelva;3143;32
+2911;23;(23) Jaén;Jaén;3143;33
+3023;29;(29) Málaga;Málaga;3143;34
+3142;41;(41) Sevilla;Sevilla;3143;35
+3144;C01NC;(C01NC) Provincia sin especificar;Provincia sin especificar;3143;36
+3151;22;(22) Huesca;Huesca;3160;37
+3155;44;(44) Teruel;Teruel;3160;38
+3159;50;(50) Zaragoza;Zaragoza;3160;39
+3164;33;(33) Asturias;Asturias;3160;40
+3169;07;(07) Islas Baleares/Illes Balears;Islas Baleares/Illes Balears;3160;41
+3174;35;(35) Las Palmas;Las Palmas;3160;42
+3178;38;(38) Santa Cruz de Tenerife;Santa Cruz de Tenerife;3160;43
+3183;39;(39) Cantabria;Cantabria;3160;44
+3188;02;(02) Albacete;Albacete;3160;45
+3192;13;(13) Ciudad Real;Ciudad Real;3160;46
+3196;16;(16) Cuenca;Cuenca;3160;47
+3200;19;(19) Guadalajara;Guadalajara;3160;48
+3204;45;(45) Toledo;Toledo;3160;49
+3209;05;(05) Ávila;Ávila;3160;50
+3213;09;(09) Burgos;Burgos;3160;51
+3217;24;(24) León;León;3160;52
+3221;34;(34) Palencia;Palencia;3160;53
+3225;37;(37) Salamanca;Salamanca;3160;54
+3229;40;(40) Segovia;Segovia;3160;55
+3233;42;(42) Soria;Soria;3160;56
+3237;47;(47) Valladolid;Valladolid;3160;57
+3241;49;(49) Zamora;Zamora;3160;58
+3246;08;(08) Barcelona;Barcelona;3160;59
+3250;17;(17) Gerona/Girona;Gerona/Girona;3160;60
+3254;25;(25) Lérida/Lleida;Lérida/Lleida;3160;61
+3258;43;(43) Tarragona;Tarragona;3160;62
+3263;03;(03) Alicante/Alacant;Alicante/Alacant;3160;63
+3267;12;(12) Castellón/Castelló;Castellón/Castelló;3160;64
+3271;46;(46) Valencia/València;Valencia/València;3160;65
+3276;06;(06) Badajoz;Badajoz;3160;66
+3280;10;(10) Cáceres;Cáceres;3160;67
+3285;15;(15) La Coruña/A Coruña;La Coruña/A Coruña;3160;68
+3289;27;(27) Lugo;Lugo;3160;69
+3293;32;(32) Orense/Ourense;Orense/Ourense;3160;70
+3297;36;(36) Pontevedra;Pontevedra;3160;71
+3302;28;(28) Madrid;Madrid;3160;72
+3307;30;(30) Murcia;Murcia;3160;73
+3312;31;(31) Navarra;Navarra;3160;74
+3317;01;(01) Álava/Araba;Álava/Araba;3160;75
+3321;20;(20) Guipúzcoa/Gipuzkoa;Guipúzcoa/Gipuzkoa;3160;76
+3325;48;(48) Vizcaya/Bizkaia;Vizcaya/Bizkaia;3160;77
+3330;26;(26) La Rioja;La Rioja;3160;78
+3335;51;(51) Ceuta;Ceuta;3160;79
+3339;52;(52) Melilla;Melilla;3160;80
+3674;66NC00;(66NC00) Extranjero;Extranjero;3675;25
+3673;66NC0;(66NC0) Extranjero;Extranjero;3674;82
+3684;NP00;(NP00) No procede;No procede;3683;26
+3685;NP0;(NP0) No procede;No procede;3684;83
+3678;NC00;(NC00) No consta;No consta;3677;27
+3679;NC0;(NC0) No consta;No consta;3678;84

@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-77;TOTAL;(TOTAL) Grupos de edad (Discapacidad);Grupos de edad (Discapacidad);;0
-5835;00;(00) TOTAL;TOTAL;;1
-5836;0102;(0102) De 16 a 44 años;De 16 a 44 años;5835;1
-5839;0300;(0300) De 45 a 64 años;De 45 a 64 años;5835;2
-5837;01;(01) De 16 a 24 años;De 16 a 24 años;5836;1
-5838;02;(02) De 25 a 44 años;De 25 a 44 años;5836;2
-5840;03;(03) De 45 a 64 años;De 45 a 64 años;5839;1

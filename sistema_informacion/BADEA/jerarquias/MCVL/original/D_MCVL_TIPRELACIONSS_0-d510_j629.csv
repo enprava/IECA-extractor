@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-510;TOTAL;(TOTAL) Tipo de relación con la seguridad social;Tipo de relación con la seguridad social;;0
-55181;00;(00) TOTAL;TOTAL;;1
-55182;1;(1) Sólo cotizante;Sólo cotizante;55181;1
-55183;2;(2) Sólo pensionista;Sólo pensionista;55181;2
-55184;3;(3) Cotizante y pensionista;Cotizante y pensionista;55181;3

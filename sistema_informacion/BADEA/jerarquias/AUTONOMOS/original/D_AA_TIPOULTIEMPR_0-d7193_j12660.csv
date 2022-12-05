@@ -1,7 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-7193;Total;(Total) Tipología del último emprendimiento;Tipología del último emprendimiento;;0
-515778;00;(00) TOTAL;TOTAL;;1
-515779;1;(1) Autónomos personas físicas;Autónomos personas físicas;515778;1
-515780;2;(2) Socio de cooperativa o de empresa colectiva;Socio de cooperativa o de empresa colectiva;515778;2
-515781;3;(3) Miembro de órgano de administración;Miembro de órgano de administración;515778;3
-515782;4;(4) Otros;Otros;515778;4

@@ -1,9 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-1125;;() Rango biológico;Rango biológico;;0
-62350;P1_00;(00) TOTAL;TOTAL;;1
-62351;1;(1) 1;1;62350;2
-62352;2;(2) 2;2;62350;3
-62353;3;(3) 3;3;62350;4
-62354;4;(4) 4;4;62350;5
-62355;5;(5) 5 o más;5 o más;62350;6
-_Z;No aplica;No aplica;No aplica;;

@@ -1,7 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-342;TOTAL;(TOTAL) Nacionalidad EPA (Esp/Ext) ;Nacionalidad EPA (Esp/Ext) ;;0
-46944;00;(00) TOTAL;TOTAL;;1
-46925;01;(01) Española;Española;46944;2
-46943;02;(02) Extranjera;Extranjera;46944;3
-46945;NC000;(NC000) No consta;No consta;46944;4
-_Z;No aplica;No aplica;No aplica;;

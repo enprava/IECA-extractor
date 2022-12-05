@@ -1,5 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-509;TOTAL;(TOTAL) Pensionista;Pensionista;;0
-55178;00;(00) TOTAL;TOTAL;;1
-55179;1;(1) Pensionista;Pensionista;55178;1
-55180;0;(0) No pensionista;No pensionista;55178;2

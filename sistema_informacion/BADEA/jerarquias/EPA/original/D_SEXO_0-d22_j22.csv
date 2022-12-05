@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-22;TOTAL;(TOTAL) Sexo;Sexo;;0
-3691;00;(00) Ambos sexos;Ambos sexos;;1
-3689;01;(01) Hombres;Hombres;3691;1
-3690;06;(06) Mujeres;Mujeres;3691;2
-3693;NP;(NP) No procede;No procede;3691;3
-3692;NC;(NC) No consta;No consta;3691;4
-_Z;No aplica;No aplica;No aplica;;

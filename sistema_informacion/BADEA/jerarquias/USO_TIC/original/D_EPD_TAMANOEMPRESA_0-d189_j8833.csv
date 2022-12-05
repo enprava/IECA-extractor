@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-189;Total;(Total) Tamaño de la empresa 10;Tamaño de la empresa 10;;0
-38436;000;(000) TOTAL;TOTAL;;1
-38434;00;(00) Empresas con menos de 10 empleados;Empresas con menos de 10 empleados;38436;2
-38435;01;(01) Empresas con 10 o más empleados;Empresas con 10 o más empleados;38436;3
-_Z;No aplica;No aplica;No aplica;;

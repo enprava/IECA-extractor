@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-23;;() Nacionalidad (Esp/Ext);Nacionalidad (Esp/Ext);;0
-4781;00;(00) TOTAL;TOTAL;;1
-4334;1;(1) Española;Española;4781;2
-4780;2;(2) Extranjera;Extranjera;4781;3
-4787;NP0000;(NP0000) No procede;No procede;4781;4
-4782;NC0000;(NC0000) No consta;No consta;4781;5
-_Z;No aplica;No aplica;No aplica;;

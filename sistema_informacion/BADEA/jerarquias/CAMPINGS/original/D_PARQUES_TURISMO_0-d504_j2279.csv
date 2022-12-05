@@ -1,9 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-504;;() Zonas turísticas costa;Zonas turísticas costa;;0
-55151;00;(00) Total;Total;;1
-55537;01;(01) Costa de Almería;Costa de Almería;55151;2
-55538;02;(02) Costa de la Luz de Cádiz;Costa de la Luz de Cádiz;55151;3
-55539;03;(03) Costa Tropical (Granada);Costa Tropical (Granada);55151;4
-55540;04;(04) Costa de la Luz de Huelva;Costa de la Luz de Huelva;55151;5
-55541;05;(05) Costa del Sol (Málaga);Costa del Sol (Málaga);55151;6
-_Z;No aplica;No aplica;No aplica;;

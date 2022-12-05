@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-187;TOTAL;(TOTAL) Percepción de prestación de invalidez;Percepción de prestación de invalidez;;0
-38363;00;(00) TOTAL;TOTAL;;1
-38360;0;(0) Sin prestación;Sin prestación;38363;1
-38361;1;(1) Con prestación derivada de incapacidad;Con prestación derivada de incapacidad;38363;2
-38362;2;(2) Con prestación no derivada de incapacidad;Con prestación no derivada de incapacidad;38363;3

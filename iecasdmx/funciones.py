@@ -64,12 +64,12 @@ def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
     directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
 
     if not os.path.exists(directorio_mapa):
-        df_mapa = pd.DataFrame(columns=["SOURCE","COD","NAME","TARGET"])
+        df_mapa = pd.DataFrame(columns=["SOURCE","NAME","TARGET"])
         df_mapa.to_csv(directorio_mapa,index=False)
 
     df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string', keep_default_na=False)
     df.loc[:, 'ID'] = \
-        df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].values
+        df.merge(df_mapa, how='left', left_on='COD', right_on='SOURCE')['TARGET'].values
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].values
 

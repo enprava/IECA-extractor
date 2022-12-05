@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-322;Total;(Total) Nivel;Nivel;;0
-46595;00;(00) TOTAL;TOTAL;;1
-46593;1;(1) Persona de 16 o más años;Persona de 16 o más años;46595;1
-46594;2;(2) Menor de 16 años;Menor de 16 años;46595;2
-_Z;No aplica;No aplica;No aplica;;

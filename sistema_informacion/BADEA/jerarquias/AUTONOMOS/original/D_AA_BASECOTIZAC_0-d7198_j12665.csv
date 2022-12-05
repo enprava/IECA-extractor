@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-7198;Total;(Total) Base de cotización;Base de cotización;;0
-515814;00;(00) TOTAL;TOTAL;;1
-515815;01;(01) Base de cotización mínima;Base de cotización mínima;515814;1
-515816;02;(02) Entre 1 y 1,5 veces la base de cotización mínima;Entre 1 y 1,5 veces la base de cotización mínima;515814;2
-515817;03;(03) Más de 1,5 veces la base de cotización mínima;Más de 1,5 veces la base de cotización mínima;515814;3

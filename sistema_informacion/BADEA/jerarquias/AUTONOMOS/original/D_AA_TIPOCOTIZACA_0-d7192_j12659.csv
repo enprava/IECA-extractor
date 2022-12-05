@@ -1,9 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-7192;Total;(Total) Tipo de cotizaciones tenidas en el año;Tipo de cotizaciones tenidas en el año;;0
-515771;00;(00) TOTAL;TOTAL;;1
-515772;10;(10) La persona solo ha tenido cotizaciones como autónomo en el año;La persona solo ha tenido cotizaciones como autónomo en el año;515771;1
-515774;20;(20) La persona ha tenido además otras cotizaciones a lo largo del año;La persona ha tenido además otras cotizaciones a lo largo del año;515771;2
-515773;1;(1) La persona solo ha tenido cotizaciones como autónomo en el año;La persona solo ha tenido cotizaciones como autónomo en el año;515772;1
-515775;21;(21) Por cuenta ajena;Por cuenta ajena;515774;1
-515776;22;(22) Como parado;Como parado;515774;2
-515777;23;(23) Otros tipos o combinaciones de las anteriores;Otros tipos o combinaciones de las anteriores;515774;3

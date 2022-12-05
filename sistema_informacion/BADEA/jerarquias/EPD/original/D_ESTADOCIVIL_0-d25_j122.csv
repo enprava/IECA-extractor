@@ -1,9 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-25;TOTAL;(TOTAL) Estado civil (Agregado);Estado civil (Agregado);;0
-4325;00;(00) TOTAL;TOTAL;;1
-4317;10;(10) Soltero/a;Soltero/a;4325;1
-4319;20;(20) Casado/a;Casado/a;4325;2
-4321;30;(30) Viudo/a;Viudo/a;4325;3
-4324;45;(45) Separado/a o divorciado/a;Separado/a o divorciado/a;4325;4
-4326;NC0;(NC0) No consta;No consta;4325;5
-4328;NP0;(NP0) No procede;No procede;4325;6

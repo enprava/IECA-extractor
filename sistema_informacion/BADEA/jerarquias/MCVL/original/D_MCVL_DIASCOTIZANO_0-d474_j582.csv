@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-474;TOTAL;(TOTAL) Días cotizados en el año;Días cotizados en el año;;0
-53689;00;(00) TOTAL;TOTAL;;1
-53685;1;(1) Menos de 31 días;Menos de 31 días;53689;1
-53686;2;(2) De 31 a 90 días;De 31 a 90 días;53689;2
-53687;3;(3) De 91 a 360 días;De 91 a 360 días;53689;3
-53688;4;(4) Más de 360 días;Más de 360 días;53689;4
-53690;NA;(NA) No consta;No consta;53689;5

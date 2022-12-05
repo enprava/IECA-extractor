@@ -1,3 +1,4 @@
+import copy
 import os
 import sys
 
@@ -101,21 +102,22 @@ class Datos:
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
-        df_mapeado = df.copy()
-        # Parche IECA ya que están indexando por cod en lugar de id.
-        for jerarquia in self.jerarquias:
-            columna = jerarquia.metadatos['alias']
-
-            if columna != dimension_temporal:
-                df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')[
-                    'ID'].values
-                disconexos = df_mapeado[columna].isna()
-                if len(df_mapeado[disconexos]):
-                    df_mapeado[columna][disconexos] = df[columna][disconexos].map(lambda x: crear_mapeo_por_defecto(x),
-                                                                                  na_action='ignore')
-
+        # df_mapeado = df.copy()
+        # # Parche IECA ya que están indexando por cod en lugar de id.
+        # for jerarquia in self.jerarquias:
+        #     columna = jerarquia.metadatos['alias']
+        #
+        #     if columna != dimension_temporal:
+        #         df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')[
+        #             'ID'].values
+        #         disconexos = df_mapeado[columna].isna()
+        #         if len(df_mapeado[disconexos]):
+        #             df_mapeado[columna][disconexos] = df[columna][disconexos].map(lambda x: crear_mapeo_por_defecto(x),
+        #                                                                           na_action='ignore')
+        #
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        return df_mapeado
+        df = self.formatear_cod(df)
+        return df
 
     def desacoplar_datos_por_medidas(self):
         """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado
@@ -196,7 +198,7 @@ class Datos:
         conversión y su posterior reutilización en distintas actividades.
          """
         self.logger.info('Ampliando mapas de dimensiones con nuevas ocurrencias')
-        columnas_plantilla = ['SOURCE', 'COD', 'NAME', 'TARGET']
+        columnas_plantilla = ['SOURCE', 'NAME', 'TARGET']
         columnas_jerarquia_alias = [jerarquia.id_jerarquia for jerarquia in self.jerarquias] + ['INDICATOR']
         columnas_jerarquia_id = [jerarquia.id_jerarquia.split('-')[0] for jerarquia in self.jerarquias] + ['INDICATOR']
         directorio_mapas = self.configuracion_global['directorio_mapas_dimensiones']
@@ -220,12 +222,12 @@ class Datos:
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
                                  columna_alias + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
-                df_mapa['COD'][df_mapa['COD'].isna()] = \
-                    df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                                                         right_on='ID')['COD_y']
-                df_mapa['NAME'][df_mapa['NAME'].isna()] = \
-                    df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                                                          right_on='ID')['NAME_y']
+                # df_mapa['COD'][df_mapa['COD'].isna()] = \
+                #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                #                                          right_on='ID')['COD_y']
+                # df_mapa['NAME'][df_mapa['NAME'].isna()] = \
+                #     df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                #                                           right_on='ID')['NAME_y']
             df_mapa.reset_index(drop=True, inplace=True)
             mapeos_incompletos_indices = df_mapa[df_mapa['TARGET'].isna()].index
             if mapeos_incompletos_indices.any():
@@ -312,6 +314,17 @@ class Datos:
     def mostrar_df(self):
         # print('mostrando df',self.datos.to_string())
         pass
+
+    def formatear_cod(self, df):
+        res = pd.DataFrame(columns=df.columns)
+
+        for column, columnData in res.iteritems():
+            for i in range(len(columnData.values)):
+                if columnData.values[i][0] == 'P' and columnData.values[i][2] == '_':
+                    columnData.values[i] = columnData.values[i][3:]
+            res[column] = columnData
+        print(res)
+        return res
 
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):

@@ -1,7 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-2468;Total;(Total) PUBLICA/PRIVADA;PUBLICA/PRIVADA;;0
-215134;00;(00) TOTAL;TOTAL;;1
-215135;1;(1) Empresas públicas;Empresas públicas;215134;1
-215136;2;(2) Empresas privadas;Empresas privadas;215134;2
-215221;NC;(NC) No consta;No consta;215134;3
-_Z;No aplica;No aplica;No aplica;;

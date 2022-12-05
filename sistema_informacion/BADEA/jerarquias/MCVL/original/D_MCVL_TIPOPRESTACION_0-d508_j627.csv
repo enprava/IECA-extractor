@@ -1,7 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-508;TOTAL;(TOTAL) Tipos de prestación;Tipos de prestación;;0
-55173;00;(00) TOTAL;TOTAL;;1
-55174;1;(1) Sólo prestación por desempleo;Sólo prestación por desempleo;55173;1
-55175;2;(2) Sólo subsidio por desempleo;Sólo subsidio por desempleo;55173;2
-55176;3;(3) Prestación y subsidio por desempleo;Prestación y subsidio por desempleo;55173;3
-55177;NA;(NA) No consta;No consta;55173;4

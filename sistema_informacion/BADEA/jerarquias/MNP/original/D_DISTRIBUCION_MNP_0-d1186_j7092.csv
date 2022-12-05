@@ -1,6 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-1186;;() Distribución MFT;Distribución MFT;;0
-70395;00;(00) TOTAL;TOTAL;;1
-70391;1;(1) De madres residentes en Andalucía;De madres residentes en Andalucía;70395;2
-70394;2;(2) Registradas/Ocurridas en Andalucía;Registradas/Ocurridas en Andalucía;70395;3
-_Z;No aplica;No aplica;No aplica;;

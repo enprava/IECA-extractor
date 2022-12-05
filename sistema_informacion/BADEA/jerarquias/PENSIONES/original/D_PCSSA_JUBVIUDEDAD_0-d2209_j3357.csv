@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-2209;;() Jubilación con viudedad;Jubilación con viudedad;;0
-212543;00;(00) TOTAL;TOTAL;;1
-212544;1;(1) Jubilación;Jubilación;212543;1
-212545;2;(2) Viudedad;Viudedad;212543;2
-212546;3;(3) Jubilación y viudedad;Jubilación y viudedad;212543;3
-212547;4;(4) Resto de situaciones;Resto de situaciones;212543;4
-_Z;No aplica;No aplica;No aplica;;

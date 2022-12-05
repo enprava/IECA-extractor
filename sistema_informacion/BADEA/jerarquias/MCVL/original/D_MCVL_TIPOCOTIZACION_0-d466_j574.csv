@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-466;TOTAL;(TOTAL) Tipo de cotización;Tipo de cotización;;0
-53593;00;(00) TOTAL;TOTAL;;1
-53594;1;(1) Sólo episodios de ocupación;Sólo episodios de ocupación;53593;1
-53595;2;(2) Sólo episodios de desempleo;Sólo episodios de desempleo;53593;2
-53596;3;(3) Sólo episodios de otra situación (*);Sólo episodios de otra situación (*);53593;3
-53597;4;(4) Varios tipos de episodios;Varios tipos de episodios;53593;4
-53598;NA;(NA) No consta;No consta;53593;5

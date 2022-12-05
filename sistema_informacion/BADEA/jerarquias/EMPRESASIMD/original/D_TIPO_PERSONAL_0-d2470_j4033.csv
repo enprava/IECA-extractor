@@ -1,8 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-2470;Total;(Total) Tipo de personal;Tipo de personal;;0
-215154;00;(00) TOTAL;TOTAL;;1
-215155;1;(1) Investigadores;Investigadores;215154;1
-215156;2;(2) Técnicos;Técnicos;215154;2
-215157;3;(3) Auxiliares;Auxiliares;215154;3
-215158;NC;(NC) No consta;No consta;215154;4
-_Z;No aplica;No aplica;No aplica;;

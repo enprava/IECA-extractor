@@ -1,5 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-465;TOTAL;(TOTAL) Cotizante;Cotizante;;0
-53590;00;(00) TOTAL;TOTAL;;1
-53591;1;(1) Uno o más episodio(s) de cotización;Uno o más episodio(s) de cotización;53590;1
-53592;0;(0) Ningún episodio de cotización;Ningún episodio de cotización;53590;2

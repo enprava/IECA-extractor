@@ -105,15 +105,18 @@ class Jerarquia:
             os.makedirs(directorio_sdmx)
         self.logger.info('Almacenando datos Jerarquia')
         columnas = ['ID', 'COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
-        columnas_sdmx = ['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
 
         datos = self.datos.__deepcopy__()
         datos.columns = columnas
 
+        datos[['COD']] = self.formatear_cod(datos[['COD']])
+        mapa_padre = self.mapear_padre_cod(datos[['ID', 'COD']].to_dict('tight')['data'])
+        datos = datos.replace({'PARENTCODE': mapa_padre})
+
         index = self.id_jerarquia.find(self.nombre)
-        nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2] #Obtenemos el nombre del
-                                                                                #mapa de la dimension
-        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], nombre_mapa,
+        nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
+        # mapa de la dimension
+        self.datos_sdmx = mapear_id_por_dimension(datos[columnas], nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])
         Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
@@ -171,3 +174,12 @@ class Jerarquia:
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
                 yaml.dump(mapa_conceptos_codelists, file, encoding='utf-8')
+
+    def mapear_padre_cod(self, datos):
+        res = {'': ''}
+        for dato in datos:
+            res[dato[0]] = dato[1]
+        return res
+
+    def formatear_cod(self, cod):
+        return cod.apply(lambda x: x.COD[3:] if x.COD[0] == 'P' and x.COD[2] == '_' else x, axis=1)

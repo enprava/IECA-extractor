@@ -1,9 +1,0 @@
-ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
-4657;Total;(Total) Edad (MCVL Salarios);Edad (MCVL Salarios);;0
-281487;P1_00;(00) Total;Total;;1
-281488;1629;(1629) Menores de 30 años;Menores de 30 años;281487;1
-281489;3039;(3039) Entre 30 y 39 años;Entre 30 y 39 años;281487;2
-281490;4049;(4049) Entre 40 y 49 años;Entre 40 y 49 años;281487;3
-281491;5059;(5059) Entre 50 y 59 años;Entre 50 y 59 años;281487;4
-281492;6099;(6099) 60 ó más años;60 ó más años;281487;5
-_Z;No aplica;No aplica;No aplica;;

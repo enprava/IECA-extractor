@@ -116,7 +116,10 @@ class Datos:
         #                                                                           na_action='ignore')
         #
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        df = self.formatear_cod(df)
+        #df = self.formatear_cod(df)
+        print("df antes de cambio " , df)
+        df = df.apply(lambda x: x.apply(lambda y: self.formatear_row(y))  ,axis = 1)
+        print("df despues de cambio " , df)
         return df
 
     def desacoplar_datos_por_medidas(self):
@@ -315,17 +318,17 @@ class Datos:
         # print('mostrando df',self.datos.to_string())
         pass
 
-    def formatear_cod(self, df):
-        res = pd.DataFrame(columns=df.columns)
+    # def formatear_column(self, df):
+    #
+    #     return df.apply(lambda x: self.formatear_row(x))
 
-        for column, columnData in res.iteritems():
-            for i in range(len(columnData.values)):
-                if columnData.values[i][0] == 'P' and columnData.values[i][2] == '_':
-                    columnData.values[i] = columnData.values[i][3:]
-            res[column] = columnData
-        print(res)
-        return res
-
+    def formatear_row(self,row_str):
+        if(len(row_str)<3):
+            return row_str
+        elif(row_str[0]=='P' and row_str[2] == '_'):
+            return row_str[3:]
+        else:
+            return row_str
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado

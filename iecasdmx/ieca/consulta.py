@@ -126,10 +126,22 @@ class Consulta:
             os.makedirs(directorio)
         respuesta = False
         try:
-            self.logger.info('Buscando el JSON de la consulta en local')
-            with open(directorio_json, 'r', encoding='utf-8') as json_file:
-                respuesta = json.load(json_file)
-            self.logger.info('JSON leido correctamente')
+
+            if self.configuracion_global["cache_search"]:
+                self.logger.info('Buscando el JSON de la consulta en local')
+                with open(directorio_json, 'r', encoding='utf-8') as json_file:
+                    respuesta = json.load(json_file)
+                self.logger.info('JSON leido correctamente')
+            else:
+                self.logger.info('Ignorando caché - iniciando peticion a la API del IECA')
+                respuesta = requests.get(
+                    f"https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/consulta/"
+                    f"{self.url_consulta}").json()
+                self.logger.info('Petición Finalizada')
+                self.logger.info('Guardando JSON')
+                with open(directorio_json, 'w', encoding='utf-8') as json_file:
+                    json.dump(respuesta, json_file)
+                self.logger.info('JSON Guardado')
 
         except Exception as e:
             self.logger.warning('No se ha encontrado el fichero %s', directorio_json)

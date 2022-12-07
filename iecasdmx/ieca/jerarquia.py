@@ -141,10 +141,18 @@ class Jerarquia:
                                       self.id_jerarquia + '.csv')
         datos = None
         try:
-            self.logger.info('Buscando el CSV de la jerarquia en local')
-            with open(directorio_csv, 'r', encoding='utf-8') as csv_file:
-                datos = pd.read_csv(csv_file, sep=';', dtype='string', keep_default_na=False)
-                self.logger.info('CSV leido correctamente')
+
+            if self.configuracion_global["cache_search"]:
+                self.logger.info('Buscando el CSV de la jerarquia en local')
+                with open(directorio_csv, 'r', encoding='utf-8') as csv_file:
+                    datos = pd.read_csv(csv_file, sep=';', dtype='string', keep_default_na=False)
+                    self.logger.info('CSV leido correctamente')
+            else:
+                self.logger.info('Ignorando caché - iniciando peticion a la API del IECA')
+                self.logger.info('Iniciando peticion a la API del IECA')
+                datos = self.convertir_jerarquia_a_dataframe(requests.get(self.metadatos['url']).json())
+                self.logger.info('Petición API Finalizada')
+
         except Exception as e:
             self.logger.warning('No se ha encontrado el fichero %s', directorio_csv)
             self.logger.warning('Excepción: %s', e)

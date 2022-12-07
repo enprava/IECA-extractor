@@ -498,7 +498,7 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 2708;18913;(18913) Zagra;Zagra;18_2;231
 2683;18194;(18194) Zújar;Zújar;18_2;232
 2710;18NC;(18NC) Municipio de Granada sin especificar;Municipio de Granada sin especificar;18_2;233
-2796;21_1;(21_1) Huelva;Huelva;TOTAL;5
+2796;21_1;(21_1) Huelva;Huelva;21;5
 2795;21_2;(21_2) Huelva;Huelva;21_1;5
 2714;21001;(21001) Alájar;Alájar;21_2;1
 2715;21002;(21002) Aljaraque;Aljaraque;21_2;2
@@ -1178,16 +1178,16 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 3463;2130_1;(2130_1) Egipto;Egipto;2130;2
 3462;2130_2;(2130_2) Egipto;Egipto;2130_1;2
 3461;213;(213) Egipto;Egipto;2130_2;1
-3467;2280_1;(2280_1) Marruecos;Marruecos;04039;3
+3467;2280_1;(2280_1) Marruecos;Marruecos;2280;3
 3466;2280_2;(2280_2) Marruecos;Marruecos;2280_1;3
 3465;228;(228) Marruecos;Marruecos;2280_2;1
-3471;2340_1;(2340_1) Nigeria;Nigeria;04099;4
+3471;2340_1;(2340_1) Nigeria;Nigeria;2340;4
 3470;2340_2;(2340_2) Nigeria;Nigeria;2340_1;4
 3469;234;(234) Nigeria;Nigeria;2340_2;1
-3475;2480_1;(2480_1) Túnez;Túnez;14_2;5
+3475;2480_1;(2480_1) Túnez;Túnez;2480;5
 3474;2480_2;(2480_2) Túnez;Túnez;2480_1;5
 3473;248;(248) Túnez;Túnez;2480_2;1
-3479;2500_1;(2500_1) República Democrática del Congo;República Democrática del Congo;18017;6
+3479;2500_1;(2500_1) República Democrática del Congo;República Democrática del Congo;2500;6
 3478;2500_2;(2500_2) República Democrática del Congo;República Democrática del Congo;2500_1;6
 3477;250;(250) República Democrática del Congo;República Democrática del Congo;2500_2;1
 3455;0207_1;(0207_1) Resto de Países Africanos;Resto de Países Africanos;0207;7

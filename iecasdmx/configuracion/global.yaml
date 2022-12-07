@@ -16,6 +16,7 @@ direccion_API_SDMX: http://192.168.1.123
 url_base: http://192.168.1.123/sdmx_172/ws/NODE_API/
 volcado_mdm: True
 reset_ddb: True
+cache_search: False
 
 volcado_ckan: False
 reset_ckan: False

@@ -116,10 +116,9 @@ class Datos:
         #                                                                           na_action='ignore')
         #
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        #df = self.formatear_cod(df)
-        print("df antes de cambio " , df)
+
         df = df.apply(lambda x: x.apply(lambda y: self.formatear_row(y))  ,axis = 1)
-        print("df despues de cambio " , df)
+
         return df
 
     def desacoplar_datos_por_medidas(self):

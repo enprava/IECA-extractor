@@ -72,10 +72,11 @@ def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
         df.merge(df_mapa, how='left', left_on='COD', right_on='SOURCE')['TARGET'].values
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].values
-
-    df.dropna(subset=['ID'], inplace=True)
-    df.drop_duplicates(subset=['ID'], inplace=True)
-    df[df['ID'] == df['PARENTCODE']]['PARENTCODE'] = None
+    df.dropna(subset=['COD'], inplace=True)
+    df.drop_duplicates(subset=['COD'], inplace=True)
+    df[df['COD'] == df['PARENTCODE']]['PARENTCODE'] = None
+    df = df[['COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']]
+    df.columns = ['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
     return df
 
 

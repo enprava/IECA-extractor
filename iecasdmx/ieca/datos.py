@@ -202,13 +202,14 @@ class Datos:
         self.logger.info('Ampliando mapas de dimensiones con nuevas ocurrencias')
         columnas_plantilla = ['SOURCE', 'NAME', 'TARGET']
         columnas_jerarquia_alias = [jerarquia.id_jerarquia for jerarquia in self.jerarquias] + ['INDICATOR']
+        columnas_jerarquia_nombre_mapa = [jerarquia.nombre_mapa for jerarquia in self.jerarquias] + ['INDICATOR']
         columnas_jerarquia_id = [jerarquia.id_jerarquia.split('-')[0] for jerarquia in self.jerarquias] + ['INDICATOR']
         directorio_mapas = self.configuracion_global['directorio_mapas_dimensiones']
         if not os.path.exists(directorio_mapas):
             os.makedirs(directorio_mapas)
 
-        for columna_alias, columna_id in zip(columnas_jerarquia_alias, columnas_jerarquia_id):
-            self.logger.info('Mapa de Dimension : %s', columna_alias)
+        for columna_nombre_mapa, columna_id in zip(columnas_jerarquia_nombre_mapa, columnas_jerarquia_id):
+            self.logger.info('Mapa de Dimension : %s', columna_nombre_mapa)
             fichero_mapa_dimension = os.path.join(directorio_mapas, columna_id)
 
             if os.path.isfile(fichero_mapa_dimension):
@@ -222,7 +223,7 @@ class Datos:
             if columna_id != 'INDICATOR':
                 jerarquia_codigos = pd.read_csv(
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                 columna_alias + '.csv'), sep=';', keep_default_na=False,
+                                 columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
                 # df_mapa['COD'][df_mapa['COD'].isna()] = \
                 #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',

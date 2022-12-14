@@ -114,9 +114,9 @@ class Jerarquia:
         datos = datos.replace({'PARENTCODE': mapa_padre})
 
         index = self.id_jerarquia.find(self.nombre)
-        nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
+        self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
         # mapa de la dimension
-        self.datos_sdmx = mapear_id_por_dimension(datos[columnas], nombre_mapa,
+        self.datos_sdmx = mapear_id_por_dimension(datos[columnas], self.nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])
         Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
@@ -124,9 +124,9 @@ class Jerarquia:
         self.datos_sdmx[['NAME', 'DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION', 'NAME']]
         self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
 
-        datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
+        datos.to_csv(f'{os.path.join(directorio_original, self.nombre_mapa)}.csv', sep=';', index=False)
         self.datos_sdmx.drop_duplicates('ID', inplace=True)
-        self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
+        self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.nombre_mapa)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
 
     def solicitar_informacion_jerarquia(self):
@@ -190,4 +190,4 @@ class Jerarquia:
         return res
 
     def formatear_cod(self, cod):
-        return cod.apply(lambda x: x.COD[3:] if x.COD[0] == 'P' and x.COD[2] == '_' else x, axis=1)
+        return cod.apply(lambda x: x.COD[3:] if len(x.COD)>3 and x.COD[0] == 'P' and x.COD[2] == '_' else x, axis=1)

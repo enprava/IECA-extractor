@@ -1,4 +1,74 @@
 SOURCE,NAME,TARGET
+Andaluces,,
+Doctorados STEM. Hombres,,DOCT_STEM_HOMB
+estado Doctorados STEM. Hombres,,ESTA_DOCT_STEM_HOMB
+Doctorados STEM. Mujeres,,DOCT_STEM_MUJE
+estado Doctorados STEM. Mujeres,,ESTA_DOCT_STEM_MUJE
+Proporcion Doctorados STEM,,PROP_DOCT_STEM
+estado Doctorados STEM,,ESTA_DOCT_STEM
+Población 25-34 años educ super. HOMBRES,,POBL_25-3_ANOS_EDUC_SUPE_HOMB
+Estado Población 25-34 años educ super. HOMBRES,,ESTA_POBL_25-3_ANOS_EDUC_SUPE_HOMB
+Población 25-34 años educ super. MUJERES,,POBL_25-3_ANOS_EDUC_SUPE_MUJE
+Estado Población 25-34 años educ super. MUJERES,,ESTA_POBL_25-3_ANOS_EDUC_SUPE_MUJE
+Población 25-34 años educ super. AMBOS SEXOS,,POBL_25-3_ANOS_EDUC_SUPE_AMBO_SEXO
+Estado Población 25-34 años educ super. AMBOS SEXOS,,ESTA_POBL_25-3_ANOS_EDUC_SUPE_AMBO_SEXO
+3.17  Aprendizaje permanente. Hombres,,317__APRE_PERM_HOMB
+estado 3.17  Aprendizaje permanente. Hombres,,ESTA_317__APRE_PERM_HOMB
+3.17 Aprendizaje permanente. Mujeres,,317_APRE_PERM_MUJE
+estado 3.17 Aprendizaje permanente. Mujeres,,ESTA_317_APRE_PERM_MUJE
+3.17 Aprendizaje permanente. Ambos sexos,,317_APRE_PERM_AMBO_SEXO
+estado 3.17 Aprendizaje permanente. Ambos sexos,,ESTA_317_APRE_PERM_AMBO_SEXO
+Co-publicaciones científicas internacionales,,CO-P_CIEN_INTE
+Estado Co-publicaciones científicas internacionales,,ESTA_CO-P_CIEN_INTE
+Publicaciones científicas entre las publicaciones top-10% más citadas internacionalmente como % del total de publicaciones científicas del país,,PUBL_CIEN_ENTR_LAS_PUBL_TOP-_MAS_CITA_INTE_COMO_PCT_DEL_TOTA_PUBL_CIEN_DEL_PAIS
+Estado Publicaciones científicas entre las publicaciones top-10% más citadas internacionalmente como % del total de publicaciones científicas del país,,ESTA_PUBL_CIEN_ENTR_LAS_PUBL_TOP-_MAS_CITA_INTE_COMO_PCT_DEL_TOTA_PUBL_CIEN_DEL_PAIS
+Estudiantes de doctorado no UE,,ESTU_DOCT_NO_UE
+Estado Estudiantes de doctorado no UE,,ESTA_ESTU_DOCT_NO_UE
+Cobertura de banda ancha,,COBE_BAND_ANCH
+Estado Cobertura de banda ancha,,ESTA_COBE_BAND_ANCH
+Proporcion Personas con Habilidades Digitales Avanzadas,,PROP_PERS_CON_HABI_DIGI_AVAN
+estado Personas con Habilidades Digitales Avanzadas,,ESTA_PERS_CON_HABI_DIGI_AVAN
+Porcentaje,,PORCENTAJE
+Estado Gasto Publico en I+D,,ESTA_GAST_PUBL_IMASD
+Estado Gasto Privado en I+D,,ESTA_GAST_PRIV_IMASD
+Gasto innovación sobre la cifra de negocios,,GAST_INNO_SOBR_LA_CIFR_NEGO
+Estado Gasto innovación sobre la cifra de negocios,,ESTA_GAST_INNO_SOBR_LA_CIFR_NEGO
+Gasto total en innovación. Miles de euros,,GAST_TOTA_INNO_MILE_EURO
+% Empresas que forman en TIC a su personal,,PCT_EMPR_QUE_FORM_TIC_SU_PERS
+Estado % Empresas que forman en TIC a su personal,,ESTA_PCT_EMPR_QUE_FORM_TIC_SU_PERS
+PYMEs innovadoras producto o proceso,,PYME_INNO_PROD_O_PROC
+Estado PYMEs innovadoras producto o proceso,,ESTA_PYME_INNO_PROD_O_PROC
+PYMEs innovadoras en organización o comercialización,,PYME_INNO_ORGA_O_COME
+Estado PYMEs innovadoras en organización o comercialización,,ESTA_PYME_INNO_ORGA_O_COME
+PYMEs innovadoras en colaboración,,PYME_INNO_COLA
+Estado PYMEs innovadoras en colaboración,,ESTA_PYME_INNO_COLA
+Patentes PCT*1000/PIB(PPS),,PATE_PCT*
+estado Patentes PCT (Nº),,ESTA_PATE_PCT_N
+Diseños comunitarios*1000/PIB(PPS),,DISE_COMU
+Empleo en actividades intensivas conocimiento Hombres,,EMPL_ACTI_INTE_CONO_HOMB
+Estado Empleo en actividades intensivas conocimiento Hombres,,ESTA_EMPL_ACTI_INTE_CONO_HOMB
+Empleo en actividades intensivas conocimiento Mujeres,,EMPL_ACTI_INTE_CONO_MUJE
+Estado Empleo en actividades intensivas conocimiento Mujeres,,ESTA_EMPL_ACTI_INTE_CONO_MUJE
+Empleo en actividades intensivas conocimiento Ambos sexos,,EMPL_ACTI_INTE_CONO_AMBO_SEXO
+Estado Empleo en actividades intensivas conocimiento Ambos sexos,,ESTA_EMPL_ACTI_INTE_CONO_AMBO_SEXO
+Exportaciones de productos de tecnología media y alta como % del total de exportaciones de productos,,EXPO_PROD_TECN_MEDI_Y_ALTA_COMO_PCT_DEL_TOTA_EXPO_PROD
+Estado Exportaciones de productos de tecnología media y alta como % del total de exportaciones de productos,,ESTA_EXPO_PROD_TECN_MEDI_Y_ALTA_COMO_PCT_DEL_TOTA_EXPO_PROD
+1.9 Volumen de negocio en innovación. Total,,19_VOLU_NEGO_INNO_TOTA
+estado 1.9 Volumen negocio innovacion. Total,,ESTA_19_VOLU_NEGO_INNO_TOTA
+"Emisiones P.M 2,5 de la industria manufacturera",,EMIS_PM_25_LA_INDU_MANU
+"estado Emisiones atmosféricas (pm2,5)",,ESTA_EMIS_ATMO_PM2
 Índice,,INDICE
 Variación mensual,,VARI_MENS
 Variación anual,,VARI_ANUA
+Índice Cifra de Negocio,,INDI_CIFR_NEGO
+Índice Cifra de Negocio. Tasa interanual,,INDI_CIFR_NEGO_TASA_INTE
+Índice Cifra de Negocio. Tasa acumulada,,INDI_CIFR_NEGO_TASA_ACUM
+Índice Empleo,,INDICE_EMPLEO
+Índice Empleo. Tasa interanual,,INDI_EMPL_TASA_INTE
+Índice Empleo. Tasa acumulada,,INDI_EMPL_TASA_ACUM
+Índice VAB,,INDICE_VAB
+Índice VAB. Tasa interanual,,INDI_VAB_TASA_INTE
+Índice VAB. Tasa acumulada,,INDI_VAB_TASA_ACUM
+Tasa de variación intermensual,,TASA_VARI_INTE
+Tasa de variación interanual (del mes),,TASA_VARI_INTE_DEL_MES
+Tasa de variación de la media de lo que va de año,,TASA_VARI_LA_MEDI_LO_QUE_VA_ANO

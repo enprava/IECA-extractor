@@ -1,5 +1,5 @@
 actividades:
-    - IPC
+#    - IPC
 #    - DSN
 #    - PADRON
 #    - MNP
@@ -23,6 +23,7 @@ actividades:
 #    - MCVL
 #    - EMPRESASIMD
 #    - USO_TIC
-#    - IASS
-#    - AE
-#    - IVGSA
+    - IASS
+    - AE
+    - IVGSA
+    - PIIA

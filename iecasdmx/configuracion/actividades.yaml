@@ -533,3 +533,41 @@ IVGSA:
     Índice de Ventas en Grandes Superficies de Andalucía
   informe_metadatos:
     REPORT_IVGSA
+PIIA:
+  consultas:
+    - 60071
+    - 60072
+    - 60070
+    - 15126
+    - 15128
+    - 15129
+#    - 15133
+    - 15136
+    - 15138
+    - 20346
+    - 15139
+    - 20653
+    - 15140
+    - 60073
+    - 15142
+    - 15164
+    - 15165
+    - 60079
+    - 15166
+    - 15176
+    - 15177
+    - 15180
+    - 15181
+    - 15183
+    - 15184
+    - 15187
+    - 15189
+    - 15192
+    - 15195
+    - 60086
+  categoria:
+    REGIONAL_STAT
+  subcategoria:
+    Panel de Indicadores de Innovación de Andalucía
+  informe_metadatos:
+    REPORT_PIIA

@@ -11,12 +11,12 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
-metadata_api: http://192.168.1.123/sdmx_172/ws/METADATA_API
-direccion_API_SDMX: http://192.168.1.123
-url_base: http://192.168.1.123/sdmx_172/ws/NODE_API/
+metadata_api: http://localhost/sdmx_172/ws/METADATA_API
+direccion_API_SDMX: http://localhost
+url_base: http://localhost/sdmx_172/ws/NODE_API/
 volcado_mdm: True
 reset_ddb: True
-cache_search: False
+cache_search: True
 
 volcado_ckan: False
 reset_ckan: False

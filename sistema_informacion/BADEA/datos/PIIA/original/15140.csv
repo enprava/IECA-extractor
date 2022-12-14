@@ -1,0 +1,903 @@
+D_TERRITORIO_0;D_TEMPORAL_0;INDICATOR;OBS_VALUE;FREQ
+C01;2011;Cobertura de banda ancha;2.543096418;A
+C01;2012;Cobertura de banda ancha;3.194344477;A
+C01;2013;Cobertura de banda ancha;4.843435621;A
+C01;2014;Cobertura de banda ancha;5.789757881;A
+C01;2015;Cobertura de banda ancha;9.862012439;A
+C01;2016;Cobertura de banda ancha;13.657874366;A
+C01;2017;Cobertura de banda ancha;19.620674989;A
+C01;2018;Cobertura de banda ancha;24.211602739;A
+C01;2019;Cobertura de banda ancha;32.398635225;A
+C01;2020;Cobertura de banda ancha;53.693276335;A
+C01;2021;Cobertura de banda ancha;68.918240517;A
+108;2011;Cobertura de banda ancha;;A
+108;2012;Cobertura de banda ancha;;A
+108;2013;Cobertura de banda ancha;;A
+108;2014;Cobertura de banda ancha;10.0;A
+108;2015;Cobertura de banda ancha;14.0;A
+108;2016;Cobertura de banda ancha;20.0;A
+108;2017;Cobertura de banda ancha;25.0;A
+108;2018;Cobertura de banda ancha;28.0;A
+108;2019;Cobertura de banda ancha;39.0;A
+108;2020;Cobertura de banda ancha;62.0;A
+108;2021;Cobertura de banda ancha;70.0;A
+UE28;2011;Cobertura de banda ancha;;A
+UE28;2012;Cobertura de banda ancha;;A
+UE28;2013;Cobertura de banda ancha;;A
+UE28;2014;Cobertura de banda ancha;9.0;A
+UE28;2015;Cobertura de banda ancha;11.0;A
+UE28;2016;Cobertura de banda ancha;13.0;A
+UE28;2017;Cobertura de banda ancha;16.0;A
+UE28;2018;Cobertura de banda ancha;18.0;A
+UE28;2019;Cobertura de banda ancha;22.0;A
+UE28;2020;Cobertura de banda ancha;;A
+UE28;2021;Cobertura de banda ancha;;A
+UE27NRU;2011;Cobertura de banda ancha;;A
+UE27NRU;2012;Cobertura de banda ancha;;A
+UE27NRU;2013;Cobertura de banda ancha;;A
+UE27NRU;2014;Cobertura de banda ancha;10.0;A
+UE27NRU;2015;Cobertura de banda ancha;11.0;A
+UE27NRU;2016;Cobertura de banda ancha;13.0;A
+UE27NRU;2017;Cobertura de banda ancha;16.0;A
+UE27NRU;2018;Cobertura de banda ancha;19.0;A
+UE27NRU;2019;Cobertura de banda ancha;23.0;A
+UE27NRU;2020;Cobertura de banda ancha;46.0;A
+UE27NRU;2021;Cobertura de banda ancha;52.0;A
+UE27;2011;Cobertura de banda ancha;;A
+UE27;2012;Cobertura de banda ancha;;A
+UE27;2013;Cobertura de banda ancha;;A
+UE27;2014;Cobertura de banda ancha;10.0;A
+UE27;2015;Cobertura de banda ancha;11.0;A
+UE27;2016;Cobertura de banda ancha;13.0;A
+UE27;2017;Cobertura de banda ancha;16.0;A
+UE27;2018;Cobertura de banda ancha;19.0;A
+UE27;2019;Cobertura de banda ancha;;A
+UE27;2020;Cobertura de banda ancha;;A
+UE27;2021;Cobertura de banda ancha;;A
+UE25;2011;Cobertura de banda ancha;;A
+UE25;2012;Cobertura de banda ancha;;A
+UE25;2013;Cobertura de banda ancha;;A
+UE25;2014;Cobertura de banda ancha;;A
+UE25;2015;Cobertura de banda ancha;;A
+UE25;2016;Cobertura de banda ancha;;A
+UE25;2017;Cobertura de banda ancha;;A
+UE25;2018;Cobertura de banda ancha;;A
+UE25;2019;Cobertura de banda ancha;;A
+UE25;2020;Cobertura de banda ancha;;A
+UE25;2021;Cobertura de banda ancha;;A
+UE15;2011;Cobertura de banda ancha;;A
+UE15;2012;Cobertura de banda ancha;;A
+UE15;2013;Cobertura de banda ancha;;A
+UE15;2014;Cobertura de banda ancha;10.0;A
+UE15;2015;Cobertura de banda ancha;11.0;A
+UE15;2016;Cobertura de banda ancha;13.0;A
+UE15;2017;Cobertura de banda ancha;16.0;A
+UE15;2018;Cobertura de banda ancha;18.0;A
+UE15;2019;Cobertura de banda ancha;;A
+UE15;2020;Cobertura de banda ancha;;A
+UE15;2021;Cobertura de banda ancha;;A
+103;2011;Cobertura de banda ancha;;A
+103;2012;Cobertura de banda ancha;;A
+103;2013;Cobertura de banda ancha;;A
+103;2014;Cobertura de banda ancha;17.0;A
+103;2015;Cobertura de banda ancha;18.0;A
+103;2016;Cobertura de banda ancha;23.0;A
+103;2017;Cobertura de banda ancha;26.0;A
+103;2018;Cobertura de banda ancha;29.0;A
+103;2019;Cobertura de banda ancha;31.0;A
+103;2020;Cobertura de banda ancha;68.0;A
+103;2021;Cobertura de banda ancha;68.0;A
+104;2011;Cobertura de banda ancha;;A
+104;2012;Cobertura de banda ancha;;A
+104;2013;Cobertura de banda ancha;;A
+104;2014;Cobertura de banda ancha;8.0;A
+104;2015;Cobertura de banda ancha;9.0;A
+104;2016;Cobertura de banda ancha;10.0;A
+104;2017;Cobertura de banda ancha;12.0;A
+104;2018;Cobertura de banda ancha;14.0;A
+104;2019;Cobertura de banda ancha;15.0;A
+104;2020;Cobertura de banda ancha;37.0;A
+104;2021;Cobertura de banda ancha;40.0;A
+143;2011;Cobertura de banda ancha;;A
+143;2012;Cobertura de banda ancha;;A
+143;2013;Cobertura de banda ancha;;A
+143;2014;Cobertura de banda ancha;8.0;A
+143;2015;Cobertura de banda ancha;7.0;A
+143;2016;Cobertura de banda ancha;10.0;A
+143;2017;Cobertura de banda ancha;12.0;A
+143;2018;Cobertura de banda ancha;13.0;A
+143;2019;Cobertura de banda ancha;15.0;A
+143;2020;Cobertura de banda ancha;34.0;A
+143;2021;Cobertura de banda ancha;38.0;A
+107;2011;Cobertura de banda ancha;;A
+107;2012;Cobertura de banda ancha;;A
+107;2013;Cobertura de banda ancha;;A
+107;2014;Cobertura de banda ancha;25.0;A
+107;2015;Cobertura de banda ancha;26.0;A
+107;2016;Cobertura de banda ancha;31.0;A
+107;2017;Cobertura de banda ancha;42.0;A
+107;2018;Cobertura de banda ancha;46.0;A
+107;2019;Cobertura de banda ancha;62.0;A
+107;2020;Cobertura de banda ancha;75.0;A
+107;2021;Cobertura de banda ancha;80.0;A
+126;2011;Cobertura de banda ancha;;A
+126;2012;Cobertura de banda ancha;;A
+126;2013;Cobertura de banda ancha;;A
+126;2014;Cobertura de banda ancha;9.0;A
+126;2015;Cobertura de banda ancha;11.0;A
+126;2016;Cobertura de banda ancha;12.0;A
+126;2017;Cobertura de banda ancha;14.0;A
+126;2018;Cobertura de banda ancha;17.0;A
+126;2019;Cobertura de banda ancha;21.0;A
+126;2020;Cobertura de banda ancha;45.0;A
+126;2021;Cobertura de banda ancha;51.0;A
+141;2011;Cobertura de banda ancha;;A
+141;2012;Cobertura de banda ancha;;A
+141;2013;Cobertura de banda ancha;;A
+141;2014;Cobertura de banda ancha;8.0;A
+141;2015;Cobertura de banda ancha;14.0;A
+141;2016;Cobertura de banda ancha;12.0;A
+141;2017;Cobertura de banda ancha;17.0;A
+141;2018;Cobertura de banda ancha;16.0;A
+141;2019;Cobertura de banda ancha;17.0;A
+141;2020;Cobertura de banda ancha;36.0;A
+141;2021;Cobertura de banda ancha;40.0;A
+113;2011;Cobertura de banda ancha;;A
+113;2012;Cobertura de banda ancha;;A
+113;2013;Cobertura de banda ancha;;A
+113;2014;Cobertura de banda ancha;10.0;A
+113;2015;Cobertura de banda ancha;12.0;A
+113;2016;Cobertura de banda ancha;15.0;A
+113;2017;Cobertura de banda ancha;18.0;A
+113;2018;Cobertura de banda ancha;21.0;A
+113;2019;Cobertura de banda ancha;22.0;A
+113;2020;Cobertura de banda ancha;48.0;A
+113;2021;Cobertura de banda ancha;49.0;A
+111;2011;Cobertura de banda ancha;;A
+111;2012;Cobertura de banda ancha;;A
+111;2013;Cobertura de banda ancha;;A
+111;2014;Cobertura de banda ancha;2.0;A
+111;2015;Cobertura de banda ancha;2.0;A
+111;2016;Cobertura de banda ancha;2.0;A
+111;2017;Cobertura de banda ancha;5.0;A
+111;2018;Cobertura de banda ancha;4.0;A
+111;2019;Cobertura de banda ancha;8.0;A
+111;2020;Cobertura de banda ancha;;A
+111;2021;Cobertura de banda ancha;28.0;A
+110;2011;Cobertura de banda ancha;;A
+110;2012;Cobertura de banda ancha;;A
+110;2013;Cobertura de banda ancha;;A
+110;2014;Cobertura de banda ancha;9.0;A
+110;2015;Cobertura de banda ancha;9.0;A
+110;2016;Cobertura de banda ancha;9.0;A
+110;2017;Cobertura de banda ancha;12.0;A
+110;2018;Cobertura de banda ancha;12.0;A
+110;2019;Cobertura de banda ancha;13.0;A
+110;2020;Cobertura de banda ancha;49.0;A
+110;2021;Cobertura de banda ancha;54.0;A
+146;2011;Cobertura de banda ancha;;A
+146;2012;Cobertura de banda ancha;;A
+146;2013;Cobertura de banda ancha;;A
+146;2014;Cobertura de banda ancha;1.0;A
+146;2015;Cobertura de banda ancha;6.0;A
+146;2016;Cobertura de banda ancha;6.0;A
+146;2017;Cobertura de banda ancha;7.0;A
+146;2018;Cobertura de banda ancha;8.0;A
+146;2019;Cobertura de banda ancha;12.0;A
+146;2020;Cobertura de banda ancha;13.0;A
+146;2021;Cobertura de banda ancha;28.0;A
+115;2011;Cobertura de banda ancha;;A
+115;2012;Cobertura de banda ancha;;A
+115;2013;Cobertura de banda ancha;;A
+115;2014;Cobertura de banda ancha;5.0;A
+115;2015;Cobertura de banda ancha;5.0;A
+115;2016;Cobertura de banda ancha;5.0;A
+115;2017;Cobertura de banda ancha;7.0;A
+115;2018;Cobertura de banda ancha;9.0;A
+115;2019;Cobertura de banda ancha;13.0;A
+115;2020;Cobertura de banda ancha;33.0;A
+115;2021;Cobertura de banda ancha;39.0;A
+106;2011;Cobertura de banda ancha;;A
+106;2012;Cobertura de banda ancha;;A
+106;2013;Cobertura de banda ancha;;A
+106;2014;Cobertura de banda ancha;0.0;A
+106;2015;Cobertura de banda ancha;1.0;A
+106;2016;Cobertura de banda ancha;3.0;A
+106;2017;Cobertura de banda ancha;5.0;A
+106;2018;Cobertura de banda ancha;10.0;A
+106;2019;Cobertura de banda ancha;17.0;A
+106;2020;Cobertura de banda ancha;32.0;A
+106;2021;Cobertura de banda ancha;45.0;A
+136;2011;Cobertura de banda ancha;;A
+136;2012;Cobertura de banda ancha;;A
+136;2013;Cobertura de banda ancha;;A
+136;2014;Cobertura de banda ancha;18.0;A
+136;2015;Cobertura de banda ancha;19.0;A
+136;2016;Cobertura de banda ancha;22.0;A
+136;2017;Cobertura de banda ancha;19.0;A
+136;2018;Cobertura de banda ancha;17.0;A
+136;2019;Cobertura de banda ancha;17.0;A
+136;2020;Cobertura de banda ancha;42.0;A
+136;2021;Cobertura de banda ancha;39.0;A
+142;2011;Cobertura de banda ancha;;A
+142;2012;Cobertura de banda ancha;;A
+142;2013;Cobertura de banda ancha;;A
+142;2014;Cobertura de banda ancha;16.0;A
+142;2015;Cobertura de banda ancha;21.0;A
+142;2016;Cobertura de banda ancha;21.0;A
+142;2017;Cobertura de banda ancha;28.0;A
+142;2018;Cobertura de banda ancha;31.0;A
+142;2019;Cobertura de banda ancha;34.0;A
+142;2020;Cobertura de banda ancha;58.0;A
+142;2021;Cobertura de banda ancha;59.0;A
+117;2011;Cobertura de banda ancha;;A
+117;2012;Cobertura de banda ancha;;A
+117;2013;Cobertura de banda ancha;;A
+117;2014;Cobertura de banda ancha;13.0;A
+117;2015;Cobertura de banda ancha;18.0;A
+117;2016;Cobertura de banda ancha;21.0;A
+117;2017;Cobertura de banda ancha;25.0;A
+117;2018;Cobertura de banda ancha;27.0;A
+117;2019;Cobertura de banda ancha;34.0;A
+117;2020;Cobertura de banda ancha;62.0;A
+117;2021;Cobertura de banda ancha;62.0;A
+112;2011;Cobertura de banda ancha;;A
+112;2012;Cobertura de banda ancha;;A
+112;2013;Cobertura de banda ancha;;A
+112;2014;Cobertura de banda ancha;9.0;A
+112;2015;Cobertura de banda ancha;10.0;A
+112;2016;Cobertura de banda ancha;12.0;A
+112;2017;Cobertura de banda ancha;16.0;A
+112;2018;Cobertura de banda ancha;19.0;A
+112;2019;Cobertura de banda ancha;21.0;A
+112;2020;Cobertura de banda ancha;36.0;A
+112;2021;Cobertura de banda ancha;38.0;A
+118;2011;Cobertura de banda ancha;;A
+118;2012;Cobertura de banda ancha;;A
+118;2013;Cobertura de banda ancha;;A
+118;2014;Cobertura de banda ancha;13.0;A
+118;2015;Cobertura de banda ancha;10.0;A
+118;2016;Cobertura de banda ancha;12.0;A
+118;2017;Cobertura de banda ancha;19.0;A
+118;2018;Cobertura de banda ancha;23.0;A
+118;2019;Cobertura de banda ancha;29.0;A
+118;2020;Cobertura de banda ancha;57.0;A
+118;2021;Cobertura de banda ancha;62.0;A
+121;2011;Cobertura de banda ancha;;A
+121;2012;Cobertura de banda ancha;;A
+121;2013;Cobertura de banda ancha;;A
+121;2014;Cobertura de banda ancha;15.0;A
+121;2015;Cobertura de banda ancha;20.0;A
+121;2016;Cobertura de banda ancha;22.0;A
+121;2017;Cobertura de banda ancha;27.0;A
+121;2018;Cobertura de banda ancha;31.0;A
+121;2019;Cobertura de banda ancha;35.0;A
+121;2020;Cobertura de banda ancha;62.0;A
+121;2021;Cobertura de banda ancha;67.0;A
+102;2011;Cobertura de banda ancha;;A
+102;2012;Cobertura de banda ancha;;A
+102;2013;Cobertura de banda ancha;;A
+102;2014;Cobertura de banda ancha;12.0;A
+102;2015;Cobertura de banda ancha;10.0;A
+102;2016;Cobertura de banda ancha;12.0;A
+102;2017;Cobertura de banda ancha;13.0;A
+102;2018;Cobertura de banda ancha;14.0;A
+102;2019;Cobertura de banda ancha;17.0;A
+102;2020;Cobertura de banda ancha;40.0;A
+102;2021;Cobertura de banda ancha;40.0;A
+122;2011;Cobertura de banda ancha;;A
+122;2012;Cobertura de banda ancha;;A
+122;2013;Cobertura de banda ancha;;A
+122;2014;Cobertura de banda ancha;7.0;A
+122;2015;Cobertura de banda ancha;8.0;A
+122;2016;Cobertura de banda ancha;11.0;A
+122;2017;Cobertura de banda ancha;13.0;A
+122;2018;Cobertura de banda ancha;21.0;A
+122;2019;Cobertura de banda ancha;24.0;A
+122;2020;Cobertura de banda ancha;43.0;A
+122;2021;Cobertura de banda ancha;48.0;A
+123;2011;Cobertura de banda ancha;;A
+123;2012;Cobertura de banda ancha;;A
+123;2013;Cobertura de banda ancha;;A
+123;2014;Cobertura de banda ancha;13.0;A
+123;2015;Cobertura de banda ancha;17.0;A
+123;2016;Cobertura de banda ancha;25.0;A
+123;2017;Cobertura de banda ancha;32.0;A
+123;2018;Cobertura de banda ancha;37.0;A
+123;2019;Cobertura de banda ancha;41.0;A
+123;2020;Cobertura de banda ancha;66.0;A
+123;2021;Cobertura de banda ancha;71.0;A
+128;2011;Cobertura de banda ancha;;A
+128;2012;Cobertura de banda ancha;;A
+128;2013;Cobertura de banda ancha;;A
+128;2014;Cobertura de banda ancha;11.0;A
+128;2015;Cobertura de banda ancha;12.0;A
+128;2016;Cobertura de banda ancha;13.0;A
+128;2017;Cobertura de banda ancha;17.0;A
+128;2018;Cobertura de banda ancha;21.0;A
+128;2019;Cobertura de banda ancha;23.0;A
+128;2020;Cobertura de banda ancha;58.0;A
+128;2021;Cobertura de banda ancha;66.0;A
+147;2011;Cobertura de banda ancha;;A
+147;2012;Cobertura de banda ancha;;A
+147;2013;Cobertura de banda ancha;;A
+147;2014;Cobertura de banda ancha;13.0;A
+147;2015;Cobertura de banda ancha;14.0;A
+147;2016;Cobertura de banda ancha;16.0;A
+147;2017;Cobertura de banda ancha;16.0;A
+147;2018;Cobertura de banda ancha;19.0;A
+147;2019;Cobertura de banda ancha;22.0;A
+147;2020;Cobertura de banda ancha;41.0;A
+147;2021;Cobertura de banda ancha;51.0;A
+144;2011;Cobertura de banda ancha;;A
+144;2012;Cobertura de banda ancha;;A
+144;2013;Cobertura de banda ancha;;A
+144;2014;Cobertura de banda ancha;9.0;A
+144;2015;Cobertura de banda ancha;10.0;A
+144;2016;Cobertura de banda ancha;9.0;A
+144;2017;Cobertura de banda ancha;12.0;A
+144;2018;Cobertura de banda ancha;13.0;A
+144;2019;Cobertura de banda ancha;15.0;A
+144;2020;Cobertura de banda ancha;32.0;A
+144;2021;Cobertura de banda ancha;37.0;A
+109;2011;Cobertura de banda ancha;;A
+109;2012;Cobertura de banda ancha;;A
+109;2013;Cobertura de banda ancha;;A
+109;2014;Cobertura de banda ancha;21.0;A
+109;2015;Cobertura de banda ancha;22.0;A
+109;2016;Cobertura de banda ancha;26.0;A
+109;2017;Cobertura de banda ancha;32.0;A
+109;2018;Cobertura de banda ancha;32.0;A
+109;2019;Cobertura de banda ancha;39.0;A
+109;2020;Cobertura de banda ancha;47.0;A
+109;2021;Cobertura de banda ancha;61.0;A
+131;2011;Cobertura de banda ancha;;A
+131;2012;Cobertura de banda ancha;;A
+131;2013;Cobertura de banda ancha;;A
+131;2014;Cobertura de banda ancha;22.0;A
+131;2015;Cobertura de banda ancha;27.0;A
+131;2016;Cobertura de banda ancha;32.0;A
+131;2017;Cobertura de banda ancha;39.0;A
+131;2018;Cobertura de banda ancha;45.0;A
+131;2019;Cobertura de banda ancha;59.0;A
+131;2020;Cobertura de banda ancha;69.0;A
+131;2021;Cobertura de banda ancha;73.0;A
+125;2011;Cobertura de banda ancha;;A
+125;2012;Cobertura de banda ancha;;A
+125;2013;Cobertura de banda ancha;;A
+125;2014;Cobertura de banda ancha;8.0;A
+125;2015;Cobertura de banda ancha;8.0;A
+125;2016;Cobertura de banda ancha;10.0;A
+125;2017;Cobertura de banda ancha;13.0;A
+125;2018;Cobertura de banda ancha;16.0;A
+125;2019;Cobertura de banda ancha;18.0;A
+125;2020;Cobertura de banda ancha;28.0;A
+125;2021;Cobertura de banda ancha;;A
+114;2011;Cobertura de banda ancha;;A
+114;2012;Cobertura de banda ancha;;A
+114;2013;Cobertura de banda ancha;;A
+114;2014;Cobertura de banda ancha;;A
+114;2015;Cobertura de banda ancha;;A
+114;2016;Cobertura de banda ancha;;A
+114;2017;Cobertura de banda ancha;;A
+114;2018;Cobertura de banda ancha;;A
+114;2019;Cobertura de banda ancha;;A
+114;2020;Cobertura de banda ancha;;A
+114;2021;Cobertura de banda ancha;;A
+120;2011;Cobertura de banda ancha;;A
+120;2012;Cobertura de banda ancha;;A
+120;2013;Cobertura de banda ancha;;A
+120;2014;Cobertura de banda ancha;13.0;A
+120;2015;Cobertura de banda ancha;15.0;A
+120;2016;Cobertura de banda ancha;19.0;A
+120;2017;Cobertura de banda ancha;21.0;A
+120;2018;Cobertura de banda ancha;25.0;A
+120;2019;Cobertura de banda ancha;30.0;A
+120;2020;Cobertura de banda ancha;56.0;A
+120;2021;Cobertura de banda ancha;59.0;A
+158;2011;Cobertura de banda ancha;;A
+158;2012;Cobertura de banda ancha;;A
+158;2013;Cobertura de banda ancha;;A
+158;2014;Cobertura de banda ancha;;A
+158;2015;Cobertura de banda ancha;;A
+158;2016;Cobertura de banda ancha;8.0;A
+158;2017;Cobertura de banda ancha;10.0;A
+158;2018;Cobertura de banda ancha;12.0;A
+158;2019;Cobertura de banda ancha;17.0;A
+158;2020;Cobertura de banda ancha;24.0;A
+158;2021;Cobertura de banda ancha;33.0;A
+156;2011;Cobertura de banda ancha;;A
+156;2012;Cobertura de banda ancha;;A
+156;2013;Cobertura de banda ancha;;A
+156;2014;Cobertura de banda ancha;7.0;A
+156;2015;Cobertura de banda ancha;8.0;A
+156;2016;Cobertura de banda ancha;11.0;A
+156;2017;Cobertura de banda ancha;;A
+156;2018;Cobertura de banda ancha;;A
+156;2019;Cobertura de banda ancha;;A
+156;2020;Cobertura de banda ancha;39.0;A
+156;2021;Cobertura de banda ancha;;A
+101;2011;Cobertura de banda ancha;;A
+101;2012;Cobertura de banda ancha;;A
+101;2013;Cobertura de banda ancha;;A
+101;2014;Cobertura de banda ancha;;A
+101;2015;Cobertura de banda ancha;;A
+101;2016;Cobertura de banda ancha;;A
+101;2017;Cobertura de banda ancha;;A
+101;2018;Cobertura de banda ancha;;A
+101;2019;Cobertura de banda ancha;;A
+101;2020;Cobertura de banda ancha;;A
+101;2021;Cobertura de banda ancha;16.0;A
+157;2011;Cobertura de banda ancha;;A
+157;2012;Cobertura de banda ancha;;A
+157;2013;Cobertura de banda ancha;;A
+157;2014;Cobertura de banda ancha;3.0;A
+157;2015;Cobertura de banda ancha;;A
+157;2016;Cobertura de banda ancha;;A
+157;2017;Cobertura de banda ancha;5.0;A
+157;2018;Cobertura de banda ancha;7.0;A
+157;2019;Cobertura de banda ancha;15.0;A
+157;2020;Cobertura de banda ancha;21.0;A
+157;2021;Cobertura de banda ancha;35.0;A
+436;2011;Cobertura de banda ancha;;A
+436;2012;Cobertura de banda ancha;;A
+436;2013;Cobertura de banda ancha;;A
+436;2014;Cobertura de banda ancha;;A
+436;2015;Cobertura de banda ancha;14.0;A
+436;2016;Cobertura de banda ancha;16.0;A
+436;2017;Cobertura de banda ancha;17.0;A
+436;2018;Cobertura de banda ancha;18.0;A
+436;2019;Cobertura de banda ancha;20.0;A
+436;2020;Cobertura de banda ancha;26.0;A
+436;2021;Cobertura de banda ancha;26.0;A
+C01;2011;Estado Cobertura de banda ancha;;A
+C01;2012;Estado Cobertura de banda ancha;;A
+C01;2013;Estado Cobertura de banda ancha;;A
+C01;2014;Estado Cobertura de banda ancha;;A
+C01;2015;Estado Cobertura de banda ancha;;A
+C01;2016;Estado Cobertura de banda ancha;;A
+C01;2017;Estado Cobertura de banda ancha;;A
+C01;2018;Estado Cobertura de banda ancha;;A
+C01;2019;Estado Cobertura de banda ancha;;A
+C01;2020;Estado Cobertura de banda ancha;b;A
+C01;2021;Estado Cobertura de banda ancha;;A
+108;2011;Estado Cobertura de banda ancha;--;A
+108;2012;Estado Cobertura de banda ancha;--;A
+108;2013;Estado Cobertura de banda ancha;--;A
+108;2014;Estado Cobertura de banda ancha;;A
+108;2015;Estado Cobertura de banda ancha;;A
+108;2016;Estado Cobertura de banda ancha;;A
+108;2017;Estado Cobertura de banda ancha;;A
+108;2018;Estado Cobertura de banda ancha;;A
+108;2019;Estado Cobertura de banda ancha;;A
+108;2020;Estado Cobertura de banda ancha;b;A
+108;2021;Estado Cobertura de banda ancha;;A
+UE28;2011;Estado Cobertura de banda ancha;--;A
+UE28;2012;Estado Cobertura de banda ancha;--;A
+UE28;2013;Estado Cobertura de banda ancha;--;A
+UE28;2014;Estado Cobertura de banda ancha;;A
+UE28;2015;Estado Cobertura de banda ancha;;A
+UE28;2016;Estado Cobertura de banda ancha;;A
+UE28;2017;Estado Cobertura de banda ancha;;A
+UE28;2018;Estado Cobertura de banda ancha;;A
+UE28;2019;Estado Cobertura de banda ancha;;A
+UE28;2020;Estado Cobertura de banda ancha;--;A
+UE28;2021;Estado Cobertura de banda ancha;--;A
+UE27NRU;2011;Estado Cobertura de banda ancha;--;A
+UE27NRU;2012;Estado Cobertura de banda ancha;--;A
+UE27NRU;2013;Estado Cobertura de banda ancha;--;A
+UE27NRU;2014;Estado Cobertura de banda ancha;;A
+UE27NRU;2015;Estado Cobertura de banda ancha;;A
+UE27NRU;2016;Estado Cobertura de banda ancha;;A
+UE27NRU;2017;Estado Cobertura de banda ancha;;A
+UE27NRU;2018;Estado Cobertura de banda ancha;;A
+UE27NRU;2019;Estado Cobertura de banda ancha;;A
+UE27NRU;2020;Estado Cobertura de banda ancha;b;A
+UE27NRU;2021;Estado Cobertura de banda ancha;;A
+UE27;2011;Estado Cobertura de banda ancha;--;A
+UE27;2012;Estado Cobertura de banda ancha;--;A
+UE27;2013;Estado Cobertura de banda ancha;--;A
+UE27;2014;Estado Cobertura de banda ancha;;A
+UE27;2015;Estado Cobertura de banda ancha;;A
+UE27;2016;Estado Cobertura de banda ancha;;A
+UE27;2017;Estado Cobertura de banda ancha;;A
+UE27;2018;Estado Cobertura de banda ancha;;A
+UE27;2019;Estado Cobertura de banda ancha;--;A
+UE27;2020;Estado Cobertura de banda ancha;--;A
+UE27;2021;Estado Cobertura de banda ancha;--;A
+UE25;2011;Estado Cobertura de banda ancha;--;A
+UE25;2012;Estado Cobertura de banda ancha;--;A
+UE25;2013;Estado Cobertura de banda ancha;--;A
+UE25;2014;Estado Cobertura de banda ancha;--;A
+UE25;2015;Estado Cobertura de banda ancha;--;A
+UE25;2016;Estado Cobertura de banda ancha;--;A
+UE25;2017;Estado Cobertura de banda ancha;--;A
+UE25;2018;Estado Cobertura de banda ancha;--;A
+UE25;2019;Estado Cobertura de banda ancha;--;A
+UE25;2020;Estado Cobertura de banda ancha;--;A
+UE25;2021;Estado Cobertura de banda ancha;--;A
+UE15;2011;Estado Cobertura de banda ancha;--;A
+UE15;2012;Estado Cobertura de banda ancha;--;A
+UE15;2013;Estado Cobertura de banda ancha;--;A
+UE15;2014;Estado Cobertura de banda ancha;;A
+UE15;2015;Estado Cobertura de banda ancha;;A
+UE15;2016;Estado Cobertura de banda ancha;;A
+UE15;2017;Estado Cobertura de banda ancha;;A
+UE15;2018;Estado Cobertura de banda ancha;;A
+UE15;2019;Estado Cobertura de banda ancha;--;A
+UE15;2020;Estado Cobertura de banda ancha;--;A
+UE15;2021;Estado Cobertura de banda ancha;--;A
+103;2011;Estado Cobertura de banda ancha;--;A
+103;2012;Estado Cobertura de banda ancha;--;A
+103;2013;Estado Cobertura de banda ancha;--;A
+103;2014;Estado Cobertura de banda ancha;;A
+103;2015;Estado Cobertura de banda ancha;;A
+103;2016;Estado Cobertura de banda ancha;;A
+103;2017;Estado Cobertura de banda ancha;;A
+103;2018;Estado Cobertura de banda ancha;;A
+103;2019;Estado Cobertura de banda ancha;;A
+103;2020;Estado Cobertura de banda ancha;b;A
+103;2021;Estado Cobertura de banda ancha;;A
+104;2011;Estado Cobertura de banda ancha;--;A
+104;2012;Estado Cobertura de banda ancha;--;A
+104;2013;Estado Cobertura de banda ancha;--;A
+104;2014;Estado Cobertura de banda ancha;;A
+104;2015;Estado Cobertura de banda ancha;;A
+104;2016;Estado Cobertura de banda ancha;;A
+104;2017;Estado Cobertura de banda ancha;;A
+104;2018;Estado Cobertura de banda ancha;;A
+104;2019;Estado Cobertura de banda ancha;;A
+104;2020;Estado Cobertura de banda ancha;b;A
+104;2021;Estado Cobertura de banda ancha;;A
+143;2011;Estado Cobertura de banda ancha;--;A
+143;2012;Estado Cobertura de banda ancha;--;A
+143;2013;Estado Cobertura de banda ancha;--;A
+143;2014;Estado Cobertura de banda ancha;;A
+143;2015;Estado Cobertura de banda ancha;;A
+143;2016;Estado Cobertura de banda ancha;;A
+143;2017;Estado Cobertura de banda ancha;;A
+143;2018;Estado Cobertura de banda ancha;;A
+143;2019;Estado Cobertura de banda ancha;;A
+143;2020;Estado Cobertura de banda ancha;b;A
+143;2021;Estado Cobertura de banda ancha;;A
+107;2011;Estado Cobertura de banda ancha;--;A
+107;2012;Estado Cobertura de banda ancha;--;A
+107;2013;Estado Cobertura de banda ancha;--;A
+107;2014;Estado Cobertura de banda ancha;;A
+107;2015;Estado Cobertura de banda ancha;;A
+107;2016;Estado Cobertura de banda ancha;;A
+107;2017;Estado Cobertura de banda ancha;;A
+107;2018;Estado Cobertura de banda ancha;;A
+107;2019;Estado Cobertura de banda ancha;;A
+107;2020;Estado Cobertura de banda ancha;b;A
+107;2021;Estado Cobertura de banda ancha;;A
+126;2011;Estado Cobertura de banda ancha;--;A
+126;2012;Estado Cobertura de banda ancha;--;A
+126;2013;Estado Cobertura de banda ancha;--;A
+126;2014;Estado Cobertura de banda ancha;;A
+126;2015;Estado Cobertura de banda ancha;;A
+126;2016;Estado Cobertura de banda ancha;;A
+126;2017;Estado Cobertura de banda ancha;;A
+126;2018;Estado Cobertura de banda ancha;;A
+126;2019;Estado Cobertura de banda ancha;;A
+126;2020;Estado Cobertura de banda ancha;b;A
+126;2021;Estado Cobertura de banda ancha;;A
+141;2011;Estado Cobertura de banda ancha;--;A
+141;2012;Estado Cobertura de banda ancha;--;A
+141;2013;Estado Cobertura de banda ancha;--;A
+141;2014;Estado Cobertura de banda ancha;;A
+141;2015;Estado Cobertura de banda ancha;;A
+141;2016;Estado Cobertura de banda ancha;;A
+141;2017;Estado Cobertura de banda ancha;;A
+141;2018;Estado Cobertura de banda ancha;;A
+141;2019;Estado Cobertura de banda ancha;;A
+141;2020;Estado Cobertura de banda ancha;b;A
+141;2021;Estado Cobertura de banda ancha;;A
+113;2011;Estado Cobertura de banda ancha;--;A
+113;2012;Estado Cobertura de banda ancha;--;A
+113;2013;Estado Cobertura de banda ancha;--;A
+113;2014;Estado Cobertura de banda ancha;;A
+113;2015;Estado Cobertura de banda ancha;;A
+113;2016;Estado Cobertura de banda ancha;;A
+113;2017;Estado Cobertura de banda ancha;;A
+113;2018;Estado Cobertura de banda ancha;;A
+113;2019;Estado Cobertura de banda ancha;;A
+113;2020;Estado Cobertura de banda ancha;b;A
+113;2021;Estado Cobertura de banda ancha;;A
+111;2011;Estado Cobertura de banda ancha;--;A
+111;2012;Estado Cobertura de banda ancha;--;A
+111;2013;Estado Cobertura de banda ancha;--;A
+111;2014;Estado Cobertura de banda ancha;;A
+111;2015;Estado Cobertura de banda ancha;;A
+111;2016;Estado Cobertura de banda ancha;;A
+111;2017;Estado Cobertura de banda ancha;;A
+111;2018;Estado Cobertura de banda ancha;;A
+111;2019;Estado Cobertura de banda ancha;;A
+111;2020;Estado Cobertura de banda ancha;--;A
+111;2021;Estado Cobertura de banda ancha;;A
+110;2011;Estado Cobertura de banda ancha;--;A
+110;2012;Estado Cobertura de banda ancha;--;A
+110;2013;Estado Cobertura de banda ancha;--;A
+110;2014;Estado Cobertura de banda ancha;;A
+110;2015;Estado Cobertura de banda ancha;;A
+110;2016;Estado Cobertura de banda ancha;;A
+110;2017;Estado Cobertura de banda ancha;;A
+110;2018;Estado Cobertura de banda ancha;;A
+110;2019;Estado Cobertura de banda ancha;;A
+110;2020;Estado Cobertura de banda ancha;b;A
+110;2021;Estado Cobertura de banda ancha;;A
+146;2011;Estado Cobertura de banda ancha;--;A
+146;2012;Estado Cobertura de banda ancha;--;A
+146;2013;Estado Cobertura de banda ancha;--;A
+146;2014;Estado Cobertura de banda ancha;;A
+146;2015;Estado Cobertura de banda ancha;;A
+146;2016;Estado Cobertura de banda ancha;;A
+146;2017;Estado Cobertura de banda ancha;;A
+146;2018;Estado Cobertura de banda ancha;;A
+146;2019;Estado Cobertura de banda ancha;;A
+146;2020;Estado Cobertura de banda ancha;b;A
+146;2021;Estado Cobertura de banda ancha;;A
+115;2011;Estado Cobertura de banda ancha;--;A
+115;2012;Estado Cobertura de banda ancha;--;A
+115;2013;Estado Cobertura de banda ancha;--;A
+115;2014;Estado Cobertura de banda ancha;;A
+115;2015;Estado Cobertura de banda ancha;;A
+115;2016;Estado Cobertura de banda ancha;;A
+115;2017;Estado Cobertura de banda ancha;;A
+115;2018;Estado Cobertura de banda ancha;;A
+115;2019;Estado Cobertura de banda ancha;;A
+115;2020;Estado Cobertura de banda ancha;b;A
+115;2021;Estado Cobertura de banda ancha;;A
+106;2011;Estado Cobertura de banda ancha;--;A
+106;2012;Estado Cobertura de banda ancha;--;A
+106;2013;Estado Cobertura de banda ancha;--;A
+106;2014;Estado Cobertura de banda ancha;n;A
+106;2015;Estado Cobertura de banda ancha;;A
+106;2016;Estado Cobertura de banda ancha;;A
+106;2017;Estado Cobertura de banda ancha;;A
+106;2018;Estado Cobertura de banda ancha;;A
+106;2019;Estado Cobertura de banda ancha;;A
+106;2020;Estado Cobertura de banda ancha;b;A
+106;2021;Estado Cobertura de banda ancha;;A
+136;2011;Estado Cobertura de banda ancha;--;A
+136;2012;Estado Cobertura de banda ancha;--;A
+136;2013;Estado Cobertura de banda ancha;--;A
+136;2014;Estado Cobertura de banda ancha;;A
+136;2015;Estado Cobertura de banda ancha;;A
+136;2016;Estado Cobertura de banda ancha;;A
+136;2017;Estado Cobertura de banda ancha;;A
+136;2018;Estado Cobertura de banda ancha;;A
+136;2019;Estado Cobertura de banda ancha;;A
+136;2020;Estado Cobertura de banda ancha;b;A
+136;2021;Estado Cobertura de banda ancha;;A
+142;2011;Estado Cobertura de banda ancha;--;A
+142;2012;Estado Cobertura de banda ancha;--;A
+142;2013;Estado Cobertura de banda ancha;--;A
+142;2014;Estado Cobertura de banda ancha;;A
+142;2015;Estado Cobertura de banda ancha;;A
+142;2016;Estado Cobertura de banda ancha;;A
+142;2017;Estado Cobertura de banda ancha;;A
+142;2018;Estado Cobertura de banda ancha;;A
+142;2019;Estado Cobertura de banda ancha;;A
+142;2020;Estado Cobertura de banda ancha;b;A
+142;2021;Estado Cobertura de banda ancha;;A
+117;2011;Estado Cobertura de banda ancha;--;A
+117;2012;Estado Cobertura de banda ancha;--;A
+117;2013;Estado Cobertura de banda ancha;--;A
+117;2014;Estado Cobertura de banda ancha;;A
+117;2015;Estado Cobertura de banda ancha;;A
+117;2016;Estado Cobertura de banda ancha;;A
+117;2017;Estado Cobertura de banda ancha;;A
+117;2018;Estado Cobertura de banda ancha;;A
+117;2019;Estado Cobertura de banda ancha;;A
+117;2020;Estado Cobertura de banda ancha;b;A
+117;2021;Estado Cobertura de banda ancha;;A
+112;2011;Estado Cobertura de banda ancha;--;A
+112;2012;Estado Cobertura de banda ancha;--;A
+112;2013;Estado Cobertura de banda ancha;--;A
+112;2014;Estado Cobertura de banda ancha;;A
+112;2015;Estado Cobertura de banda ancha;;A
+112;2016;Estado Cobertura de banda ancha;;A
+112;2017;Estado Cobertura de banda ancha;;A
+112;2018;Estado Cobertura de banda ancha;;A
+112;2019;Estado Cobertura de banda ancha;;A
+112;2020;Estado Cobertura de banda ancha;b;A
+112;2021;Estado Cobertura de banda ancha;;A
+118;2011;Estado Cobertura de banda ancha;--;A
+118;2012;Estado Cobertura de banda ancha;--;A
+118;2013;Estado Cobertura de banda ancha;--;A
+118;2014;Estado Cobertura de banda ancha;;A
+118;2015;Estado Cobertura de banda ancha;;A
+118;2016;Estado Cobertura de banda ancha;;A
+118;2017;Estado Cobertura de banda ancha;;A
+118;2018;Estado Cobertura de banda ancha;;A
+118;2019;Estado Cobertura de banda ancha;;A
+118;2020;Estado Cobertura de banda ancha;b;A
+118;2021;Estado Cobertura de banda ancha;;A
+121;2011;Estado Cobertura de banda ancha;--;A
+121;2012;Estado Cobertura de banda ancha;--;A
+121;2013;Estado Cobertura de banda ancha;--;A
+121;2014;Estado Cobertura de banda ancha;;A
+121;2015;Estado Cobertura de banda ancha;;A
+121;2016;Estado Cobertura de banda ancha;;A
+121;2017;Estado Cobertura de banda ancha;;A
+121;2018;Estado Cobertura de banda ancha;;A
+121;2019;Estado Cobertura de banda ancha;;A
+121;2020;Estado Cobertura de banda ancha;b;A
+121;2021;Estado Cobertura de banda ancha;;A
+102;2011;Estado Cobertura de banda ancha;--;A
+102;2012;Estado Cobertura de banda ancha;--;A
+102;2013;Estado Cobertura de banda ancha;--;A
+102;2014;Estado Cobertura de banda ancha;;A
+102;2015;Estado Cobertura de banda ancha;;A
+102;2016;Estado Cobertura de banda ancha;;A
+102;2017;Estado Cobertura de banda ancha;;A
+102;2018;Estado Cobertura de banda ancha;;A
+102;2019;Estado Cobertura de banda ancha;;A
+102;2020;Estado Cobertura de banda ancha;b;A
+102;2021;Estado Cobertura de banda ancha;;A
+122;2011;Estado Cobertura de banda ancha;--;A
+122;2012;Estado Cobertura de banda ancha;--;A
+122;2013;Estado Cobertura de banda ancha;--;A
+122;2014;Estado Cobertura de banda ancha;;A
+122;2015;Estado Cobertura de banda ancha;;A
+122;2016;Estado Cobertura de banda ancha;;A
+122;2017;Estado Cobertura de banda ancha;;A
+122;2018;Estado Cobertura de banda ancha;;A
+122;2019;Estado Cobertura de banda ancha;;A
+122;2020;Estado Cobertura de banda ancha;b;A
+122;2021;Estado Cobertura de banda ancha;;A
+123;2011;Estado Cobertura de banda ancha;--;A
+123;2012;Estado Cobertura de banda ancha;--;A
+123;2013;Estado Cobertura de banda ancha;--;A
+123;2014;Estado Cobertura de banda ancha;;A
+123;2015;Estado Cobertura de banda ancha;;A
+123;2016;Estado Cobertura de banda ancha;;A
+123;2017;Estado Cobertura de banda ancha;;A
+123;2018;Estado Cobertura de banda ancha;;A
+123;2019;Estado Cobertura de banda ancha;;A
+123;2020;Estado Cobertura de banda ancha;b;A
+123;2021;Estado Cobertura de banda ancha;;A
+128;2011;Estado Cobertura de banda ancha;--;A
+128;2012;Estado Cobertura de banda ancha;--;A
+128;2013;Estado Cobertura de banda ancha;--;A
+128;2014;Estado Cobertura de banda ancha;;A
+128;2015;Estado Cobertura de banda ancha;;A
+128;2016;Estado Cobertura de banda ancha;;A
+128;2017;Estado Cobertura de banda ancha;;A
+128;2018;Estado Cobertura de banda ancha;;A
+128;2019;Estado Cobertura de banda ancha;;A
+128;2020;Estado Cobertura de banda ancha;b;A
+128;2021;Estado Cobertura de banda ancha;;A
+147;2011;Estado Cobertura de banda ancha;--;A
+147;2012;Estado Cobertura de banda ancha;--;A
+147;2013;Estado Cobertura de banda ancha;--;A
+147;2014;Estado Cobertura de banda ancha;;A
+147;2015;Estado Cobertura de banda ancha;;A
+147;2016;Estado Cobertura de banda ancha;;A
+147;2017;Estado Cobertura de banda ancha;;A
+147;2018;Estado Cobertura de banda ancha;;A
+147;2019;Estado Cobertura de banda ancha;;A
+147;2020;Estado Cobertura de banda ancha;b;A
+147;2021;Estado Cobertura de banda ancha;;A
+144;2011;Estado Cobertura de banda ancha;--;A
+144;2012;Estado Cobertura de banda ancha;--;A
+144;2013;Estado Cobertura de banda ancha;--;A
+144;2014;Estado Cobertura de banda ancha;;A
+144;2015;Estado Cobertura de banda ancha;;A
+144;2016;Estado Cobertura de banda ancha;;A
+144;2017;Estado Cobertura de banda ancha;;A
+144;2018;Estado Cobertura de banda ancha;;A
+144;2019;Estado Cobertura de banda ancha;;A
+144;2020;Estado Cobertura de banda ancha;b;A
+144;2021;Estado Cobertura de banda ancha;;A
+109;2011;Estado Cobertura de banda ancha;--;A
+109;2012;Estado Cobertura de banda ancha;--;A
+109;2013;Estado Cobertura de banda ancha;--;A
+109;2014;Estado Cobertura de banda ancha;;A
+109;2015;Estado Cobertura de banda ancha;;A
+109;2016;Estado Cobertura de banda ancha;;A
+109;2017;Estado Cobertura de banda ancha;;A
+109;2018;Estado Cobertura de banda ancha;;A
+109;2019;Estado Cobertura de banda ancha;;A
+109;2020;Estado Cobertura de banda ancha;b;A
+109;2021;Estado Cobertura de banda ancha;;A
+131;2011;Estado Cobertura de banda ancha;--;A
+131;2012;Estado Cobertura de banda ancha;--;A
+131;2013;Estado Cobertura de banda ancha;--;A
+131;2014;Estado Cobertura de banda ancha;;A
+131;2015;Estado Cobertura de banda ancha;;A
+131;2016;Estado Cobertura de banda ancha;;A
+131;2017;Estado Cobertura de banda ancha;;A
+131;2018;Estado Cobertura de banda ancha;;A
+131;2019;Estado Cobertura de banda ancha;;A
+131;2020;Estado Cobertura de banda ancha;b;A
+131;2021;Estado Cobertura de banda ancha;;A
+125;2011;Estado Cobertura de banda ancha;--;A
+125;2012;Estado Cobertura de banda ancha;--;A
+125;2013;Estado Cobertura de banda ancha;--;A
+125;2014;Estado Cobertura de banda ancha;;A
+125;2015;Estado Cobertura de banda ancha;;A
+125;2016;Estado Cobertura de banda ancha;;A
+125;2017;Estado Cobertura de banda ancha;;A
+125;2018;Estado Cobertura de banda ancha;;A
+125;2019;Estado Cobertura de banda ancha;;A
+125;2020;Estado Cobertura de banda ancha;b;A
+125;2021;Estado Cobertura de banda ancha;--;A
+114;2011;Estado Cobertura de banda ancha;--;A
+114;2012;Estado Cobertura de banda ancha;--;A
+114;2013;Estado Cobertura de banda ancha;--;A
+114;2014;Estado Cobertura de banda ancha;--;A
+114;2015;Estado Cobertura de banda ancha;--;A
+114;2016;Estado Cobertura de banda ancha;--;A
+114;2017;Estado Cobertura de banda ancha;--;A
+114;2018;Estado Cobertura de banda ancha;--;A
+114;2019;Estado Cobertura de banda ancha;--;A
+114;2020;Estado Cobertura de banda ancha;--;A
+114;2021;Estado Cobertura de banda ancha;--;A
+120;2011;Estado Cobertura de banda ancha;--;A
+120;2012;Estado Cobertura de banda ancha;--;A
+120;2013;Estado Cobertura de banda ancha;--;A
+120;2014;Estado Cobertura de banda ancha;;A
+120;2015;Estado Cobertura de banda ancha;;A
+120;2016;Estado Cobertura de banda ancha;;A
+120;2017;Estado Cobertura de banda ancha;;A
+120;2018;Estado Cobertura de banda ancha;;A
+120;2019;Estado Cobertura de banda ancha;;A
+120;2020;Estado Cobertura de banda ancha;b;A
+120;2021;Estado Cobertura de banda ancha;;A
+158;2011;Estado Cobertura de banda ancha;--;A
+158;2012;Estado Cobertura de banda ancha;--;A
+158;2013;Estado Cobertura de banda ancha;--;A
+158;2014;Estado Cobertura de banda ancha;--;A
+158;2015;Estado Cobertura de banda ancha;--;A
+158;2016;Estado Cobertura de banda ancha;;A
+158;2017;Estado Cobertura de banda ancha;;A
+158;2018;Estado Cobertura de banda ancha;;A
+158;2019;Estado Cobertura de banda ancha;;A
+158;2020;Estado Cobertura de banda ancha;b;A
+158;2021;Estado Cobertura de banda ancha;;A
+156;2011;Estado Cobertura de banda ancha;--;A
+156;2012;Estado Cobertura de banda ancha;--;A
+156;2013;Estado Cobertura de banda ancha;--;A
+156;2014;Estado Cobertura de banda ancha;;A
+156;2015;Estado Cobertura de banda ancha;;A
+156;2016;Estado Cobertura de banda ancha;;A
+156;2017;Estado Cobertura de banda ancha;--;A
+156;2018;Estado Cobertura de banda ancha;--;A
+156;2019;Estado Cobertura de banda ancha;--;A
+156;2020;Estado Cobertura de banda ancha;b;A
+156;2021;Estado Cobertura de banda ancha;--;A
+101;2011;Estado Cobertura de banda ancha;--;A
+101;2012;Estado Cobertura de banda ancha;--;A
+101;2013;Estado Cobertura de banda ancha;--;A
+101;2014;Estado Cobertura de banda ancha;--;A
+101;2015;Estado Cobertura de banda ancha;--;A
+101;2016;Estado Cobertura de banda ancha;--;A
+101;2017;Estado Cobertura de banda ancha;--;A
+101;2018;Estado Cobertura de banda ancha;--;A
+101;2019;Estado Cobertura de banda ancha;--;A
+101;2020;Estado Cobertura de banda ancha;--;A
+101;2021;Estado Cobertura de banda ancha;;A
+157;2011;Estado Cobertura de banda ancha;--;A
+157;2012;Estado Cobertura de banda ancha;--;A
+157;2013;Estado Cobertura de banda ancha;--;A
+157;2014;Estado Cobertura de banda ancha;;A
+157;2015;Estado Cobertura de banda ancha;--;A
+157;2016;Estado Cobertura de banda ancha;--;A
+157;2017;Estado Cobertura de banda ancha;;A
+157;2018;Estado Cobertura de banda ancha;;A
+157;2019;Estado Cobertura de banda ancha;;A
+157;2020;Estado Cobertura de banda ancha;b;A
+157;2021;Estado Cobertura de banda ancha;;A
+436;2011;Estado Cobertura de banda ancha;--;A
+436;2012;Estado Cobertura de banda ancha;--;A
+436;2013;Estado Cobertura de banda ancha;--;A
+436;2014;Estado Cobertura de banda ancha;--;A
+436;2015;Estado Cobertura de banda ancha;;A
+436;2016;Estado Cobertura de banda ancha;;A
+436;2017;Estado Cobertura de banda ancha;;A
+436;2018;Estado Cobertura de banda ancha;;A
+436;2019;Estado Cobertura de banda ancha;;A
+436;2020;Estado Cobertura de banda ancha;b;A
+436;2021;Estado Cobertura de banda ancha;;A

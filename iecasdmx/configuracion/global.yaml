@@ -7,7 +7,7 @@ directorio_datos: sistema_informacion/BADEA/datos
 directorio_json: sistema_informacion/BADEA/consultas
 directorio_metadatos_html: sistema_informacion/metadatos_html
 fichero_traducciones: sistema_informacion/traducciones.yaml
-
+directorio_datos_jerarquias: sistema_informacion/BADEA/jerarquias/datos_jerarquias.yaml
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 

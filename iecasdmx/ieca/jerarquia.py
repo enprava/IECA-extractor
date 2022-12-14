@@ -129,6 +129,25 @@ class Jerarquia:
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.nombre_mapa)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
 
+    def agregar_datos_jerarquia(self):
+        # Quizas es buena idea abrir archivos en otras funciones a parte.
+        # Pendiente para cuando hagamos la refactorizacion definitiva de todo
+        with open(self.configuracion_global['directorio_datos_jerarquias']) as file:
+            datos_jerarquias = yaml.safe_load(file)
+            file.close()
+        if not datos_jerarquias:
+            datos_jerarquias = {}
+        if self.nombre not in datos_jerarquias:
+            directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
+                                      self.nombre_mapa)
+            datos_jerarquias[self.nombre] = {'ID': f'CL_{self.nombre}', 'agency': self.configuracion_global['nodeId'],
+                                             'version': '1.0', 'nombre': {'es': self.nombre},
+                                             'description': {'es': self.metadatos['des']},
+                                             'fichero': f'{directorio}.csv'}
+            with open(self.configuracion_global['directorio_datos_jerarquias'], 'w', encoding='utf-8') as file:
+                yaml.dump(datos_jerarquias, file, encoding='utf-8')
+                file.close()
+
     def solicitar_informacion_jerarquia(self):
         """Realiza la petición HTTP a la API si la jerarquía no se encuentra en nuestro directorio local,
         automáticamente se convierte la jerarquia a dataframe haciendo uso de
@@ -182,6 +201,7 @@ class Jerarquia:
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
                 yaml.dump(mapa_conceptos_codelists, file, encoding='utf-8')
+                file.close()
 
     def mapear_padre_cod(self, datos):
         res = {'': ''}
@@ -190,4 +210,4 @@ class Jerarquia:
         return res
 
     def formatear_cod(self, cod):
-        return cod.apply(lambda x: x.COD[3:] if len(x.COD)>3 and x.COD[0] == 'P' and x.COD[2] == '_' else x, axis=1)
+        return cod.apply(lambda x: x.COD[3:] if len(x.COD) > 3 and x.COD[0] == 'P' and x.COD[2] == '_' else x, axis=1)

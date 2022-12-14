@@ -1,0 +1,36 @@
+ESTADO_DATO:
+  ID: CL_ESTADO_DATO
+  agency: ESC01
+  description:
+    es: Estado del dato
+  fichero: sistema_informacion/BADEA/jerarquias/IASS/sdmx/D_ESTADO_DATO_0.csv
+  nombre:
+    es: ESTADO_DATO
+  version: '1.0'
+IASS_TIPOVENTAS:
+  ID: CL_IASS_TIPOVENTAS
+  agency: ESC01
+  description:
+    es: Tipo de ventas
+  fichero: sistema_informacion/BADEA/jerarquias/IASS/sdmx/D_IASS_TIPOVENTAS_0.csv
+  nombre:
+    es: IASS_TIPOVENTAS
+  version: '1.0'
+TEMPORAL:
+  ID: CL_TEMPORAL
+  agency: ESC01
+  description:
+    es: Mensual
+  fichero: sistema_informacion/BADEA/jerarquias/IASS/sdmx/D_TEMPORAL_0.csv
+  nombre:
+    es: TEMPORAL
+  version: '1.0'
+TERRITORIO:
+  ID: CL_TERRITORIO
+  agency: ESC01
+  description:
+    es: Territorio
+  fichero: sistema_informacion/BADEA/jerarquias/IASS/sdmx/D_TERRITORIO_0.csv
+  nombre:
+    es: TERRITORIO
+  version: '1.0'

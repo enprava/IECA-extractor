@@ -1,6 +1,7 @@
 acciones_jerarquia:
   guardar_datos: True
   añadir_mapa_concepto_codelist: True
+  agregar_datos_jerarquia: True
 acciones_datos:
   guardar_datos#1: original
   extender_mapa_nuevos_terminos: True

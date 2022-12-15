@@ -49,10 +49,13 @@ class Jerarquia:
         self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
         self.id_consulta = id_consulta
-
+        self.nombre = self.metadatos["alias"][2:-2]
+        index = self.id_jerarquia.find(self.nombre)
+        self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
+        # mapa de la dimension
         self.datos = self.solicitar_informacion_jerarquia()
         self.datos_sdmx = []
-        self.nombre = self.metadatos["alias"][2:-2]
+
         self.logger.info('Extrayendo lista de código')
 
     def convertir_jerarquia_a_dataframe(self, datos_jerarquia):
@@ -117,9 +120,7 @@ class Jerarquia:
         mapa_padre = self.mapear_padre_cod(datos[['ID', 'COD']].to_dict('tight')['data'])
         datos = datos.replace({'PARENTCODE': mapa_padre})
 
-        index = self.id_jerarquia.find(self.nombre)
-        self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
-        # mapa de la dimension
+
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas], self.nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])
@@ -161,7 +162,7 @@ class Jerarquia:
             datos (:class:`pandas:pandas.DataFrame`): La jerarquia en un cuadro de datos.
          """
         directorio_csv = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                      self.id_jerarquia + '.csv')
+                                      self.id_consulta, self.nombre_mapa + '.csv')
         datos = None
         try:
 

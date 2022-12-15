@@ -1,3 +1,21 @@
+ARE_INSCRIPCION:
+  ID: CL_ARE_INSCRIPCION
+  agency: ESC01
+  description:
+    es: "Inscripci\xF3n"
+  fichero: sistema_informacion/BADEA/jerarquias\AE\sdmx\1917\D_ARE_INSCRIPCION_0.csv
+  nombre:
+    es: ARE_INSCRIPCION
+  version: '1.0'
+EDAD:
+  ID: CL_EDAD
+  agency: ESC01
+  description:
+    es: Edad
+  fichero: sistema_informacion/BADEA/jerarquias\AE\sdmx\439\D_EDAD_0.csv
+  nombre:
+    es: EDAD
+  version: '1.0'
 ESTADO_DATO:
   ID: CL_ESTADO_DATO
   agency: ESC01
@@ -15,6 +33,42 @@ IASS_TIPOVENTAS:
   fichero: sistema_informacion/BADEA/jerarquias/IASS/sdmx/D_IASS_TIPOVENTAS_0.csv
   nombre:
     es: IASS_TIPOVENTAS
+  version: '1.0'
+IVGS_SERIEIVGS:
+  ID: CL_IVGS_SERIEIVGS
+  agency: ESC01
+  description:
+    es: Tipo de Serie
+  fichero: sistema_informacion/BADEA/jerarquias\IVGSA\sdmx\15454\D_IVGS_SERIEIVGS_0.csv
+  nombre:
+    es: IVGS_SERIEIVGS
+  version: '1.0'
+IVGS_TIPVENT:
+  ID: CL_IVGS_TIPVENT
+  agency: ESC01
+  description:
+    es: Tipo de ventas
+  fichero: sistema_informacion/BADEA/jerarquias\IVGSA\sdmx\15454\D_IVGS_TIPVENT_0.csv
+  nombre:
+    es: IVGS_TIPVENT
+  version: '1.0'
+LUGARNACIMIEN:
+  ID: CL_LUGARNACIMIEN
+  agency: ESC01
+  description:
+    es: Lugar de nacimiento
+  fichero: sistema_informacion/BADEA/jerarquias\AE\sdmx\437\D_LUGARNACIMIEN_0.csv
+  nombre:
+    es: LUGARNACIMIEN
+  version: '1.0'
+SEXO:
+  ID: CL_SEXO
+  agency: ESC01
+  description:
+    es: Sexo
+  fichero: sistema_informacion/BADEA/jerarquias\AE\sdmx\437\D_SEXO_0.csv
+  nombre:
+    es: SEXO
   version: '1.0'
 TEMPORAL:
   ID: CL_TEMPORAL

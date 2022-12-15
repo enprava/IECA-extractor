@@ -140,15 +140,23 @@ class Jerarquia:
         with open(self.configuracion_global['directorio_datos_jerarquias']) as file:
             datos_jerarquias = yaml.safe_load(file)
             file.close()
+        has_changed = False
         if not datos_jerarquias:
             datos_jerarquias = {}
+        directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
+                                  self.id_consulta, self.nombre_mapa)
+        archivo = f'{directorio}.csv'
         if self.nombre not in datos_jerarquias:
-            directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
-                                      self.id_consulta,self.nombre_mapa)
             datos_jerarquias[self.nombre] = {'ID': f'CL_{self.nombre}', 'agency': self.configuracion_global['nodeId'],
                                              'version': '1.0', 'nombre': {'es': self.nombre},
                                              'description': {'es': self.metadatos['des']},
-                                             'fichero': f'{directorio}.csv'}
+                                             'fichero': [archivo]}
+            has_changed = True
+        else:
+            if archivo not in datos_jerarquias[self.nombre]['fichero']:
+                datos_jerarquias[self.nombre]['fichero'].append(f'{directorio}.csv')
+                has_changed = True
+        if has_changed:
             with open(self.configuracion_global['directorio_datos_jerarquias'], 'w', encoding='utf-8') as file:
                 yaml.dump(datos_jerarquias, file, encoding='utf-8')
                 file.close()

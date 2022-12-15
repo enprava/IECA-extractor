@@ -41,13 +41,14 @@ class Jerarquia:
             exportada a .CSV para importarse en SDMX.
         """
 
-    def __init__(self, jerarquia, configuracion_global, actividad, categoria):
+    def __init__(self, jerarquia, configuracion_global, actividad, categoria, id_consulta):
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
         self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
+        self.id_consulta = id_consulta
 
         self.datos = self.solicitar_informacion_jerarquia()
         self.datos_sdmx = []
@@ -97,9 +98,11 @@ class Jerarquia:
          """
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad)
         directorio_original = os.path.join(directorio, 'original')
+        directorio_original = os.path.join(directorio_original, self.id_consulta)
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
+        #directorio_original = os.path.join(directorio_original, )
         directorio_sdmx = os.path.join(directorio, 'sdmx')
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)

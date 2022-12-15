@@ -1,0 +1,6 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+222;Total;(Total) Estado del dato;Estado del dato;;0
+40123;D;(D) Definitivo;Definitivo;;1
+40124;P;(P) Provisional;Provisional;;2
+40125;A;(A) Avance;Avance;;3
+69512;1E;(1E) 1ª Estimación;1ª Estimación;;4

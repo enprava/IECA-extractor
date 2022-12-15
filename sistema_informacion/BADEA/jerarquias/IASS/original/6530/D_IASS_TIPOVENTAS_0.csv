@@ -1,0 +1,10 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+1027;Total;(Total) Tipo de ventas (IASS);Tipo de ventas (IASS);;0
+61753;01;(01) Índice General;Índice General;;1
+61754;02;(02) Comercio;Comercio;;2
+61755;03;(03) Otros Servicios;Otros Servicios;;3
+61756;04;(04) Transportes y Almacenamiento;Transportes y Almacenamiento;;4
+61757;05;(05) Hostelería;Hostelería;;5
+61758;06;(06) Información y Comunicaciones;Información y Comunicaciones;;6
+61759;07;(07) Actividades profesionales, científicas y técnicas;Actividades profesionales, científicas y técnicas;;7
+61760;08;(08) Actividades administrativas y servicios auxiliares;Actividades administrativas y servicios auxiliares;;8

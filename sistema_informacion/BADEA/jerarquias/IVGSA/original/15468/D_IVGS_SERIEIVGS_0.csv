@@ -1,0 +1,5 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+4117;Total;(Total) Tipo de Serie;Tipo de Serie;;0
+277795;01;(01) Serie original ;Serie original ;;1
+277796;02;(02) Serie corregida de efectos estacionales y de calendario ;Serie corregida de efectos estacionales y de calendario ;;2
+277797;03;(03) Serie corregida de efecto calendario ;Serie corregida de efecto calendario ;;3

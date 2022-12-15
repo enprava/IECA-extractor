@@ -48,6 +48,7 @@ class Consulta:
         self.url_consulta = id_consulta
         self.id_consulta = id_consulta
 
+
         self.configuracion_global = configuracion_global
         self.configuracion_actividad = configuracion_actividad
         self.mapa_conceptos_codelist = mapa_conceptos_codelist
@@ -64,7 +65,7 @@ class Consulta:
             self.solicitar_informacion_api()
 
         self.jerarquias = [
-            Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'])
+            Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'],self.id_consulta)
             for jerarquia in
             jerarquias_sin_procesar]
         self.datos = Datos(self.id_consulta, self.configuracion_global,self.mapa_conceptos_codelist, self.actividad,

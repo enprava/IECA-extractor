@@ -1,0 +1,74 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+21;TOTAL;(TOTAL) TOTAL/España/Andalucía/Provincias/Europa/Países UE/Países Resto Europa;TOTAL/España/Andalucía/Provincias/Europa/Países UE/Países Resto Europa;;0
+3676;00;(00) TOTAL;TOTAL;;1
+2240;108;(108) España;España;00;2
+3675;66;(66) Extranjero;Extranjero;00;3
+3677;NC000;(NC000) No consta;No consta;00;5
+3143;C01;(C01) Andalucía;Andalucía;108;6
+2352;04;(04) Almería;Almería;C01;11
+2402;11;(11) Cádiz;Cádiz;C01;12
+2482;14;(14) Córdoba;Córdoba;C01;13
+2713;18;(18) Granada;Granada;C01;14
+2797;21;(21) Huelva;Huelva;C01;15
+2911;23;(23) Jaén;Jaén;C01;16
+3023;29;(29) Málaga;Málaga;C01;17
+3142;41;(41) Sevilla;Sevilla;C01;18
+2349;04NC;(04NC) Municipio de Almería sin especificar;Municipio de Almería sin especificar;04;24
+2399;11NC;(11NC) Municipio de Cádiz sin especificar;Municipio de Cádiz sin especificar;11;25
+2479;14NC;(14NC) Municipio de Córdoba sin especificar;Municipio de Córdoba sin especificar;14;26
+2710;18NC;(18NC) Municipio de Granada sin especificar;Municipio de Granada sin especificar;18;27
+2794;21NC;(21NC) Municipio de Huelva sin especificar;Municipio de Huelva sin especificar;21;28
+2908;23NC;(23NC) Municipio de Jaén sin especificar;Municipio de Jaén sin especificar;23;29
+3020;29NC;(29NC) Municipio de Málaga sin especificar;Municipio de Málaga sin especificar;29;30
+3139;41NC;(41NC) Municipio de Sevilla sin especificar;Municipio de Sevilla sin especificar;41;31
+3403;6601;(6601) Europa;Europa;66;7
+3375;0101;(0101) Unión Europea;Unión Europea;6601;19
+3402;0102;(0102) Resto de Países;Resto de Países;6601;20
+273823;UE28;(UE28) Unión Europea 28 (2013-2020);Unión Europea 28 (2013-2020);0101;32
+273834;UE27NRU;(UE27NRU) Unión Europea 27 (desde 2020);Unión Europea 27 (desde 2020);0101;33
+273839;UE27;(UE27) Unión Europea 27 (2007-2013);Unión Europea 27 (2007-2013);0101;34
+273840;EA19;(EA19) Zona Euro 19 (desde 2015);Zona Euro 19 (desde 2015);0101;35
+273841;EA18;(EA18) Zona Euro 18 (2014);Zona Euro 18 (2014);0101;36
+273842;EA17;(EA17) Zona Euro 17 (2011-2013);Zona Euro 17 (2011-2013);0101;37
+273843;UE25;(UE25) Unión Europea 25;Unión Europea 25;0101;38
+273844;UE15;(UE15) Unión Europea 15;Unión Europea 15;0101;39
+3347;103;(103) Bélgica;Bélgica;0101;40
+3348;104;(104) Bulgaria;Bulgaria;0101;41
+3369;143;(143) República Checa;República Checa;0101;42
+3350;107;(107) Dinamarca;Dinamarca;0101;43
+3363;126;(126) Alemania;Alemania;0101;44
+3367;141;(141) Estonia;Estonia;0101;45
+3355;113;(113) Irlanda;Irlanda;0101;46
+3353;111;(111) Grecia;Grecia;0101;47
+3352;110;(110) Francia;Francia;0101;48
+3371;146;(146) Croacia;Croacia;0101;49
+3356;115;(115) Italia;Italia;0101;50
+3349;106;(106) Chipre;Chipre;0101;51
+3366;136;(136) Letonia;Letonia;0101;52
+3368;142;(142) Lituania;Lituania;0101;53
+3357;117;(117) Luxemburgo;Luxemburgo;0101;54
+3354;112;(112) Hungría;Hungría;0101;55
+3358;118;(118) Malta;Malta;0101;56
+3359;121;(121) Países Bajos;Países Bajos;0101;57
+3346;102;(102) Austria;Austria;0101;58
+3360;122;(122) Polonia;Polonia;0101;59
+3361;123;(123) Portugal;Portugal;0101;60
+3364;128;(128) Rumanía;Rumanía;0101;61
+3372;147;(147) Eslovenia;Eslovenia;0101;62
+3370;144;(144) Eslovaquia;Eslovaquia;0101;63
+3351;109;(109) Finlandia;Finlandia;0101;64
+3365;131;(131) Suecia;Suecia;0101;65
+3362;125;(125) Reino Unido;Reino Unido;0101;66
+3379;114;(114) Islandia;Islandia;0102;67
+3380;116;(116) Liechtenstein;Liechtenstein;0102;68
+3382;120;(120) Noruega;Noruega;0102;69
+3386;132;(132) Suiza;Suiza;0102;70
+3398;158;(158) Montenegro;Montenegro;0102;71
+3396;156;(156) Macedonia;Macedonia;0102;72
+3377;101;(101) Albania;Albania;0102;73
+3397;157;(157) Serbia;Serbia;0102;74
+3574;436;(436) Turquía;Turquía;0102;76
+3394;154;(154) Rusia;Rusia;0102;77
+3678;NC00;(NC00) No consta;No consta;NC000;10
+3679;NC0;(NC0) No consta;No consta;NC00;23
+3682;NC;(NC) No consta;No consta;NC0;78

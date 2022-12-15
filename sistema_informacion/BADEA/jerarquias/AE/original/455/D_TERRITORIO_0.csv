@@ -1,0 +1,12 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+21;TOTAL;(TOTAL) Andalucía/Provincias Andalucía (usar en consultas provinciales);Andalucía/Provincias Andalucía (usar en consultas provinciales);;0
+3143;C01;(C01) Andalucía;Andalucía;;1
+2352;04;(04) Almería;Almería;C01;2
+2402;11;(11) Cádiz;Cádiz;C01;3
+2482;14;(14) Córdoba;Córdoba;C01;4
+2713;18;(18) Granada;Granada;C01;5
+2797;21;(21) Huelva;Huelva;C01;6
+2911;23;(23) Jaén;Jaén;C01;7
+3023;29;(29) Málaga;Málaga;C01;8
+3142;41;(41) Sevilla;Sevilla;C01;9
+3144;C01NC;(C01NC) Provincia sin especificar;Provincia sin especificar;C01;10

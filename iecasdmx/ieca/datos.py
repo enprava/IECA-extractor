@@ -223,7 +223,7 @@ class Datos:
             if columna_id != 'INDICATOR':
                 jerarquia_codigos = pd.read_csv(
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                 columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
+                                 self.id_consulta,columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
                 # df_mapa['COD'][df_mapa['COD'].isna()] = \
                 #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',

@@ -1,0 +1,8 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+4116;Total;(Total) Tipo de ventas (IVGS) Nueva;Tipo de ventas (IVGS) Nueva;;0
+277789;01;(01) Ventas Total ;Ventas Total ;;1
+277790;02;(02) Ventas Alimentación ;Ventas Alimentación ;;2
+277791;03;(03) Ventas Resto de Productos ;Ventas Resto de Productos ;;3
+277792;04;(04) Ventas Total Deflactadas ;Ventas Total Deflactadas ;;4
+277793;05;(05) Ventas Alimentación Deflactadas ;Ventas Alimentación Deflactadas ;;5
+277794;06;(06) Ventas Resto Deflactadas ;Ventas Resto Deflactadas ;;6

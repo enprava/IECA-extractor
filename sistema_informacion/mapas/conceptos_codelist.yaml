@@ -12,7 +12,7 @@ AA_BASECOTIZAC:
     es: "Base de cotizaci\xF3n"
   nombre:
     es: BASECOTIZAC
-  nombre_dimension: AA_BASECOTIZAC
+  nombre_dimension: BASECOTIZAC
   tipo: dimension
 AA_DURACEMPREND:
   codelist:
@@ -28,7 +28,7 @@ AA_DURACEMPREND:
     es: "Duraci\xF3n del emprendimiento"
   nombre:
     es: DURACEMPREND
-  nombre_dimension: AA_DURACEMPREND
+  nombre_dimension: DURACEMPREND
   tipo: dimension
 AA_MULTIVARIABL:
   codelist:
@@ -44,7 +44,7 @@ AA_MULTIVARIABL:
     es: Multivariable
   nombre:
     es: MULTIVARIABL
-  nombre_dimension: AA_MULTIVARIABL
+  nombre_dimension: MULTIVARIABL
   tipo: dimension
 AA_SITPREVULTEM:
   codelist:
@@ -60,7 +60,7 @@ AA_SITPREVULTEM:
     es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
   nombre:
     es: SITPREVULTEM
-  nombre_dimension: AA_SITPREVULTEM
+  nombre_dimension: SITPREVULTEM
   tipo: dimension
 AA_TERRITORIOIN:
   codelist:
@@ -76,7 +76,7 @@ AA_TERRITORIOIN:
     es: Territorio
   nombre:
     es: TERRITORIO
-  nombre_dimension: AA_TERRITORIOIN
+  nombre_dimension: TERRITORIO
   tipo: dimension
 AA_TERRITROIO:
   codelist:
@@ -92,7 +92,7 @@ AA_TERRITROIO:
     es: Territorio
   nombre:
     es: CL_TERRITORIO
-  nombre_dimension: AA_TERRITROIO
+  nombre_dimension: TERRITORIO
   tipo: dimension
 AA_TIPOCOTIZACA:
   codelist:
@@ -108,7 +108,7 @@ AA_TIPOCOTIZACA:
     es: "Tipo de cotizaciones tenidas en el a\xF1o"
   nombre:
     es: TIPOCOTIZACA
-  nombre_dimension: AA_TIPOCOTIZACA
+  nombre_dimension: TIPOCOTIZACA
   tipo: dimension
 AA_TIPODEHOGAR:
   codelist:
@@ -124,7 +124,7 @@ AA_TIPODEHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPODEHOGAR
-  nombre_dimension: AA_TIPODEHOGAR
+  nombre_dimension: TIPODEHOGAR
   tipo: dimension
 AA_TIPOMOVIMIEN:
   codelist:
@@ -140,7 +140,7 @@ AA_TIPOMOVIMIEN:
     es: Tipo de movimiento
   nombre:
     es: TIPOMOVIMIEN
-  nombre_dimension: AA_TIPOMOVIMIEN
+  nombre_dimension: TIPOMOVIMIEN
   tipo: dimension
 AA_TIPOULTIEMPR:
   codelist:
@@ -156,7 +156,7 @@ AA_TIPOULTIEMPR:
     es: "Tipolog\xEDa del \xFAltimo emprendimiento"
   nombre:
     es: TIPOULTIEMPR
-  nombre_dimension: AA_TIPOULTIEMPR
+  nombre_dimension: TIPOULTIEMPR
   tipo: dimension
 ACTIV_EST:
   codelist:
@@ -173,22 +173,6 @@ ACTIV_EST:
   nombre:
     es: Actividad (Industria-Comercio-Servicios)
   nombre_dimension: ACTIV_EST
-  tipo: dimension
-AMBITOESTUDHOG:
-  codelist:
-    agency: ESC01
-    id: CL_AMBITOESTUDHOG
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: AMBITOESTUDHOG
-    id: CS_EDUCACION
-    version: '1.0'
-  descripcion:
-    es: "\xC1mbito de estudio de los hogares"
-  nombre:
-    es: "\xC1mbito de estudio de los hogares"
-  nombre_dimension: AMBITOESTUDHOG
   tipo: dimension
 ANOCELEBRMATRIM:
   codelist:
@@ -220,23 +204,7 @@ ARE_INSCRIPCION:
     es: "Inscripci\xF3n"
   nombre:
     es: "Inscripci\xF3n"
-  nombre_dimension: ARE_INSCRIPCION
-  tipo: dimension
-BASECOTIZAC:
-  codelist:
-    agency: ESC01
-    id: CL_BASECOTIZAC
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: BASECOTIZAC
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Base de cotizaci\xF3n"
-  nombre:
-    es: BASECOTIZAC
-  nombre_dimension: BASECOTIZAC
+  nombre_dimension: INSCRIPCION
   tipo: dimension
 CAT_HOTELES:
   codelist:
@@ -302,38 +270,6 @@ CLASEDEPENSION:
     es: "Clase de pensi\xF3n"
   nombre_dimension: CLASEDEPENSION
   tipo: dimension
-CLASEINACTIV:
-  codelist:
-    agency: ESC01
-    id: CL_CLASEINACTIV
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: CLASEINACTIV
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Situaci\xC3\xB3n de inactividad"
-  nombre:
-    es: CLASEINACTIV
-  nombre_dimension: CLASEINACTIV
-  tipo: dimension
-CNAE09:
-  codelist:
-    agency: ESC01
-    id: CL_CNAE09
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: CNAE09
-    id: CS_ESTADISTICAS_SECTORIALES
-    version: '1.0'
-  descripcion:
-    es: Actividad
-  nombre:
-    es: CNAE09
-  nombre_dimension: CNAE09
-  tipo: dimension
 CNAE_O9_CRA_NEW:
   codelist:
     agency: ESC01
@@ -382,38 +318,6 @@ CNO11:
     es: CNO11
   nombre_dimension: CNO11
   tipo: dimension
-COMPHOGACTIVIDAD:
-  codelist:
-    agency: ESC01
-    id: CL_COMPHOGACTIVIDAD
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: COMPHOGACTIVIDAD
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Composici\xF3n del hogar seg\xFAn la actividad"
-  nombre:
-    es: "Composici\xF3n del hogar seg\xFAn la actividad"
-  nombre_dimension: COMPHOGACTIVIDAD
-  tipo: dimension
-COTIZANTE:
-  codelist:
-    agency: ESC01
-    id: CL_COTIZANTE
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: COTIZANTE
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Cotizante
-  nombre:
-    es: COTIZANTE
-  nombre_dimension: COTIZANTE
-  tipo: dimension
 CUSTODIA:
   codelist:
     agency: ESC01
@@ -429,22 +333,6 @@ CUSTODIA:
   nombre:
     es: Custodia
   nombre_dimension: CUSTODIA
-  tipo: dimension
-DIASCOTIZANO:
-  codelist:
-    agency: ESC01
-    id: CL_DIASCOTIZANO
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: DIASCOTIZANO
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "D\xEDas cotizados en el a\xF1o"
-  nombre:
-    es: DIASCOTIZANO
-  nombre_dimension: DIASCOTIZANO
   tipo: dimension
 DISCIPLINA:
   codelist:
@@ -478,22 +366,6 @@ DISTRIBUCION_MNP:
     es: "Distribuci\xF3n"
   nombre_dimension: DISTRIBUCION_MNP
   tipo: dimension
-DURACEMPREND:
-  codelist:
-    agency: ESC01
-    id: CL_DURACEMPREND
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: DURACEMPREND
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Duraci\xF3n del emprendimiento"
-  nombre:
-    es: DURACEMPREND
-  nombre_dimension: DURACEMPREND
-  tipo: dimension
 DURACMATRIM:
   codelist:
     agency: ESC01
@@ -525,22 +397,6 @@ ECOICOP:
   nombre:
     es: Grupos
   nombre_dimension: ECOICOP
-  tipo: dimension
-EDAD:
-  codelist:
-    agency: ESC01
-    id: CL_EDAD
-    version: '1.0'
-  concept_scheme:
-    agency: SDMX
-    concepto: AGE
-    id: CROSS_DOMAIN_CONCEPTS
-    version: '2.0'
-  descripcion:
-    es: Edad
-  nombre:
-    es: EDAD
-  nombre_dimension: EDAD
   tipo: dimension
 EDADC2:
   codelist:
@@ -588,7 +444,7 @@ EPA_CLASEINACTIV:
     es: "Situaci\xF3n de inactividad"
   nombre:
     es: "Situaci\xF3n de inactividad"
-  nombre_dimension: EPA_CLASEINACTIV
+  nombre_dimension: CLASEINACTIV
   tipo: dimension
 EPA_ESTRUCHOGAR:
   codelist:
@@ -604,7 +460,7 @@ EPA_ESTRUCHOGAR:
     es: Estructura del hogar
   nombre:
     es: ESTRUCHOGAR
-  nombre_dimension: EPA_ESTRUCHOGAR
+  nombre_dimension: ESTRUCHOGAR
   tipo: dimension
 EPA_NACIONALIDAD:
   codelist:
@@ -620,7 +476,7 @@ EPA_NACIONALIDAD:
     es: Nacionalidad
   nombre:
     es: NACIONALIDAD
-  nombre_dimension: EPA_NACIONALIDAD
+  nombre_dimension: NACIONALIDAD
   tipo: dimension
 EPA_NIVEL:
   codelist:
@@ -636,7 +492,7 @@ EPA_NIVEL:
     es: Nivel
   nombre:
     es: NIVEL
-  nombre_dimension: EPA_NIVEL
+  nombre_dimension: NIVEL
   tipo: dimension
 EPA_RELACTIVIDAD:
   codelist:
@@ -652,7 +508,7 @@ EPA_RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre:
     es: RELACTIVIDAD
-  nombre_dimension: EPA_RELACTIVIDAD
+  nombre_dimension: RELACTIVIDAD
   tipo: dimension
 EPA_TIPACTIVIDADHOGAR:
   codelist:
@@ -668,7 +524,7 @@ EPA_TIPACTIVIDADHOGAR:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
   nombre:
     es: TIPACTIVIDADHOGAR
-  nombre_dimension: EPA_TIPACTIVIDADHOGAR
+  nombre_dimension: TIPACTIVIDADHOGAR
   tipo: dimension
 EPD_AMBITOESTUDHOG:
   codelist:
@@ -684,7 +540,7 @@ EPD_AMBITOESTUDHOG:
     es: "\xC1mbito de estudio de los hogares"
   nombre:
     es: "\xC1mbito de estudio de los hogares"
-  nombre_dimension: EPD_AMBITOESTUDHOG
+  nombre_dimension: AMBITOESTUDHOG
   tipo: dimension
 EPD_COMPHOGACTIVIDAD:
   codelist:
@@ -700,7 +556,7 @@ EPD_COMPHOGACTIVIDAD:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
   nombre:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
-  nombre_dimension: EPD_COMPHOGACTIVIDAD
+  nombre_dimension: COMPHOGACTIVIDAD
   tipo: dimension
 EPD_GRUPOSEDAD:
   codelist:
@@ -716,7 +572,7 @@ EPD_GRUPOSEDAD:
     es: Grupos de edad
   nombre:
     es: Grupos de edad
-  nombre_dimension: EPD_GRUPOSEDAD
+  nombre_dimension: GRUPOSEDAD
   tipo: dimension
 EPD_NIVELESTUDIOSTER:
   codelist:
@@ -732,7 +588,7 @@ EPD_NIVELESTUDIOSTER:
     es: Nivel de estudios terminados
   nombre:
     es: Nivel de estudios terminados
-  nombre_dimension: EPD_NIVELESTUDIOSTER
+  nombre_dimension: NIVELESTUDIOSTER
   tipo: dimension
 EPD_PERCEPPRESINVAL:
   codelist:
@@ -748,7 +604,7 @@ EPD_PERCEPPRESINVAL:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
   nombre:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
-  nombre_dimension: EPD_PERCEPPRESINVAL
+  nombre_dimension: PERCEPPRESINVAL
   tipo: dimension
 EPD_PRESENCDISCAPAC:
   codelist:
@@ -780,7 +636,7 @@ EPD_RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre:
     es: "Relaci\xF3n con la actividad"
-  nombre_dimension: EPD_RELACTIVIDAD
+  nombre_dimension: RELACTIVIDAD
   tipo: dimension
 EPD_SITUACIONDEPEND:
   codelist:
@@ -796,7 +652,7 @@ EPD_SITUACIONDEPEND:
     es: "Situaci\xF3n de dependencia"
   nombre:
     es: "Situaci\xF3n de dependencia"
-  nombre_dimension: EPD_SITUACIONDEPEND
+  nombre_dimension: SITUACIONDEPEND
   tipo: dimension
 EPD_SITUACPROFES:
   codelist:
@@ -812,7 +668,7 @@ EPD_SITUACPROFES:
     es: "Situaci\xF3n profesional"
   nombre:
     es: "Situaci\xF3n profesional"
-  nombre_dimension: EPD_SITUACPROFES
+  nombre_dimension: SITUACPROFES
   tipo: dimension
 EPD_TAMANOEMPRESA:
   codelist:
@@ -828,7 +684,7 @@ EPD_TAMANOEMPRESA:
     es: "Tama\xF1o de la empresa"
   nombre:
     es: TAMANOEMPRESA
-  nombre_dimension: EPD_TAMANOEMPRESA
+  nombre_dimension: TAMANOEMPRESA
   tipo: dimension
 ESTADOCIVIL:
   codelist:
@@ -876,7 +732,7 @@ ESTADO_DATO:
     es: Estado del dato
   nombre:
     es: Estado del dato
-  nombre_dimension: ESTADO_DATO
+  nombre_dimension: OBS_STATUS
   tipo: dimension
 ESTRATO_ASALARIADOS:
   codelist:
@@ -893,22 +749,6 @@ ESTRATO_ASALARIADOS:
   nombre:
     es: ESTRATO_ASALARIADOS
   nombre_dimension: ESTRATO_ASALARIADOS
-  tipo: dimension
-ESTRUCHOGAR:
-  codelist:
-    agency: ESC01
-    id: CL_ESTRUCHOGAR
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: ESTRUCHOGAR
-    id: CS_VIVIENDA
-    version: '1.0'
-  descripcion:
-    es: Estructura del hogar
-  nombre:
-    es: ESTRUCHOGAR
-  nombre_dimension: ESTRUCHOGAR
   tipo: dimension
 ESTUDIOS:
   codelist:
@@ -958,22 +798,6 @@ G102:
     es: G102
   nombre_dimension: G102
   tipo: dimension
-GRUPOSEDAD:
-  codelist:
-    agency: ESC01
-    id: CL_GRUPOSEDAD
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: GRUPOSEDAD
-    id: CS_DEMOGRAFIA
-    version: '1.0'
-  descripcion:
-    es: Grupos de edad
-  nombre:
-    es: Grupos de edad
-  nombre_dimension: GRUPOSEDAD
-  tipo: dimension
 IASS_TIPOVENTAS:
   codelist:
     agency: ESC01
@@ -988,39 +812,7 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
-  nombre_dimension: IASS_TIPOVENTAS
-  tipo: dimension
-INSCRIPCION:
-  codelist:
-    agency: ESC01
-    id: CL_INSCRIPCION
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: INSCRIPCION
-    id: CS_POP_MIGRATION
-    version: '1.0'
-  descripcion:
-    es: "Inscripci\xF3n"
-  nombre:
-    es: "Inscripci\xF3n"
-  nombre_dimension: INSCRIPCION
-  tipo: dimension
-INTERVINGRESOS:
-  codelist:
-    agency: ESC01
-    id: CL_INTERVINGRESOS
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: INTERVINGRESOS
-    id: CS_INGRESOS_CONSUMO
-    version: '1.0'
-  descripcion:
-    es: Intervalo de ingresos
-  nombre:
-    es: INTERVINGRESOS
-  nombre_dimension: INTERVINGRESOS
+  nombre_dimension: TIPO_VENTAS
   tipo: dimension
 IPC_GRUPOSESPECIALES:
   codelist:
@@ -1068,7 +860,7 @@ IVGS_SERIEIVGS:
     es: Tipo de Serie
   nombre:
     es: Tipo de Serie
-  nombre_dimension: IVGS_SERIEIVGS
+  nombre_dimension: TIPOSERIES
   tipo: dimension
 IVGS_TIPVENT:
   codelist:
@@ -1084,7 +876,7 @@ IVGS_TIPVENT:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
-  nombre_dimension: IVGS_TIPVENT
+  nombre_dimension: TIPOVENTAS
   tipo: dimension
 LUGARNACIMIEN:
   codelist:
@@ -1164,7 +956,7 @@ MCVLS_VARIABLE:
     es: Variable
   nombre:
     es: VARIABLE
-  nombre_dimension: MCVLS_VARIABLE
+  nombre_dimension: VARIABLE
   tipo: dimension
 MCVL_CNAESECTOR:
   codelist:
@@ -1180,7 +972,7 @@ MCVL_CNAESECTOR:
     es: Actividad
   nombre:
     es: CNAE09
-  nombre_dimension: MCVL_CNAESECTOR
+  nombre_dimension: CNAE09
   tipo: dimension
 MCVL_COTIZANTE:
   codelist:
@@ -1196,7 +988,7 @@ MCVL_COTIZANTE:
     es: Cotizante
   nombre:
     es: COTIZANTE
-  nombre_dimension: MCVL_COTIZANTE
+  nombre_dimension: COTIZANTE
   tipo: dimension
 MCVL_DIASCOTIZANO:
   codelist:
@@ -1212,7 +1004,7 @@ MCVL_DIASCOTIZANO:
     es: "D\xEDas cotizados en el a\xF1o"
   nombre:
     es: DIASCOTIZANO
-  nombre_dimension: MCVL_DIASCOTIZANO
+  nombre_dimension: DIASCOTIZANO
   tipo: dimension
 MCVL_INTERVINGRESOS:
   codelist:
@@ -1228,7 +1020,7 @@ MCVL_INTERVINGRESOS:
     es: Intervalo de ingresos
   nombre:
     es: INTERVINGRESOS
-  nombre_dimension: MCVL_INTERVINGRESOS
+  nombre_dimension: INTERVINGRESOS
   tipo: dimension
 MCVL_MONEDAD:
   codelist:
@@ -1244,7 +1036,7 @@ MCVL_MONEDAD:
     es: Edad
   nombre:
     es: EDAD
-  nombre_dimension: MCVL_MONEDAD
+  nombre_dimension: EDAD
   tipo: dimension
 MCVL_MONSALARIO:
   codelist:
@@ -1260,7 +1052,7 @@ MCVL_MONSALARIO:
     es: Salario
   nombre:
     es: MONSALARIO
-  nombre_dimension: MCVL_MONSALARIO
+  nombre_dimension: MONSALARIO
   tipo: dimension
 MCVL_PENSIONISTA:
   codelist:
@@ -1276,7 +1068,7 @@ MCVL_PENSIONISTA:
     es: Pensionista
   nombre:
     es: PENSIONISTA
-  nombre_dimension: MCVL_PENSIONISTA
+  nombre_dimension: PENSIONISTA
   tipo: dimension
 MCVL_SECTORACTIVIDAD:
   codelist:
@@ -1292,7 +1084,7 @@ MCVL_SECTORACTIVIDAD:
     es: Sector de actividad
   nombre:
     es: SECTORACTIVIDAD
-  nombre_dimension: MCVL_SECTORACTIVIDAD
+  nombre_dimension: SECTORACTIVIDAD
   tipo: dimension
 MCVL_TIPOCOTIZACION:
   codelist:
@@ -1308,7 +1100,7 @@ MCVL_TIPOCOTIZACION:
     es: "Tipo de cotizaci\xF3n"
   nombre:
     es: TIPOCOTIZACION
-  nombre_dimension: MCVL_TIPOCOTIZACION
+  nombre_dimension: TIPOCOTIZACION
   tipo: dimension
 MCVL_TIPOHOGAR:
   codelist:
@@ -1324,7 +1116,7 @@ MCVL_TIPOHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPOHOGAR
-  nombre_dimension: MCVL_TIPOHOGAR
+  nombre_dimension: TIPODEHOGAR
   tipo: dimension
 MCVL_TIPOPENSION:
   codelist:
@@ -1340,7 +1132,7 @@ MCVL_TIPOPENSION:
     es: "Tipo de pensi\xF3n"
   nombre:
     es: TIPOPENSION
-  nombre_dimension: MCVL_TIPOPENSION
+  nombre_dimension: TIPOPENSION
   tipo: dimension
 MCVL_TIPOPRESTACION:
   codelist:
@@ -1356,7 +1148,7 @@ MCVL_TIPOPRESTACION:
     es: "Tipos de prestaci\xF3n"
   nombre:
     es: TIPOPRESTACION
-  nombre_dimension: MCVL_TIPOPRESTACION
+  nombre_dimension: TIPOPRESTACION
   tipo: dimension
 MCVL_TIPRELACIONSS:
   codelist:
@@ -1372,7 +1164,7 @@ MCVL_TIPRELACIONSS:
     es: "Tipo de relaci\xF3n con la seguridad social"
   nombre:
     es: TIPRELACIONSS
-  nombre_dimension: MCVL_TIPRELACIONSS
+  nombre_dimension: TIPRELACIONSS
   tipo: dimension
 MES:
   codelist:
@@ -1406,22 +1198,6 @@ MONEDAD:
     es: MONEDAD
   nombre_dimension: MONEDAD
   tipo: dimension
-MONSALARIO:
-  codelist:
-    agency: ESC01
-    id: CL_SALARIO
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: SALARIO
-    id: CS_INGRESOS_CONSUMO
-    version: '1.0'
-  descripcion:
-    es: Salario
-  nombre:
-    es: MONSALARIO
-  nombre_dimension: MONSALARIO
-  tipo: dimension
 MULTIPLICIDAD_SEXO:
   codelist:
     agency: ESC01
@@ -1437,22 +1213,6 @@ MULTIPLICIDAD_SEXO:
   nombre:
     es: Multiplicidad
   nombre_dimension: MULTIPLICIDAD_SEXO
-  tipo: dimension
-MULTIVARIABL:
-  codelist:
-    agency: ESC01
-    id: CL_MULTIVARIABL
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: MULTIVARIABL
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Multivariable
-  nombre:
-    es: MULTIVARIABL
-  nombre_dimension: MULTIVARIABL
   tipo: dimension
 NACIONACONYUGES:
   codelist:
@@ -1470,22 +1230,6 @@ NACIONACONYUGES:
     es: "Nacionalidad de los c\xF3nyuges"
   nombre_dimension: NACIONACONYUGES
   tipo: dimension
-NACIONALIDAD:
-  codelist:
-    agency: ESC01
-    id: CL_NACIONALIDAD
-    version: '1.0'
-  concept_scheme:
-    agency: ESTAT
-    concepto: COC
-    id: CS_DEMOGRAPHY
-    version: '1.2'
-  descripcion:
-    es: Nacionalidad
-  nombre:
-    es: NACIONALIDAD
-  nombre_dimension: NACIONALIDAD
-  tipo: dimension
 NAT_GASTO:
   codelist:
     agency: ESC01
@@ -1501,38 +1245,6 @@ NAT_GASTO:
   nombre:
     es: NAT_GASTO
   nombre_dimension: NAT_GASTO
-  tipo: dimension
-NIVEL:
-  codelist:
-    agency: ESC01
-    id: CL_NIVEL
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: NIVEL
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Nivel
-  nombre:
-    es: NIVEL
-  nombre_dimension: NIVEL
-  tipo: dimension
-NIVELESTUDIOSTER:
-  codelist:
-    agency: ESC01
-    id: CL_NIVELESTUDIOSTER
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: NIVELESTUDIOSTER
-    id: CS_EDUCACION
-    version: '1.0'
-  descripcion:
-    es: Nivel de estudios terminados
-  nombre:
-    es: Nivel de estudios terminados
-  nombre_dimension: NIVELESTUDIOSTER
   tipo: dimension
 NUMHIJOSMENORED:
   codelist:
@@ -1581,38 +1293,6 @@ PCSSA_JUBVIUDEDAD:
   nombre:
     es: "Jubilaci\xF3n con viudedad"
   nombre_dimension: PCSSA_JUBVIUDEDAD
-  tipo: dimension
-PENSIONISTA:
-  codelist:
-    agency: ESC01
-    id: CL_PENSIONISTA
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: PENSIONISTA
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Pensionista
-  nombre:
-    es: PENSIONISTA
-  nombre_dimension: PENSIONISTA
-  tipo: dimension
-PERCEPPRESINVAL:
-  codelist:
-    agency: ESC01
-    id: CL_PERCEPPRESINVAL
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: PERCEPPRESINVAL
-    id: CS_PROTECCION_SOCIAL
-    version: '1.0'
-  descripcion:
-    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
-  nombre:
-    es: "Percepci\xF3n de prestaci\xF3n de invalidez"
-  nombre_dimension: PERCEPPRESINVAL
   tipo: dimension
 PRESENCDISCAPAC:
   codelist:
@@ -1678,22 +1358,6 @@ PUNTOS_TURISTICOS:
     es: "Puntos tur\xEDsticos"
   nombre_dimension: PUNTOS_TURISTICOS
   tipo: dimension
-RELACTIVIDAD:
-  codelist:
-    agency: ESC01
-    id: CL_RELACTIVIDAD
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: RELACTIVIDAD
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Relaci\xF3n con la actividad"
-  nombre:
-    es: RELACTIVIDAD
-  nombre_dimension: RELACTIVIDAD
-  tipo: dimension
 RELAC_RESID_NAC:
   codelist:
     agency: ESC01
@@ -1758,22 +1422,6 @@ SECC_CNAE09:
     es: Secciones Cnae09 CPA
   nombre_dimension: SECC_CNAE09
   tipo: dimension
-SECTORACTIVIDAD:
-  codelist:
-    agency: ESC01
-    id: CL_SECTORACTIVIDAD
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: SECTORACTIVIDAD
-    id: CS_ESTADISTICAS_SECTORIALES
-    version: '1.0'
-  descripcion:
-    es: Sector de actividad
-  nombre:
-    es: SECTORACTIVIDAD
-  nombre_dimension: SECTORACTIVIDAD
-  tipo: dimension
 SEXO:
   codelist:
     agency: SDMX
@@ -1822,70 +1470,6 @@ SEXO_SOCIOS:
     es: Sexo socios fundadores
   nombre_dimension: SEXO_SOCIOS
   tipo: dimension
-SITPREVULTEM:
-  codelist:
-    agency: ESC01
-    id: CL_SITPREVULTEM
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: SITPREVULTEM
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
-  nombre:
-    es: SITPREVULTEM
-  nombre_dimension: SITPREVULTEM
-  tipo: dimension
-SITUACIONDEPEND:
-  codelist:
-    agency: ESC01
-    id: CL_SITUACIONDEPEND
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: SITUACIONDEPEND
-    id: CS_PROTECCION_SOCIAL
-    version: '1.0'
-  descripcion:
-    es: "Situaci\xF3n de dependencia"
-  nombre:
-    es: "Situaci\xF3n de dependencia"
-  nombre_dimension: SITUACIONDEPEND
-  tipo: dimension
-SITUACPROFES:
-  codelist:
-    agency: ESC01
-    id: CL_SITUACPROFES
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: SITUACPROFES
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Situaci\xF3n profesional"
-  nombre:
-    es: "Situaci\xF3n profesional"
-  nombre_dimension: SITUACPROFES
-  tipo: dimension
-TAMANOEMPRESA:
-  codelist:
-    agency: ESC01
-    id: CL_TAMANOEMPRESA
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TAMANOEMPRESA
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tama\xF1o de la empresa"
-  nombre:
-    es: TAMANOEMPRESA
-  nombre_dimension: TAMANOEMPRESA
-  tipo: dimension
 TEMPORAL:
   codelist:
     agency: ESC01
@@ -1901,102 +1485,6 @@ TEMPORAL:
   nombre:
     es: TEMPORAL
   nombre_dimension: TEMPORAL
-  tipo: dimension
-TERRITORIO:
-  codelist:
-    agency: ESC01
-    id: CL_TERRITORIO
-    version: '1.0'
-  concept_scheme:
-    agency: SDMX
-    concepto: REF_AREA
-    id: CROSS_DOMAIN_CONCEPTS
-    version: '2.0'
-  descripcion:
-    es: Territorio
-  nombre:
-    es: TERRITORIO
-  nombre_dimension: TERRITORIO
-  tipo: dimension
-TERRITORIO_1:
-  codelist:
-    agency: ESC01
-    id: CL_TERRITORIO
-    version: '1.0'
-  concept_scheme:
-    agency: SDMX
-    concepto: REF_AREA
-    id: CROSS_DOMAIN_CONCEPTS
-    version: '2.0'
-  descripcion:
-    es: Territorio
-  nombre:
-    es: TERRITORIO
-  nombre_dimension: TERRITORIO_1
-  tipo: dimension
-TIPACTIVIDADHOGAR:
-  codelist:
-    agency: ESC01
-    id: CL_TIPACTIVIDADHOGAR
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPACTIVIDADHOGAR
-    id: CS_VIVIENDA
-    version: '1.0'
-  descripcion:
-    es: "Tipolog\xC3\xADa de la actividad del hogar"
-  nombre:
-    es: TIPACTIVIDADHOGAR
-  nombre_dimension: TIPACTIVIDADHOGAR
-  tipo: dimension
-TIPOCOTIZACA:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOCOTIZACA
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOCOTIZACA
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipo de cotizaciones tenidas en el a\xF1o"
-  nombre:
-    es: TIPOCOTIZACA
-  nombre_dimension: TIPOCOTIZACA
-  tipo: dimension
-TIPOCOTIZACION:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOCOTIZACION
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOCOTIZACION
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipo de cotizaci\xF3n"
-  nombre:
-    es: TIPOCOTIZACION
-  nombre_dimension: TIPOCOTIZACION
-  tipo: dimension
-TIPODEHOGAR:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOHOGAR
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOHOGAR
-    id: CS_VIVIENDA
-    version: '1.0'
-  descripcion:
-    es: Tipo de hogar
-  nombre:
-    es: TIPODEHOGAR
-  nombre_dimension: TIPODEHOGAR
   tipo: dimension
 TIPOHOGAR:
   codelist:
@@ -2029,102 +1517,6 @@ TIPOMATRIMONIO:
   nombre:
     es: Tipo de matrimonio
   nombre_dimension: TIPOMATRIMONIO
-  tipo: dimension
-TIPOMOVIMIEN:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOMOVIMIEN
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOMOVIMIEN
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Tipo de movimiento
-  nombre:
-    es: TIPOMOVIMIEN
-  nombre_dimension: TIPOMOVIMIEN
-  tipo: dimension
-TIPOPENSION:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOPENSION
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOPENSION
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipo de pensi\xF3n"
-  nombre:
-    es: TIPOPENSION
-  nombre_dimension: TIPOPENSION
-  tipo: dimension
-TIPOPRESTACION:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOPRESTACION
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOPRESTACION
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipos de prestaci\xF3n"
-  nombre:
-    es: TIPOPRESTACION
-  nombre_dimension: TIPOPRESTACION
-  tipo: dimension
-TIPOSERIES:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOSERIES
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOSERIE
-    id: CS_BUSINESS_STAT
-    version: '1.0'
-  descripcion:
-    es: Tipo de Serie
-  nombre:
-    es: Tipo de Serie
-  nombre_dimension: TIPOSERIES
-  tipo: dimension
-TIPOULTIEMPR:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOULTIEMPR
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOULTIEMPR
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipolog\xEDa del \xFAltimo emprendimiento"
-  nombre:
-    es: TIPOULTIEMPR
-  nombre_dimension: TIPOULTIEMPR
-  tipo: dimension
-TIPOVENTAS:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOVENTAS
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOVENTAS
-    id: CS_BUSINESS_STAT
-    version: '1.0'
-  descripcion:
-    es: Tipo de ventas
-  nombre:
-    es: Tipo de ventas
-  nombre_dimension: TIPOVENTAS
   tipo: dimension
 TIPO_ALOJAM_ECTA:
   codelist:
@@ -2189,52 +1581,4 @@ TIPO_PERSONAL:
   nombre:
     es: TIPO_PERSONAL
   nombre_dimension: TIPO_PERSONAL
-  tipo: dimension
-TIPO_VENTAS:
-  codelist:
-    agency: ESC01
-    id: CL_TIPOVENTAS
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPOVENTAS
-    id: CS_SERVICES
-    version: '1.0'
-  descripcion:
-    es: Tipo de ventas
-  nombre:
-    es: Tipo de ventas
-  nombre_dimension: TIPO_VENTAS
-  tipo: dimension
-TIPRELACIONSS:
-  codelist:
-    agency: ESC01
-    id: CL_TIPRELACIONSS
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: TIPRELACIONSS
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: "Tipo de relaci\xF3n con la seguridad social"
-  nombre:
-    es: TIPRELACIONSS
-  nombre_dimension: TIPRELACIONSS
-  tipo: dimension
-VARIABLE:
-  codelist:
-    agency: ESC01
-    id: CL_MULTIVARIABL
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    concepto: MULTIVARIABL
-    id: CS_TRABAJO
-    version: '1.0'
-  descripcion:
-    es: Variable
-  nombre:
-    es: VARIABLE
-  nombre_dimension: VARIABLE
   tipo: dimension

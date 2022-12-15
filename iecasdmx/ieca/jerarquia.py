@@ -139,7 +139,7 @@ class Jerarquia:
             datos_jerarquias = {}
         if self.nombre not in datos_jerarquias:
             directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
-                                      self.nombre_mapa)
+                                      self.id_consulta,self.nombre_mapa)
             datos_jerarquias[self.nombre] = {'ID': f'CL_{self.nombre}', 'agency': self.configuracion_global['nodeId'],
                                              'version': '1.0', 'nombre': {'es': self.nombre},
                                              'description': {'es': self.metadatos['des']},

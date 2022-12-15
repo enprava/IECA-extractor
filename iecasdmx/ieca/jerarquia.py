@@ -97,13 +97,14 @@ class Jerarquia:
 
          """
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad)
-        directorio_original = os.path.join(directorio, 'original')
-        directorio_original = os.path.join(directorio_original, self.id_consulta)
+        directorio_original = os.path.join(directorio, 'original', self.id_consulta)
+
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
         #directorio_original = os.path.join(directorio_original, )
-        directorio_sdmx = os.path.join(directorio, 'sdmx')
+        directorio_sdmx = os.path.join(directorio, 'sdmx',self.id_consulta)
+
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
         self.logger.info('Almacenando datos Jerarquia')

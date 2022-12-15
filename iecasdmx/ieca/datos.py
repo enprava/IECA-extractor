@@ -292,12 +292,13 @@ class Datos:
          observaciones utilizando el mapa previamente relleno a través del campo :obj:`mapeo_columnas` del
          fichero de configuracion global. Por último limpiamos las jerarquias de los prefiejos y sufijos.
          """
-        mapeo_columnas = self.configuracion_global['mapeo_columnas']
+
+        mapeo_columnas = self.mapa_conceptos_codelist
         columnas = self.datos_por_observacion.columns
 
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
-        columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
+        columnas = [mapeo_columnas[columna]['nombre_dimension'] if columna in mapeo_columnas else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 

@@ -12,6 +12,7 @@ AA_BASECOTIZAC:
     es: "Base de cotizaci\xF3n"
   nombre:
     es: BASECOTIZAC
+  nombre_dimension: AA_BASECOTIZAC
   tipo: dimension
 AA_DURACEMPREND:
   codelist:
@@ -27,6 +28,7 @@ AA_DURACEMPREND:
     es: "Duraci\xF3n del emprendimiento"
   nombre:
     es: DURACEMPREND
+  nombre_dimension: AA_DURACEMPREND
   tipo: dimension
 AA_MULTIVARIABL:
   codelist:
@@ -42,6 +44,7 @@ AA_MULTIVARIABL:
     es: Multivariable
   nombre:
     es: MULTIVARIABL
+  nombre_dimension: AA_MULTIVARIABL
   tipo: dimension
 AA_SITPREVULTEM:
   codelist:
@@ -57,6 +60,7 @@ AA_SITPREVULTEM:
     es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
   nombre:
     es: SITPREVULTEM
+  nombre_dimension: AA_SITPREVULTEM
   tipo: dimension
 AA_TERRITORIOIN:
   codelist:
@@ -72,6 +76,7 @@ AA_TERRITORIOIN:
     es: Territorio
   nombre:
     es: TERRITORIO
+  nombre_dimension: AA_TERRITORIOIN
   tipo: dimension
 AA_TERRITROIO:
   codelist:
@@ -87,6 +92,7 @@ AA_TERRITROIO:
     es: Territorio
   nombre:
     es: CL_TERRITORIO
+  nombre_dimension: AA_TERRITROIO
   tipo: dimension
 AA_TIPOCOTIZACA:
   codelist:
@@ -102,6 +108,7 @@ AA_TIPOCOTIZACA:
     es: "Tipo de cotizaciones tenidas en el a\xF1o"
   nombre:
     es: TIPOCOTIZACA
+  nombre_dimension: AA_TIPOCOTIZACA
   tipo: dimension
 AA_TIPODEHOGAR:
   codelist:
@@ -117,6 +124,7 @@ AA_TIPODEHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPODEHOGAR
+  nombre_dimension: AA_TIPODEHOGAR
   tipo: dimension
 AA_TIPOMOVIMIEN:
   codelist:
@@ -132,6 +140,7 @@ AA_TIPOMOVIMIEN:
     es: Tipo de movimiento
   nombre:
     es: TIPOMOVIMIEN
+  nombre_dimension: AA_TIPOMOVIMIEN
   tipo: dimension
 AA_TIPOULTIEMPR:
   codelist:
@@ -147,6 +156,7 @@ AA_TIPOULTIEMPR:
     es: "Tipolog\xEDa del \xFAltimo emprendimiento"
   nombre:
     es: TIPOULTIEMPR
+  nombre_dimension: AA_TIPOULTIEMPR
   tipo: dimension
 ACTIV_EST:
   codelist:
@@ -162,6 +172,7 @@ ACTIV_EST:
     es: Actividad (Industria-Comercio-Servicios)
   nombre:
     es: Actividad (Industria-Comercio-Servicios)
+  nombre_dimension: ACTIV_EST
   tipo: dimension
 AMBITOESTUDHOG:
   codelist:
@@ -177,6 +188,7 @@ AMBITOESTUDHOG:
     es: "\xC1mbito de estudio de los hogares"
   nombre:
     es: "\xC1mbito de estudio de los hogares"
+  nombre_dimension: AMBITOESTUDHOG
   tipo: dimension
 ANOCELEBRMATRIM:
   codelist:
@@ -192,6 +204,7 @@ ANOCELEBRMATRIM:
     es: "A\xF1o celebraci\xF3n del matrimonio"
   nombre:
     es: ANOCELEBRMATRIM
+  nombre_dimension: ANOCELEBRMATRIM
   tipo: dimension
 ARE_INSCRIPCION:
   codelist:
@@ -207,6 +220,7 @@ ARE_INSCRIPCION:
     es: "Inscripci\xF3n"
   nombre:
     es: "Inscripci\xF3n"
+  nombre_dimension: ARE_INSCRIPCION
   tipo: dimension
 BASECOTIZAC:
   codelist:
@@ -222,6 +236,7 @@ BASECOTIZAC:
     es: "Base de cotizaci\xF3n"
   nombre:
     es: BASECOTIZAC
+  nombre_dimension: BASECOTIZAC
   tipo: dimension
 CAT_HOTELES:
   codelist:
@@ -237,6 +252,7 @@ CAT_HOTELES:
     es: "Categor\xEDas de los establecimientos hoteleros"
   nombre:
     es: "Categor\xEDas de los establecimientos hoteleros"
+  nombre_dimension: CAT_HOTELES
   tipo: dimension
 CERTIFICDISCAPAC:
   codelist:
@@ -252,6 +268,7 @@ CERTIFICDISCAPAC:
     es: Personas sin o con discapacidad
   nombre:
     es: Personas sin o con discapacidad
+  nombre_dimension: CERTIFICDISCAPAC
   tipo: dimension
 CIE10:
   codelist:
@@ -267,6 +284,7 @@ CIE10:
     es: CIE10
   nombre:
     es: CIE10
+  nombre_dimension: CIE10
   tipo: dimension
 CLASEDEPENSION:
   codelist:
@@ -282,6 +300,7 @@ CLASEDEPENSION:
     es: "Clase de pensi\xF3n"
   nombre:
     es: "Clase de pensi\xF3n"
+  nombre_dimension: CLASEDEPENSION
   tipo: dimension
 CLASEINACTIV:
   codelist:
@@ -297,6 +316,7 @@ CLASEINACTIV:
     es: "Situaci\xC3\xB3n de inactividad"
   nombre:
     es: CLASEINACTIV
+  nombre_dimension: CLASEINACTIV
   tipo: dimension
 CNAE09:
   codelist:
@@ -312,6 +332,7 @@ CNAE09:
     es: Actividad
   nombre:
     es: CNAE09
+  nombre_dimension: CNAE09
   tipo: dimension
 CNAE_O9_CRA_NEW:
   codelist:
@@ -327,6 +348,7 @@ CNAE_O9_CRA_NEW:
     es: Rama de actividad
   nombre:
     es: Rama de actividad
+  nombre_dimension: CNAE_O9_CRA_NEW
   tipo: dimension
 CNED2014:
   codelist:
@@ -342,6 +364,7 @@ CNED2014:
     es: "Nivel de formaci\xC3\xB3n"
   nombre:
     es: CNED2014
+  nombre_dimension: CNED2014
   tipo: dimension
 CNO11:
   codelist:
@@ -357,6 +380,7 @@ CNO11:
     es: "Ocupaci\xC3\xB3n"
   nombre:
     es: CNO11
+  nombre_dimension: CNO11
   tipo: dimension
 COMPHOGACTIVIDAD:
   codelist:
@@ -372,6 +396,7 @@ COMPHOGACTIVIDAD:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
   nombre:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre_dimension: COMPHOGACTIVIDAD
   tipo: dimension
 COTIZANTE:
   codelist:
@@ -387,6 +412,7 @@ COTIZANTE:
     es: Cotizante
   nombre:
     es: COTIZANTE
+  nombre_dimension: COTIZANTE
   tipo: dimension
 CUSTODIA:
   codelist:
@@ -402,6 +428,7 @@ CUSTODIA:
     es: Custodia
   nombre:
     es: Custodia
+  nombre_dimension: CUSTODIA
   tipo: dimension
 DIASCOTIZANO:
   codelist:
@@ -417,6 +444,7 @@ DIASCOTIZANO:
     es: "D\xEDas cotizados en el a\xF1o"
   nombre:
     es: DIASCOTIZANO
+  nombre_dimension: DIASCOTIZANO
   tipo: dimension
 DISCIPLINA:
   codelist:
@@ -432,6 +460,7 @@ DISCIPLINA:
     es: "Disciplina cient\xEDfica"
   nombre:
     es: DISCIPLINA
+  nombre_dimension: DISCIPLINA
   tipo: dimension
 DISTRIBUCION_MNP:
   codelist:
@@ -447,6 +476,7 @@ DISTRIBUCION_MNP:
     es: "Distribuci\xF3n"
   nombre:
     es: "Distribuci\xF3n"
+  nombre_dimension: DISTRIBUCION_MNP
   tipo: dimension
 DURACEMPREND:
   codelist:
@@ -462,6 +492,7 @@ DURACEMPREND:
     es: "Duraci\xF3n del emprendimiento"
   nombre:
     es: DURACEMPREND
+  nombre_dimension: DURACEMPREND
   tipo: dimension
 DURACMATRIM:
   codelist:
@@ -477,6 +508,7 @@ DURACMATRIM:
     es: "Duraci\xF3n del matrimonio"
   nombre:
     es: "Duraci\xF3n del matrimonio"
+  nombre_dimension: DURACMATRIM
   tipo: dimension
 ECOICOP:
   codelist:
@@ -492,6 +524,7 @@ ECOICOP:
     es: Grupos
   nombre:
     es: Grupos
+  nombre_dimension: ECOICOP
   tipo: dimension
 EDAD:
   codelist:
@@ -507,6 +540,7 @@ EDAD:
     es: Edad
   nombre:
     es: EDAD
+  nombre_dimension: EDAD
   tipo: dimension
 EDADC2:
   codelist:
@@ -522,6 +556,7 @@ EDADC2:
     es: "Edad c\xF3nyuge 2"
   nombre:
     es: "Edad c\xF3nyuge 2"
+  nombre_dimension: EDADC2
   tipo: dimension
 EDCA_LUGDEF:
   codelist:
@@ -537,6 +572,7 @@ EDCA_LUGDEF:
     es: Lugar de ocurrencia
   nombre:
     es: Lugar de ocurrencia
+  nombre_dimension: EDCA_LUGDEF
   tipo: dimension
 EPA_CLASEINACTIV:
   codelist:
@@ -552,6 +588,7 @@ EPA_CLASEINACTIV:
     es: "Situaci\xF3n de inactividad"
   nombre:
     es: "Situaci\xF3n de inactividad"
+  nombre_dimension: EPA_CLASEINACTIV
   tipo: dimension
 EPA_ESTRUCHOGAR:
   codelist:
@@ -567,6 +604,7 @@ EPA_ESTRUCHOGAR:
     es: Estructura del hogar
   nombre:
     es: ESTRUCHOGAR
+  nombre_dimension: EPA_ESTRUCHOGAR
   tipo: dimension
 EPA_NACIONALIDAD:
   codelist:
@@ -582,6 +620,7 @@ EPA_NACIONALIDAD:
     es: Nacionalidad
   nombre:
     es: NACIONALIDAD
+  nombre_dimension: EPA_NACIONALIDAD
   tipo: dimension
 EPA_NIVEL:
   codelist:
@@ -597,6 +636,7 @@ EPA_NIVEL:
     es: Nivel
   nombre:
     es: NIVEL
+  nombre_dimension: EPA_NIVEL
   tipo: dimension
 EPA_RELACTIVIDAD:
   codelist:
@@ -612,6 +652,7 @@ EPA_RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre:
     es: RELACTIVIDAD
+  nombre_dimension: EPA_RELACTIVIDAD
   tipo: dimension
 EPA_TIPACTIVIDADHOGAR:
   codelist:
@@ -627,6 +668,7 @@ EPA_TIPACTIVIDADHOGAR:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
   nombre:
     es: TIPACTIVIDADHOGAR
+  nombre_dimension: EPA_TIPACTIVIDADHOGAR
   tipo: dimension
 EPD_AMBITOESTUDHOG:
   codelist:
@@ -642,6 +684,7 @@ EPD_AMBITOESTUDHOG:
     es: "\xC1mbito de estudio de los hogares"
   nombre:
     es: "\xC1mbito de estudio de los hogares"
+  nombre_dimension: EPD_AMBITOESTUDHOG
   tipo: dimension
 EPD_COMPHOGACTIVIDAD:
   codelist:
@@ -657,6 +700,7 @@ EPD_COMPHOGACTIVIDAD:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
   nombre:
     es: "Composici\xF3n del hogar seg\xFAn la actividad"
+  nombre_dimension: EPD_COMPHOGACTIVIDAD
   tipo: dimension
 EPD_GRUPOSEDAD:
   codelist:
@@ -672,6 +716,7 @@ EPD_GRUPOSEDAD:
     es: Grupos de edad
   nombre:
     es: Grupos de edad
+  nombre_dimension: EPD_GRUPOSEDAD
   tipo: dimension
 EPD_NIVELESTUDIOSTER:
   codelist:
@@ -687,6 +732,7 @@ EPD_NIVELESTUDIOSTER:
     es: Nivel de estudios terminados
   nombre:
     es: Nivel de estudios terminados
+  nombre_dimension: EPD_NIVELESTUDIOSTER
   tipo: dimension
 EPD_PERCEPPRESINVAL:
   codelist:
@@ -702,6 +748,7 @@ EPD_PERCEPPRESINVAL:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
   nombre:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre_dimension: EPD_PERCEPPRESINVAL
   tipo: dimension
 EPD_PRESENCDISCAPAC:
   codelist:
@@ -717,6 +764,7 @@ EPD_PRESENCDISCAPAC:
     es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
   nombre:
     es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre_dimension: EPD_PRESENCDISCAPAC
   tipo: dimension
 EPD_RELACTIVIDAD:
   codelist:
@@ -732,6 +780,7 @@ EPD_RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre:
     es: "Relaci\xF3n con la actividad"
+  nombre_dimension: EPD_RELACTIVIDAD
   tipo: dimension
 EPD_SITUACIONDEPEND:
   codelist:
@@ -747,6 +796,7 @@ EPD_SITUACIONDEPEND:
     es: "Situaci\xF3n de dependencia"
   nombre:
     es: "Situaci\xF3n de dependencia"
+  nombre_dimension: EPD_SITUACIONDEPEND
   tipo: dimension
 EPD_SITUACPROFES:
   codelist:
@@ -762,6 +812,7 @@ EPD_SITUACPROFES:
     es: "Situaci\xF3n profesional"
   nombre:
     es: "Situaci\xF3n profesional"
+  nombre_dimension: EPD_SITUACPROFES
   tipo: dimension
 EPD_TAMANOEMPRESA:
   codelist:
@@ -777,6 +828,7 @@ EPD_TAMANOEMPRESA:
     es: "Tama\xF1o de la empresa"
   nombre:
     es: TAMANOEMPRESA
+  nombre_dimension: EPD_TAMANOEMPRESA
   tipo: dimension
 ESTADOCIVIL:
   codelist:
@@ -792,6 +844,7 @@ ESTADOCIVIL:
     es: "Estado civil c\xF3nyuge 1"
   nombre:
     es: "Estado civil c\xF3nyuge 1"
+  nombre_dimension: ESTADOCIVIL
   tipo: dimension
 ESTADOCIVILC2:
   codelist:
@@ -807,6 +860,7 @@ ESTADOCIVILC2:
     es: "Estado civil c\xF3nyuge 2"
   nombre:
     es: "Estado civil c\xF3nyuge 2"
+  nombre_dimension: ESTADOCIVILC2
   tipo: dimension
 ESTADO_DATO:
   codelist:
@@ -822,6 +876,7 @@ ESTADO_DATO:
     es: Estado del dato
   nombre:
     es: Estado del dato
+  nombre_dimension: ESTADO_DATO
   tipo: dimension
 ESTRATO_ASALARIADOS:
   codelist:
@@ -837,6 +892,7 @@ ESTRATO_ASALARIADOS:
     es: "Tama\xF1o de la empresa"
   nombre:
     es: ESTRATO_ASALARIADOS
+  nombre_dimension: ESTRATO_ASALARIADOS
   tipo: dimension
 ESTRUCHOGAR:
   codelist:
@@ -852,6 +908,7 @@ ESTRUCHOGAR:
     es: Estructura del hogar
   nombre:
     es: ESTRUCHOGAR
+  nombre_dimension: ESTRUCHOGAR
   tipo: dimension
 ESTUDIOS:
   codelist:
@@ -867,6 +924,7 @@ ESTUDIOS:
     es: Estudios
   nombre:
     es: ESTUDIOS
+  nombre_dimension: ESTUDIOS
   tipo: dimension
 FORMA_JUR_SOCMER:
   codelist:
@@ -882,6 +940,7 @@ FORMA_JUR_SOCMER:
     es: "Forma jur\xEDdica"
   nombre:
     es: "Forma jur\xEDdica"
+  nombre_dimension: FORMA_JUR_SOCMER
   tipo: dimension
 G102:
   codelist:
@@ -897,6 +956,7 @@ G102:
     es: G102
   nombre:
     es: G102
+  nombre_dimension: G102
   tipo: dimension
 GRUPOSEDAD:
   codelist:
@@ -912,6 +972,7 @@ GRUPOSEDAD:
     es: Grupos de edad
   nombre:
     es: Grupos de edad
+  nombre_dimension: GRUPOSEDAD
   tipo: dimension
 IASS_TIPOVENTAS:
   codelist:
@@ -927,6 +988,7 @@ IASS_TIPOVENTAS:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
+  nombre_dimension: IASS_TIPOVENTAS
   tipo: dimension
 INSCRIPCION:
   codelist:
@@ -942,6 +1004,7 @@ INSCRIPCION:
     es: "Inscripci\xF3n"
   nombre:
     es: "Inscripci\xF3n"
+  nombre_dimension: INSCRIPCION
   tipo: dimension
 INTERVINGRESOS:
   codelist:
@@ -957,6 +1020,7 @@ INTERVINGRESOS:
     es: Intervalo de ingresos
   nombre:
     es: INTERVINGRESOS
+  nombre_dimension: INTERVINGRESOS
   tipo: dimension
 IPC_GRUPOSESPECIALES:
   codelist:
@@ -972,6 +1036,7 @@ IPC_GRUPOSESPECIALES:
     es: Grupos especiales
   nombre:
     es: Grupos especiales
+  nombre_dimension: IPC_GRUPOSESPECIALES
   tipo: dimension
 IPC_RUBRICAS:
   codelist:
@@ -987,6 +1052,7 @@ IPC_RUBRICAS:
     es: Rubricas
   nombre:
     es: Rubricas
+  nombre_dimension: IPC_RUBRICAS
   tipo: dimension
 IVGS_SERIEIVGS:
   codelist:
@@ -1002,6 +1068,7 @@ IVGS_SERIEIVGS:
     es: Tipo de Serie
   nombre:
     es: Tipo de Serie
+  nombre_dimension: IVGS_SERIEIVGS
   tipo: dimension
 IVGS_TIPVENT:
   codelist:
@@ -1017,6 +1084,7 @@ IVGS_TIPVENT:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
+  nombre_dimension: IVGS_TIPVENT
   tipo: dimension
 LUGARNACIMIEN:
   codelist:
@@ -1032,6 +1100,7 @@ LUGARNACIMIEN:
     es: Lugar de nacimiento
   nombre:
     es: Lugar de nacimiento
+  nombre_dimension: LUGARNACIMIEN
   tipo: dimension
 LUG_NAC_PADRON:
   codelist:
@@ -1047,6 +1116,7 @@ LUG_NAC_PADRON:
     es: Lugar de nacimiento
   nombre:
     es: Lugar de nacimiento
+  nombre_dimension: LUG_NAC_PADRON
   tipo: dimension
 MACROECO:
   codelist:
@@ -1062,6 +1132,7 @@ MACROECO:
     es: "Cuadro macroecon\xF3mico"
   nombre:
     es: "Cuadro macroecon\xF3mico"
+  nombre_dimension: MACROECO
   tipo: dimension
 MACROMAG_CPA:
   codelist:
@@ -1077,6 +1148,7 @@ MACROMAG_CPA:
     es: Macromagnitudes
   nombre:
     es: Macromagnitudes
+  nombre_dimension: MACROMAG_CPA
   tipo: dimension
 MCVLS_VARIABLE:
   codelist:
@@ -1092,6 +1164,7 @@ MCVLS_VARIABLE:
     es: Variable
   nombre:
     es: VARIABLE
+  nombre_dimension: MCVLS_VARIABLE
   tipo: dimension
 MCVL_CNAESECTOR:
   codelist:
@@ -1107,6 +1180,7 @@ MCVL_CNAESECTOR:
     es: Actividad
   nombre:
     es: CNAE09
+  nombre_dimension: MCVL_CNAESECTOR
   tipo: dimension
 MCVL_COTIZANTE:
   codelist:
@@ -1122,6 +1196,7 @@ MCVL_COTIZANTE:
     es: Cotizante
   nombre:
     es: COTIZANTE
+  nombre_dimension: MCVL_COTIZANTE
   tipo: dimension
 MCVL_DIASCOTIZANO:
   codelist:
@@ -1137,6 +1212,7 @@ MCVL_DIASCOTIZANO:
     es: "D\xEDas cotizados en el a\xF1o"
   nombre:
     es: DIASCOTIZANO
+  nombre_dimension: MCVL_DIASCOTIZANO
   tipo: dimension
 MCVL_INTERVINGRESOS:
   codelist:
@@ -1152,6 +1228,7 @@ MCVL_INTERVINGRESOS:
     es: Intervalo de ingresos
   nombre:
     es: INTERVINGRESOS
+  nombre_dimension: MCVL_INTERVINGRESOS
   tipo: dimension
 MCVL_MONEDAD:
   codelist:
@@ -1167,6 +1244,7 @@ MCVL_MONEDAD:
     es: Edad
   nombre:
     es: EDAD
+  nombre_dimension: MCVL_MONEDAD
   tipo: dimension
 MCVL_MONSALARIO:
   codelist:
@@ -1182,6 +1260,7 @@ MCVL_MONSALARIO:
     es: Salario
   nombre:
     es: MONSALARIO
+  nombre_dimension: MCVL_MONSALARIO
   tipo: dimension
 MCVL_PENSIONISTA:
   codelist:
@@ -1197,6 +1276,7 @@ MCVL_PENSIONISTA:
     es: Pensionista
   nombre:
     es: PENSIONISTA
+  nombre_dimension: MCVL_PENSIONISTA
   tipo: dimension
 MCVL_SECTORACTIVIDAD:
   codelist:
@@ -1212,6 +1292,7 @@ MCVL_SECTORACTIVIDAD:
     es: Sector de actividad
   nombre:
     es: SECTORACTIVIDAD
+  nombre_dimension: MCVL_SECTORACTIVIDAD
   tipo: dimension
 MCVL_TIPOCOTIZACION:
   codelist:
@@ -1227,6 +1308,7 @@ MCVL_TIPOCOTIZACION:
     es: "Tipo de cotizaci\xF3n"
   nombre:
     es: TIPOCOTIZACION
+  nombre_dimension: MCVL_TIPOCOTIZACION
   tipo: dimension
 MCVL_TIPOHOGAR:
   codelist:
@@ -1242,6 +1324,7 @@ MCVL_TIPOHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPOHOGAR
+  nombre_dimension: MCVL_TIPOHOGAR
   tipo: dimension
 MCVL_TIPOPENSION:
   codelist:
@@ -1257,6 +1340,7 @@ MCVL_TIPOPENSION:
     es: "Tipo de pensi\xF3n"
   nombre:
     es: TIPOPENSION
+  nombre_dimension: MCVL_TIPOPENSION
   tipo: dimension
 MCVL_TIPOPRESTACION:
   codelist:
@@ -1272,6 +1356,7 @@ MCVL_TIPOPRESTACION:
     es: "Tipos de prestaci\xF3n"
   nombre:
     es: TIPOPRESTACION
+  nombre_dimension: MCVL_TIPOPRESTACION
   tipo: dimension
 MCVL_TIPRELACIONSS:
   codelist:
@@ -1287,6 +1372,7 @@ MCVL_TIPRELACIONSS:
     es: "Tipo de relaci\xF3n con la seguridad social"
   nombre:
     es: TIPRELACIONSS
+  nombre_dimension: MCVL_TIPRELACIONSS
   tipo: dimension
 MES:
   codelist:
@@ -1302,6 +1388,7 @@ MES:
     es: Mes
   nombre:
     es: MES
+  nombre_dimension: MES
   tipo: dimension
 MONEDAD:
   codelist:
@@ -1317,6 +1404,7 @@ MONEDAD:
     es: Edad
   nombre:
     es: MONEDAD
+  nombre_dimension: MONEDAD
   tipo: dimension
 MONSALARIO:
   codelist:
@@ -1332,6 +1420,7 @@ MONSALARIO:
     es: Salario
   nombre:
     es: MONSALARIO
+  nombre_dimension: MONSALARIO
   tipo: dimension
 MULTIPLICIDAD_SEXO:
   codelist:
@@ -1347,6 +1436,7 @@ MULTIPLICIDAD_SEXO:
     es: Multiplicidad
   nombre:
     es: Multiplicidad
+  nombre_dimension: MULTIPLICIDAD_SEXO
   tipo: dimension
 MULTIVARIABL:
   codelist:
@@ -1362,6 +1452,7 @@ MULTIVARIABL:
     es: Multivariable
   nombre:
     es: MULTIVARIABL
+  nombre_dimension: MULTIVARIABL
   tipo: dimension
 NACIONACONYUGES:
   codelist:
@@ -1377,6 +1468,7 @@ NACIONACONYUGES:
     es: "Nacionalidad de los c\xF3nyuges"
   nombre:
     es: "Nacionalidad de los c\xF3nyuges"
+  nombre_dimension: NACIONACONYUGES
   tipo: dimension
 NACIONALIDAD:
   codelist:
@@ -1392,6 +1484,7 @@ NACIONALIDAD:
     es: Nacionalidad
   nombre:
     es: NACIONALIDAD
+  nombre_dimension: NACIONALIDAD
   tipo: dimension
 NAT_GASTO:
   codelist:
@@ -1407,6 +1500,7 @@ NAT_GASTO:
     es: Naturaleza del gasto
   nombre:
     es: NAT_GASTO
+  nombre_dimension: NAT_GASTO
   tipo: dimension
 NIVEL:
   codelist:
@@ -1422,6 +1516,7 @@ NIVEL:
     es: Nivel
   nombre:
     es: NIVEL
+  nombre_dimension: NIVEL
   tipo: dimension
 NIVELESTUDIOSTER:
   codelist:
@@ -1437,6 +1532,7 @@ NIVELESTUDIOSTER:
     es: Nivel de estudios terminados
   nombre:
     es: Nivel de estudios terminados
+  nombre_dimension: NIVELESTUDIOSTER
   tipo: dimension
 NUMHIJOSMENORED:
   codelist:
@@ -1452,6 +1548,7 @@ NUMHIJOSMENORED:
     es: "N\xFAmero de hijos menores de edad"
   nombre:
     es: "N\xFAmero de hijos menores de edad"
+  nombre_dimension: NUMHIJOSMENORED
   tipo: dimension
 PARQUES_TURISMO:
   codelist:
@@ -1467,6 +1564,7 @@ PARQUES_TURISMO:
     es: "Zonas tur\xEDsticas"
   nombre:
     es: "Zonas tur\xEDsticas"
+  nombre_dimension: PARQUES_TURISMO
   tipo: dimension
 PCSSA_JUBVIUDEDAD:
   codelist:
@@ -1482,6 +1580,7 @@ PCSSA_JUBVIUDEDAD:
     es: "Jubilaci\xF3n con viudedad"
   nombre:
     es: "Jubilaci\xF3n con viudedad"
+  nombre_dimension: PCSSA_JUBVIUDEDAD
   tipo: dimension
 PENSIONISTA:
   codelist:
@@ -1497,6 +1596,7 @@ PENSIONISTA:
     es: Pensionista
   nombre:
     es: PENSIONISTA
+  nombre_dimension: PENSIONISTA
   tipo: dimension
 PERCEPPRESINVAL:
   codelist:
@@ -1512,6 +1612,7 @@ PERCEPPRESINVAL:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
   nombre:
     es: "Percepci\xF3n de prestaci\xF3n de invalidez"
+  nombre_dimension: PERCEPPRESINVAL
   tipo: dimension
 PRESENCDISCAPAC:
   codelist:
@@ -1527,6 +1628,7 @@ PRESENCDISCAPAC:
     es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
   nombre:
     es: "Presencia o no de personas con discapacidad de 16 a 64 a\xF1os en el hogar"
+  nombre_dimension: PRESENCDISCAPAC
   tipo: dimension
 PROCEDENCIA_ECTA:
   codelist:
@@ -1542,6 +1644,7 @@ PROCEDENCIA_ECTA:
     es: Procedencia
   nombre:
     es: Procedencia
+  nombre_dimension: PROCEDENCIA_ECTA
   tipo: dimension
 PUB_PRIV:
   codelist:
@@ -1557,6 +1660,7 @@ PUB_PRIV:
     es: PUBLICA/PRIVADA
   nombre:
     es: PUB_PRIV
+  nombre_dimension: PUB_PRIV
   tipo: dimension
 PUNTOS_TURISTICOS:
   codelist:
@@ -1572,6 +1676,7 @@ PUNTOS_TURISTICOS:
     es: "Puntos tur\xEDsticos"
   nombre:
     es: "Puntos tur\xEDsticos"
+  nombre_dimension: PUNTOS_TURISTICOS
   tipo: dimension
 RELACTIVIDAD:
   codelist:
@@ -1587,6 +1692,7 @@ RELACTIVIDAD:
     es: "Relaci\xF3n con la actividad"
   nombre:
     es: RELACTIVIDAD
+  nombre_dimension: RELACTIVIDAD
   tipo: dimension
 RELAC_RESID_NAC:
   codelist:
@@ -1602,6 +1708,7 @@ RELAC_RESID_NAC:
     es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
   nombre:
     es: "Relaci\xF3n entre lugar de residencia y lugar de nacimiento"
+  nombre_dimension: RELAC_RESID_NAC
   tipo: dimension
 REL_RESIDENANT:
   codelist:
@@ -1617,6 +1724,7 @@ REL_RESIDENANT:
     es: "Relaci\xF3n con la residencia anterior"
   nombre:
     es: "Relaci\xF3n con la residencia anterior"
+  nombre_dimension: REL_RESIDENANT
   tipo: dimension
 RESITUR:
   codelist:
@@ -1632,6 +1740,7 @@ RESITUR:
     es: Residencia de los viajeros
   nombre:
     es: Residencia de los viajeros
+  nombre_dimension: RESITUR
   tipo: dimension
 SECC_CNAE09:
   codelist:
@@ -1647,6 +1756,7 @@ SECC_CNAE09:
     es: Secciones Cnae09 CPA
   nombre:
     es: Secciones Cnae09 CPA
+  nombre_dimension: SECC_CNAE09
   tipo: dimension
 SECTORACTIVIDAD:
   codelist:
@@ -1662,6 +1772,7 @@ SECTORACTIVIDAD:
     es: Sector de actividad
   nombre:
     es: SECTORACTIVIDAD
+  nombre_dimension: SECTORACTIVIDAD
   tipo: dimension
 SEXO:
   codelist:
@@ -1677,6 +1788,7 @@ SEXO:
     es: Sexo
   nombre:
     es: SEXO
+  nombre_dimension: SEXO
   tipo: dimension
 SEXOC2:
   codelist:
@@ -1692,6 +1804,7 @@ SEXOC2:
     es: "Sexo c\xF3nyuge 2"
   nombre:
     es: "Sexo c\xF3nyuge 2"
+  nombre_dimension: SEXOC2
   tipo: dimension
 SEXO_SOCIOS:
   codelist:
@@ -1707,6 +1820,7 @@ SEXO_SOCIOS:
     es: Sexo socios fundadores
   nombre:
     es: Sexo socios fundadores
+  nombre_dimension: SEXO_SOCIOS
   tipo: dimension
 SITPREVULTEM:
   codelist:
@@ -1722,6 +1836,7 @@ SITPREVULTEM:
     es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
   nombre:
     es: SITPREVULTEM
+  nombre_dimension: SITPREVULTEM
   tipo: dimension
 SITUACIONDEPEND:
   codelist:
@@ -1737,6 +1852,7 @@ SITUACIONDEPEND:
     es: "Situaci\xF3n de dependencia"
   nombre:
     es: "Situaci\xF3n de dependencia"
+  nombre_dimension: SITUACIONDEPEND
   tipo: dimension
 SITUACPROFES:
   codelist:
@@ -1752,6 +1868,7 @@ SITUACPROFES:
     es: "Situaci\xF3n profesional"
   nombre:
     es: "Situaci\xF3n profesional"
+  nombre_dimension: SITUACPROFES
   tipo: dimension
 TAMANOEMPRESA:
   codelist:
@@ -1767,6 +1884,7 @@ TAMANOEMPRESA:
     es: "Tama\xF1o de la empresa"
   nombre:
     es: TAMANOEMPRESA
+  nombre_dimension: TAMANOEMPRESA
   tipo: dimension
 TEMPORAL:
   codelist:
@@ -1782,6 +1900,7 @@ TEMPORAL:
     es: Anual
   nombre:
     es: TEMPORAL
+  nombre_dimension: TEMPORAL
   tipo: dimension
 TERRITORIO:
   codelist:
@@ -1797,6 +1916,7 @@ TERRITORIO:
     es: Territorio
   nombre:
     es: TERRITORIO
+  nombre_dimension: TERRITORIO
   tipo: dimension
 TERRITORIO_1:
   codelist:
@@ -1812,6 +1932,7 @@ TERRITORIO_1:
     es: Territorio
   nombre:
     es: TERRITORIO
+  nombre_dimension: TERRITORIO_1
   tipo: dimension
 TIPACTIVIDADHOGAR:
   codelist:
@@ -1827,6 +1948,7 @@ TIPACTIVIDADHOGAR:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
   nombre:
     es: TIPACTIVIDADHOGAR
+  nombre_dimension: TIPACTIVIDADHOGAR
   tipo: dimension
 TIPOCOTIZACA:
   codelist:
@@ -1842,6 +1964,7 @@ TIPOCOTIZACA:
     es: "Tipo de cotizaciones tenidas en el a\xF1o"
   nombre:
     es: TIPOCOTIZACA
+  nombre_dimension: TIPOCOTIZACA
   tipo: dimension
 TIPOCOTIZACION:
   codelist:
@@ -1857,6 +1980,7 @@ TIPOCOTIZACION:
     es: "Tipo de cotizaci\xF3n"
   nombre:
     es: TIPOCOTIZACION
+  nombre_dimension: TIPOCOTIZACION
   tipo: dimension
 TIPODEHOGAR:
   codelist:
@@ -1872,6 +1996,7 @@ TIPODEHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPODEHOGAR
+  nombre_dimension: TIPODEHOGAR
   tipo: dimension
 TIPOHOGAR:
   codelist:
@@ -1887,6 +2012,7 @@ TIPOHOGAR:
     es: Tipo de hogar
   nombre:
     es: TIPOHOGAR
+  nombre_dimension: TIPOHOGAR
   tipo: dimension
 TIPOMATRIMONIO:
   codelist:
@@ -1902,6 +2028,7 @@ TIPOMATRIMONIO:
     es: Tipo de matrimonio
   nombre:
     es: Tipo de matrimonio
+  nombre_dimension: TIPOMATRIMONIO
   tipo: dimension
 TIPOMOVIMIEN:
   codelist:
@@ -1917,6 +2044,7 @@ TIPOMOVIMIEN:
     es: Tipo de movimiento
   nombre:
     es: TIPOMOVIMIEN
+  nombre_dimension: TIPOMOVIMIEN
   tipo: dimension
 TIPOPENSION:
   codelist:
@@ -1932,6 +2060,7 @@ TIPOPENSION:
     es: "Tipo de pensi\xF3n"
   nombre:
     es: TIPOPENSION
+  nombre_dimension: TIPOPENSION
   tipo: dimension
 TIPOPRESTACION:
   codelist:
@@ -1947,6 +2076,7 @@ TIPOPRESTACION:
     es: "Tipos de prestaci\xF3n"
   nombre:
     es: TIPOPRESTACION
+  nombre_dimension: TIPOPRESTACION
   tipo: dimension
 TIPOSERIES:
   codelist:
@@ -1962,6 +2092,7 @@ TIPOSERIES:
     es: Tipo de Serie
   nombre:
     es: Tipo de Serie
+  nombre_dimension: TIPOSERIES
   tipo: dimension
 TIPOULTIEMPR:
   codelist:
@@ -1977,6 +2108,7 @@ TIPOULTIEMPR:
     es: "Tipolog\xEDa del \xFAltimo emprendimiento"
   nombre:
     es: TIPOULTIEMPR
+  nombre_dimension: TIPOULTIEMPR
   tipo: dimension
 TIPOVENTAS:
   codelist:
@@ -1992,6 +2124,7 @@ TIPOVENTAS:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
+  nombre_dimension: TIPOVENTAS
   tipo: dimension
 TIPO_ALOJAM_ECTA:
   codelist:
@@ -2007,6 +2140,7 @@ TIPO_ALOJAM_ECTA:
     es: Tipo de alojamiento
   nombre:
     es: Tipo de alojamiento
+  nombre_dimension: TIPO_ALOJAM_ECTA
   tipo: dimension
 TIPO_EMPRESA:
   codelist:
@@ -2022,6 +2156,7 @@ TIPO_EMPRESA:
     es: Tipo de empresa
   nombre:
     es: TIPO_EMPRESA
+  nombre_dimension: TIPO_EMPRESA
   tipo: dimension
 TIPO_ESTAB:
   codelist:
@@ -2037,6 +2172,7 @@ TIPO_ESTAB:
     es: Tipo de establecimiento
   nombre:
     es: TIPO_ESTAB
+  nombre_dimension: TIPO_ESTAB
   tipo: dimension
 TIPO_PERSONAL:
   codelist:
@@ -2052,6 +2188,7 @@ TIPO_PERSONAL:
     es: Tipo de personal
   nombre:
     es: TIPO_PERSONAL
+  nombre_dimension: TIPO_PERSONAL
   tipo: dimension
 TIPO_VENTAS:
   codelist:
@@ -2067,6 +2204,7 @@ TIPO_VENTAS:
     es: Tipo de ventas
   nombre:
     es: Tipo de ventas
+  nombre_dimension: TIPO_VENTAS
   tipo: dimension
 TIPRELACIONSS:
   codelist:
@@ -2082,6 +2220,7 @@ TIPRELACIONSS:
     es: "Tipo de relaci\xF3n con la seguridad social"
   nombre:
     es: TIPRELACIONSS
+  nombre_dimension: TIPRELACIONSS
   tipo: dimension
 VARIABLE:
   codelist:
@@ -2097,4 +2236,5 @@ VARIABLE:
     es: Variable
   nombre:
     es: VARIABLE
+  nombre_dimension: VARIABLE
   tipo: dimension

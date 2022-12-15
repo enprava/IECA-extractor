@@ -203,7 +203,7 @@ class Jerarquia:
         with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
             mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
             if not mapa_conceptos_codelists or self.nombre not in mapa_conceptos_codelists:
-                mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'concept_scheme': {'agency': 'ESC01',
+                mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'nombre_dimension': self.nombre,'concept_scheme': {'agency': 'ESC01',
                                                                                                  'id': 'CS_' + self.categoria,
                                                                                                  'version': '1.0',
                                                                                                  'concepto': self.nombre},

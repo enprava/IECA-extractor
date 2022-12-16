@@ -293,12 +293,14 @@ class Datos:
          fichero de configuracion global. Por último limpiamos las jerarquias de los prefiejos y sufijos.
          """
 
-        mapeo_columnas = self.mapa_conceptos_codelist
+        # mapeo_columnas = self.mapa_conceptos_codelist
         columnas = self.datos_por_observacion.columns
 
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
+        print(columnas)
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
-        columnas = [mapeo_columnas[columna]['nombre_dimension'] if columna in mapeo_columnas else columna for columna in columnas]
+        print(columnas)
+        # columnas = [mapeo_columnas[columna]['nombre_dimension'] if columna in mapeo_columnas else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 

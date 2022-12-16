@@ -2,6 +2,7 @@ import json
 import os
 import sys
 
+import pandas as pd
 import requests
 
 import logging
@@ -44,10 +45,9 @@ class Consulta:
         datos (:class:`iecasdmx.datos.Datos`): Datos proporcionados en la consulta.
     """
 
-    def __init__(self, id_consulta, configuracion_global, configuracion_actividad,mapa_conceptos_codelist, actividad):
+    def __init__(self, id_consulta, configuracion_global, configuracion_actividad, mapa_conceptos_codelist, actividad):
         self.url_consulta = id_consulta
         self.id_consulta = id_consulta
-
 
         self.configuracion_global = configuracion_global
         self.configuracion_actividad = configuracion_actividad
@@ -65,10 +65,11 @@ class Consulta:
             self.solicitar_informacion_api()
 
         self.jerarquias = [
-            Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'],self.id_consulta)
+            Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'],
+                      self.id_consulta)
             for jerarquia in
             jerarquias_sin_procesar]
-        self.datos = Datos(self.id_consulta, self.configuracion_global,self.mapa_conceptos_codelist, self.actividad,
+        self.datos = Datos(self.id_consulta, self.configuracion_global, self.mapa_conceptos_codelist, self.actividad,
                            self.metadatos['periodicity'],
                            datos_sin_procesar,
                            self.jerarquias, self.medidas)

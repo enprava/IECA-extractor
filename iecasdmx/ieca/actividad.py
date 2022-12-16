@@ -113,8 +113,10 @@ class Actividad:
             os.makedirs(directorio)
 
         self.logger.info('Creando fichero de configuración de la actividad')
-        self.configuracion = {'NOMBRE_DSD': 'DSD_' + self.actividad,
-                              'categoria': self.configuracion_actividad['categoria'], 'grupos_consultas': {},
+        self.configuracion = {'NOMBRE': self.actividad,
+                              'categoria': self.configuracion_actividad['categoria'],
+                              'subcategoria': self.configuracion_actividad['subcategoria'],
+                              'grupos_consultas': {},
                               'variables': []}
         for id_consulta, consulta in self.consultas.items():
             if consulta.metadatos['title'] not in self.configuracion['grupos_consultas']:
@@ -127,7 +129,7 @@ class Actividad:
             for columna in consulta.datos.datos_por_observacion.columns:
                 if columna not in self.configuracion['variables'] and columna not in ['TEMPORAL', 'INDICATOR',
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
-                                                                                      'FREQ','OBS_STATUS']:
+                                                                                      'FREQ', 'OBS_STATUS']:
                     self.configuracion['variables'].append(columna)
         with open(fichero, 'w', encoding='utf-8') as fichero_actividad:
             yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)
@@ -156,3 +158,4 @@ class Actividad:
                 self.logger.warning('%s', columnas_existentes)
 
         self.logger.info('Comprobación finalizada')
+

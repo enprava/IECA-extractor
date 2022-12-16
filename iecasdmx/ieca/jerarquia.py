@@ -105,8 +105,8 @@ class Jerarquia:
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
-        #directorio_original = os.path.join(directorio_original, )
-        directorio_sdmx = os.path.join(directorio, 'sdmx',self.id_consulta)
+        # directorio_original = os.path.join(directorio_original, )
+        directorio_sdmx = os.path.join(directorio, 'sdmx', self.id_consulta)
 
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
@@ -119,7 +119,6 @@ class Jerarquia:
         datos[['COD']] = self.formatear_cod(datos[['COD']])
         mapa_padre = self.mapear_padre_cod(datos[['ID', 'COD']].to_dict('tight')['data'])
         datos = datos.replace({'PARENTCODE': mapa_padre})
-
 
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas], self.nombre_mapa,
                                                   self.configuracion_global[
@@ -146,14 +145,16 @@ class Jerarquia:
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
                                   self.id_consulta, self.nombre_mapa)
         archivo = f'{directorio}.csv'
-        if self.nombre not in datos_jerarquias:
-            datos_jerarquias[self.nombre] = {'ID': f'CL_{self.nombre}', 'agency': self.configuracion_global['nodeId'],
-                                             'version': '1.0', 'nombre': {'es': self.nombre},
+        nombre = self.nombre_mapa[2:]
+        nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
+        if nombre not in datos_jerarquias:
+            datos_jerarquias[nombre] = {'ID': f'CL_{nombre}', 'agency': self.configuracion_global['nodeId'],
+                                             'version': '1.0', 'nombre': {'es': nombre},
                                              'description': {'es': self.metadatos['des']},
                                              'fichero': [archivo]}
             has_changed = True
         else:
-            if archivo not in datos_jerarquias[self.nombre]['fichero']:
+            if archivo not in datos_jerarquias[nombre]['fichero']:
                 datos_jerarquias[self.nombre]['fichero'].append(f'{directorio}.csv')
                 has_changed = True
         if has_changed:
@@ -202,12 +203,15 @@ class Jerarquia:
     def añadir_mapa_concepto_codelist(self):
         with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
             mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
-            if not mapa_conceptos_codelists or self.nombre not in mapa_conceptos_codelists:
-                mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'nombre_dimension': self.nombre,'concept_scheme': {'agency': 'ESC01',
-                                                                                                 'id': 'CS_' + self.categoria,
-                                                                                                 'version': '1.0',
-                                                                                                 'concepto': self.nombre},
-                                                         'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
+            nombre = self.nombre_mapa[2:]
+            nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
+            if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
+                mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
+                                                         'concept_scheme': {'agency': 'ESC01',
+                                                                            'id': 'CS_' + self.categoria,
+                                                                            'version': '1.0',
+                                                                            'concepto': nombre},
+                                                         'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
                                                                       'version': '1.0'},
                                                          'nombre': {'es': fix_encoding(self.metadatos['des'])},
                                                          'descripcion': {'es': self.metadatos['des']}}

@@ -98,8 +98,6 @@ class Actividad:
                         if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
                             nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
 
-
-
         self.consultas = nuevas_consultas
 
         self.logger.info('Datos por titulo unidos')
@@ -127,7 +125,9 @@ class Actividad:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']]["consultas"] \
                     .append(id_consulta)
             for columna in consulta.datos.datos_por_observacion.columns:
-                if columna not in self.configuracion['variables']:
+                if columna not in self.configuracion['variables'] and columna not in ['TEMPORAL', 'INDICATOR',
+                                                                                      'OBS_VALUE', 'ESTADO_DATO',
+                                                                                      'FREQ']:
                     self.configuracion['variables'].append(columna)
         with open(fichero, 'w', encoding='utf-8') as fichero_actividad:
             yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)

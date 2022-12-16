@@ -127,7 +127,7 @@ class Actividad:
             for columna in consulta.datos.datos_por_observacion.columns:
                 if columna not in self.configuracion['variables'] and columna not in ['TEMPORAL', 'INDICATOR',
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
-                                                                                      'FREQ']:
+                                                                                      'FREQ','OBS_STATUS']:
                     self.configuracion['variables'].append(columna)
         with open(fichero, 'w', encoding='utf-8') as fichero_actividad:
             yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)

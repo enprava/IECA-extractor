@@ -10,6 +10,8 @@ import logging
 from iecasdmx.ieca.jerarquia import Jerarquia
 from iecasdmx.ieca.datos import Datos
 
+import unidecode
+
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
@@ -105,6 +107,7 @@ class Consulta:
                     getattr(self.datos, accion)(accion_params)
                 else:
                     getattr(self.datos, accion)()
+        self.actualiza_medidas()
 
     def solicitar_informacion_api(self):
         """Utilizando :attr:`~.id_consulta` busca el JSON de la consulta en local, y si no, le manda
@@ -167,3 +170,30 @@ class Consulta:
                respuesta['hierarchies'], \
                respuesta['measures'], \
                respuesta['data'] if respuesta else None
+
+    def actualiza_medidas(self):
+        mapa = pd.read_csv(f'{self.configuracion_global["directorio_mapas_dimensiones"]}INDICATOR')
+        jerarquia = pd.read_csv(f'{self.configuracion_global["directorio_jerarquias"]}/INDICATOR', sep=';')
+        for medida in self.medidas:
+            if medida['des'] in self.configuracion_global['medidas_reemplazando_obs_status']:
+                continue
+            if medida['des'] not in mapa.SOURCE.values:
+                target = self.__formatea_id_medida(medida['des'])
+                mapa.loc[len(mapa)] = [medida['des'], None, target]
+            else:
+                target = mapa[mapa['SOURCE'] == medida['des']]['TARGET'].values[0]
+            jerarquia.loc[len(jerarquia)] = [target, medida['des'], medida['des'], None]
+        mapa.drop_duplicates('SOURCE', inplace=True, ignore_index=True)
+        jerarquia.drop_duplicates('ID', inplace=True, ignore_index=True)
+        mapa.to_csv(f'{self.configuracion_global["directorio_mapas_dimensiones"]}INDICATOR', index=False)
+        jerarquia.to_csv(f'{self.configuracion_global["directorio_jerarquias"]}/INDICATOR', index=False, sep=';')
+
+    def __formatea_id_medida(self, medida):
+        trozos = medida.split(' ')
+        id_medida = ''
+        for trozo in trozos:
+            try:
+                id_medida = f'{id_medida}_{trozo[0:5].upper()}'
+            except:
+                id_medida = f'{id_medida}_{trozo.replace("%", "PCT").upper()}'
+        return unidecode.unidecode(id_medida[1:])

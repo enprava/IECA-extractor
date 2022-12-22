@@ -196,4 +196,5 @@ class Consulta:
                 id_medida = f'{id_medida}_{trozo[0:5].upper()}'
             except:
                 id_medida = f'{id_medida}_{trozo.replace("%", "PCT").upper()}'
+                id_medida = f'{id_medida}_{trozo.replace("*", "").upper()}'
         return unidecode.unidecode(id_medida[1:])

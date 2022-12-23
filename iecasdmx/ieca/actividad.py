@@ -127,7 +127,7 @@ class Actividad:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']]["consultas"] \
                     .append(id_consulta)
             for columna in consulta.datos.datos_por_observacion.columns:
-                if columna not in self.configuracion['variables'] and columna not in ['TEMPORAL', 'INDICATOR',
+                if columna not in self.configuracion['variables'] and columna not in ['INDICATOR', 'TEMPORAL',
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
                                                                                       'FREQ', 'OBS_STATUS']:
                     self.configuracion['variables'].append(columna)
@@ -158,4 +158,3 @@ class Actividad:
                 self.logger.warning('%s', columnas_existentes)
 
         self.logger.info('Comprobación finalizada')
-

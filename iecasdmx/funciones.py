@@ -64,18 +64,18 @@ def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
     directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
 
     if not os.path.exists(directorio_mapa):
-        df_mapa = pd.DataFrame(columns=["SOURCE","NAME","TARGET"])
-        df_mapa.to_csv(directorio_mapa,index=False)
+        df_mapa = pd.DataFrame(columns=["SOURCE", "NAME", "TARGET"])
+        df_mapa.to_csv(directorio_mapa, index=False)
 
     df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string', keep_default_na=False)
     df.loc[:, 'ID'] = \
         df.merge(df_mapa, how='left', left_on='COD', right_on='SOURCE')['TARGET'].values
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].values
-    df.dropna(subset=['COD'], inplace=True)
-    df.drop_duplicates(subset=['COD'], inplace=True)
-    df[df['COD'] == df['PARENTCODE']]['PARENTCODE'] = None
-    df = df[['COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']]
+    df.dropna(subset=['ID'], inplace=True)
+    df.drop_duplicates(subset=['ID'], inplace=True)
+    df[df['ID'] == df['PARENTCODE']]['PARENTCODE'] = None
+    df = df[['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']]
     df.columns = ['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
     return df
 
@@ -90,15 +90,17 @@ def montar_medidas(directorio_mapas_dimensiones):
 
     return indicadores
 
+
 import unicodedata
 
-def strip_accents(text):
 
-    text = unicodedata.normalize('NFD', text)\
-           .encode('ascii', 'ignore')\
-           .decode("utf-8")
+def strip_accents(text):
+    text = unicodedata.normalize('NFD', text) \
+        .encode('ascii', 'ignore') \
+        .decode("utf-8")
 
     return str(text)
+
 
 def crear_mapeo_por_defecto(descripcion):
     preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
@@ -129,4 +131,3 @@ def crear_mapeo_por_defecto(descripcion):
     descripcion = descripcion.replace('+', 'MAS')
     descripcion = descripcion.replace('.', '')
     return strip_accents(descripcion)
-

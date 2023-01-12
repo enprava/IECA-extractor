@@ -162,6 +162,18 @@ class Datos:
         self.logger.info('DataFrame Desacoplado')
         return df
 
+    def map_obs_value(self,a):
+
+        if a in "":
+            return ""
+        a = a.replace(',', '.')
+        new_a = a.replace('.', '')
+        new_a = new_a.replace('-', '')
+        if str.isdigit(new_a):
+            return a
+        else:
+            return "NaN"
+
     def guardar_datos(self, clase):
         """Accion que guarda la jerarquia en formato .CSV de dos formas bifurcando en directorios a traves del
             argumento clase:
@@ -176,7 +188,8 @@ class Datos:
         directorio = os.path.join(self.configuracion_global['directorio_datos'], self.actividad, clase)
         if not os.path.exists(directorio):
             os.makedirs(directorio)
-
+        if clase=="procesados":
+            self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(self.map_obs_value)
         self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
 
@@ -297,9 +310,8 @@ class Datos:
         columnas = self.datos_por_observacion.columns
 
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
-        print(columnas)
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
-        print(columnas)
+
         # columnas = [mapeo_columnas[columna]['nombre_dimension'] if columna in mapeo_columnas else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
@@ -357,6 +369,6 @@ def insertar_freq(df, periodicidad):
      """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
-                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M'}
+                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral':'Q'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df

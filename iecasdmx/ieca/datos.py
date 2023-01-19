@@ -200,7 +200,7 @@ class Datos:
          """
         self.logger.info('Mapeando observaciones hacia SDMX')
         columnas_a_mapear = [column for column in self.datos_por_observacion.columns if
-                             column not in ['OBS_VALUE', 'FREQ']]
+                             column not in ['OBS_VALUE', 'FREQ','OBS_STATUS']]
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)

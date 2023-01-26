@@ -118,7 +118,15 @@ class Actividad:
                               'subcategoria': self.configuracion_actividad['subcategoria'],
                               'grupos_consultas': {},
                               'variables': []}
+        self.configuracion["metadatos_title"] = {}
+        self.configuracion["metadatos_subtitle"] = {}
         for id_consulta, consulta in self.consultas.items():
+            print("titulos -> " ,consulta.metadatos['title'])
+
+            self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
+
+            self.configuracion["metadatos_subtitle"][consulta.id_consulta] = consulta.metadatos['subtitle']
+
             if consulta.metadatos['title'] not in self.configuracion['grupos_consultas']:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']] = {
                     'id': str(len(self.configuracion['grupos_consultas']) + 1),

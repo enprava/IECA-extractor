@@ -121,7 +121,6 @@ class Actividad:
         self.configuracion["metadatos_title"] = {}
         self.configuracion["metadatos_subtitle"] = {}
         for id_consulta, consulta in self.consultas.items():
-            print("titulos -> " ,consulta.metadatos['title'])
 
             self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
 

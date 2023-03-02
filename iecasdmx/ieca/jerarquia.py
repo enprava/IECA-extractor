@@ -63,7 +63,7 @@ class Jerarquia:
         duplicado además de añadir el valor **_Z**.
 
         Returns:
-            datos (:class:`pandas:pandas.DataFrame`): La jerarquia en un cuadro de datos.
+            datos (:class:`pandas:pandas.DataFrame`): La jerarquia en un cuadro de datos./
          """
         self.logger.info('Transformando Jerarquias')
         data = [datos_jerarquia['data']]
@@ -144,14 +144,14 @@ class Jerarquia:
             datos_jerarquias = {}
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
                                   self.id_consulta, self.nombre_mapa)
-        archivo = f'{directorio}.csv'
+        archivo = f'{directorio}.csv'.replace('\\', '/')
         nombre = self.nombre_mapa[2:]
         nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
         if nombre not in datos_jerarquias:
             datos_jerarquias[nombre] = {'ID': f'CL_{nombre}', 'agency': self.configuracion_global['nodeId'],
-                                             'version': '1.0', 'nombre': {'es': nombre},
-                                             'description': {'es': self.metadatos['des']},
-                                             'fichero': [archivo]}
+                                        'version': '1.0', 'nombre': {'es': nombre},
+                                        'description': {'es': self.metadatos['des']},
+                                        'fichero': [archivo]}
             has_changed = True
         else:
             if archivo not in datos_jerarquias[nombre]['fichero']:
@@ -207,14 +207,14 @@ class Jerarquia:
             nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
             if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
                 mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
-                                                         'concept_scheme': {'agency': 'ESC01',
-                                                                            'id': 'CS_' + self.categoria,
-                                                                            'version': '1.0',
-                                                                            'concepto': nombre},
-                                                         'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
-                                                                      'version': '1.0'},
-                                                         'nombre': {'es': fix_encoding(self.metadatos['des'])},
-                                                         'descripcion': {'es': self.metadatos['des']}}
+                                                    'concept_scheme': {'agency': 'ESC01',
+                                                                       'id': 'CS_' + self.categoria,
+                                                                       'version': '1.0',
+                                                                       'concepto': nombre},
+                                                    'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
+                                                                 'version': '1.0'},
+                                                    'nombre': {'es': fix_encoding(self.metadatos['des'])},
+                                                    'descripcion': {'es': self.metadatos['des']}}
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
                 yaml.dump(mapa_conceptos_codelists, file, encoding='utf-8')

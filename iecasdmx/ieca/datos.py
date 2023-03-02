@@ -149,7 +149,6 @@ class Datos:
         for medida in medidas:
             if medida not in self.configuracion_global['indicadores_a_borrar']:
                 self.logger.info('Desacoplando para la medida: %s', medida)
-
                 columnas = columnas_jerarquia + ['OBS_VALUE', 'INDICATOR']
                 columnas_ordenadas = columnas_jerarquia + ['INDICATOR', 'OBS_VALUE']
                 valores_medida = self.datos[columnas_jerarquia + [medida]].copy()

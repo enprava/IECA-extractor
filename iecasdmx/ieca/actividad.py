@@ -21,9 +21,8 @@ class Actividad:
     Args:
         configuracion_global (:class:`Diccionario`): Configuración común a todas las ejecuciones que se realicen.
         configuracion_actividad (:class:`Diccionario`): Configuración común para toda la actividad.
-        plantilla_configuracion_actividad (:class:`Diccionario`): Configuración por defecto de la actividad.
-            Este fichero de configuración extiende a :attr:`~.configuracion_actividad` con las configuraciones que no
-            están explicitamente recogidas en este.
+        mapa_conceptos_codelist (:class:`Diccionario`): Fichero donde se guarda toda la información de
+         las jerarquias para su posterior procesamiento
         actividad (:class:`Cadena de Texto`): Nombre de la actividad.
 
     Attributes:
@@ -32,10 +31,9 @@ class Actividad:
          correspondientes.
     """
 
-    def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad,
-                 mapa_conceptos_codelist, actividad):
+    def __init__(self, configuracion_global, configuracion_actividad, mapa_conceptos_codelist, actividad):
         self.configuracion_global = configuracion_global
-        self.configuracion_actividad = {**plantilla_configuracion_actividad, **configuracion_actividad}
+        self.configuracion_actividad = {**configuracion_actividad}
         self.mapa_conceptos_codelist = mapa_conceptos_codelist
 
         self.actividad = actividad
@@ -66,41 +64,42 @@ class Actividad:
         la clave **acciones_actividad_completa**.
         """
         self.logger.info('Ejecutando actividad')
-        for accion in self.configuracion_actividad['acciones_actividad_completa'].keys():
-            if self.configuracion_actividad['acciones_actividad_completa'][accion]:
-                getattr(self, accion)()
+
+        self.generar_fichero_configuracion_actividad()
+        self.extender_con_disjuntos()
+
         self.logger.info('Ejecución finalizada')
 
-    def agrupar_consultas_SDMX(self):
-        """Agrupación por titulo para actividades que tienen multiples consultas para una misma serie.
-        """
-        directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
-        self.logger.info('Uniendo datos por titulo')
-        nuevas_consultas = {}
-        for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
-            nuevas_consultas[informacion_grupo['id']] = self.consultas[informacion_grupo['consultas'][0]]
-            nuevas_consultas[informacion_grupo['id']].id_consulta = informacion_grupo['id']
-
-            self.logger.info('Generando consulta %s con titulo: %s', informacion_grupo['id'], grupo)
-
-            if len(informacion_grupo['consultas']) > 1:
-                for consulta in informacion_grupo['consultas'][1:]:
-                    nuevas_consultas[
-                        informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos = pd.concat(
-                        [nuevas_consultas[informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos,
-                         self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos])
-
-                    for medida in self.consultas[consulta].medidas:
-                        if medida not in nuevas_consultas[informacion_grupo['id']].medidas:
-                            nuevas_consultas[informacion_grupo['id']].medidas.append(medida)
-
-                    for jerarquia in self.consultas[consulta].jerarquias:
-                        if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
-                            nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
-
-        self.consultas = nuevas_consultas
-
-        self.logger.info('Datos por titulo unidos')
+    # def agrupar_consultas_SDMX(self):
+    #     """Agrupación por titulo para actividades que tienen multiples consultas para una misma serie.
+    #     """
+    #     directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
+    #     self.logger.info('Uniendo datos por titulo')
+    #     nuevas_consultas = {}
+    #     for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
+    #         nuevas_consultas[informacion_grupo['id']] = self.consultas[informacion_grupo['consultas'][0]]
+    #         nuevas_consultas[informacion_grupo['id']].id_consulta = informacion_grupo['id']
+    #
+    #         self.logger.info('Generando consulta %s con titulo: %s', informacion_grupo['id'], grupo)
+    #
+    #         if len(informacion_grupo['consultas']) > 1:
+    #             for consulta in informacion_grupo['consultas'][1:]:
+    #                 nuevas_consultas[
+    #                     informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos = pd.concat(
+    #                     [nuevas_consultas[informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos,
+    #                      self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos])
+    #
+    #                 for medida in self.consultas[consulta].medidas:
+    #                     if medida not in nuevas_consultas[informacion_grupo['id']].medidas:
+    #                         nuevas_consultas[informacion_grupo['id']].medidas.append(medida)
+    #
+    #                 for jerarquia in self.consultas[consulta].jerarquias:
+    #                     if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
+    #                         nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
+    #
+    #     self.consultas = nuevas_consultas
+    #
+    #     self.logger.info('Datos por titulo unidos')
 
     def generar_fichero_configuracion_actividad(self):
         """

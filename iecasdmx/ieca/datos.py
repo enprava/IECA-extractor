@@ -117,7 +117,7 @@ class Datos:
         #
         self.logger.info('Datos Transformados a DataFrame Correctamente')
 
-        df = df.apply(lambda x: x.apply(lambda y: self.formatear_row(y))  ,axis = 1)
+        df = df.apply(lambda x: x.apply(lambda y: self.formatear_row(y)), axis=1)
 
         return df
 
@@ -161,7 +161,7 @@ class Datos:
         self.logger.info('DataFrame Desacoplado')
         return df
 
-    def map_obs_value(self,a):
+    def map_obs_value(self, a):
 
         if a in "":
             return ""
@@ -187,7 +187,7 @@ class Datos:
         directorio = os.path.join(self.configuracion_global['directorio_datos'], self.actividad, clase)
         if not os.path.exists(directorio):
             os.makedirs(directorio)
-        if clase=="procesados":
+        if clase == "procesados":
             self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(self.map_obs_value)
         self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
@@ -199,7 +199,7 @@ class Datos:
          """
         self.logger.info('Mapeando observaciones hacia SDMX')
         columnas_a_mapear = [column for column in self.datos_por_observacion.columns if
-                             column not in ['OBS_VALUE', 'FREQ','OBS_STATUS']]
+                             column not in ['OBS_VALUE', 'FREQ', 'OBS_STATUS']]
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
@@ -235,7 +235,7 @@ class Datos:
             if columna_id != 'INDICATOR':
                 jerarquia_codigos = pd.read_csv(
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                 self.id_consulta,columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
+                                 self.id_consulta, columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
                 # df_mapa['COD'][df_mapa['COD'].isna()] = \
                 #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
@@ -322,11 +322,15 @@ class Datos:
             dics_columna_valor_a_borrar (:obj:`Lista` de :class:`Cadena de Texto`): Lista de diccionarios con cuyo par
                 clave-valor es la columna-valor deseado para la eliminación.
          """
+        # NO BORRAR ESTA PARTE
 
-        for dic in dics_columna_valor_a_borrar:
-            columna = list(dic.keys())[0]
-            valor = dic[columna]
-            self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
+        # for dic in dics_columna_valor_a_borrar:
+        #     columna = list(dic.keys())[0]
+        #     valor = dic[columna]
+        #     self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
+
+        for valor in dics_columna_valor_a_borrar:
+            self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion['OBS_VALUE'] != valor]
 
     def mostrar_df(self):
         # print('mostrando df',self.datos.to_string())
@@ -336,13 +340,14 @@ class Datos:
     #
     #     return df.apply(lambda x: self.formatear_row(x))
 
-    def formatear_row(self,row_str):
-        if(len(row_str)<3):
+    def formatear_row(self, row_str):
+        if (len(row_str) < 3):
             return row_str
-        elif(row_str[0]=='P' and row_str[2] == '_'):
+        elif (row_str[0] == 'P' and row_str[2] == '_'):
             return row_str[3:]
         else:
             return row_str
+
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
@@ -368,6 +373,6 @@ def insertar_freq(df, periodicidad):
      """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
-                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral':'Q'}
+                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral': 'Q'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df

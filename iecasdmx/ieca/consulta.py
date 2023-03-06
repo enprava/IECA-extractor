@@ -94,19 +94,19 @@ class Consulta:
         """Aplica las funciones configuradas en el fichero de configuración **'actividades.yaml'** bajo
         las claves **acciones_jerarquia** y **acciones_datos*.
         """
-        for accion in self.configuracion_actividad['acciones_jerarquia'].keys():
-            for jerarquia in self.jerarquias:
-                if self.configuracion_actividad['acciones_jerarquia'][accion]:
-                    getattr(jerarquia, accion)()
 
-        for accion in self.configuracion_actividad['acciones_datos'].keys():
-            accion_params = self.configuracion_actividad['acciones_datos'][accion]
-            if self.configuracion_actividad['acciones_datos'][accion]:
-                accion = accion.split('#')[0]
-                if not isinstance(accion_params, bool):
-                    getattr(self.datos, accion)(accion_params)
-                else:
-                    getattr(self.datos, accion)()
+        for jerarquia in self.jerarquias:
+            jerarquia.guardar_datos()
+            jerarquia.añadir_mapa_concepto_codelist()
+            jerarquia.agregar_datos_jerarquia()
+
+        self.datos.guardar_datos('original')
+        self.datos.extender_mapa_nuevos_terminos()
+        self.datos.mapear_valores()
+        self.datos.mapear_columnas()
+        self.datos.borrar_filas(['', '-', '*', 'se'])
+        self.datos.guardar_datos('procesados')
+
         self.actualiza_medidas()
 
     def solicitar_informacion_api(self):

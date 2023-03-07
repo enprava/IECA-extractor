@@ -1,3 +1,4 @@
+import copy
 import os
 import sys
 
@@ -132,6 +133,11 @@ class Jerarquia:
         self.datos_sdmx.drop_duplicates('ID', inplace=True)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.nombre_mapa)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
+
+    def guardar_datos_sdmx(self):
+        # TODO
+        pass
+
 
     def agregar_datos_jerarquia(self):
         # Quizas es buena idea abrir archivos en otras funciones a parte.

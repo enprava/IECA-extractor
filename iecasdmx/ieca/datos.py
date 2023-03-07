@@ -191,6 +191,7 @@ class Datos:
             self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(self.map_obs_value)
         self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
+        # TODO
 
     def mapear_valores(self):
         """Accion que realiza el mapeo de los valores del cuadro de datos configuradas bajo el parámetro
@@ -237,12 +238,6 @@ class Datos:
                     os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
                                  self.id_consulta, columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
                     dtype='string')
-                # df_mapa['COD'][df_mapa['COD'].isna()] = \
-                #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                #                                          right_on='ID')['COD_y']
-                # df_mapa['NAME'][df_mapa['NAME'].isna()] = \
-                #     df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                #                                           right_on='ID')['NAME_y']
             df_mapa.reset_index(drop=True, inplace=True)
             mapeos_incompletos_indices = df_mapa[df_mapa['TARGET'].isna()].index
             if mapeos_incompletos_indices.any():

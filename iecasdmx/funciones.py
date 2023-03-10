@@ -1,3 +1,4 @@
+import json
 import os
 
 import yaml
@@ -6,20 +7,24 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 
 
-def traducir_cadena(cadena, lenguaje_origen, lenguaje_destino, traductor, directorio_traducciones):
-    with open(directorio_traducciones, "r") as fichero_traducciones:
-        traducciones = yaml.load(fichero_traducciones, Loader=yaml.FullLoader)
-        try:
-            cadena_multilenguaje = traducciones[cadena]
-        except:
-            cadena_multilenguaje = {lenguaje_origen: cadena,
-                                    lenguaje_destino: traductor.translate_text(cadena,
-                                                                               target_lang=lenguaje_destino if lenguaje_destino != 'en' else 'EN-US').text}
-            traducciones[cadena] = cadena_multilenguaje
-        with open(directorio_traducciones, "w+") as fichero_traducciones:
-            yaml.dump(traducciones, fichero_traducciones, sort_keys=True)
+def read_yaml(path):
+    with open(path, 'r', encoding='utf-8') as file:
+        return yaml.safe_load(file)
 
-    return cadena_multilenguaje
+
+def write_yaml(path, data):
+    with open(path, 'w', encoding='utf-8') as file:
+        yaml.dump(data, file)
+
+
+def read_json(path):
+    with open(path, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+
+def write_json(path, data):
+    with open(path, 'w', encoding='utf-8') as file:
+        json.dump(data, file)
 
 
 def traducir_dataframe_por_variables(df, variables, lenguaje_origen, lenguaje_destino, traductor,

@@ -1,3 +1,4 @@
+import copy
 import os
 import sys
 
@@ -11,7 +12,7 @@ import logging
 import yaml
 from ftfy import fix_encoding
 
-from iecasdmx.funciones import mapear_id_por_dimension
+from iecasdmx.funciones import mapear_id_por_dimension, read_yaml, write_yaml
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
@@ -54,6 +55,7 @@ class Jerarquia:
         self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
         # mapa de la dimension
         self.datos = self.solicitar_informacion_jerarquia()
+        self.datos_originales = []
         self.datos_sdmx = []
 
         self.logger.info('Extrayendo lista de código')
@@ -99,27 +101,37 @@ class Jerarquia:
                 - Sin el código de BADEA (Admitido por nuestro framework de SDMX)
 
          """
+        self.logger.info('Almacenando datos Jerarquia')
+
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad)
         directorio_original = os.path.join(directorio, 'original', self.id_consulta)
+        directorio_sdmx = os.path.join(directorio, 'sdmx', self.id_consulta)
+
+        columnas = ['ID', 'COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
+        datos = copy.deepcopy(self.datos)
+        datos.columns = columnas
 
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
-        # directorio_original = os.path.join(directorio_original, )
-        directorio_sdmx = os.path.join(directorio, 'sdmx', self.id_consulta)
-
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
-        self.logger.info('Almacenando datos Jerarquia')
-        columnas = ['ID', 'COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
 
-        datos = self.datos.__deepcopy__()
-        datos.columns = columnas
+        self.guardar_datos_originales(datos, directorio_original)
+        self.guardar_datos_sdmx(columnas, directorio_sdmx)
 
+        self.logger.info('Jerarquia Almacenada')
+
+    def guardar_datos_originales(self, datos, directorio_original):
         datos[['COD']] = self.formatear_cod(datos[['COD']])
         mapa_padre = self.mapear_padre_cod(datos[['ID', 'COD']].to_dict('tight')['data'])
         datos = datos.replace({'PARENTCODE': mapa_padre})
+        self.datos_originales = datos # Necesario para guardar_datos_sdmx
 
+        datos.to_csv(f'{os.path.join(directorio_original, self.nombre_mapa)}.csv', sep=';', index=False)
+
+    def guardar_datos_sdmx(self, columnas, directorio_sdmx):
+        datos = copy.deepcopy(self.datos_originales) # Se ha ejecutado antes guardar_datos_originales
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas], self.nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])
@@ -128,17 +140,11 @@ class Jerarquia:
         self.datos_sdmx[['NAME', 'DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION', 'NAME']]
         self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
 
-        datos.to_csv(f'{os.path.join(directorio_original, self.nombre_mapa)}.csv', sep=';', index=False)
         self.datos_sdmx.drop_duplicates('ID', inplace=True)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.nombre_mapa)}.csv', sep=';', index=False)
-        self.logger.info('Jerarquia Almacenada')
 
     def agregar_datos_jerarquia(self):
-        # Quizas es buena idea abrir archivos en otras funciones a parte.
-        # Pendiente para cuando hagamos la refactorizacion definitiva de todo
-        with open(self.configuracion_global['directorio_datos_jerarquias']) as file:
-            datos_jerarquias = yaml.safe_load(file)
-            file.close()
+        datos_jerarquias = read_yaml(self.configuracion_global['directorio_datos_jerarquias'])
         has_changed = False
         if not datos_jerarquias:
             datos_jerarquias = {}
@@ -158,9 +164,7 @@ class Jerarquia:
                 datos_jerarquias[self.nombre]['fichero'].append(f'{directorio}.csv')
                 has_changed = True
         if has_changed:
-            with open(self.configuracion_global['directorio_datos_jerarquias'], 'w', encoding='utf-8') as file:
-                yaml.dump(datos_jerarquias, file, encoding='utf-8')
-                file.close()
+            write_yaml(self.configuracion_global['directorio_datos_jerarquias'], datos_jerarquias)
 
     def solicitar_informacion_jerarquia(self):
         """Realiza la petición HTTP a la API si la jerarquía no se encuentra en nuestro directorio local,
@@ -201,24 +205,20 @@ class Jerarquia:
         return datos
 
     def añadir_mapa_concepto_codelist(self):
-        with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
-            mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
-            nombre = self.nombre_mapa[2:]
-            nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
-            if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
-                mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
-                                                    'concept_scheme': {'agency': 'ESC01',
-                                                                       'id': 'CS_' + self.categoria,
-                                                                       'version': '1.0',
-                                                                       'concepto': nombre},
-                                                    'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
-                                                                 'version': '1.0'},
-                                                    'nombre': {'es': fix_encoding(self.metadatos['des'])},
-                                                    'descripcion': {'es': self.metadatos['des']}}
-            file.close()
-            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
-                yaml.dump(mapa_conceptos_codelists, file, encoding='utf-8')
-                file.close()
+        mapa_conceptos_codelists = read_yaml(self.configuracion_global['directorio_mapa_conceptos_codelist'])
+        nombre = self.nombre_mapa[2:]
+        nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
+        if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
+            mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
+                                                'concept_scheme': {'agency': 'ESC01',
+                                                                   'id': 'CS_' + self.categoria,
+                                                                   'version': '1.0',
+                                                                   'concepto': nombre},
+                                                'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
+                                                             'version': '1.0'},
+                                                'nombre': {'es': fix_encoding(self.metadatos['des'])},
+                                                'descripcion': {'es': self.metadatos['des']}}
+        write_yaml(self.configuracion_global['directorio_mapa_conceptos_codelist'], mapa_conceptos_codelists)
 
     def mapear_padre_cod(self, datos):
         res = {'': ''}

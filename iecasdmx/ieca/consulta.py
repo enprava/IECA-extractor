@@ -9,6 +9,7 @@ import logging
 
 from iecasdmx.ieca.jerarquia import Jerarquia
 from iecasdmx.ieca.datos import Datos
+from iecasdmx.funciones import read_json, write_json
 
 import unidecode
 
@@ -134,8 +135,7 @@ class Consulta:
 
             if self.configuracion_global["cache_search"]:
                 self.logger.info('Buscando el JSON de la consulta en local')
-                with open(directorio_json, 'r', encoding='utf-8') as json_file:
-                    respuesta = json.load(json_file)
+                respuesta = read_json(directorio_json)
                 self.logger.info('JSON leido correctamente')
             else:
                 self.logger.info('Ignorando caché - iniciando peticion a la API del IECA')
@@ -157,8 +157,7 @@ class Consulta:
                 f"{self.url_consulta}").json()
             self.logger.info('Petición Finalizada')
             self.logger.info('Guardando JSON')
-            with open(directorio_json, 'w', encoding='utf-8') as json_file:
-                json.dump(respuesta, json_file)
+            write_json(respuesta, directorio_json)
             self.logger.info('JSON Guardado')
 
         finally:

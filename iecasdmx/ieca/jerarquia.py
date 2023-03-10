@@ -143,6 +143,11 @@ class Jerarquia:
         self.datos_sdmx.drop_duplicates('ID', inplace=True)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.nombre_mapa)}.csv', sep=';', index=False)
 
+    def guardar_datos_sdmx(self):
+        # TODO
+        pass
+
+
     def agregar_datos_jerarquia(self):
         datos_jerarquias = read_yaml(self.configuracion_global['directorio_datos_jerarquias'])
         has_changed = False

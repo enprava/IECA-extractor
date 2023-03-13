@@ -126,12 +126,12 @@ class Jerarquia:
         datos[['COD']] = self.formatear_cod(datos[['COD']])
         mapa_padre = self.mapear_padre_cod(datos[['ID', 'COD']].to_dict('tight')['data'])
         datos = datos.replace({'PARENTCODE': mapa_padre})
-        self.datos_originales = datos # Necesario para guardar_datos_sdmx
+        self.datos_originales = datos  # Necesario para guardar_datos_sdmx
 
         datos.to_csv(f'{os.path.join(directorio_original, self.nombre_mapa)}.csv', sep=';', index=False)
 
     def guardar_datos_sdmx(self, columnas, directorio_sdmx):
-        datos = copy.deepcopy(self.datos_originales) # Se ha ejecutado antes guardar_datos_originales
+        datos = copy.deepcopy(self.datos_originales)  # Se ha ejecutado antes guardar_datos_originales
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas], self.nombre_mapa,
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones'])

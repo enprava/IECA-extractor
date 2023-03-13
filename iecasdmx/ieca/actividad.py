@@ -82,11 +82,44 @@ class Actividad:
             os.makedirs(directorio)
 
         self.logger.info('Creando fichero de configuración de la actividad')
+
         self.configuracion = {'NOMBRE': self.actividad, 'categoria': self.configuracion_actividad['categoria'],
                               'subcategoria': self.configuracion_actividad['subcategoria'], 'grupos_consultas': {},
-                              'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}}
-        for id_consulta, consulta in self.consultas.items():
+                              'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}, 'periodicidad': {}}
 
+        for id_consulta, consulta in self.consultas.items():
+            self.configuracion["periodicidad"][consulta.id_consulta] = {'frecuencia': consulta.metadatos['periodicity']}
+            validFrom = consulta.datos.datos["D_TEMPORAL_0"][0]
+            validTo = consulta.datos.datos["D_TEMPORAL_0"].iloc[-1]
+            if validTo < validFrom:
+                validFrom, validTo = validTo, validFrom
+            if "Anual" in consulta.metadatos['periodicity']:
+                validFrom = validFrom[0:4] + "-01-01"
+                validTo = validTo[0:4] + "-12-31"
+            elif "Mensual" in consulta.metadatos['periodicity']:
+                month = None
+                if "-" in validTo:
+                    month = int(validTo.split('-')[1])
+                else:
+                    month = int(validTo[-2:])
+                if month == 2:
+                    month = "28"
+                else:
+                    month = "31" if (month % 2 != 0 and month < 8) or (month >= 8 and month % 2 == 0) else "30"
+                validFrom = (validFrom + "-01") if "-" in validFrom else (validFrom[:-2] + "-" + validFrom[-2:] + "-01")
+                validTo = (validTo + "-" + month) if "-" in validTo else (
+                        validTo[:-2] + "-" + validTo[-2:] + "-" + month)
+            elif "Trimestral" in consulta.metadatos['periodicity']:
+                month = 3 * int(validTo[-1])
+                month = "31" if (month % 2 != 0 and month < 8) or (month >= 8 and month % 2 == 0) else "30"
+                validFrom = validFrom[0:4] + "-" + str(3 * int(validFrom[-1]) - 2) + "-01"
+                validTo = validTo[0:4] + "-" + str(3 * int(validTo[-1])) + "-" + month
+
+            else:
+                validFrom = validFrom + "-01-01"
+                validTo = validTo + "-12-31"
+            self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = validFrom
+            self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = validTo
             self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
 
             self.configuracion["metadatos_subtitle"][consulta.id_consulta] = consulta.metadatos['subtitle']

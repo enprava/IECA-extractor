@@ -157,7 +157,7 @@ class Consulta:
                 f"{self.url_consulta}").json()
             self.logger.info('Petición Finalizada')
             self.logger.info('Guardando JSON')
-            write_json(respuesta, directorio_json)
+            write_json(directorio_json, respuesta)
             self.logger.info('JSON Guardado')
 
         finally:

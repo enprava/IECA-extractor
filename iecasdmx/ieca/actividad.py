@@ -131,8 +131,8 @@ class Actividad:
             if validTo < validFrom:
                 validFrom, validTo = validTo, validFrom
             if "Anual" in consulta.metadatos['periodicity']:
-                validFrom = validFrom + "-01-01"
-                validTo = validTo + "-12-31"
+                validFrom = validFrom[0:4] + "-01-01"
+                validTo = validTo[0:4] + "-12-31"
             elif "Mensual" in consulta.metadatos['periodicity']:
                 month = None
                 if "-" in validTo:

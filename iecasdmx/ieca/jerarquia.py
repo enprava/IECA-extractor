@@ -201,7 +201,7 @@ class Jerarquia:
         return datos
 
     def añadir_mapa_concepto_codelist(self):
-        with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
+        with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r',encoding='utf-8') as file:
             mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
             nombre = self.nombre_mapa[2:]
             nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre

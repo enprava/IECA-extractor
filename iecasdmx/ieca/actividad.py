@@ -4,6 +4,7 @@ import logging
 import yaml
 import pandas as pd
 
+from iecasdmx.funciones import write_yaml
 from iecasdmx.ieca.consulta import Consulta
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
@@ -70,37 +71,6 @@ class Actividad:
 
         self.logger.info('Ejecución finalizada')
 
-    # def agrupar_consultas_SDMX(self):
-    #     """Agrupación por titulo para actividades que tienen multiples consultas para una misma serie.
-    #     """
-    #     directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
-    #     self.logger.info('Uniendo datos por titulo')
-    #     nuevas_consultas = {}
-    #     for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
-    #         nuevas_consultas[informacion_grupo['id']] = self.consultas[informacion_grupo['consultas'][0]]
-    #         nuevas_consultas[informacion_grupo['id']].id_consulta = informacion_grupo['id']
-    #
-    #         self.logger.info('Generando consulta %s con titulo: %s', informacion_grupo['id'], grupo)
-    #
-    #         if len(informacion_grupo['consultas']) > 1:
-    #             for consulta in informacion_grupo['consultas'][1:]:
-    #                 nuevas_consultas[
-    #                     informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos = pd.concat(
-    #                     [nuevas_consultas[informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos,
-    #                      self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos])
-    #
-    #                 for medida in self.consultas[consulta].medidas:
-    #                     if medida not in nuevas_consultas[informacion_grupo['id']].medidas:
-    #                         nuevas_consultas[informacion_grupo['id']].medidas.append(medida)
-    #
-    #                 for jerarquia in self.consultas[consulta].jerarquias:
-    #                     if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
-    #                         nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
-    #
-    #     self.consultas = nuevas_consultas
-    #
-    #     self.logger.info('Datos por titulo unidos')
-
     def generar_fichero_configuracion_actividad(self):
         """
         Se genera un fichero con datos relevantes para su posterior uso.
@@ -112,13 +82,9 @@ class Actividad:
             os.makedirs(directorio)
 
         self.logger.info('Creando fichero de configuración de la actividad')
-        self.configuracion = {'NOMBRE': self.actividad,
-                              'categoria': self.configuracion_actividad['categoria'],
-                              'subcategoria': self.configuracion_actividad['subcategoria'],
-                              'grupos_consultas': {},
-                              'variables': []}
-        self.configuracion["metadatos_title"] = {}
-        self.configuracion["metadatos_subtitle"] = {}
+        self.configuracion = {'NOMBRE': self.actividad, 'categoria': self.configuracion_actividad['categoria'],
+                              'subcategoria': self.configuracion_actividad['subcategoria'], 'grupos_consultas': {},
+                              'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}}
         for id_consulta, consulta in self.consultas.items():
 
             self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
@@ -137,8 +103,7 @@ class Actividad:
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
                                                                                       'FREQ', 'OBS_STATUS']:
                     self.configuracion['variables'].append(columna)
-        with open(fichero, 'w', encoding='utf-8') as fichero_actividad:
-            yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)
+        write_yaml(fichero, self.configuracion)
         self.logger.info('Fichero de configuración de la actividad creado y guardado')
 
     def extender_con_disjuntos(self):

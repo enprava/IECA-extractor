@@ -92,22 +92,32 @@ class Actividad:
             df_sorted = consulta.datos.datos.sort_values('D_TEMPORAL_0')
             valid_from = df_sorted["D_TEMPORAL_0"][0]
             valid_to = df_sorted["D_TEMPORAL_0"].iloc[-1]
+            print("Periodicidad de los datos , " , consulta.metadatos['periodicity'])
             if "Anual" in consulta.metadatos['periodicity']:
-                valid_from = pd.to_datetime(valid_from, format='%Y')
-                valid_to = pd.to_datetime(valid_to, format='%Y')
+                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
                 valid_to = valid_to + pd.offsets.YearEnd(0)
-            else:
+            elif "Mensual" in consulta.metadatos['periodicity']:
                 valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
                     valid_from, format='%Y%m')
                 valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
                     pd.to_datetime(valid_to, format='%Y%m')
                 valid_to = valid_to + pd.offsets.MonthEnd(0)
-            if 'Trimestral' in consulta.metadatos['periodicity']:
+            elif 'Trimestral' in consulta.metadatos['periodicity']:
+                valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
+                    valid_from, format='%Y%m')
+                valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
+                    pd.to_datetime(valid_to, format='%Y%m')
                 from_month = (valid_from.month - 1) // 3 + 1
                 to_month = valid_to.month * 3
                 valid_from = valid_from.replace(month=from_month)
                 valid_to = valid_to.replace(day=1, month=to_month)
                 valid_to = valid_to + pd.offsets.MonthEnd(0)
+            elif "" in consulta.metadatos['periodicity']:
+                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
+                valid_to = valid_to + pd.offsets.YearEnd(0)
+
 
             self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = valid_from.strftime('%Y-%m-%d')
             self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = valid_to.strftime('%Y-%m-%d')

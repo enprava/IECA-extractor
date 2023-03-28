@@ -1,6 +1,8 @@
 import copy
 import os
+import re
 import sys
+import time
 
 import pandas as pd
 
@@ -102,22 +104,10 @@ class Datos:
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
-        # df_mapeado = df.copy()
-        # # Parche IECA ya que están indexando por cod en lugar de id.
-        # for jerarquia in self.jerarquias:
-        #     columna = jerarquia.metadatos['alias']
-        #
-        #     if columna != dimension_temporal:
-        #         df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')[
-        #             'ID'].values
-        #         disconexos = df_mapeado[columna].isna()
-        #         if len(df_mapeado[disconexos]):
-        #             df_mapeado[columna][disconexos] = df[columna][disconexos].map(lambda x: crear_mapeo_por_defecto(x),
-        #                                                                           na_action='ignore')
-        #
+
         self.logger.info('Datos Transformados a DataFrame Correctamente')
 
-        df = df.apply(lambda x: x.apply(lambda y: self.formatear_row(y))  ,axis = 1)
+        df = df.applymap(formatear_row)
 
         return df
 
@@ -161,18 +151,6 @@ class Datos:
         self.logger.info('DataFrame Desacoplado')
         return df
 
-    def map_obs_value(self,a):
-
-        if a in "":
-            return ""
-        a = a.replace(',', '.')
-        new_a = a.replace('.', '')
-        new_a = new_a.replace('-', '')
-        if str.isdigit(new_a):
-            return a
-        else:
-            return "NaN"
-
     def guardar_datos(self, clase):
         """Accion que guarda la jerarquia en formato .CSV de dos formas bifurcando en directorios a traves del
             argumento clase:
@@ -187,8 +165,8 @@ class Datos:
         directorio = os.path.join(self.configuracion_global['directorio_datos'], self.actividad, clase)
         if not os.path.exists(directorio):
             os.makedirs(directorio)
-        if clase=="procesados":
-            self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(self.map_obs_value)
+        if clase == "procesados":
+            self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(map_obs_value)
         self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
 
@@ -199,7 +177,7 @@ class Datos:
          """
         self.logger.info('Mapeando observaciones hacia SDMX')
         columnas_a_mapear = [column for column in self.datos_por_observacion.columns if
-                             column not in ['OBS_VALUE', 'FREQ','OBS_STATUS']]
+                             column not in ['OBS_VALUE', 'FREQ', 'OBS_STATUS']]
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
@@ -232,17 +210,6 @@ class Datos:
             uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
             df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
             df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
-            if columna_id != 'INDICATOR':
-                jerarquia_codigos = pd.read_csv(
-                    os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                 self.id_consulta,columna_nombre_mapa + '.csv'), sep=';', keep_default_na=False,
-                    dtype='string')
-                # df_mapa['COD'][df_mapa['COD'].isna()] = \
-                #     df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                #                                          right_on='ID')['COD_y']
-                # df_mapa['NAME'][df_mapa['NAME'].isna()] = \
-                #     df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                #                                           right_on='ID')['NAME_y']
             df_mapa.reset_index(drop=True, inplace=True)
             mapeos_incompletos_indices = df_mapa[df_mapa['TARGET'].isna()].index
             if mapeos_incompletos_indices.any():
@@ -252,8 +219,7 @@ class Datos:
                     df_mapa['TARGET'][indice] = crear_mapeo_por_defecto(df_mapa['SOURCE'][indice])
             else:
                 self.logger.info("Todos los elementos son mapeables")
-            df_mapa.to_csv(fichero_mapa_dimension,
-                           index=False)
+            df_mapa.to_csv(fichero_mapa_dimension, index=False)
 
     def extender_con_disjuntos(self, dimensiones):
         """Accion que añade las columnas al dataframe para que todas las dimensiones SDMX de la actividad sean
@@ -264,40 +230,8 @@ class Datos:
                 en el conjunto de la actividad sobre la que estamos trabajando.
          """
         self.datos_por_observacion_extension_disjuntos = self.datos_por_observacion.copy()
-        disyuncion_dimensiones = [dimension for dimension in dimensiones if
-                                  dimension not in self.datos_por_observacion.columns]
+        disyuncion_dimensiones = list(set(dimensiones) - set(self.datos_por_observacion.columns))
         self.datos_por_observacion_extension_disjuntos[disyuncion_dimensiones] = '_Z'
-
-    def borrar_datos_duplicados(self):
-        """Accion que borra las filas duplicadas sin tener en cuenta **OBS_VALUE**.
-         """
-        columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
-        datos_sin_duplicados = self.datos_por_observacion.drop_duplicates(subset=columnas_sin_obs_value,
-                                                                          keep='last')
-        num_duplicados = len(self.datos_por_observacion) - len(datos_sin_duplicados)
-        if num_duplicados:
-            self.logger.warning('Se han eliminado %s duplicados', num_duplicados)
-        self.datos_por_observacion = datos_sin_duplicados
-
-    def borrar_datos_duplicados_OBS_VALUE(self):
-        """Accion que borra las filas duplicadas teniendo en cuenta **OBS_VALUE**.
-         """
-
-        datos_sin_duplicados = self.datos_por_observacion.drop_duplicates(keep='first')
-        num_duplicados = len(self.datos_por_observacion) - len(datos_sin_duplicados)
-        if num_duplicados:
-            self.logger.warning('Se han eliminado %s duplicados', num_duplicados)
-        self.datos_por_observacion = datos_sin_duplicados
-
-    def sumar_datos_duplicados(self):
-        """Accion que agrupa los datos duplicados y devuelve los datos agregados de **OBS_VALUE**.
-         """
-        columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
-        self.datos_por_observacion['OBS_VALUE'] = pd.to_numeric(self.datos_por_observacion['OBS_VALUE'])
-        self.datos_por_observacion = self.datos_por_observacion.groupby(columnas_sin_obs_value, as_index=False)[
-            'OBS_VALUE'].sum()
-        if self.datos_por_observacion.empty:
-            self.logger.error('DataFrame vacio, comprueba el mapeo')
 
     def mapear_columnas(self):
         """Accion que realiza el mapeo de las columnas del cuadro de datos configuradas bajo el parámetro
@@ -305,13 +239,10 @@ class Datos:
          fichero de configuracion global. Por último limpiamos las jerarquias de los prefiejos y sufijos.
          """
 
-        # mapeo_columnas = self.mapa_conceptos_codelist
         columnas = self.datos_por_observacion.columns
 
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
-
-        # columnas = [mapeo_columnas[columna]['nombre_dimension'] if columna in mapeo_columnas else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 
@@ -322,27 +253,20 @@ class Datos:
             dics_columna_valor_a_borrar (:obj:`Lista` de :class:`Cadena de Texto`): Lista de diccionarios con cuyo par
                 clave-valor es la columna-valor deseado para la eliminación.
          """
+        # NO BORRAR ESTA PARTE
 
-        for dic in dics_columna_valor_a_borrar:
-            columna = list(dic.keys())[0]
-            valor = dic[columna]
-            self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
+        # for dic in dics_columna_valor_a_borrar:
+        #     columna = list(dic.keys())[0]
+        #     valor = dic[columna]
+        #     self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
 
-    def mostrar_df(self):
-        # print('mostrando df',self.datos.to_string())
-        pass
+        for valor in dics_columna_valor_a_borrar:
+            self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion['OBS_VALUE'] != valor]
 
-    # def formatear_column(self, df):
-    #
-    #     return df.apply(lambda x: self.formatear_row(x))
 
-    def formatear_row(self,row_str):
-        if(len(row_str)<3):
-            return row_str
-        elif(row_str[0]=='P' and row_str[2] == '_'):
-            return row_str[3:]
-        else:
-            return row_str
+def formatear_row(cadena):
+    return re.sub(r'^P\d_\s*', '', cadena)
+
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
@@ -368,6 +292,16 @@ def insertar_freq(df, periodicidad):
      """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
-                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral':'Q'}
+                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral': 'Q'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df
+
+
+def map_obs_value(a):
+    if not a:
+        return ""
+    a = a.replace(',', '.')
+    if a.replace('.', '').replace('-', '').isdigit():
+        return a
+    else:
+        return "NaN"

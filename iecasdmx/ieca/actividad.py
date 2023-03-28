@@ -4,6 +4,7 @@ import logging
 import yaml
 import pandas as pd
 
+from iecasdmx.funciones import write_yaml
 from iecasdmx.ieca.consulta import Consulta
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
@@ -21,9 +22,8 @@ class Actividad:
     Args:
         configuracion_global (:class:`Diccionario`): Configuración común a todas las ejecuciones que se realicen.
         configuracion_actividad (:class:`Diccionario`): Configuración común para toda la actividad.
-        plantilla_configuracion_actividad (:class:`Diccionario`): Configuración por defecto de la actividad.
-            Este fichero de configuración extiende a :attr:`~.configuracion_actividad` con las configuraciones que no
-            están explicitamente recogidas en este.
+        mapa_conceptos_codelist (:class:`Diccionario`): Fichero donde se guarda toda la información de
+         las jerarquias para su posterior procesamiento
         actividad (:class:`Cadena de Texto`): Nombre de la actividad.
 
     Attributes:
@@ -32,10 +32,9 @@ class Actividad:
          correspondientes.
     """
 
-    def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad,
-                 mapa_conceptos_codelist, actividad):
+    def __init__(self, configuracion_global, configuracion_actividad, mapa_conceptos_codelist, actividad):
         self.configuracion_global = configuracion_global
-        self.configuracion_actividad = {**plantilla_configuracion_actividad, **configuracion_actividad}
+        self.configuracion_actividad = {**configuracion_actividad}
         self.mapa_conceptos_codelist = mapa_conceptos_codelist
 
         self.actividad = actividad
@@ -66,41 +65,11 @@ class Actividad:
         la clave **acciones_actividad_completa**.
         """
         self.logger.info('Ejecutando actividad')
-        for accion in self.configuracion_actividad['acciones_actividad_completa'].keys():
-            if self.configuracion_actividad['acciones_actividad_completa'][accion]:
-                getattr(self, accion)()
+
+        self.generar_fichero_configuracion_actividad()
+        self.extender_con_disjuntos()
+
         self.logger.info('Ejecución finalizada')
-
-    def agrupar_consultas_SDMX(self):
-        """Agrupación por titulo para actividades que tienen multiples consultas para una misma serie.
-        """
-        directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
-        self.logger.info('Uniendo datos por titulo')
-        nuevas_consultas = {}
-        for grupo, informacion_grupo in self.configuracion['grupos_consultas'].items():
-            nuevas_consultas[informacion_grupo['id']] = self.consultas[informacion_grupo['consultas'][0]]
-            nuevas_consultas[informacion_grupo['id']].id_consulta = informacion_grupo['id']
-
-            self.logger.info('Generando consulta %s con titulo: %s', informacion_grupo['id'], grupo)
-
-            if len(informacion_grupo['consultas']) > 1:
-                for consulta in informacion_grupo['consultas'][1:]:
-                    nuevas_consultas[
-                        informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos = pd.concat(
-                        [nuevas_consultas[informacion_grupo['id']].datos.datos_por_observacion_extension_disjuntos,
-                         self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos])
-
-                    for medida in self.consultas[consulta].medidas:
-                        if medida not in nuevas_consultas[informacion_grupo['id']].medidas:
-                            nuevas_consultas[informacion_grupo['id']].medidas.append(medida)
-
-                    for jerarquia in self.consultas[consulta].jerarquias:
-                        if jerarquia not in nuevas_consultas[informacion_grupo['id']].jerarquias:
-                            nuevas_consultas[informacion_grupo['id']].jerarquias.append(jerarquia)
-
-        self.consultas = nuevas_consultas
-
-        self.logger.info('Datos por titulo unidos')
 
     def generar_fichero_configuracion_actividad(self):
         """
@@ -113,55 +82,45 @@ class Actividad:
             os.makedirs(directorio)
 
         self.logger.info('Creando fichero de configuración de la actividad')
-        self.configuracion = {'NOMBRE': self.actividad,
-                              'categoria': self.configuracion_actividad['categoria'],
-                              'subcategoria': self.configuracion_actividad['subcategoria'],
-                              'grupos_consultas': {},
-                              'variables': [],
-                              'metadatos_title': {},
-                              'metadatos_subtitle': {},
-                              'periodicidad': {}
-                              }
-        self.configuracion["metadatos_title"] = {}
-        self.configuracion["metadatos_subtitle"] = {}
+
+        self.configuracion = {'NOMBRE': self.actividad, 'categoria': self.configuracion_actividad['categoria'],
+                              'subcategoria': self.configuracion_actividad['subcategoria'], 'grupos_consultas': {},
+                              'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}, 'periodicidad': {}}
+
         for id_consulta, consulta in self.consultas.items():
             self.configuracion["periodicidad"][consulta.id_consulta] = {'frecuencia': consulta.metadatos['periodicity']}
-            validFrom = consulta.datos.datos["D_TEMPORAL_0"][0]
-            validTo = consulta.datos.datos["D_TEMPORAL_0"].iloc[-1]
-            if validTo < validFrom:
-                validFrom, validTo = validTo, validFrom
+            df_sorted = consulta.datos.datos.sort_values('D_TEMPORAL_0')
+            valid_from = df_sorted["D_TEMPORAL_0"][0]
+            valid_to = df_sorted["D_TEMPORAL_0"].iloc[-1]
+            print("Periodicidad de los datos , " , consulta.metadatos['periodicity'])
             if "Anual" in consulta.metadatos['periodicity']:
-                validFrom = validFrom[0:4] + "-01-01"
-                validTo = validTo[0:4] + "-12-31"
+                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
+                valid_to = valid_to + pd.offsets.YearEnd(0)
             elif "Mensual" in consulta.metadatos['periodicity']:
-                month = None
-                if "-" in validTo:
-                    month = int(validTo.split('-')[1])
-                else:
-                    month = int(validTo[-2:])
-                if month == 2:
-                    month = "28"
-                else:
-                    month = "31" if (month % 2 != 0 and month < 8) or (month >= 8 and month % 2 == 0) else "30"
-                validFrom = (validFrom + "-01") if "-" in validFrom else (validFrom[:-2] + "-" + validFrom[-2:] + "-01")
-                validTo = (validTo + "-" + month) if "-" in validTo else (
-                            validTo[:-2] + "-" + validTo[-2:] + "-" + month)
-            elif "Trimestral" in consulta.metadatos['periodicity']:
-                # month = None
-                # if "-" in validTo:
-                #     month = 3 * int(validTo.split("-")[1])
-                # else:
-                #     month
-                month = 3 * int(validTo[-1])
-                month = "31" if (month % 2 != 0 and month < 8) or (month >= 8 and month % 2 == 0) else "30"
-                validFrom = validFrom[0:4] + "-" + str(3 * int(validFrom[-1]) - 2) + "-01"
-                validTo = validTo[0:4] + "-" + str(3 * int(validTo[-1])) + "-" + month
+                valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
+                    valid_from, format='%Y%m')
+                valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
+                    pd.to_datetime(valid_to, format='%Y%m')
+                valid_to = valid_to + pd.offsets.MonthEnd(0)
+            elif 'Trimestral' in consulta.metadatos['periodicity']:
+                valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
+                    valid_from, format='%Y%m')
+                valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
+                    pd.to_datetime(valid_to, format='%Y%m')
+                from_month = (valid_from.month - 1) // 3 + 1
+                to_month = valid_to.month * 3
+                valid_from = valid_from.replace(month=from_month)
+                valid_to = valid_to.replace(day=1, month=to_month)
+                valid_to = valid_to + pd.offsets.MonthEnd(0)
+            elif "" in consulta.metadatos['periodicity']:
+                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
+                valid_to = valid_to + pd.offsets.YearEnd(0)
 
-            else:
-                validFrom = validFrom + "-01-01"
-                validTo = validTo + "-12-31"
-            self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = validFrom
-            self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = validTo
+
+            self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = valid_from.strftime('%Y-%m-%d')
+            self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = valid_to.strftime('%Y-%m-%d')
             self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
 
             self.configuracion["metadatos_subtitle"][consulta.id_consulta] = consulta.metadatos['subtitle']
@@ -178,8 +137,7 @@ class Actividad:
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
                                                                                       'FREQ', 'OBS_STATUS']:
                     self.configuracion['variables'].append(columna)
-        with open(fichero, 'w', encoding='utf-8') as fichero_actividad:
-            yaml.dump(self.configuracion, fichero_actividad, allow_unicode=True, sort_keys=False)
+        write_yaml(fichero, self.configuracion)
         self.logger.info('Fichero de configuración de la actividad creado y guardado')
 
     def extender_con_disjuntos(self):

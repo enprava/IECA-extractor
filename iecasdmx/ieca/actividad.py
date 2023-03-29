@@ -87,7 +87,12 @@ class Actividad:
                               'subcategoria': self.configuracion_actividad['subcategoria'], 'grupos_consultas': {},
                               'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}, 'periodicidad': {}}
 
+
         for id_consulta, consulta in self.consultas.items():
+
+            is_digit = consulta.datos.datos[consulta.datos.datos.columns[-1]][0].replace(',', '.').replace('.', '').replace('-',
+                                                                                                       '').isdigit()
+            self.configuracion["is_alphanumeric"] = not is_digit
             self.configuracion["periodicidad"][consulta.id_consulta] = {'frecuencia': consulta.metadatos['periodicity']}
             df_sorted = consulta.datos.datos.sort_values('D_TEMPORAL_0')
             valid_from = df_sorted["D_TEMPORAL_0"][0]
@@ -124,6 +129,8 @@ class Actividad:
             self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
 
             self.configuracion["metadatos_subtitle"][consulta.id_consulta] = consulta.metadatos['subtitle']
+
+
 
             if consulta.metadatos['title'] not in self.configuracion['grupos_consultas']:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']] = {

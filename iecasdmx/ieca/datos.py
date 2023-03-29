@@ -300,8 +300,7 @@ def insertar_freq(df, periodicidad):
 def map_obs_value(a):
     if not a:
         return ""
-    a = a.replace(',', '.')
-    if a.replace('.', '').replace('-', '').isdigit():
-        return a
+    if a.replace(',', '.').replace('.', '').replace('-', '').isdigit():
+        return a.replace(',', '.')
     else:
-        return "NaN"
+        return a

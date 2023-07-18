@@ -167,6 +167,9 @@ class Datos:
             os.makedirs(directorio)
         if clase == "procesados":
             self.datos_por_observacion["OBS_VALUE"] = self.datos_por_observacion["OBS_VALUE"].apply(map_obs_value)
+
+            self.datos_por_observacion = self.datos_por_observacion.dropna()
+
         self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
 
@@ -292,15 +295,36 @@ def insertar_freq(df, periodicidad):
      """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
-                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral': 'Q'}
+                                     'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral': 'Q',
+                                     '(Trimestral)':'Q', '(Anual)':'A','Puntual':'P'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df
 
 
 def map_obs_value(a):
-    if not a:
-        return ""
+    if (any(x== a for x in ["b","e","p","--","d","u","z","s","a","bp","be","ep","bu","du","de","r","bd","eb","bep","f"])):
+        estados_dict = {"b":"Ruptura en serie", "e":"Estimación","p":"Provisional","--":"No disponible","d":"Diferencias en la definición"
+                        , "u":"Poco fiable","z":"No procede","s":"Estimación Eurostat","a":"Avance",
+                        "bp":"Ruptura en serie y provisional", "be":"Ruptura en serie y estimación",
+                        "ep":"Estimación y provisional", "bu":"Ruptura en serie y poco fiable",
+                        "du":"Diferencias en la definición y poco fiable", "de":"Diferencias en la definición y estimación",
+                        "r": "Revisado", "bd":"Ruptura en serie y diferencias en la definición",
+                        "eb":"Estimación y ruptura en serie","bep":"Ruptura en serie, estimación y provisional",
+                        "f":"Predicción"}
+        return estados_dict[a]
+    if not a or any(x == a for x in ["..", "(*)", "nd"]): #, "e", "b","d","ep","eb","bd","p","a","u","be","bp","s","de"]):
+        return np.nan
     if a.replace(',', '.').replace('.', '').replace('-', '').isdigit():
         return a.replace(',', '.')
     else:
+
+        ruta_archivo = os.path.join("sistema_informacion","errores","errores.csv")
+
+        df_errores = pd.read_csv(ruta_archivo)
+
+        new_df = pd.DataFrame([[a,"septima"]], columns = df_errores.columns)
+
+        new_df_errores = pd.concat([df_errores,new_df],ignore_index=True)
+        new_df_errores = new_df_errores.drop_duplicates()
+        new_df_errores.to_csv(ruta_archivo, index=False)
         return a

@@ -1,7 +1,7 @@
 import copy
 import os
 import sys
-
+import re
 import requests
 import pandas as pd
 import itertools
@@ -46,13 +46,29 @@ class Jerarquia:
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
+        pattern = r"jerarquia/(\d+)\?consultaId"
+        match = re.search(pattern, self.metadatos["url"])
+        valor = "no_encontrado"
+        if match:
+            valor = match.group(1)
+        if "TEMPORAL" not in self.metadatos["alias"]:
+            self.metadatos["alias"] = self.metadatos["alias"][:-2] + "_" + valor + self.metadatos["alias"][-2:]
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
         self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
         self.id_consulta = id_consulta
+
+
         self.nombre = self.metadatos["alias"][2:-2]
+        self.nombre = self.nombre if self.metadatos["alias"][-2:] == '_0' else self.nombre + self.metadatos["alias"][-2:]
+
+
         index = self.id_jerarquia.find(self.nombre)
-        self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2]  # Obtenemos el nombre del
+        self.nombre_mapa = self.id_jerarquia[index - 2:index + len(self.nombre) + 2] if self.metadatos["alias"][
+                                                                                        -2:] == '_0' else self.id_jerarquia[
+                                                                                                          index - 2:index + len(
+                                                                                                              self.nombre)]
+
         # mapa de la dimension
         self.datos = self.solicitar_informacion_jerarquia()
         self.datos_originales = []
@@ -89,6 +105,7 @@ class Jerarquia:
                                     dtype='string')
         jerarquia_df = jerarquia_df.replace(to_replace='null', value='')
         jerarquia_df.drop_duplicates('COD', keep='first', inplace=True)
+
 
         self.logger.info('Jerarquia transformada')
 
@@ -151,8 +168,10 @@ class Jerarquia:
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'sdmx',
                                   self.id_consulta, self.nombre_mapa)
         archivo = f'{directorio}.csv'.replace('\\', '/')
-        nombre = self.nombre_mapa[2:]
-        nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
+
+        nombre = self.nombre_mapa[2:-2] if self.nombre_mapa[-2:] == '_0' else self.nombre_mapa[2:]
+
+        #nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
         if nombre not in datos_jerarquias:
             datos_jerarquias[nombre] = {'ID': f'CL_{nombre}', 'agency': self.configuracion_global['nodeId'],
                                         'version': '1.0', 'nombre': {'es': nombre},
@@ -208,6 +227,8 @@ class Jerarquia:
         mapa_conceptos_codelists = read_yaml(self.configuracion_global['directorio_mapa_conceptos_codelists'])
         nombre = self.nombre_mapa[2:]
         nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
+
+
         if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
             mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
                                                 'concept_scheme': {'agency': 'ESC01',

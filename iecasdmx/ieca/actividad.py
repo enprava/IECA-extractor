@@ -83,6 +83,7 @@ class Actividad:
 
         self.logger.info('Creando fichero de configuración de la actividad')
 
+
         self.configuracion = {'NOMBRE': self.actividad, 'categoria': self.configuracion_actividad['categoria'],
                               'subcategoria': self.configuracion_actividad['subcategoria'], 'grupos_consultas': {},
                               'variables': [], "metadatos_title": {}, "metadatos_subtitle": {}, 'periodicidad': {}}
@@ -94,39 +95,40 @@ class Actividad:
                                                                                                        '').isdigit()
             self.configuracion["is_alphanumeric"] = not is_digit
             self.configuracion["periodicidad"][consulta.id_consulta] = {'frecuencia': consulta.metadatos['periodicity']}
-            df_sorted = consulta.datos.datos.sort_values('D_TEMPORAL_0')
-            valid_from = df_sorted["D_TEMPORAL_0"][0]
-            valid_to = df_sorted["D_TEMPORAL_0"].iloc[-1]
-            print("Periodicidad de los datos , " , consulta.metadatos['periodicity'])
-            if "Anual" in consulta.metadatos['periodicity']:
-                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
-                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
-                valid_to = valid_to + pd.offsets.YearEnd(0)
-            elif "Mensual" in consulta.metadatos['periodicity']:
-                valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
-                    valid_from, format='%Y%m')
-                valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
-                    pd.to_datetime(valid_to, format='%Y%m')
-                valid_to = valid_to + pd.offsets.MonthEnd(0)
-            elif 'Trimestral' in consulta.metadatos['periodicity']:
-                valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
-                    valid_from, format='%Y%m')
-                valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
-                    pd.to_datetime(valid_to, format='%Y%m')
-                from_month = (valid_from.month - 1) // 3 + 1
-                to_month = valid_to.month * 3
-                valid_from = valid_from.replace(month=from_month)
-                valid_to = valid_to.replace(day=1, month=to_month)
-                valid_to = valid_to + pd.offsets.MonthEnd(0)
-            elif "" in consulta.metadatos['periodicity']:
-                valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
-                valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
-                valid_to = valid_to + pd.offsets.YearEnd(0)
+            if "D_TEMPORAL_0" in consulta.datos.datos.columns:
+                df_sorted = consulta.datos.datos.sort_values('D_TEMPORAL_0')
+                valid_from = df_sorted["D_TEMPORAL_0"][0]
+                valid_to = df_sorted["D_TEMPORAL_0"].iloc[-1]
+
+                if "Anual" in consulta.metadatos['periodicity']:
+                    valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                    valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
+                    valid_to = valid_to + pd.offsets.YearEnd(0)
+                elif "Mensual" in consulta.metadatos['periodicity']:
+                    valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
+                        valid_from, format='%Y%m')
+                    valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
+                        pd.to_datetime(valid_to, format='%Y%m')
+                    valid_to = valid_to + pd.offsets.MonthEnd(0)
+                elif 'Trimestral' in consulta.metadatos['periodicity']:
+                    valid_from = pd.to_datetime(valid_from, format='%Y-%m') if "-" in valid_from else pd.to_datetime(
+                        valid_from, format='%Y%m')
+                    valid_to = pd.to_datetime(valid_to, format='%Y-%m') if "-" in valid_to else \
+                        pd.to_datetime(valid_to, format='%Y%m')
+                    from_month = (valid_from.month - 1) // 3 + 1
+                    to_month = valid_to.month * 3
+                    valid_from = valid_from.replace(month=from_month)
+                    valid_to = valid_to.replace(day=1, month=to_month)
+                    valid_to = valid_to + pd.offsets.MonthEnd(0)
+                elif "" in consulta.metadatos['periodicity']:
+                    valid_from = pd.to_datetime(valid_from[0:4], format='%Y')
+                    valid_to = pd.to_datetime(valid_to[0:4], format='%Y')
+                    valid_to = valid_to + pd.offsets.YearEnd(0)
 
 
-            self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = valid_from.strftime('%Y-%m-%d')
-            self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = valid_to.strftime('%Y-%m-%d')
-            self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title']
+                self.configuracion["periodicidad"][consulta.id_consulta]["validFrom"] = valid_from.strftime('%Y-%m-%d')
+                self.configuracion["periodicidad"][consulta.id_consulta]["validTo"] = valid_to.strftime('%Y-%m-%d')
+            self.configuracion["metadatos_title"][consulta.id_consulta] = consulta.metadatos['title'] if consulta.metadatos['title'] else "Sin titulo"
 
             self.configuracion["metadatos_subtitle"][consulta.id_consulta] = consulta.metadatos['subtitle']
 
@@ -139,7 +141,16 @@ class Actividad:
             else:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']]["consultas"] \
                     .append(id_consulta)
-            for columna in consulta.datos.datos_por_observacion.columns:
+
+            jerarquias_dimension = []
+            for consulta_id in self.consultas.keys():
+                jerarquias = self.consultas[consulta_id].jerarquias
+                for jerarquia_id in jerarquias:
+                    if jerarquia_id not in jerarquias_dimension:
+                        jerarquias_dimension.append(jerarquia_id.nombre)
+
+            for columna in jerarquias_dimension:
+
                 if columna not in self.configuracion['variables'] and columna not in ['INDICATOR', 'TEMPORAL',
                                                                                       'OBS_VALUE', 'ESTADO_DATO',
                                                                                       'FREQ', 'OBS_STATUS']:

@@ -296,13 +296,14 @@ def insertar_freq(df, periodicidad):
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
                                      'Anual. Datos a 31 de diciembre': 'A', '(Mensual)': 'M', 'Trimestral': 'Q',
-                                     '(Trimestral)':'Q', '(Anual)':'A','Puntual':'P'}
+                                     '(Trimestral)':'Q', '(Anual)':'A','Puntual':'P','Decenal':'A10','Quinquenal':'A5'
+                                     ,'Irregular':'I','Bienal/Trienal':'A2'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df
 
 
 def map_obs_value(a):
-    if (any(x== a for x in ["b","e","p","--","d","u","z","s","a","bp","be","ep","bu","du","de","r","bd","eb","bep","f"])):
+    if (any(x== a for x in ["b","e","p","--","d","u","z","s","a","bp","be","ep","bu","du","de","r","bd","eb","bep","f","dp","n"])):
         estados_dict = {"b":"Ruptura en serie", "e":"Estimación","p":"Provisional","--":"No disponible","d":"Diferencias en la definición"
                         , "u":"Poco fiable","z":"No procede","s":"Estimación Eurostat","a":"Avance",
                         "bp":"Ruptura en serie y provisional", "be":"Ruptura en serie y estimación",
@@ -310,7 +311,7 @@ def map_obs_value(a):
                         "du":"Diferencias en la definición y poco fiable", "de":"Diferencias en la definición y estimación",
                         "r": "Revisado", "bd":"Ruptura en serie y diferencias en la definición",
                         "eb":"Estimación y ruptura en serie","bep":"Ruptura en serie, estimación y provisional",
-                        "f":"Predicción"}
+                        "f":"Predicción", "dp":"Diferencias en la definición y provisional","n":"No significativo"}
         return estados_dict[a]
     if not a or any(x == a for x in ["..", "(*)", "nd"]): #, "e", "b","d","ep","eb","bd","p","a","u","be","bp","s","de"]):
         return np.nan

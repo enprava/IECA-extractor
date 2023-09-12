@@ -174,7 +174,7 @@ class Jerarquia:
         #nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
         if nombre not in datos_jerarquias:
             datos_jerarquias[nombre] = {'ID': f'CL_{nombre}', 'agency': self.configuracion_global['nodeId'],
-                                        'version': '1.0', 'nombre': {'es': nombre},
+                                        'version': '1.0', 'nombre': {'es': fix_encoding(self.metadatos['des'])},
                                         'description': {'es': self.metadatos['des']},
                                         'fichero': [archivo]}
             has_changed = True

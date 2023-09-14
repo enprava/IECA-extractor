@@ -225,19 +225,23 @@ class Jerarquia:
 
     def añadir_mapa_concepto_codelist(self):
         mapa_conceptos_codelists = read_yaml(self.configuracion_global['directorio_mapa_conceptos_codelists'])
+        nombre_esquemas_conceptos = read_yaml(self.configuracion_global['directorio_nombre_esquemas_conceptos'])
         nombre = self.nombre_mapa[2:]
         nombre = nombre[:-2] if nombre[-2:] == '_0' else nombre
 
 
         if not mapa_conceptos_codelists or nombre not in mapa_conceptos_codelists:
-            mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': nombre,
+            mapa_conceptos_codelists[nombre] = {'tipo': 'dimension', 'nombre_dimension': self.metadatos['des'],
                                                 'concept_scheme': {'agency': 'ESC01',
                                                                    'id': 'CS_' + self.categoria,
                                                                    'version': '1.0',
-                                                                   'concepto': nombre},
+                                                                   'id_concepto': nombre,
+                                                                    'nombre_esquema_concepto' : nombre_esquemas_conceptos[self.categoria],
+                                                                    'nombre_concepto':fix_encoding(self.metadatos['des'])
+                                                                   ,},
                                                 'codelist': {'agency': 'ESC01', 'id': 'CL_' + nombre,
                                                              'version': '1.0'},
-                                                'nombre': {'es': fix_encoding(self.metadatos['des'])},
+                                                'nombre': nombre,
                                                 'descripcion': {'es': self.metadatos['des']}}
         write_yaml(self.configuracion_global['directorio_mapa_conceptos_codelists'], mapa_conceptos_codelists)
 
